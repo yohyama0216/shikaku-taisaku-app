@@ -99,8 +99,15 @@ export default function StatsPage() {
     };
   });
 
+  // Helper function to get difficulty label
+  const getDifficultyLabel = (difficulty: string): string => {
+    if (difficulty === 'basic') return '基本レベル';
+    if (difficulty === 'exam') return '試験レベル';
+    return difficulty;
+  };
+
   // Difficulty level statistics
-  const difficulties = Array.from(new Set(questions.map(q => q.difficulty).filter(Boolean))) as string[];
+  const difficulties = Array.from(new Set(questions.map(q => q.difficulty).filter((d): d is NonNullable<typeof d> => d !== undefined)));
   const difficultyStats = difficulties.map(difficulty => {
     const difficultyQuestions = questions.filter(q => q.difficulty === difficulty);
     const difficultyAnswered = difficultyQuestions.filter(q => progress[q.id]).length;
@@ -283,10 +290,7 @@ export default function StatsPage() {
               <tbody>
                 {difficultyStats.map(stat => (
                   <tr key={stat.difficulty}>
-                    <td>
-                      {stat.difficulty === 'basic' ? '基本レベル' : 
-                       stat.difficulty === 'exam' ? '試験レベル' : stat.difficulty}
-                    </td>
+                    <td>{getDifficultyLabel(stat.difficulty)}</td>
                     <td className="text-center">
                       {stat.answered} / {stat.totalQuestions}
                     </td>
