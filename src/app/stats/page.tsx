@@ -2,14 +2,18 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import questionsData from '@/data/questions.json';
-import { Question, QuestionProgress } from '@/types/quiz';
-import { getAllProgress, clearAllProgress } from '@/utils/storage';
+import { Question, QuestionProgress, DailyStats, Badge } from '@/types/quiz';
+import { getAllProgress, clearAllProgress, getDailyStatsHistory } from '@/utils/storage';
+import { getAllBadges, getBadgeStats } from '@/utils/badges';
 
 const questions = questionsData as Question[];
 
 export default function StatsPage() {
   const [progress, setProgress] = useState<Record<number, QuestionProgress>>({});
+  const [statsHistory, setStatsHistory] = useState<DailyStats[]>([]);
+  const [badges, setBadges] = useState<Badge[]>([]);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -20,6 +24,14 @@ export default function StatsPage() {
   const loadProgress = () => {
     const data = getAllProgress();
     setProgress(data);
+    const history = getDailyStatsHistory();
+    setStatsHistory(history);
+    
+    // Load badges
+    const totalAnswered = Object.keys(data).length;
+    const totalMastered = Object.values(data).filter(p => p.correctCount >= 4).length;
+    const allBadges = getAllBadges(totalAnswered, totalMastered, history);
+    setBadges(allBadges);
   };
 
   const handleClearProgress = () => {
@@ -144,6 +156,88 @@ export default function StatsPage() {
           </div>
         </div>
       </div>
+
+      {/* Badges Section */}
+      <div className="row mb-4">
+        <div className="col-12">
+          <h2 className="h4 mb-3">バッジ</h2>
+          <div className="card">
+            <div className="card-body">
+              <div className="row g-3">
+                {badges.map(badge => (
+                  <div key={badge.id} className="col-md-4 col-sm-6">
+                    <div 
+                      className={`card h-100 ${badge.achieved ? 'border-success' : 'border-secondary'}`}
+                      style={{ opacity: badge.achieved ? 1 : 0.5 }}
+                    >
+                      <div className="card-body text-center">
+                        <div style={{ fontSize: '2.5rem' }}>{badge.icon}</div>
+                        <h5 className="card-title mt-2">{badge.name}</h5>
+                        <p className="card-text text-muted small">{badge.description}</p>
+                        {badge.achieved && (
+                          <span className="badge bg-success">達成済み</span>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-3">
+                <small className="text-muted">
+                  獲得バッジ数：<strong>{badges.filter(b => b.achieved).length}</strong> / {badges.length}
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Statistics Trend Chart */}
+      {statsHistory.length > 0 && (
+        <div className="row mb-4">
+          <div className="col-12">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="h4 mb-3">学習の推移</h2>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart data={statsHistory}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis 
+                      dataKey="date" 
+                      tickFormatter={(date) => {
+                        const d = new Date(date);
+                        return `${d.getMonth() + 1}/${d.getDate()}`;
+                      }}
+                    />
+                    <YAxis />
+                    <Tooltip 
+                      labelFormatter={(date) => {
+                        const d = new Date(date);
+                        return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+                      }}
+                    />
+                    <Legend />
+                    <Line 
+                      type="monotone" 
+                      dataKey="answeredCount" 
+                      stroke="#0d6efd" 
+                      name="回答済み問題数" 
+                      strokeWidth={2}
+                    />
+                    <Line 
+                      type="monotone" 
+                      dataKey="masteredCount" 
+                      stroke="#198754" 
+                      name="達成済み問題数" 
+                      strokeWidth={2}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Category Statistics */}
       <div className="row mb-4">
