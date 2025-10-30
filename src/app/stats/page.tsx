@@ -372,12 +372,17 @@ export default function StatsPage() {
 
       {/* Action Buttons */}
       <div className="row mb-4">
-        <div className="col-md-6 mb-3">
+        <div className="col-md-4 mb-3">
           <Link href="/" className="btn btn-primary btn-lg w-100">
             ホームに戻る
           </Link>
         </div>
-        <div className="col-md-6 mb-3">
+        <div className="col-md-4 mb-3">
+          <Link href="/history" className="btn btn-secondary btn-lg w-100">
+            学習履歴を表示
+          </Link>
+        </div>
+        <div className="col-md-4 mb-3">
           <button
             className="btn btn-danger btn-lg w-100"
             onClick={handleClearProgress}

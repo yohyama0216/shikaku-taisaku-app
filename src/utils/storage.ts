@@ -1,8 +1,9 @@
-import { QuestionProgress, DailyStats } from '@/types/quiz';
+import { QuestionProgress, DailyStats, DailyActivity } from '@/types/quiz';
 import { checkAndAwardBadges } from './badges';
 
 const STORAGE_KEY = 'hazmat-quiz-progress';
 const STATS_HISTORY_KEY = 'hazmat-quiz-stats-history';
+const DAILY_ACTIVITY_KEY = 'hazmat-quiz-daily-activity';
 
 export const getQuestionProgress = (questionId: number): QuestionProgress | null => {
   if (typeof window === 'undefined') return null;
@@ -48,6 +49,9 @@ export const saveQuestionProgress = (questionId: number, isCorrect: boolean): vo
     
     // Update daily statistics after saving progress
     updateDailyStats(allProgress);
+    
+    // Update daily activity
+    updateDailyActivity(isCorrect);
     
     // Check for new badges
     const totalAnswered = Object.keys(allProgress).length;
@@ -150,6 +154,64 @@ export const getDailyStatsHistory = (): DailyStats[] => {
     return data ? JSON.parse(data) : [];
   } catch (error) {
     console.error('Error reading stats history:', error);
+    return [];
+  }
+};
+
+// Update daily activity tracking
+const updateDailyActivity = (isCorrect: boolean): void => {
+  if (typeof window === 'undefined') return;
+  
+  try {
+    const today = getTodayDate();
+    const activityData = localStorage.getItem(DAILY_ACTIVITY_KEY);
+    const activities: DailyActivity[] = activityData ? JSON.parse(activityData) : [];
+    
+    // Check if today's activity already exists
+    const todayIndex = activities.findIndex(activity => activity.date === today);
+    
+    if (todayIndex >= 0) {
+      // Update today's activity
+      activities[todayIndex] = {
+        date: today,
+        questionsAnswered: activities[todayIndex].questionsAnswered + 1,
+        correctAnswers: activities[todayIndex].correctAnswers + (isCorrect ? 1 : 0),
+        incorrectAnswers: activities[todayIndex].incorrectAnswers + (isCorrect ? 0 : 1),
+      };
+    } else {
+      // Add new entry for today
+      activities.push({
+        date: today,
+        questionsAnswered: 1,
+        correctAnswers: isCorrect ? 1 : 0,
+        incorrectAnswers: isCorrect ? 0 : 1,
+      });
+      
+      // Sort and keep only last 30 days of data
+      activities.sort((a, b) => b.date.localeCompare(a.date));
+      if (activities.length > 30) {
+        activities.splice(30);
+      }
+    }
+    
+    localStorage.setItem(DAILY_ACTIVITY_KEY, JSON.stringify(activities));
+  } catch (error) {
+    console.error('Error updating daily activity:', error);
+  }
+};
+
+// Get daily activity history (last 30 days)
+export const getDailyActivityHistory = (): DailyActivity[] => {
+  if (typeof window === 'undefined') return [];
+  
+  try {
+    const data = localStorage.getItem(DAILY_ACTIVITY_KEY);
+    const activities: DailyActivity[] = data ? JSON.parse(data) : [];
+    
+    // Sort by date descending (newest first)
+    return activities.sort((a, b) => b.date.localeCompare(a.date));
+  } catch (error) {
+    console.error('Error reading daily activity history:', error);
     return [];
   }
 };
