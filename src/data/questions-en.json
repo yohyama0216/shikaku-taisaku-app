@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "category": "Hazmat Properties",
+    "question": "What is the correct property of Class 4 hazardous materials?",
+    "choices": [
+      "All are liquids",
+      "Flammable liquids",
+      "Spontaneously combustible",
+      "React with water and generate heat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Class 4 hazardous materials are flammable liquids. Not all are liquids, and some may be gases or solids, but primarily refers to liquids with flammable properties.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 2,
+    "category": "Hazmat Properties",
+    "question": "What is the correct flash point of gasoline?",
+    "choices": [
+      "Below -40°C",
+      "21°C or above",
+      "70°C or above",
+      "100°C or above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gasoline has a flash point below -40°C, which is very low, and can easily ignite even at room temperature.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 3,
+    "category": "Hazmat Properties",
+    "question": "What is the most appropriate flash point for kerosene?",
+    "choices": [
+      "-20°C",
+      "40°C or above",
+      "70°C or above",
+      "100°C or above"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kerosene has a flash point of 40°C or above. It has a higher flash point than gasoline and is relatively safe to handle.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 4,
+    "category": "Fire Extinguishing",
+    "question": "Which is the appropriate fire extinguishing method for Class 4 hazardous materials?",
+    "choices": [
+      "Cool with water",
+      "Use foam or powder extinguishers",
+      "No need to cut off air",
+      "Extinguish after fire spreads"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For Class 4 hazardous material fires, foam or powder extinguishers are effective. Using water can cause the hazardous material to flow out or spread the fire.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5,
+    "category": "Fire Extinguishing",
+    "question": "What is the correct reason why water is dangerous for oil fires?",
+    "choices": [
+      "Oil dissolves",
+      "Oil floats on water and fire spreads",
+      "Temperature decreases",
+      "Smoke decreases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Oil is lighter than water, so when water is applied, the oil floats on the water and the fire spreads. Also, water can rapidly vaporize causing oil to scatter.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6,
+    "category": "Storage & Handling",
+    "question": "What is the correct storage method for Class 4 hazardous materials?",
+    "choices": [
+      "Store in direct sunlight",
+      "Store in cool, dark place away from fire and heat",
+      "Leave container lids open",
+      "Store mixed with other hazardous materials"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Class 4 hazardous materials should be stored away from fire and heat in a cool, dark place. Containers must be tightly sealed and stored in well-ventilated areas.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 7,
+    "category": "Storage & Handling",
+    "question": "Which precaution is incorrect when handling hazardous materials?",
+    "choices": [
+      "Be careful of static electricity",
+      "Ensure adequate ventilation",
+      "Smoke while working",
+      "Wear appropriate protective equipment"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Smoking while handling hazardous materials is strictly prohibited. It can become a source of ignition and cause fires or explosions.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 8,
+    "category": "Regulations",
+    "question": "What is the validity period of a hazardous materials handler license?",
+    "choices": [
+      "3 years",
+      "5 years",
+      "10 years",
+      "No validity period"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Hazardous materials handler licenses have no validity period. However, those engaged in hazardous materials handling work must regularly attend safety training.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 9,
+    "category": "Regulations",
+    "question": "Who is required to attend safety training?",
+    "choices": [
+      "All license holders",
+      "Those engaged in hazardous materials handling work",
+      "Only hazardous materials facility owners",
+      "No attendance obligation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hazardous materials handlers engaged in hazardous materials handling work are obligated to regularly attend safety training.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 10,
+    "category": "Regulations",
+    "question": "What is the correct explanation of designated quantity?",
+    "choices": [
+      "Maximum amount of hazardous materials that can be stored",
+      "Standard quantity for hazardous materials regulation",
+      "Amount of hazardous materials that can be used in one day",
+      "Quantity to report to fire department"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Designated quantity is the quantity specified in the regulations on hazardous materials. When storing or handling hazardous materials exceeding this quantity, fire service law regulations apply.",
+    "difficulty": "basic"
+  },
+  {
+    "id": 11,
+    "category": "Physics & Chemistry",
+    "question": "Which is not included in the three elements of combustion?",
+    "choices": [
+      "Combustible material",
+      "Oxygen supply source",
+      "Ignition source",
+      "Moisture"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The three elements of combustion are combustible material, oxygen supply source (oxidizer), and ignition source (heat source). Moisture is not included in the three elements of combustion.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 12,
+    "category": "Physics & Chemistry",
+    "question": "What is the correct explanation of flash point?",
+    "choices": [
+      "Temperature at which liquid naturally starts burning",
+      "Minimum temperature at which liquid emits vapor that ignites when a flame is applied",
+      "Temperature at which liquid boils",
+      "Temperature at which liquid solidifies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flash point is the minimum temperature at which a combustible liquid emits vapor that ignites when a flame is applied.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 13,
+    "category": "Hazmat Properties",
+    "question": "What is the correct property of diesel fuel?",
+    "choices": [
+      "Flash point is below 40°C",
+      "Flash point is 45°C or above",
+      "Gas at room temperature",
+      "Heavier than water"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Diesel fuel has a flash point of 45°C or above, which is even higher than kerosene, making it a relatively safe hazardous material.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 14,
+    "category": "Hazmat Properties",
+    "question": "What is correct about the specific gravity of Class 4 hazardous materials?",
+    "choices": [
+      "All are heavier than water",
+      "All are lighter than water",
+      "Most are lighter than water",
+      "Specific gravity is irrelevant"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Most Class 4 hazardous materials (flammable liquids) are lighter than water and float on water. Therefore, water-based extinguishing is ineffective and fire may spread.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 15,
+    "category": "Physics & Chemistry",
+    "question": "What is the correct explanation of ignition point?",
+    "choices": [
+      "Temperature at which liquid starts to evaporate",
+      "Temperature at which it spontaneously ignites without an ignition source when heated in air",
+      "Temperature at which liquid cools down",
+      "Same temperature as flash point"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ignition point is the minimum temperature at which combustible material spontaneously ignites without an ignition source when heated in air. It is higher than the flash point.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 16,
+    "category": "Fire Extinguishing",
+    "question": "What is the correct principle of smothering fire extinguishing?",
+    "choices": [
+      "Cool the burning material",
+      "Cut off oxygen supply",
+      "Remove combustible material",
+      "Promote combustion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Smothering fire extinguishing is a method of extinguishing by cutting off the oxygen supply needed for combustion. Foam extinguishers and carbon dioxide extinguishers fall into this category.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 17,
+    "category": "Storage & Handling",
+    "question": "Which method is incorrect for preventing static electricity disasters?",
+    "choices": [
+      "Ensure proper grounding",
+      "Maintain appropriate humidity",
+      "Speed up work",
+      "Use conductive footwear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Speeding up work is incorrect as a static electricity countermeasure. Conversely, working slowly can suppress static electricity generation.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 18,
+    "category": "Regulations",
+    "question": "What is the correct frequency of periodic inspections for hazardous materials facilities?",
+    "choices": [
+      "Daily",
+      "Once a year or more",
+      "Once every 3 years or more",
+      "No inspection obligation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Owners of hazardous materials facilities are obligated to conduct periodic inspections once a year or more and keep records.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 19,
+    "category": "Physics & Chemistry",
+    "question": "What is the correct property of gases with vapor density greater than 1?",
+    "choices": [
+      "Lighter than air and rises",
+      "Heavier than air and accumulates in low areas",
+      "Same weight as air",
+      "Liquid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gases with vapor density greater than 1 are heavier than air and accumulate in low areas. When ventilating, it is important to exhaust from the bottom.",
+    "difficulty": "exam"
+  },
+  {
+    "id": 20,
+    "category": "Hazmat Properties",
+    "question": "What is the correct characteristic of alcohols?",
+    "choices": [
+      "Insoluble in water",
+      "Soluble in water",
+      "Solid at room temperature",
+      "Non-flammable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Alcohols have the property of being soluble in water. Therefore, alcohol-resistant foam extinguishers must be used for alcohol fires.",
+    "difficulty": "exam"
+  }
+]
