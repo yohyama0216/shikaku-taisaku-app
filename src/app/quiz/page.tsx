@@ -43,7 +43,7 @@ function QuizContent() {
       
       setShuffledChoices(shuffled);
     }
-  }, [currentQuestionIndex, availableQuestions]);
+  }, [currentQuestionIndex, availableQuestions.length]);
 
   // Filter questions by category, difficulty and availability
   useEffect(() => {
@@ -89,7 +89,7 @@ function QuizContent() {
   };
 
   const handleAnswer = (shuffledIndex: number) => {
-    if (showResult || isTimeUp) return;
+    if (showResult || isTimeUp || shuffledIndex >= shuffledChoices.length) return;
 
     const originalIndex = shuffledChoices[shuffledIndex].originalIndex;
     setSelectedAnswer(shuffledIndex);
@@ -133,7 +133,7 @@ function QuizContent() {
   }
 
   const currentQuestion = availableQuestions[currentQuestionIndex];
-  const isCorrect = selectedAnswer !== null && shuffledChoices[selectedAnswer].originalIndex === currentQuestion.correctAnswer;
+  const isCorrect = selectedAnswer !== null && selectedAnswer < shuffledChoices.length && shuffledChoices[selectedAnswer].originalIndex === currentQuestion.correctAnswer;
   
   // Get difficulty badge color
   const getDifficultyBadge = (difficulty?: string) => {
