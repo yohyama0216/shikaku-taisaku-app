@@ -82,10 +82,13 @@ export const shouldShowQuestion = (questionId: number): boolean => {
   return progress.correctCount < 4;
 };
 
-// Get today's date in YYYY-MM-DD format
+// Get today's date in YYYY-MM-DD format using local timezone
 const getTodayDate = (): string => {
   const today = new Date();
-  return today.toISOString().split('T')[0];
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 };
 
 // Update daily statistics
@@ -117,14 +120,15 @@ const updateDailyStats = (allProgress: Record<number, QuestionProgress>): void =
         answeredCount,
         masteredCount,
       });
+      
+      // Sort and keep only last 30 days of data
+      history.sort((a, b) => a.date.localeCompare(b.date));
+      if (history.length > 30) {
+        history.splice(0, history.length - 30);
+      }
     }
     
-    // Keep only last 30 days of data
-    const sortedHistory = history
-      .sort((a, b) => a.date.localeCompare(b.date))
-      .slice(-30);
-    
-    localStorage.setItem(STATS_HISTORY_KEY, JSON.stringify(sortedHistory));
+    localStorage.setItem(STATS_HISTORY_KEY, JSON.stringify(history));
   } catch (error) {
     console.error('Error updating daily stats:', error);
   }
