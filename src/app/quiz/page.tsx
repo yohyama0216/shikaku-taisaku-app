@@ -20,9 +20,30 @@ function QuizContent() {
   const [showResult, setShowResult] = useState(false);
   const [timeLeft, setTimeLeft] = useState(20);
   const [isTimeUp, setIsTimeUp] = useState(false);
+  const [shuffledChoices, setShuffledChoices] = useState<Array<{ text: string; originalIndex: number }>>([]);
 
   // Get unique categories for dropdown
   const allCategories = Array.from(new Set(questions.map(q => q.category)));
+
+  // Shuffle choices whenever the current question changes
+  useEffect(() => {
+    if (availableQuestions.length > 0 && availableQuestions[currentQuestionIndex]) {
+      const currentQuestion = availableQuestions[currentQuestionIndex];
+      const choicesWithIndices = currentQuestion.choices.map((text, index) => ({
+        text,
+        originalIndex: index
+      }));
+      
+      // Fisher-Yates shuffle algorithm
+      const shuffled = [...choicesWithIndices];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      
+      setShuffledChoices(shuffled);
+    }
+  }, [currentQuestionIndex, availableQuestions.length]);
 
   // Filter questions by category, difficulty and availability
   useEffect(() => {
@@ -67,12 +88,13 @@ function QuizContent() {
     }
   };
 
-  const handleAnswer = (answerIndex: number) => {
-    if (showResult || isTimeUp) return;
+  const handleAnswer = (shuffledIndex: number) => {
+    if (showResult || isTimeUp || shuffledIndex >= shuffledChoices.length) return;
 
-    setSelectedAnswer(answerIndex);
+    const originalIndex = shuffledChoices[shuffledIndex].originalIndex;
+    setSelectedAnswer(shuffledIndex);
     const currentQuestion = availableQuestions[currentQuestionIndex];
-    const isCorrect = answerIndex === currentQuestion.correctAnswer;
+    const isCorrect = originalIndex === currentQuestion.correctAnswer;
     
     saveQuestionProgress(currentQuestion.id, isCorrect);
     setShowResult(true);
@@ -111,7 +133,7 @@ function QuizContent() {
   }
 
   const currentQuestion = availableQuestions[currentQuestionIndex];
-  const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+  const isCorrect = selectedAnswer !== null && selectedAnswer < shuffledChoices.length && shuffledChoices[selectedAnswer].originalIndex === currentQuestion.correctAnswer;
   
   // Get difficulty badge color
   const getDifficultyBadge = (difficulty?: string) => {
@@ -191,29 +213,29 @@ function QuizContent() {
               <h3 className="card-title h5 mb-4">{currentQuestion.question}</h3>
 
               <div className="d-grid gap-2">
-                {currentQuestion.choices.map((choice, index) => {
+                {shuffledChoices.map((choice, shuffledIndex) => {
                   let buttonClass = 'btn btn-outline-primary text-start';
                   
                   if (showResult) {
-                    if (index === currentQuestion.correctAnswer) {
+                    if (choice.originalIndex === currentQuestion.correctAnswer) {
                       buttonClass = 'btn btn-success text-start';
-                    } else if (index === selectedAnswer) {
+                    } else if (shuffledIndex === selectedAnswer) {
                       buttonClass = 'btn btn-danger text-start';
                     } else {
                       buttonClass = 'btn btn-outline-secondary text-start';
                     }
-                  } else if (selectedAnswer === index) {
+                  } else if (selectedAnswer === shuffledIndex) {
                     buttonClass = 'btn btn-primary text-start';
                   }
 
                   return (
                     <button
-                      key={index}
+                      key={shuffledIndex}
                       className={buttonClass}
-                      onClick={() => handleAnswer(index)}
+                      onClick={() => handleAnswer(shuffledIndex)}
                       disabled={showResult}
                     >
-                      {index + 1}. {choice}
+                      {choice.text}
                     </button>
                   );
                 })}
