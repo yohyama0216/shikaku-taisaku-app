@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import questionsData from '@/data/questions-en.json';
+import questionsData from '@/data/questions.json';
 import { Question, QuestionProgress } from '@/types/quiz';
 import { getAllProgress, clearAllProgress } from '@/utils/storage';
 
@@ -23,7 +23,7 @@ export default function StatsPage() {
   };
 
   const handleClearProgress = () => {
-    if (confirm('Are you sure you want to delete all learning progress?')) {
+    if (confirm('すべての学習進捗を削除してもよろしいですか？')) {
       clearAllProgress();
       loadProgress();
     }
@@ -33,7 +33,7 @@ export default function StatsPage() {
     return (
       <div className="text-center">
         <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">Loading...</span>
+          <span className="visually-hidden">読み込み中...</span>
         </div>
       </div>
     );
@@ -91,7 +91,7 @@ export default function StatsPage() {
     <main>
       <div className="row">
         <div className="col-12">
-          <h1 className="mb-4">Learning Statistics</h1>
+          <h1 className="mb-4">学習統計</h1>
         </div>
       </div>
 
@@ -100,16 +100,16 @@ export default function StatsPage() {
         <div className="col-md-3 col-sm-6 mb-3">
           <div className="card text-center">
             <div className="card-body">
-              <h5 className="card-title text-muted">Questions Answered</h5>
+              <h5 className="card-title text-muted">回答済み問題数</h5>
               <p className="card-text display-6">{totalAnswered}</p>
-              <small className="text-muted">/ {questions.length} questions</small>
+              <small className="text-muted">/ {questions.length}問</small>
             </div>
           </div>
         </div>
         <div className="col-md-3 col-sm-6 mb-3">
           <div className="card text-center">
             <div className="card-body">
-              <h5 className="card-title text-muted">Correct</h5>
+              <h5 className="card-title text-muted">正解数</h5>
               <p className="card-text display-6 text-success">{totalCorrect}</p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function StatsPage() {
         <div className="col-md-3 col-sm-6 mb-3">
           <div className="card text-center">
             <div className="card-body">
-              <h5 className="card-title text-muted">Incorrect</h5>
+              <h5 className="card-title text-muted">不正解数</h5>
               <p className="card-text display-6 text-danger">{totalIncorrect}</p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function StatsPage() {
         <div className="col-md-3 col-sm-6 mb-3">
           <div className="card text-center">
             <div className="card-body">
-              <h5 className="card-title text-muted">Accuracy</h5>
+              <h5 className="card-title text-muted">正答率</h5>
               <p className="card-text display-6 text-primary">{accuracy}%</p>
             </div>
           </div>
@@ -136,10 +136,10 @@ export default function StatsPage() {
       <div className="row mb-4">
         <div className="col-12">
           <div className="alert alert-info">
-            <h5 className="alert-heading">Mastered Questions</h5>
+            <h5 className="alert-heading">マスター済み問題</h5>
             <p className="mb-0">
-              Questions answered correctly 4+ times: <strong>{masteredQuestions}</strong> questions
-              {masteredQuestions > 0 && ' (These questions won\'t appear again)'}
+              4回以上正解した問題：<strong>{masteredQuestions}</strong>問
+              {masteredQuestions > 0 && '（これらの問題は今後表示されません）'}
             </p>
           </div>
         </div>
@@ -148,16 +148,16 @@ export default function StatsPage() {
       {/* Category Statistics */}
       <div className="row mb-4">
         <div className="col-12">
-          <h2 className="h4 mb-3">Category Statistics</h2>
+          <h2 className="h4 mb-3">カテゴリ別統計</h2>
           <div className="table-responsive">
             <table className="table table-striped">
               <thead>
                 <tr>
-                  <th>Category</th>
-                  <th className="text-center">Answered</th>
-                  <th className="text-center">Correct</th>
-                  <th className="text-center">Incorrect</th>
-                  <th className="text-center">Accuracy</th>
+                  <th>カテゴリ</th>
+                  <th className="text-center">回答済み</th>
+                  <th className="text-center">正解数</th>
+                  <th className="text-center">不正解数</th>
+                  <th className="text-center">正答率</th>
                 </tr>
               </thead>
               <tbody>
@@ -184,22 +184,22 @@ export default function StatsPage() {
       {incorrectQuestions.length > 0 && (
         <div className="row mb-4">
           <div className="col-12">
-            <h2 className="h4 mb-3">Incorrect Questions</h2>
+            <h2 className="h4 mb-3">間違えた問題</h2>
             <div className="list-group">
               {incorrectQuestions.map(({ question, progress }) => (
                 <div key={question.id} className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">{question.question}</h5>
                     <small>
-                      <span className="badge bg-success me-1">Correct {progress.correctCount}</span>
-                      <span className="badge bg-danger">Incorrect {progress.incorrectCount}</span>
+                      <span className="badge bg-success me-1">正解 {progress.correctCount}</span>
+                      <span className="badge bg-danger">不正解 {progress.incorrectCount}</span>
                     </small>
                   </div>
                   <p className="mb-1 text-muted">
-                    <small>Category: {question.category}</small>
+                    <small>カテゴリ：{question.category}</small>
                   </p>
                   <small className="text-muted">
-                    <strong>Correct Answer:</strong> {question.choices[question.correctAnswer]}
+                    <strong>正しい答え：</strong> {question.choices[question.correctAnswer]}
                   </small>
                 </div>
               ))}
@@ -212,7 +212,7 @@ export default function StatsPage() {
       <div className="row mb-4">
         <div className="col-md-6 mb-3">
           <Link href="/" className="btn btn-primary btn-lg w-100">
-            Back to Home
+            ホームに戻る
           </Link>
         </div>
         <div className="col-md-6 mb-3">
@@ -220,7 +220,7 @@ export default function StatsPage() {
             className="btn btn-danger btn-lg w-100"
             onClick={handleClearProgress}
           >
-            Reset Progress
+            進捗をリセット
           </button>
         </div>
       </div>

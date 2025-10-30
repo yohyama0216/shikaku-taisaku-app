@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import questionsData from '@/data/questions-en.json';
+import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
 
 const questions = questionsData as Question[];
@@ -16,10 +16,10 @@ export default function Home() {
     <main>
       <div className="row">
         <div className="col-12">
-          <h1 className="mb-4">Hazmat Class 4 Exam Quiz</h1>
+          <h1 className="mb-4">危険物乙４試験対策クイズ</h1>
           <p className="lead">
-            Study app for Hazardous Materials Handler Class 4 Exam.<br />
-            Select a difficulty level and category to start learning.
+            危険物取扱者乙種第4類試験の学習用アプリです。<br />
+            難易度とカテゴリを選択して学習を開始してください。
           </p>
         </div>
       </div>
@@ -27,21 +27,21 @@ export default function Home() {
       {/* Difficulty Level Selection */}
       <div className="row mt-4">
         <div className="col-12">
-          <h2 className="h4 mb-3">Select Difficulty Level</h2>
+          <h2 className="h4 mb-3">難易度を選択</h2>
           <div className="row">
             <div className="col-md-6 mb-3">
               <div className="card border-primary">
                 <div className="card-body">
                   <h5 className="card-title">
-                    <i className="bi bi-mortarboard-fill"></i> Exam Level
+                    <i className="bi bi-mortarboard-fill"></i> 試験レベル
                   </h5>
-                  <p className="card-text">Challenging questions at actual exam difficulty</p>
-                  <p className="mb-2"><strong>{examQuestions} questions</strong></p>
+                  <p className="card-text">実際の試験に近い難易度の問題</p>
+                  <p className="mb-2"><strong>{examQuestions}問</strong></p>
                   <Link href="/quiz?difficulty=exam&category=all" className="btn btn-primary w-100 mb-2">
-                    Start All Questions
+                    全問題を開始
                   </Link>
                   <details className="mt-2">
-                    <summary className="btn btn-outline-primary btn-sm w-100">Select by Category</summary>
+                    <summary className="btn btn-outline-primary btn-sm w-100">カテゴリ別に選択</summary>
                     <div className="list-group mt-2">
                       {categories.map((category) => {
                         const count = questions.filter(q => q.category === category && q.difficulty === 'exam').length;
@@ -69,15 +69,15 @@ export default function Home() {
               <div className="card border-success">
                 <div className="card-body">
                   <h5 className="card-title">
-                    <i className="bi bi-book-fill"></i> Basic Level
+                    <i className="bi bi-book-fill"></i> 基礎レベル
                   </h5>
-                  <p className="card-text">Fundamental questions for beginners</p>
-                  <p className="mb-2"><strong>{basicQuestions} questions</strong></p>
+                  <p className="card-text">初心者向けの基本問題</p>
+                  <p className="mb-2"><strong>{basicQuestions}問</strong></p>
                   <Link href="/quiz?difficulty=basic&category=all" className="btn btn-success w-100 mb-2">
-                    Start All Questions
+                    全問題を開始
                   </Link>
                   <details className="mt-2">
-                    <summary className="btn btn-outline-success btn-sm w-100">Select by Category</summary>
+                    <summary className="btn btn-outline-success btn-sm w-100">カテゴリ別に選択</summary>
                     <div className="list-group mt-2">
                       {categories.map((category) => {
                         const count = questions.filter(q => q.category === category && q.difficulty === 'basic').length;
@@ -107,7 +107,7 @@ export default function Home() {
       <div className="row mt-4">
         <div className="col-12">
           <Link href="/stats" className="btn btn-info btn-lg w-100">
-            View Statistics
+            統計を表示
           </Link>
         </div>
       </div>
@@ -115,11 +115,11 @@ export default function Home() {
       <div className="row mt-4">
         <div className="col-12">
           <div className="alert alert-info">
-            <h5 className="alert-heading">How it works</h5>
+            <h5 className="alert-heading">使い方</h5>
             <ul className="mb-0">
-              <li>Each question has a 20-second time limit</li>
-              <li>Questions answered correctly 4 times won't appear again</li>
-              <li>Progress is saved in your browser</li>
+              <li>各問題には20秒の制限時間があります</li>
+              <li>4回正解した問題は自動的にスキップされます</li>
+              <li>学習進捗はブラウザに保存されます</li>
             </ul>
           </div>
         </div>
