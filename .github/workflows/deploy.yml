@@ -19,6 +19,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Check GitHub Pages Status
+        run: |
+          echo "::notice::Verifying GitHub Pages configuration..."
+          echo "If deployment fails with 404, ensure GitHub Pages is enabled at:"
+          echo "https://github.com/${{ github.repository }}/settings/pages"
+          echo "Set the source to 'GitHub Actions' in the repository settings."
+      
       - name: Setup Node
         uses: actions/setup-node@v4
         with:

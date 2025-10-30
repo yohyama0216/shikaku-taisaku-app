@@ -49,8 +49,28 @@ npm run build
 
 ## デプロイ
 
-GitHub Pages へのデプロイは GitHub Actions で自動化されています。
-`main` ブランチへプッシュすると自動的にデプロイされます。
+### GitHub Pages の設定
+
+初回デプロイの前に、以下の手順で GitHub Pages を有効化してください：
+
+1. リポジトリの Settings → Pages にアクセス
+   - URL: https://github.com/yohyama0216/shikaku-taisaku-app/settings/pages
+2. "Build and deployment" セクションで、Source を **GitHub Actions** に設定
+3. 保存して設定を完了
+
+**注意**: このリポジトリはプライベートです。GitHub Pages をプライベートリポジトリで使用するには、GitHub Pro、Team、Enterprise Cloud、または Enterprise Server のプランが必要です。
+
+### 自動デプロイ
+
+GitHub Pages を有効化した後、以下の方法でデプロイできます：
+
+- **手動デプロイ**: Actions タブから "Deploy to GitHub Pages" ワークフローを手動実行
+- **自動デプロイ**: workflow_dispatch トリガーを使用して手動でデプロイを実行
+
+デプロイが成功すると、アプリは以下の URL でアクセスできます：
+- https://yohyama0216.github.io/shikaku-taisaku-app/
+
+詳細なデプロイ手順とトラブルシューティングについては、[DEPLOYMENT.md](./DEPLOYMENT.md) を参照してください。
 
 ## データ構造
 
