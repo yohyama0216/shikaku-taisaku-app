@@ -99,6 +99,39 @@ export default function StatsPage() {
     };
   });
 
+  // Helper function to get difficulty label
+  const getDifficultyLabel = (difficulty: string): string => {
+    if (difficulty === 'basic') return '基本レベル';
+    if (difficulty === 'exam') return '試験レベル';
+    return difficulty;
+  };
+
+  // Difficulty level statistics
+  const difficulties = Array.from(new Set(questions.map(q => q.difficulty).filter((d): d is NonNullable<typeof d> => d !== undefined)));
+  const difficultyStats = difficulties.map(difficulty => {
+    const difficultyQuestions = questions.filter(q => q.difficulty === difficulty);
+    const difficultyAnswered = difficultyQuestions.filter(q => progress[q.id]).length;
+    const difficultyCorrect = difficultyQuestions.reduce(
+      (sum, q) => sum + (progress[q.id]?.correctCount || 0),
+      0
+    );
+    const difficultyIncorrect = difficultyQuestions.reduce(
+      (sum, q) => sum + (progress[q.id]?.incorrectCount || 0),
+      0
+    );
+    const difficultyTotal = difficultyCorrect + difficultyIncorrect;
+    const difficultyAccuracy = difficultyTotal > 0 ? ((difficultyCorrect / difficultyTotal) * 100).toFixed(1) : '0';
+
+    return {
+      difficulty,
+      totalQuestions: difficultyQuestions.length,
+      answered: difficultyAnswered,
+      correct: difficultyCorrect,
+      incorrect: difficultyIncorrect,
+      accuracy: difficultyAccuracy,
+    };
+  });
+
   return (
     <main>
       <div className="row">
@@ -163,19 +196,19 @@ export default function StatsPage() {
           <h2 className="h4 mb-3">バッジ</h2>
           <div className="card">
             <div className="card-body">
-              <div className="row g-3">
+              <div className="row g-2">
                 {badges.map(badge => (
-                  <div key={badge.id} className="col-md-4 col-sm-6">
+                  <div key={badge.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div 
                       className={`card h-100 ${badge.achieved ? 'border-success' : 'border-secondary'}`}
                       style={{ opacity: badge.achieved ? 1 : 0.5 }}
                     >
-                      <div className="card-body text-center">
-                        <div style={{ fontSize: '2.5rem' }}>{badge.icon}</div>
-                        <h5 className="card-title mt-2">{badge.name}</h5>
-                        <p className="card-text text-muted small">{badge.description}</p>
+                      <div className="card-body text-center p-2">
+                        <div style={{ fontSize: '1.5rem' }}>{badge.icon}</div>
+                        <div className="small fw-bold mt-1">{badge.name}</div>
+                        <div className="text-muted" style={{ fontSize: '0.7rem' }}>{badge.description}</div>
                         {badge.achieved && (
-                          <span className="badge bg-success">達成済み</span>
+                          <span className="badge bg-success mt-1" style={{ fontSize: '0.65rem' }}>達成済み</span>
                         )}
                       </div>
                     </div>
@@ -238,6 +271,41 @@ export default function StatsPage() {
           </div>
         </div>
       )}
+
+      {/* Difficulty Level Statistics */}
+      <div className="row mb-4">
+        <div className="col-12">
+          <h2 className="h4 mb-3">レベル別統計</h2>
+          <div className="table-responsive">
+            <table className="table table-striped">
+              <thead>
+                <tr>
+                  <th>レベル</th>
+                  <th className="text-center">回答済み</th>
+                  <th className="text-center">正解数</th>
+                  <th className="text-center">不正解数</th>
+                  <th className="text-center">正答率</th>
+                </tr>
+              </thead>
+              <tbody>
+                {difficultyStats.map(stat => (
+                  <tr key={stat.difficulty}>
+                    <td>{getDifficultyLabel(stat.difficulty)}</td>
+                    <td className="text-center">
+                      {stat.answered} / {stat.totalQuestions}
+                    </td>
+                    <td className="text-center text-success">{stat.correct}</td>
+                    <td className="text-center text-danger">{stat.incorrect}</td>
+                    <td className="text-center">
+                      <strong>{stat.accuracy}%</strong>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
       {/* Category Statistics */}
       <div className="row mb-4">
@@ -304,12 +372,17 @@ export default function StatsPage() {
 
       {/* Action Buttons */}
       <div className="row mb-4">
-        <div className="col-md-6 mb-3">
+        <div className="col-md-4 mb-3">
           <Link href="/" className="btn btn-primary btn-lg w-100">
             ホームに戻る
           </Link>
         </div>
-        <div className="col-md-6 mb-3">
+        <div className="col-md-4 mb-3">
+          <Link href="/history" className="btn btn-secondary btn-lg w-100">
+            学習履歴を表示
+          </Link>
+        </div>
+        <div className="col-md-4 mb-3">
           <button
             className="btn btn-danger btn-lg w-100"
             onClick={handleClearProgress}

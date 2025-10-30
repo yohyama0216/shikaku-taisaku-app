@@ -29,6 +29,13 @@ export interface DailyStats {
   masteredCount: number; // Total number of questions with 4+ correct answers
 }
 
+export interface DailyActivity {
+  date: string; // ISO date string (YYYY-MM-DD)
+  questionsAnswered: number; // Number of questions answered on this day
+  correctAnswers: number; // Number of correct answers on this day
+  incorrectAnswers: number; // Number of incorrect answers on this day
+}
+
 export type BadgeType = 
   | 'questions_answered'
   | 'questions_mastered'

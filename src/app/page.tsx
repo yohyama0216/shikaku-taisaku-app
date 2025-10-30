@@ -105,9 +105,14 @@ export default function Home() {
       </div>
 
       <div className="row mt-4">
-        <div className="col-12">
+        <div className="col-md-6 mb-3">
           <Link href="/stats" className="btn btn-info btn-lg w-100">
             統計を表示
+          </Link>
+        </div>
+        <div className="col-md-6 mb-3">
+          <Link href="/history" className="btn btn-secondary btn-lg w-100">
+            学習履歴を表示
           </Link>
         </div>
       </div>
