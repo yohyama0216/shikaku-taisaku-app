@@ -21,6 +21,9 @@ function QuizContent() {
   const [timeLeft, setTimeLeft] = useState(20);
   const [isTimeUp, setIsTimeUp] = useState(false);
 
+  // Get unique categories for dropdown
+  const allCategories = Array.from(new Set(questions.map(q => q.category)));
+
   // Filter questions by category, difficulty and availability
   useEffect(() => {
     const filtered = questions.filter((q) => {
@@ -87,6 +90,16 @@ function QuizContent() {
     }
   };
 
+  const handleDifficultyChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newDifficulty = e.target.value;
+    router.push(`/quiz?difficulty=${newDifficulty}&category=${category}`);
+  };
+
+  const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newCategory = e.target.value;
+    router.push(`/quiz?difficulty=${difficulty}&category=${encodeURIComponent(newCategory)}`);
+  };
+
   if (availableQuestions.length === 0) {
     return (
       <div className="text-center">
@@ -120,6 +133,41 @@ function QuizContent() {
                   残り{timeLeft}秒
                 </span>
               )}
+            </div>
+          </div>
+
+          {/* Settings Panel */}
+          <div className="card mb-3 border-info">
+            <div className="card-body py-2">
+              <div className="row g-2">
+                <div className="col-md-6">
+                  <label htmlFor="difficulty-select" className="form-label small mb-1">難易度</label>
+                  <select 
+                    id="difficulty-select"
+                    className="form-select form-select-sm"
+                    value={difficulty}
+                    onChange={handleDifficultyChange}
+                  >
+                    <option value="all">すべて</option>
+                    <option value="exam">試験レベル</option>
+                    <option value="basic">基礎レベル</option>
+                  </select>
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor="category-select" className="form-label small mb-1">カテゴリ</label>
+                  <select 
+                    id="category-select"
+                    className="form-select form-select-sm"
+                    value={category}
+                    onChange={handleCategoryChange}
+                  >
+                    <option value="all">すべて</option>
+                    {allCategories.map((cat) => (
+                      <option key={cat} value={cat}>{cat}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
 
