@@ -14,6 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <meta charSet="utf-8" />
+      </head>
       <body>
         <nav className="navbar navbar-dark bg-danger mb-4">
           <div className="container">
