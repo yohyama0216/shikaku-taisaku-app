@@ -38,6 +38,14 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       
+      - name: Export Next.js to static (create ./out)
+        run: |
+          # Use npm run export if present, otherwise fall back to npx next export
+          npm run export --if-present || npx next export -o out
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
