@@ -1,6 +1,7 @@
-import { QuestionProgress } from '@/types/quiz';
+import { QuestionProgress, DailyStats } from '@/types/quiz';
 
 const STORAGE_KEY = 'hazmat-quiz-progress';
+const STATS_HISTORY_KEY = 'hazmat-quiz-stats-history';
 
 export const getQuestionProgress = (questionId: number): QuestionProgress | null => {
   if (typeof window === 'undefined') return null;
@@ -43,6 +44,9 @@ export const saveQuestionProgress = (questionId: number, isCorrect: boolean): vo
     }
     
     localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+    
+    // Update daily statistics after saving progress
+    updateDailyStats(allProgress);
   } catch (error) {
     console.error('Error writing to localStorage:', error);
   }
@@ -76,4 +80,65 @@ export const shouldShowQuestion = (questionId: number): boolean => {
   
   // Don't show questions that have been answered correctly 4 or more times
   return progress.correctCount < 4;
+};
+
+// Get today's date in YYYY-MM-DD format
+const getTodayDate = (): string => {
+  const today = new Date();
+  return today.toISOString().split('T')[0];
+};
+
+// Update daily statistics
+const updateDailyStats = (allProgress: Record<number, QuestionProgress>): void => {
+  if (typeof window === 'undefined') return;
+  
+  try {
+    const today = getTodayDate();
+    const answeredCount = Object.keys(allProgress).length;
+    const masteredCount = Object.values(allProgress).filter(p => p.correctCount >= 4).length;
+    
+    const historyData = localStorage.getItem(STATS_HISTORY_KEY);
+    const history: DailyStats[] = historyData ? JSON.parse(historyData) : [];
+    
+    // Check if today's stats already exist
+    const todayIndex = history.findIndex(stat => stat.date === today);
+    
+    if (todayIndex >= 0) {
+      // Update today's stats
+      history[todayIndex] = {
+        date: today,
+        answeredCount,
+        masteredCount,
+      };
+    } else {
+      // Add new entry for today
+      history.push({
+        date: today,
+        answeredCount,
+        masteredCount,
+      });
+    }
+    
+    // Keep only last 30 days of data
+    const sortedHistory = history
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .slice(-30);
+    
+    localStorage.setItem(STATS_HISTORY_KEY, JSON.stringify(sortedHistory));
+  } catch (error) {
+    console.error('Error updating daily stats:', error);
+  }
+};
+
+// Get daily statistics history
+export const getDailyStatsHistory = (): DailyStats[] => {
+  if (typeof window === 'undefined') return [];
+  
+  try {
+    const data = localStorage.getItem(STATS_HISTORY_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    console.error('Error reading stats history:', error);
+    return [];
+  }
 };

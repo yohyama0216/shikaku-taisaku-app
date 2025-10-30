@@ -22,3 +22,9 @@ export interface CategoryStats {
   correctAnswers: number;
   incorrectAnswers: number;
 }
+
+export interface DailyStats {
+  date: string; // ISO date string (YYYY-MM-DD)
+  answeredCount: number; // Total number of questions answered at least once
+  masteredCount: number; // Total number of questions with 4+ correct answers
+}

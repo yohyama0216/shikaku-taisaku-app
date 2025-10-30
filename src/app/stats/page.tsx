@@ -2,14 +2,16 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import questionsData from '@/data/questions.json';
-import { Question, QuestionProgress } from '@/types/quiz';
-import { getAllProgress, clearAllProgress } from '@/utils/storage';
+import { Question, QuestionProgress, DailyStats } from '@/types/quiz';
+import { getAllProgress, clearAllProgress, getDailyStatsHistory } from '@/utils/storage';
 
 const questions = questionsData as Question[];
 
 export default function StatsPage() {
   const [progress, setProgress] = useState<Record<number, QuestionProgress>>({});
+  const [statsHistory, setStatsHistory] = useState<DailyStats[]>([]);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -20,6 +22,8 @@ export default function StatsPage() {
   const loadProgress = () => {
     const data = getAllProgress();
     setProgress(data);
+    const history = getDailyStatsHistory();
+    setStatsHistory(history);
   };
 
   const handleClearProgress = () => {
@@ -144,6 +148,53 @@ export default function StatsPage() {
           </div>
         </div>
       </div>
+
+      {/* Statistics Trend Chart */}
+      {statsHistory.length > 0 && (
+        <div className="row mb-4">
+          <div className="col-12">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="h4 mb-3">学習の推移</h2>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart data={statsHistory}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis 
+                      dataKey="date" 
+                      tickFormatter={(date) => {
+                        const d = new Date(date);
+                        return `${d.getMonth() + 1}/${d.getDate()}`;
+                      }}
+                    />
+                    <YAxis />
+                    <Tooltip 
+                      labelFormatter={(date) => {
+                        const d = new Date(date);
+                        return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+                      }}
+                    />
+                    <Legend />
+                    <Line 
+                      type="monotone" 
+                      dataKey="answeredCount" 
+                      stroke="#0d6efd" 
+                      name="回答済み問題数" 
+                      strokeWidth={2}
+                    />
+                    <Line 
+                      type="monotone" 
+                      dataKey="masteredCount" 
+                      stroke="#198754" 
+                      name="達成済み問題数" 
+                      strokeWidth={2}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Category Statistics */}
       <div className="row mb-4">
