@@ -2,7 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import questionsData from '@/data/questions-en.json';
+import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion } from '@/utils/storage';
 
@@ -91,7 +91,7 @@ function QuizContent() {
     return (
       <div className="text-center">
         <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">Loading...</span>
+          <span className="visually-hidden">読み込み中...</span>
         </div>
       </div>
     );
@@ -102,7 +102,7 @@ function QuizContent() {
   
   // Get difficulty badge color
   const difficultyBadgeColor = currentQuestion.difficulty === 'exam' ? 'bg-danger' : 'bg-success';
-  const difficultyLabel = currentQuestion.difficulty === 'exam' ? 'Exam' : 'Basic';
+  const difficultyLabel = currentQuestion.difficulty === 'exam' ? '試験' : '基礎';
 
   return (
     <main>
@@ -110,14 +110,14 @@ function QuizContent() {
         <div className="col-12">
           <div className="d-flex justify-content-between align-items-center mb-3">
             <h2 className="h5 mb-0">
-              Question {currentQuestionIndex + 1} / {availableQuestions.length}
+              問題 {currentQuestionIndex + 1} / {availableQuestions.length}
             </h2>
             <div>
               <span className={`badge ${difficultyBadgeColor} me-2`}>{difficultyLabel}</span>
               <span className="badge bg-secondary me-2">{currentQuestion.category}</span>
               {!showResult && (
                 <span className={`badge ${timeLeft <= 5 ? 'bg-danger' : 'bg-primary'} fs-6`}>
-                  {timeLeft}s left
+                  残り{timeLeft}秒
                 </span>
               )}
             </div>
@@ -160,11 +160,11 @@ function QuizContent() {
                 <div className="mt-4">
                   <div className={`alert ${isTimeUp ? 'alert-warning' : (isCorrect ? 'alert-success' : 'alert-danger')}`}>
                     <h5 className="alert-heading">
-                      {isTimeUp ? '⏰ Time Up' : (isCorrect ? '✓ Correct!' : '✗ Incorrect')}
+                      {isTimeUp ? '⏰ 時間切れ' : (isCorrect ? '✓ 正解！' : '✗ 不正解')}
                     </h5>
                     <hr />
                     <p className="mb-0">
-                      <strong>Explanation:</strong> {currentQuestion.explanation}
+                      <strong>解説：</strong> {currentQuestion.explanation}
                     </p>
                   </div>
 
@@ -172,7 +172,7 @@ function QuizContent() {
                     className="btn btn-primary btn-lg w-100"
                     onClick={handleNext}
                   >
-                    {currentQuestionIndex < availableQuestions.length - 1 ? 'Next Question' : 'View Statistics'}
+                    {currentQuestionIndex < availableQuestions.length - 1 ? '次の問題へ' : '統計を表示'}
                   </button>
                 </div>
               )}
@@ -184,7 +184,7 @@ function QuizContent() {
               className="btn btn-outline-secondary"
               onClick={() => router.push('/')}
             >
-              ← Back to Home
+              ← ホームに戻る
             </button>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function QuizPage() {
     <Suspense fallback={
       <div className="text-center">
         <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">Loading...</span>
+          <span className="visually-hidden">読み込み中...</span>
         </div>
       </div>
     }>
