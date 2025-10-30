@@ -2,7 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import questionsData from '@/data/questions.json';
+import questionsData from '@/data/questions-en.json';
 import { Question } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion } from '@/utils/storage';
 
@@ -104,13 +104,13 @@ function QuizContent() {
         <div className="col-12">
           <div className="d-flex justify-content-between align-items-center mb-3">
             <h2 className="h5 mb-0">
-              問題 {currentQuestionIndex + 1} / {availableQuestions.length}
+              Question {currentQuestionIndex + 1} / {availableQuestions.length}
             </h2>
             <div>
               <span className="badge bg-secondary me-2">{currentQuestion.category}</span>
               {!showResult && (
                 <span className={`badge ${timeLeft <= 5 ? 'bg-danger' : 'bg-primary'} fs-6`}>
-                  残り {timeLeft} 秒
+                  {timeLeft}s left
                 </span>
               )}
             </div>
@@ -153,11 +153,11 @@ function QuizContent() {
                 <div className="mt-4">
                   <div className={`alert ${isTimeUp ? 'alert-warning' : (isCorrect ? 'alert-success' : 'alert-danger')}`}>
                     <h5 className="alert-heading">
-                      {isTimeUp ? '⏰ 時間切れ' : (isCorrect ? '✓ 正解！' : '✗ 不正解')}
+                      {isTimeUp ? '⏰ Time Up' : (isCorrect ? '✓ Correct!' : '✗ Incorrect')}
                     </h5>
                     <hr />
                     <p className="mb-0">
-                      <strong>解説：</strong> {currentQuestion.explanation}
+                      <strong>Explanation:</strong> {currentQuestion.explanation}
                     </p>
                   </div>
 
@@ -165,7 +165,7 @@ function QuizContent() {
                     className="btn btn-primary btn-lg w-100"
                     onClick={handleNext}
                   >
-                    {currentQuestionIndex < availableQuestions.length - 1 ? '次の問題へ' : '統計を見る'}
+                    {currentQuestionIndex < availableQuestions.length - 1 ? 'Next Question' : 'View Statistics'}
                   </button>
                 </div>
               )}
@@ -177,7 +177,7 @@ function QuizContent() {
               className="btn btn-outline-secondary"
               onClick={() => router.push('/')}
             >
-              ← トップに戻る
+              ← Back to Home
             </button>
           </div>
         </div>
