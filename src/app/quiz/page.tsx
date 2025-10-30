@@ -114,8 +114,22 @@ function QuizContent() {
   const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
   
   // Get difficulty badge color
-  const difficultyBadgeColor = currentQuestion.difficulty === 'exam' ? 'bg-danger' : 'bg-success';
-  const difficultyLabel = currentQuestion.difficulty === 'exam' ? '試験' : '基礎';
+  const getDifficultyBadge = (difficulty?: string) => {
+    switch (difficulty) {
+      case 'exam':
+        return { color: 'bg-danger', label: '試験' };
+      case 'basic':
+        return { color: 'bg-success', label: '基礎' };
+      case 'comparison':
+        return { color: 'bg-warning', label: '比較' };
+      default:
+        return { color: 'bg-secondary', label: '不明' };
+    }
+  };
+  
+  const difficultyBadge = getDifficultyBadge(currentQuestion.difficulty);
+  const difficultyBadgeColor = difficultyBadge.color;
+  const difficultyLabel = difficultyBadge.label;
 
   return (
     <main>
@@ -151,6 +165,7 @@ function QuizContent() {
                     <option value="all">すべて</option>
                     <option value="exam">試験レベル</option>
                     <option value="basic">基礎レベル</option>
+                    <option value="comparison">比較問題</option>
                   </select>
                 </div>
                 <div className="col-md-6">
