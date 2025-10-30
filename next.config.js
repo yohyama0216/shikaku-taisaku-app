@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/shikaku-taisaku-app',
+  basePath: process.env.NODE_ENV === 'production' ? '/shikaku-taisaku-app' : '',
   images: {
     unoptimized: true,
   },
