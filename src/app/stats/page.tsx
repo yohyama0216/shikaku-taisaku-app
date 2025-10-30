@@ -102,7 +102,7 @@ export default function StatsPage() {
   // Difficulty level statistics
   const difficultyLevels: Array<'basic' | 'exam'> = ['basic', 'exam'];
   const difficultyStats = difficultyLevels.map(level => {
-    const levelQuestions = questions.filter(q => q.difficulty === level);
+    const levelQuestions = questions.filter(q => q.difficulty === level || (!q.difficulty && level === 'basic'));
     const levelAnswered = levelQuestions.filter(q => progress[q.id]).length;
     const levelCorrect = levelQuestions.reduce(
       (sum, q) => sum + (progress[q.id]?.correctCount || 0),
