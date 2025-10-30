@@ -12,6 +12,7 @@ function QuizContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const category = searchParams.get('category') || 'all';
+  const difficulty = searchParams.get('difficulty') || 'all';
 
   const [availableQuestions, setAvailableQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -20,12 +21,13 @@ function QuizContent() {
   const [timeLeft, setTimeLeft] = useState(20);
   const [isTimeUp, setIsTimeUp] = useState(false);
 
-  // Filter questions by category and availability
+  // Filter questions by category, difficulty and availability
   useEffect(() => {
     const filtered = questions.filter((q) => {
       const matchesCategory = category === 'all' || q.category === category;
+      const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
       const shouldShow = shouldShowQuestion(q.id);
-      return matchesCategory && shouldShow;
+      return matchesCategory && matchesDifficulty && shouldShow;
     });
 
     if (filtered.length === 0) {
@@ -35,7 +37,7 @@ function QuizContent() {
     }
 
     setAvailableQuestions(filtered);
-  }, [category, router]);
+  }, [category, difficulty, router]);
 
   // Timer countdown
   useEffect(() => {
@@ -97,6 +99,10 @@ function QuizContent() {
 
   const currentQuestion = availableQuestions[currentQuestionIndex];
   const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+  
+  // Get difficulty badge color
+  const difficultyBadgeColor = currentQuestion.difficulty === 'exam' ? 'bg-danger' : 'bg-success';
+  const difficultyLabel = currentQuestion.difficulty === 'exam' ? 'Exam' : 'Basic';
 
   return (
     <main>
@@ -107,6 +113,7 @@ function QuizContent() {
               Question {currentQuestionIndex + 1} / {availableQuestions.length}
             </h2>
             <div>
+              <span className={`badge ${difficultyBadgeColor} me-2`}>{difficultyLabel}</span>
               <span className="badge bg-secondary me-2">{currentQuestion.category}</span>
               {!showResult && (
                 <span className={`badge ${timeLeft <= 5 ? 'bg-danger' : 'bg-primary'} fs-6`}>

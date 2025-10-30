@@ -7,6 +7,10 @@ const questions = questionsData as Question[];
 export default function Home() {
   // Get unique categories
   const categories = Array.from(new Set(questions.map(q => q.category)));
+  
+  // Count questions by difficulty
+  const examQuestions = questions.filter(q => q.difficulty === 'exam').length;
+  const basicQuestions = questions.filter(q => q.difficulty === 'basic').length;
 
   return (
     <main>
@@ -15,40 +19,87 @@ export default function Home() {
           <h1 className="mb-4">Hazmat Class 4 Exam Quiz</h1>
           <p className="lead">
             Study app for Hazardous Materials Handler Class 4 Exam.<br />
-            Select a category to start learning.
+            Select a difficulty level and category to start learning.
           </p>
         </div>
       </div>
 
+      {/* Difficulty Level Selection */}
       <div className="row mt-4">
         <div className="col-12">
-          <h2 className="h4 mb-3">Select Category</h2>
-          <div className="list-group">
-            <Link 
-              href="/quiz?category=all" 
-              className="list-group-item list-group-item-action"
-            >
-              <div className="d-flex w-100 justify-content-between">
-                <h5 className="mb-1">All Questions</h5>
-                <span className="badge bg-primary rounded-pill">{questions.length} questions</span>
+          <h2 className="h4 mb-3">Select Difficulty Level</h2>
+          <div className="row">
+            <div className="col-md-6 mb-3">
+              <div className="card border-primary">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <i className="bi bi-mortarboard-fill"></i> Exam Level
+                  </h5>
+                  <p className="card-text">Challenging questions at actual exam difficulty</p>
+                  <p className="mb-2"><strong>{examQuestions} questions</strong></p>
+                  <Link href="/quiz?difficulty=exam&category=all" className="btn btn-primary w-100 mb-2">
+                    Start All Questions
+                  </Link>
+                  <details className="mt-2">
+                    <summary className="btn btn-outline-primary btn-sm w-100">Select by Category</summary>
+                    <div className="list-group mt-2">
+                      {categories.map((category) => {
+                        const count = questions.filter(q => q.category === category && q.difficulty === 'exam').length;
+                        if (count === 0) return null;
+                        return (
+                          <Link 
+                            key={category}
+                            href={`/quiz?difficulty=exam&category=${encodeURIComponent(category)}`}
+                            className="list-group-item list-group-item-action"
+                          >
+                            <div className="d-flex justify-content-between">
+                              <span>{category}</span>
+                              <span className="badge bg-primary rounded-pill">{count}</span>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </details>
+                </div>
               </div>
-              <p className="mb-1">Questions from all categories</p>
-            </Link>
-            {categories.map((category) => {
-              const count = questions.filter(q => q.category === category).length;
-              return (
-                <Link 
-                  key={category}
-                  href={`/quiz?category=${encodeURIComponent(category)}`}
-                  className="list-group-item list-group-item-action"
-                >
-                  <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">{category}</h5>
-                    <span className="badge bg-secondary rounded-pill">{count} questions</span>
-                  </div>
-                </Link>
-              );
-            })}
+            </div>
+            
+            <div className="col-md-6 mb-3">
+              <div className="card border-success">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <i className="bi bi-book-fill"></i> Basic Level
+                  </h5>
+                  <p className="card-text">Fundamental questions for beginners</p>
+                  <p className="mb-2"><strong>{basicQuestions} questions</strong></p>
+                  <Link href="/quiz?difficulty=basic&category=all" className="btn btn-success w-100 mb-2">
+                    Start All Questions
+                  </Link>
+                  <details className="mt-2">
+                    <summary className="btn btn-outline-success btn-sm w-100">Select by Category</summary>
+                    <div className="list-group mt-2">
+                      {categories.map((category) => {
+                        const count = questions.filter(q => q.category === category && q.difficulty === 'basic').length;
+                        if (count === 0) return null;
+                        return (
+                          <Link 
+                            key={category}
+                            href={`/quiz?difficulty=basic&category=${encodeURIComponent(category)}`}
+                            className="list-group-item list-group-item-action"
+                          >
+                            <div className="d-flex justify-content-between">
+                              <span>{category}</span>
+                              <span className="badge bg-success rounded-pill">{count}</span>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

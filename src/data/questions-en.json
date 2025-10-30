@@ -10,7 +10,8 @@
       "React with water and generate heat"
     ],
     "correctAnswer": 1,
-    "explanation": "Class 4 hazardous materials are flammable liquids. Not all are liquids, and some may be gases or solids, but primarily refers to liquids with flammable properties."
+    "explanation": "Class 4 hazardous materials are flammable liquids. Not all are liquids, and some may be gases or solids, but primarily refers to liquids with flammable properties.",
+    "difficulty": "basic"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "100°C or above"
     ],
     "correctAnswer": 0,
-    "explanation": "Gasoline has a flash point below -40°C, which is very low, and can easily ignite even at room temperature."
+    "explanation": "Gasoline has a flash point below -40°C, which is very low, and can easily ignite even at room temperature.",
+    "difficulty": "basic"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "100°C or above"
     ],
     "correctAnswer": 1,
-    "explanation": "Kerosene has a flash point of 40°C or above. It has a higher flash point than gasoline and is relatively safe to handle."
+    "explanation": "Kerosene has a flash point of 40°C or above. It has a higher flash point than gasoline and is relatively safe to handle.",
+    "difficulty": "basic"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "Extinguish after fire spreads"
     ],
     "correctAnswer": 1,
-    "explanation": "For Class 4 hazardous material fires, foam or powder extinguishers are effective. Using water can cause the hazardous material to flow out or spread the fire."
+    "explanation": "For Class 4 hazardous material fires, foam or powder extinguishers are effective. Using water can cause the hazardous material to flow out or spread the fire.",
+    "difficulty": "basic"
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "Smoke decreases"
     ],
     "correctAnswer": 1,
-    "explanation": "Oil is lighter than water, so when water is applied, the oil floats on the water and the fire spreads. Also, water can rapidly vaporize causing oil to scatter."
+    "explanation": "Oil is lighter than water, so when water is applied, the oil floats on the water and the fire spreads. Also, water can rapidly vaporize causing oil to scatter.",
+    "difficulty": "basic"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "Store mixed with other hazardous materials"
     ],
     "correctAnswer": 1,
-    "explanation": "Class 4 hazardous materials should be stored away from fire and heat in a cool, dark place. Containers must be tightly sealed and stored in well-ventilated areas."
+    "explanation": "Class 4 hazardous materials should be stored away from fire and heat in a cool, dark place. Containers must be tightly sealed and stored in well-ventilated areas.",
+    "difficulty": "basic"
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "Wear appropriate protective equipment"
     ],
     "correctAnswer": 2,
-    "explanation": "Smoking while handling hazardous materials is strictly prohibited. It can become a source of ignition and cause fires or explosions."
+    "explanation": "Smoking while handling hazardous materials is strictly prohibited. It can become a source of ignition and cause fires or explosions.",
+    "difficulty": "basic"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "No validity period"
     ],
     "correctAnswer": 3,
-    "explanation": "Hazardous materials handler licenses have no validity period. However, those engaged in hazardous materials handling work must regularly attend safety training."
+    "explanation": "Hazardous materials handler licenses have no validity period. However, those engaged in hazardous materials handling work must regularly attend safety training.",
+    "difficulty": "basic"
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "No attendance obligation"
     ],
     "correctAnswer": 1,
-    "explanation": "Hazardous materials handlers engaged in hazardous materials handling work are obligated to regularly attend safety training."
+    "explanation": "Hazardous materials handlers engaged in hazardous materials handling work are obligated to regularly attend safety training.",
+    "difficulty": "basic"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "Quantity to report to fire department"
     ],
     "correctAnswer": 1,
-    "explanation": "Designated quantity is the quantity specified in the regulations on hazardous materials. When storing or handling hazardous materials exceeding this quantity, fire service law regulations apply."
+    "explanation": "Designated quantity is the quantity specified in the regulations on hazardous materials. When storing or handling hazardous materials exceeding this quantity, fire service law regulations apply.",
+    "difficulty": "basic"
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "Moisture"
     ],
     "correctAnswer": 3,
-    "explanation": "The three elements of combustion are combustible material, oxygen supply source (oxidizer), and ignition source (heat source). Moisture is not included in the three elements of combustion."
+    "explanation": "The three elements of combustion are combustible material, oxygen supply source (oxidizer), and ignition source (heat source). Moisture is not included in the three elements of combustion.",
+    "difficulty": "exam"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "Temperature at which liquid solidifies"
     ],
     "correctAnswer": 1,
-    "explanation": "Flash point is the minimum temperature at which a combustible liquid emits vapor that ignites when a flame is applied."
+    "explanation": "Flash point is the minimum temperature at which a combustible liquid emits vapor that ignites when a flame is applied.",
+    "difficulty": "exam"
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "Heavier than water"
     ],
     "correctAnswer": 1,
-    "explanation": "Diesel fuel has a flash point of 45°C or above, which is even higher than kerosene, making it a relatively safe hazardous material."
+    "explanation": "Diesel fuel has a flash point of 45°C or above, which is even higher than kerosene, making it a relatively safe hazardous material.",
+    "difficulty": "exam"
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "Specific gravity is irrelevant"
     ],
     "correctAnswer": 2,
-    "explanation": "Most Class 4 hazardous materials (flammable liquids) are lighter than water and float on water. Therefore, water-based extinguishing is ineffective and fire may spread."
+    "explanation": "Most Class 4 hazardous materials (flammable liquids) are lighter than water and float on water. Therefore, water-based extinguishing is ineffective and fire may spread.",
+    "difficulty": "exam"
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "Same temperature as flash point"
     ],
     "correctAnswer": 1,
-    "explanation": "Ignition point is the minimum temperature at which combustible material spontaneously ignites without an ignition source when heated in air. It is higher than the flash point."
+    "explanation": "Ignition point is the minimum temperature at which combustible material spontaneously ignites without an ignition source when heated in air. It is higher than the flash point.",
+    "difficulty": "exam"
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "Promote combustion"
     ],
     "correctAnswer": 1,
-    "explanation": "Smothering fire extinguishing is a method of extinguishing by cutting off the oxygen supply needed for combustion. Foam extinguishers and carbon dioxide extinguishers fall into this category."
+    "explanation": "Smothering fire extinguishing is a method of extinguishing by cutting off the oxygen supply needed for combustion. Foam extinguishers and carbon dioxide extinguishers fall into this category.",
+    "difficulty": "exam"
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "Use conductive footwear"
     ],
     "correctAnswer": 2,
-    "explanation": "Speeding up work is incorrect as a static electricity countermeasure. Conversely, working slowly can suppress static electricity generation."
+    "explanation": "Speeding up work is incorrect as a static electricity countermeasure. Conversely, working slowly can suppress static electricity generation.",
+    "difficulty": "exam"
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "No inspection obligation"
     ],
     "correctAnswer": 1,
-    "explanation": "Owners of hazardous materials facilities are obligated to conduct periodic inspections once a year or more and keep records."
+    "explanation": "Owners of hazardous materials facilities are obligated to conduct periodic inspections once a year or more and keep records.",
+    "difficulty": "exam"
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "Liquid"
     ],
     "correctAnswer": 1,
-    "explanation": "Gases with vapor density greater than 1 are heavier than air and accumulate in low areas. When ventilating, it is important to exhaust from the bottom."
+    "explanation": "Gases with vapor density greater than 1 are heavier than air and accumulate in low areas. When ventilating, it is important to exhaust from the bottom.",
+    "difficulty": "exam"
   },
   {
     "id": 20,
@@ -257,6 +276,7 @@
       "Non-flammable"
     ],
     "correctAnswer": 1,
-    "explanation": "Alcohols have the property of being soluble in water. Therefore, alcohol-resistant foam extinguishers must be used for alcohol fires."
+    "explanation": "Alcohols have the property of being soluble in water. Therefore, alcohol-resistant foam extinguishers must be used for alcohol fires.",
+    "difficulty": "exam"
   }
 ]
