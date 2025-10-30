@@ -196,19 +196,19 @@ export default function StatsPage() {
           <h2 className="h4 mb-3">バッジ</h2>
           <div className="card">
             <div className="card-body">
-              <div className="row g-3">
+              <div className="row g-2">
                 {badges.map(badge => (
-                  <div key={badge.id} className="col-md-4 col-sm-6">
+                  <div key={badge.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div 
                       className={`card h-100 ${badge.achieved ? 'border-success' : 'border-secondary'}`}
                       style={{ opacity: badge.achieved ? 1 : 0.5 }}
                     >
-                      <div className="card-body text-center">
-                        <div style={{ fontSize: '2.5rem' }}>{badge.icon}</div>
-                        <h5 className="card-title mt-2">{badge.name}</h5>
-                        <p className="card-text text-muted small">{badge.description}</p>
+                      <div className="card-body text-center p-2">
+                        <div style={{ fontSize: '1.5rem' }}>{badge.icon}</div>
+                        <div className="small fw-bold mt-1">{badge.name}</div>
+                        <div className="text-muted" style={{ fontSize: '0.7rem' }}>{badge.description}</div>
                         {badge.achieved && (
-                          <span className="badge bg-success">達成済み</span>
+                          <span className="badge bg-success mt-1" style={{ fontSize: '0.65rem' }}>達成済み</span>
                         )}
                       </div>
                     </div>
