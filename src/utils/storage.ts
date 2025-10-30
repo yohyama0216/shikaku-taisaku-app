@@ -1,4 +1,5 @@
 import { QuestionProgress, DailyStats } from '@/types/quiz';
+import { checkAndAwardBadges } from './badges';
 
 const STORAGE_KEY = 'hazmat-quiz-progress';
 const STATS_HISTORY_KEY = 'hazmat-quiz-stats-history';
@@ -47,6 +48,12 @@ export const saveQuestionProgress = (questionId: number, isCorrect: boolean): vo
     
     // Update daily statistics after saving progress
     updateDailyStats(allProgress);
+    
+    // Check for new badges
+    const totalAnswered = Object.keys(allProgress).length;
+    const totalMastered = Object.values(allProgress).filter(p => p.correctCount >= 4).length;
+    const dailyStats = getDailyStatsHistory();
+    checkAndAwardBadges(totalAnswered, totalMastered, dailyStats);
   } catch (error) {
     console.error('Error writing to localStorage:', error);
   }
