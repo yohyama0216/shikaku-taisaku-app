@@ -99,6 +99,33 @@ export default function StatsPage() {
     };
   });
 
+  // Difficulty level statistics
+  const difficultyLevels: Array<'basic' | 'exam'> = ['basic', 'exam'];
+  const difficultyStats = difficultyLevels.map(level => {
+    const levelQuestions = questions.filter(q => q.difficulty === level);
+    const levelAnswered = levelQuestions.filter(q => progress[q.id]).length;
+    const levelCorrect = levelQuestions.reduce(
+      (sum, q) => sum + (progress[q.id]?.correctCount || 0),
+      0
+    );
+    const levelIncorrect = levelQuestions.reduce(
+      (sum, q) => sum + (progress[q.id]?.incorrectCount || 0),
+      0
+    );
+    const levelTotal = levelCorrect + levelIncorrect;
+    const levelAccuracy = levelTotal > 0 ? ((levelCorrect / levelTotal) * 100).toFixed(1) : '0';
+
+    return {
+      level,
+      levelName: level === 'basic' ? '基本レベル' : '試験レベル',
+      totalQuestions: levelQuestions.length,
+      answered: levelAnswered,
+      correct: levelCorrect,
+      incorrect: levelIncorrect,
+      accuracy: levelAccuracy,
+    };
+  });
+
   return (
     <main>
       <div className="row">
@@ -238,6 +265,41 @@ export default function StatsPage() {
           </div>
         </div>
       )}
+
+      {/* Difficulty Level Statistics */}
+      <div className="row mb-4">
+        <div className="col-12">
+          <h2 className="h4 mb-3">レベル別統計</h2>
+          <div className="table-responsive">
+            <table className="table table-striped">
+              <thead>
+                <tr>
+                  <th>レベル</th>
+                  <th className="text-center">回答済み</th>
+                  <th className="text-center">正解数</th>
+                  <th className="text-center">不正解数</th>
+                  <th className="text-center">正答率</th>
+                </tr>
+              </thead>
+              <tbody>
+                {difficultyStats.map(stat => (
+                  <tr key={stat.level}>
+                    <td>{stat.levelName}</td>
+                    <td className="text-center">
+                      {stat.answered} / {stat.totalQuestions}
+                    </td>
+                    <td className="text-center text-success">{stat.correct}</td>
+                    <td className="text-center text-danger">{stat.incorrect}</td>
+                    <td className="text-center">
+                      <strong>{stat.accuracy}%</strong>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
       {/* Category Statistics */}
       <div className="row mb-4">
