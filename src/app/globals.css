@@ -1,4 +1,5 @@
 /* Custom Pico.css overrides and additions */
+/* Primary color customization - using red theme for hazardous materials quiz */
 :root {
   --primary: #dc3545;
   --primary-hover: #c82333;
@@ -98,6 +99,10 @@ article:hover {
 }
 
 .grid-2 {
+  grid-template-columns: 1fr;
+}
+
+.grid-3 {
   grid-template-columns: 1fr;
 }
 

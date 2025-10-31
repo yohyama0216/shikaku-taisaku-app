@@ -133,17 +133,17 @@ function QuizContent() {
   const currentQuestion = availableQuestions[currentQuestionIndex];
   const isCorrect = selectedAnswer !== null && selectedAnswer < shuffledChoices.length && shuffledChoices[selectedAnswer].originalIndex === currentQuestion.correctAnswer;
   
-  // Get difficulty badge color
+  // Get difficulty badge color - returns Pico.css badge classes
   const getDifficultyBadge = (difficulty?: string) => {
     switch (difficulty) {
       case 'exam':
-        return { color: 'bg-danger', label: '試験' };
+        return { color: 'badge-danger', label: '試験' };
       case 'basic':
-        return { color: 'bg-success', label: '基礎' };
+        return { color: 'badge-success', label: '基礎' };
       case 'comparison':
-        return { color: 'bg-warning', label: '比較' };
+        return { color: 'badge-warning', label: '比較' };
       default:
-        return { color: 'bg-secondary', label: '不明' };
+        return { color: 'badge-secondary', label: '不明' };
     }
   };
   
@@ -158,7 +158,7 @@ function QuizContent() {
           問題 {currentQuestionIndex + 1} / {availableQuestions.length}
         </h3>
         <div>
-          <span className={`badge ${difficultyBadgeColor === 'bg-danger' ? 'badge-danger' : difficultyBadgeColor === 'bg-success' ? 'badge-success' : 'badge-warning'}`}>{difficultyLabel}</span>
+          <span className={difficultyBadgeColor}>{difficultyLabel}</span>
           <span className="badge badge-secondary">{currentQuestion.category}</span>
           {!showResult && (
             <span className={`badge ${timeLeft <= 5 ? 'badge-danger' : 'badge-primary'}`}>
