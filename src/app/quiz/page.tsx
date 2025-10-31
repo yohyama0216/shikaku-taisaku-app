@@ -124,10 +124,8 @@ function QuizContent() {
 
   if (availableQuestions.length === 0) {
     return (
-      <div className="text-center">
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">読み込み中...</span>
-        </div>
+      <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <p aria-busy="true">読み込み中...</p>
       </div>
     );
   }
@@ -135,17 +133,17 @@ function QuizContent() {
   const currentQuestion = availableQuestions[currentQuestionIndex];
   const isCorrect = selectedAnswer !== null && selectedAnswer < shuffledChoices.length && shuffledChoices[selectedAnswer].originalIndex === currentQuestion.correctAnswer;
   
-  // Get difficulty badge color
+  // Get difficulty badge color - returns Pico.css badge classes
   const getDifficultyBadge = (difficulty?: string) => {
     switch (difficulty) {
       case 'exam':
-        return { color: 'bg-danger', label: '試験' };
+        return { color: 'badge-danger', label: '試験' };
       case 'basic':
-        return { color: 'bg-success', label: '基礎' };
+        return { color: 'badge-success', label: '基礎' };
       case 'comparison':
-        return { color: 'bg-warning', label: '比較' };
+        return { color: 'badge-warning', label: '比較' };
       default:
-        return { color: 'bg-secondary', label: '不明' };
+        return { color: 'badge-secondary', label: '不明' };
     }
   };
   
@@ -154,137 +152,127 @@ function QuizContent() {
   const difficultyLabel = difficultyBadge.label;
 
   return (
-    <main>
-      <div className="row">
-        <div className="col-12">
-          <div className="d-flex justify-content-between align-items-center mb-3">
-            <h2 className="h5 mb-0">
-              問題 {currentQuestionIndex + 1} / {availableQuestions.length}
-            </h2>
-            <div>
-              <span className={`badge ${difficultyBadgeColor} me-2`}>{difficultyLabel}</span>
-              <span className="badge bg-secondary me-2">{currentQuestion.category}</span>
-              {!showResult && (
-                <span className={`badge ${timeLeft <= 5 ? 'bg-danger' : 'bg-primary'} fs-6`}>
-                  残り{timeLeft}秒
-                </span>
-              )}
-            </div>
-          </div>
-
-          {/* Settings Panel */}
-          <div className="card mb-3 border-info">
-            <div className="card-body py-2">
-              <div className="row g-2">
-                <div className="col-md-6">
-                  <label htmlFor="difficulty-select" className="form-label small mb-1">難易度</label>
-                  <select 
-                    id="difficulty-select"
-                    className="form-select form-select-sm"
-                    value={difficulty}
-                    onChange={handleDifficultyChange}
-                  >
-                    <option value="all">すべて</option>
-                    <option value="exam">試験レベル</option>
-                    <option value="basic">基礎レベル</option>
-                    <option value="comparison">比較問題</option>
-                  </select>
-                </div>
-                <div className="col-md-6">
-                  <label htmlFor="category-select" className="form-label small mb-1">カテゴリ</label>
-                  <select 
-                    id="category-select"
-                    className="form-select form-select-sm"
-                    value={category}
-                    onChange={handleCategoryChange}
-                  >
-                    <option value="all">すべて</option>
-                    {allCategories.map((cat) => (
-                      <option key={cat} value={cat}>{cat}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="card-body">
-              <h3 className="card-title h5 mb-4">{currentQuestion.question}</h3>
-
-              <div className="d-grid gap-2">
-                {shuffledChoices.map((choice, shuffledIndex) => {
-                  let buttonClass = 'btn btn-outline-primary text-start';
-                  
-                  if (showResult) {
-                    if (choice.originalIndex === currentQuestion.correctAnswer) {
-                      buttonClass = 'btn btn-success text-start';
-                    } else if (shuffledIndex === selectedAnswer) {
-                      buttonClass = 'btn btn-danger text-start';
-                    } else {
-                      buttonClass = 'btn btn-outline-secondary text-start';
-                    }
-                  } else if (selectedAnswer === shuffledIndex) {
-                    buttonClass = 'btn btn-primary text-start';
-                  }
-
-                  return (
-                    <button
-                      key={shuffledIndex}
-                      className={buttonClass}
-                      onClick={() => handleAnswer(shuffledIndex)}
-                      disabled={showResult}
-                    >
-                      {choice.text}
-                    </button>
-                  );
-                })}
-              </div>
-
-              {showResult && (
-                <div className="mt-4">
-                  <div className={`alert ${isTimeUp ? 'alert-warning' : (isCorrect ? 'alert-success' : 'alert-danger')}`}>
-                    <h5 className="alert-heading">
-                      {isTimeUp ? '⏰ 時間切れ' : (isCorrect ? '✓ 正解！' : '✗ 不正解')}
-                    </h5>
-                    <hr />
-                    <p className="mb-0">
-                      <strong>解説：</strong> {currentQuestion.explanation}
-                    </p>
-                  </div>
-
-                  <button
-                    className="btn btn-primary btn-lg w-100"
-                    onClick={handleNext}
-                  >
-                    {currentQuestionIndex < availableQuestions.length - 1 ? '次の問題へ' : '統計を表示'}
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
-
-          <div className="mt-3">
-            <button
-              className="btn btn-outline-secondary"
-              onClick={() => router.push('/')}
-            >
-              ← ホームに戻る
-            </button>
-          </div>
+    <>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+        <h3 style={{ margin: 0 }}>
+          問題 {currentQuestionIndex + 1} / {availableQuestions.length}
+        </h3>
+        <div>
+          <span className={difficultyBadgeColor}>{difficultyLabel}</span>
+          <span className="badge badge-secondary">{currentQuestion.category}</span>
+          {!showResult && (
+            <span className={`badge ${timeLeft <= 5 ? 'badge-danger' : 'badge-primary'}`}>
+              ⏱️ 残り{timeLeft}秒
+            </span>
+          )}
         </div>
       </div>
-    </main>
+
+      {/* Settings Panel */}
+      <article style={{ padding: '1rem', marginBottom: '1rem' }}>
+        <div className="grid grid-2">
+          <div>
+            <label htmlFor="difficulty-select">
+              <small>難易度</small>
+            </label>
+            <select 
+              id="difficulty-select"
+              value={difficulty}
+              onChange={handleDifficultyChange}
+            >
+              <option value="all">すべて</option>
+              <option value="exam">試験レベル</option>
+              <option value="basic">基礎レベル</option>
+              <option value="comparison">比較問題</option>
+            </select>
+          </div>
+          <div>
+            <label htmlFor="category-select">
+              <small>カテゴリ</small>
+            </label>
+            <select 
+              id="category-select"
+              value={category}
+              onChange={handleCategoryChange}
+            >
+              <option value="all">すべて</option>
+              {allCategories.map((cat) => (
+                <option key={cat} value={cat}>{cat}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <header>
+          <strong>{currentQuestion.question}</strong>
+        </header>
+
+        <div className="choices-grid">
+          {shuffledChoices.map((choice, shuffledIndex) => {
+            let buttonClass = 'choice-button';
+            
+            if (showResult) {
+              if (choice.originalIndex === currentQuestion.correctAnswer) {
+                buttonClass = 'choice-button correct';
+              } else if (shuffledIndex === selectedAnswer) {
+                buttonClass = 'choice-button incorrect';
+              }
+            } else if (selectedAnswer === shuffledIndex) {
+              buttonClass = 'choice-button selected';
+            }
+
+            return (
+              <button
+                key={shuffledIndex}
+                className={buttonClass}
+                onClick={() => handleAnswer(shuffledIndex)}
+                disabled={showResult}
+              >
+                {choice.text}
+              </button>
+            );
+          })}
+        </div>
+
+        {showResult && (
+          <div style={{ marginTop: '1.5rem' }}>
+            <div className={`alert ${isTimeUp ? 'alert-warning' : (isCorrect ? 'alert-success' : 'alert-danger')}`}>
+              <strong>
+                {isTimeUp ? '⏰ 時間切れ' : (isCorrect ? '✓ 正解！' : '✗ 不正解')}
+              </strong>
+              <p style={{ marginTop: '0.5rem', marginBottom: 0 }}>
+                <strong>解説：</strong> {currentQuestion.explanation}
+              </p>
+            </div>
+
+            <button
+              onClick={handleNext}
+              style={{ width: '100%', marginTop: '1rem' }}
+            >
+              {currentQuestionIndex < availableQuestions.length - 1 ? '次の問題へ' : '統計を表示'}
+            </button>
+          </div>
+        )}
+      </article>
+
+      <button
+        className="secondary"
+        onClick={() => router.push('/')}
+        style={{ marginTop: '1rem' }}
+      >
+        ← ホームに戻る
+      </button>
+    </>
   );
 }
 
 export default function QuizPage() {
   return (
     <Suspense fallback={
-      <div className="text-center">
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">読み込み中...</span>
-        </div>
+      <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <p aria-busy="true">読み込み中...</p>
       </div>
     }>
       <QuizContent />

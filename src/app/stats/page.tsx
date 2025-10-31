@@ -43,10 +43,8 @@ export default function StatsPage() {
 
   if (!mounted) {
     return (
-      <div className="text-center">
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">読み込み中...</span>
-        </div>
+      <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <p aria-busy="true">読み込み中...</p>
       </div>
     );
   }
@@ -133,264 +131,215 @@ export default function StatsPage() {
   });
 
   return (
-    <main>
-      <div className="row">
-        <div className="col-12">
-          <h1 className="mb-4">学習統計</h1>
-        </div>
-      </div>
+    <>
+      <h2>学習統計</h2>
 
       {/* Overall Statistics */}
-      <div className="row mb-4">
-        <div className="col-md-3 col-sm-6 mb-3">
-          <div className="card text-center">
-            <div className="card-body">
-              <h5 className="card-title text-muted">回答済み問題数</h5>
-              <p className="card-text display-6">{totalAnswered}</p>
-              <small className="text-muted">/ {questions.length}問</small>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6 mb-3">
-          <div className="card text-center">
-            <div className="card-body">
-              <h5 className="card-title text-muted">正解数</h5>
-              <p className="card-text display-6 text-success">{totalCorrect}</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6 mb-3">
-          <div className="card text-center">
-            <div className="card-body">
-              <h5 className="card-title text-muted">不正解数</h5>
-              <p className="card-text display-6 text-danger">{totalIncorrect}</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6 mb-3">
-          <div className="card text-center">
-            <div className="card-body">
-              <h5 className="card-title text-muted">正答率</h5>
-              <p className="card-text display-6 text-primary">{accuracy}%</p>
-            </div>
-          </div>
-        </div>
+      <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', marginBottom: '2rem' }}>
+        <article style={{ textAlign: 'center' }}>
+          <header><small>回答済み問題数</small></header>
+          <h3>{totalAnswered}</h3>
+          <small style={{ color: 'var(--muted-color)' }}>/ {questions.length}問</small>
+        </article>
+        <article style={{ textAlign: 'center' }}>
+          <header><small>正解数</small></header>
+          <h3 style={{ color: '#28a745' }}>{totalCorrect}</h3>
+        </article>
+        <article style={{ textAlign: 'center' }}>
+          <header><small>不正解数</small></header>
+          <h3 style={{ color: '#dc3545' }}>{totalIncorrect}</h3>
+        </article>
+        <article style={{ textAlign: 'center' }}>
+          <header><small>正答率</small></header>
+          <h3 style={{ color: 'var(--primary)' }}>{accuracy}%</h3>
+        </article>
       </div>
 
       {/* Mastered Questions */}
-      <div className="row mb-4">
-        <div className="col-12">
-          <div className="alert alert-info">
-            <h5 className="alert-heading">マスター済み問題</h5>
-            <p className="mb-0">
-              4回以上正解した問題：<strong>{masteredQuestions}</strong>問
-              {masteredQuestions > 0 && '（これらの問題は今後表示されません）'}
-            </p>
-          </div>
-        </div>
-      </div>
+      <article className="alert alert-info" style={{ marginBottom: '2rem' }}>
+        <header><strong>マスター済み問題</strong></header>
+        <p style={{ marginBottom: 0 }}>
+          4回以上正解した問題：<strong>{masteredQuestions}</strong>問
+          {masteredQuestions > 0 && '（これらの問題は今後表示されません）'}
+        </p>
+      </article>
 
       {/* Badges Section */}
-      <div className="row mb-4">
-        <div className="col-12">
-          <h2 className="h4 mb-3">バッジ</h2>
-          <div className="card">
-            <div className="card-body">
-              <div className="row g-2">
-                {badges.map(badge => (
-                  <div key={badge.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
-                    <div 
-                      className={`card h-100 ${badge.achieved ? 'border-success' : 'border-secondary'}`}
-                      style={{ opacity: badge.achieved ? 1 : 0.5 }}
-                    >
-                      <div className="card-body text-center p-2">
-                        <div style={{ fontSize: '1.5rem' }}>{badge.icon}</div>
-                        <div className="small fw-bold mt-1">{badge.name}</div>
-                        <div className="text-muted" style={{ fontSize: '0.7rem' }}>{badge.description}</div>
-                        {badge.achieved && (
-                          <span className="badge bg-success mt-1" style={{ fontSize: '0.65rem' }}>達成済み</span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-3">
-                <small className="text-muted">
-                  獲得バッジ数：<strong>{badges.filter(b => b.achieved).length}</strong> / {badges.length}
-                </small>
-              </div>
+      <article style={{ marginBottom: '2rem' }}>
+        <header><h3>バッジ</h3></header>
+        <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))' }}>
+          {badges.map(badge => (
+            <div 
+              key={badge.id}
+              style={{ 
+                textAlign: 'center', 
+                padding: '1rem',
+                border: `2px solid ${badge.achieved ? '#28a745' : 'var(--muted-border-color)'}`,
+                borderRadius: 'var(--border-radius)',
+                opacity: badge.achieved ? 1 : 0.5,
+                background: 'var(--card-background-color)'
+              }}
+            >
+              <div style={{ fontSize: '2rem' }}>{badge.icon}</div>
+              <div style={{ fontWeight: 'bold', fontSize: '0.875rem', marginTop: '0.5rem' }}>{badge.name}</div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--muted-color)' }}>{badge.description}</div>
+              {badge.achieved && (
+                <span className="badge badge-success" style={{ fontSize: '0.65rem', marginTop: '0.5rem' }}>達成済み</span>
+              )}
             </div>
-          </div>
+          ))}
         </div>
-      </div>
+        <small style={{ color: 'var(--muted-color)', marginTop: '1rem', display: 'block' }}>
+          獲得バッジ数：<strong>{badges.filter(b => b.achieved).length}</strong> / {badges.length}
+        </small>
+      </article>
 
       {/* Statistics Trend Chart */}
       {statsHistory.length > 0 && (
-        <div className="row mb-4">
-          <div className="col-12">
-            <div className="card">
-              <div className="card-body">
-                <h2 className="h4 mb-3">学習の推移</h2>
-                <ResponsiveContainer width="100%" height={300}>
-                  <LineChart data={statsHistory}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis 
-                      dataKey="date" 
-                      tickFormatter={(date) => {
-                        const d = new Date(date);
-                        return `${d.getMonth() + 1}/${d.getDate()}`;
-                      }}
-                    />
-                    <YAxis />
-                    <Tooltip 
-                      labelFormatter={(date) => {
-                        const d = new Date(date);
-                        return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
-                      }}
-                    />
-                    <Legend />
-                    <Line 
-                      type="monotone" 
-                      dataKey="answeredCount" 
-                      stroke="#0d6efd" 
-                      name="回答済み問題数" 
-                      strokeWidth={2}
-                    />
-                    <Line 
-                      type="monotone" 
-                      dataKey="masteredCount" 
-                      stroke="#198754" 
-                      name="達成済み問題数" 
-                      strokeWidth={2}
-                    />
-                  </LineChart>
-                </ResponsiveContainer>
-              </div>
-            </div>
-          </div>
-        </div>
+        <article style={{ marginBottom: '2rem' }}>
+          <header><h3>学習の推移</h3></header>
+          <ResponsiveContainer width="100%" height={300}>
+            <LineChart data={statsHistory}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis 
+                dataKey="date" 
+                tickFormatter={(date) => {
+                  const d = new Date(date);
+                  return `${d.getMonth() + 1}/${d.getDate()}`;
+                }}
+              />
+              <YAxis />
+              <Tooltip 
+                labelFormatter={(date) => {
+                  const d = new Date(date);
+                  return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+                }}
+              />
+              <Legend />
+              <Line 
+                type="monotone" 
+                dataKey="answeredCount" 
+                stroke="#0d6efd" 
+                name="回答済み問題数" 
+                strokeWidth={2}
+              />
+              <Line 
+                type="monotone" 
+                dataKey="masteredCount" 
+                stroke="#198754" 
+                name="達成済み問題数" 
+                strokeWidth={2}
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        </article>
       )}
 
       {/* Difficulty Level Statistics */}
-      <div className="row mb-4">
-        <div className="col-12">
-          <h2 className="h4 mb-3">レベル別統計</h2>
-          <div className="table-responsive">
-            <table className="table table-striped">
-              <thead>
-                <tr>
-                  <th>レベル</th>
-                  <th className="text-center">回答済み</th>
-                  <th className="text-center">正解数</th>
-                  <th className="text-center">不正解数</th>
-                  <th className="text-center">正答率</th>
+      <article style={{ marginBottom: '2rem' }}>
+        <header><h3>レベル別統計</h3></header>
+        <figure>
+          <table>
+            <thead>
+              <tr>
+                <th>レベル</th>
+                <th style={{ textAlign: 'center' }}>回答済み</th>
+                <th style={{ textAlign: 'center' }}>正解数</th>
+                <th style={{ textAlign: 'center' }}>不正解数</th>
+                <th style={{ textAlign: 'center' }}>正答率</th>
+              </tr>
+            </thead>
+            <tbody>
+              {difficultyStats.map(stat => (
+                <tr key={stat.difficulty}>
+                  <td>{getDifficultyLabel(stat.difficulty)}</td>
+                  <td style={{ textAlign: 'center' }}>
+                    {stat.answered} / {stat.totalQuestions}
+                  </td>
+                  <td style={{ textAlign: 'center', color: '#28a745' }}>{stat.correct}</td>
+                  <td style={{ textAlign: 'center', color: '#dc3545' }}>{stat.incorrect}</td>
+                  <td style={{ textAlign: 'center' }}>
+                    <strong>{stat.accuracy}%</strong>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
-                {difficultyStats.map(stat => (
-                  <tr key={stat.difficulty}>
-                    <td>{getDifficultyLabel(stat.difficulty)}</td>
-                    <td className="text-center">
-                      {stat.answered} / {stat.totalQuestions}
-                    </td>
-                    <td className="text-center text-success">{stat.correct}</td>
-                    <td className="text-center text-danger">{stat.incorrect}</td>
-                    <td className="text-center">
-                      <strong>{stat.accuracy}%</strong>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
+              ))}
+            </tbody>
+          </table>
+        </figure>
+      </article>
 
       {/* Category Statistics */}
-      <div className="row mb-4">
-        <div className="col-12">
-          <h2 className="h4 mb-3">カテゴリ別統計</h2>
-          <div className="table-responsive">
-            <table className="table table-striped">
-              <thead>
-                <tr>
-                  <th>カテゴリ</th>
-                  <th className="text-center">回答済み</th>
-                  <th className="text-center">正解数</th>
-                  <th className="text-center">不正解数</th>
-                  <th className="text-center">正答率</th>
+      <article style={{ marginBottom: '2rem' }}>
+        <header><h3>カテゴリ別統計</h3></header>
+        <figure>
+          <table>
+            <thead>
+              <tr>
+                <th>カテゴリ</th>
+                <th style={{ textAlign: 'center' }}>回答済み</th>
+                <th style={{ textAlign: 'center' }}>正解数</th>
+                <th style={{ textAlign: 'center' }}>不正解数</th>
+                <th style={{ textAlign: 'center' }}>正答率</th>
+              </tr>
+            </thead>
+            <tbody>
+              {categoryStats.map(stat => (
+                <tr key={stat.category}>
+                  <td>{stat.category}</td>
+                  <td style={{ textAlign: 'center' }}>
+                    {stat.answered} / {stat.totalQuestions}
+                  </td>
+                  <td style={{ textAlign: 'center', color: '#28a745' }}>{stat.correct}</td>
+                  <td style={{ textAlign: 'center', color: '#dc3545' }}>{stat.incorrect}</td>
+                  <td style={{ textAlign: 'center' }}>
+                    <strong>{stat.accuracy}%</strong>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
-                {categoryStats.map(stat => (
-                  <tr key={stat.category}>
-                    <td>{stat.category}</td>
-                    <td className="text-center">
-                      {stat.answered} / {stat.totalQuestions}
-                    </td>
-                    <td className="text-center text-success">{stat.correct}</td>
-                    <td className="text-center text-danger">{stat.incorrect}</td>
-                    <td className="text-center">
-                      <strong>{stat.accuracy}%</strong>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
+              ))}
+            </tbody>
+          </table>
+        </figure>
+      </article>
 
       {/* Incorrect Questions */}
       {incorrectQuestions.length > 0 && (
-        <div className="row mb-4">
-          <div className="col-12">
-            <h2 className="h4 mb-3">間違えた問題</h2>
-            <div className="list-group">
-              {incorrectQuestions.map(({ question, progress }) => (
-                <div key={question.id} className="list-group-item">
-                  <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">{question.question}</h5>
-                    <small>
-                      <span className="badge bg-success me-1">正解 {progress.correctCount}</span>
-                      <span className="badge bg-danger">不正解 {progress.incorrectCount}</span>
-                    </small>
-                  </div>
-                  <p className="mb-1 text-muted">
-                    <small>カテゴリ：{question.category}</small>
-                  </p>
-                  <small className="text-muted">
-                    <strong>正しい答え：</strong> {question.choices[question.correctAnswer]}
-                  </small>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+        <article style={{ marginBottom: '2rem' }}>
+          <header><h3>間違えた問題</h3></header>
+          {incorrectQuestions.map(({ question, progress }) => (
+            <details key={question.id} style={{ marginBottom: '0.5rem' }}>
+              <summary style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span>{question.question}</span>
+                <span style={{ display: 'flex', gap: '0.25rem' }}>
+                  <span className="badge badge-success">正解 {progress.correctCount}</span>
+                  <span className="badge badge-danger">不正解 {progress.incorrectCount}</span>
+                </span>
+              </summary>
+              <p style={{ marginBottom: '0.5rem', color: 'var(--muted-color)' }}>
+                <small>カテゴリ：{question.category}</small>
+              </p>
+              <p style={{ marginBottom: 0 }}>
+                <strong>正しい答え：</strong> {question.choices[question.correctAnswer]}
+              </p>
+            </details>
+          ))}
+        </article>
       )}
 
       {/* Action Buttons */}
-      <div className="row mb-4">
-        <div className="col-md-4 mb-3">
-          <Link href="/" className="btn btn-primary btn-lg w-100">
-            ホームに戻る
-          </Link>
-        </div>
-        <div className="col-md-4 mb-3">
-          <Link href="/history" className="btn btn-secondary btn-lg w-100">
-            学習履歴を表示
-          </Link>
-        </div>
-        <div className="col-md-4 mb-3">
-          <button
-            className="btn btn-danger btn-lg w-100"
-            onClick={handleClearProgress}
-          >
-            進捗をリセット
-          </button>
-        </div>
+      <div className="grid grid-3">
+        <Link href="/" role="button">
+          ホームに戻る
+        </Link>
+        <Link href="/history" role="button" className="secondary">
+          学習履歴を表示
+        </Link>
+        <button
+          className="contrast"
+          onClick={handleClearProgress}
+        >
+          進捗をリセット
+        </button>
       </div>
-    </main>
+    </>
   );
 }

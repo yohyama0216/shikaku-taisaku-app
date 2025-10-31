@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@picocss/pico": "^2.1.1",
     "@types/node": "^24.9.2",
     "@types/react": "^19.2.2",
-    "bootstrap": "^5.3.8",
     "next": "^16.0.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
