@@ -1,4 +1,4 @@
-import '@picocss/pico/css/pico.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -13,21 +13,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja" data-theme="light">
+    <html lang="ja">
       <head>
         <meta charSet="utf-8" />
       </head>
       <body>
-        <nav className="app-nav">
+        <nav className="navbar navbar-dark bg-danger mb-4">
           <div className="container">
-            <h1>危険物乙４試験対策クイズ</h1>
+            <span className="navbar-brand mb-0 h1">危険物乙４試験対策クイズ</span>
           </div>
         </nav>
-        <main className="container">
+        <div className="container">
           {children}
-        </main>
-        <footer>
-          <div className="container">
+        </div>
+        <footer className="mt-5 py-3 bg-light">
+          <div className="container text-center text-muted">
             <small>危険物取扱者乙種第4類試験 学習用アプリ</small>
           </div>
         </footer>
