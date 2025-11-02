@@ -79,11 +79,12 @@ GitHub Pages を有効化した後、以下の方法でデプロイできます�
 ```json
 {
   "id": 1,
-  "category": "危険物の性質",
+  "category": "権利関係",
   "question": "問題文",
   "choices": ["選択肢1", "選択肢2", "選択肢3", "選択肢4"],
   "correctAnswer": 0,
-  "explanation": "解説文"
+  "explanation": "解説文",
+  "difficulty": "exam"
 }
 ```
 
