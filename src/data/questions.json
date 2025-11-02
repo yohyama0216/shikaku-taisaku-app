@@ -1118,5 +1118,3085 @@
     "correctAnswer": 0,
     "explanation": "固定資産税とは、土地、家屋及び償却資産に対して、毎年1月1日時点の所有者に課される地方税です。",
     "difficulty": "terminology"
+  },
+  {
+    "id": 81,
+    "category": "権利関係",
+    "question": "「免責的債務引受」とは何か。",
+    "choices": [
+      "債務者の債務を引受人が引き受け、債務者は債務を免れること",
+      "債務を併存させること",
+      "債権を譲渡すること",
+      "保証人になること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「免責的債務引受」とは、債務者の債務を引受人が引き受け、債務者は債務を免れることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 82,
+    "category": "権利関係",
+    "question": "「重畳的債務引受」とは何か。",
+    "choices": [
+      "引受人が債務者と連帯して債務の履行義務を負うこと",
+      "債務者が債務を免れること",
+      "債権を譲渡すること",
+      "債務を消滅させること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「重畳的債務引受」とは、引受人が債務者と連帯して債務の履行義務を負うことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 83,
+    "category": "権利関係",
+    "question": "「連帯保証」とは何か。",
+    "choices": [
+      "保証人が主たる債務者と連帯して債務を負うこと",
+      "普通の保証",
+      "物上保証",
+      "債務引受"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「連帯保証」とは、保証人が主たる債務者と連帯して債務を負うことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 84,
+    "category": "権利関係",
+    "question": "「物上保証」とは何か。",
+    "choices": [
+      "債務者以外の第三者が、自己の財産を担保に供すること",
+      "人的保証",
+      "連帯保証",
+      "保証債務"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「物上保証」とは、債務者以外の第三者が、自己の財産を担保に供することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 85,
+    "category": "権利関係",
+    "question": "「催告の抗弁権」とは何か。",
+    "choices": [
+      "保証人が、債権者に対し、まず主たる債務者に催告するよう請求できる権利",
+      "検索の抗弁権",
+      "同時履行の抗弁権",
+      "時効援用権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「催告の抗弁権」とは、保証人が、債権者に対し、まず主たる債務者に催告するよう請求できる権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 86,
+    "category": "権利関係",
+    "question": "「検索の抗弁権」とは何か。",
+    "choices": [
+      "保証人が、主たる債務者に弁済の資力があり執行が容易であることを証明して、まず主たる債務者の財産に執行するよう請求できる権利",
+      "催告の抗弁権",
+      "同時履行の抗弁権",
+      "取消権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「検索の抗弁権」とは、保証人が、主たる債務者に弁済の資力があり執行が容易であることを証明して、まず主たる債務者の財産に執行するよう請求できる権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 87,
+    "category": "権利関係",
+    "question": "「法定相続人」とは何か。",
+    "choices": [
+      "民法の規定により相続人となる者",
+      "遺言による相続人",
+      "受遺者",
+      "遺言執行者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「法定相続人」とは、民法の規定により相続人となる者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 88,
+    "category": "権利関係",
+    "question": "「法定相続分」とは何か。",
+    "choices": [
+      "民法の規定による相続分",
+      "遺言による相続分",
+      "遺留分",
+      "特別受益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「法定相続分」とは、民法の規定による相続分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 89,
+    "category": "権利関係",
+    "question": "「遺留分」とは何か。",
+    "choices": [
+      "一定の相続人に保障される最低限の相続分",
+      "法定相続分",
+      "指定相続分",
+      "特別受益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「遺留分」とは、一定の相続人に保障される最低限の相続分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 90,
+    "category": "権利関係",
+    "question": "「遺言」とは何か。",
+    "choices": [
+      "遺言者の死後の法律関係を定める最終意思の表示",
+      "契約",
+      "贈与",
+      "売買"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「遺言」とは、遺言者の死後の法律関係を定める最終意思の表示です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 91,
+    "category": "権利関係",
+    "question": "「遺贈」とは何か。",
+    "choices": [
+      "遺言により財産を無償で譲与すること",
+      "相続",
+      "贈与",
+      "売買"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「遺贈」とは、遺言により財産を無償で譲与することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 92,
+    "category": "権利関係",
+    "question": "「受遺者」とは何か。",
+    "choices": [
+      "遺贈を受ける者",
+      "相続人",
+      "遺言者",
+      "遺言執行者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「受遺者」とは、遺贈を受ける者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 93,
+    "category": "権利関係",
+    "question": "「遺言執行者」とは何か。",
+    "choices": [
+      "遺言の内容を実現する者",
+      "相続人",
+      "受遺者",
+      "遺言者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「遺言執行者」とは、遺言の内容を実現する者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 94,
+    "category": "権利関係",
+    "question": "「特別受益」とは何か。",
+    "choices": [
+      "相続人が被相続人から生前贈与等を受けた利益",
+      "遺留分",
+      "法定相続分",
+      "寄与分"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「特別受益」とは、相続人が被相続人から生前贈与等を受けた利益です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 95,
+    "category": "権利関係",
+    "question": "「寄与分」とは何か。",
+    "choices": [
+      "被相続人の財産の維持・増加に特別の寄与をした相続人に認められる取り分",
+      "遺留分",
+      "特別受益",
+      "法定相続分"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「寄与分」とは、被相続人の財産の維持・増加に特別の寄与をした相続人に認められる取り分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 96,
+    "category": "権利関係",
+    "question": "「限定承認」とは何か。",
+    "choices": [
+      "相続によって得た財産の限度でのみ債務を承継する相続の承認",
+      "単純承認",
+      "相続放棄",
+      "遺産分割"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「限定承認」とは、相続によって得た財産の限度でのみ債務を承継する相続の承認です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 97,
+    "category": "権利関係",
+    "question": "「相続放棄」とは何か。",
+    "choices": [
+      "相続開始後に相続人が相続を拒否すること",
+      "限定承認",
+      "単純承認",
+      "遺産分割"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「相続放棄」とは、相続開始後に相続人が相続を拒否することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 98,
+    "category": "権利関係",
+    "question": "「単純承認」とは何か。",
+    "choices": [
+      "無条件に相続を承認すること",
+      "限定承認",
+      "相続放棄",
+      "遺産分割"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「単純承認」とは、無条件に相続を承認することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 99,
+    "category": "権利関係",
+    "question": "「遺産分割」とは何か。",
+    "choices": [
+      "相続人が遺産を具体的に分けること",
+      "相続放棄",
+      "限定承認",
+      "遺贈"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「遺産分割」とは、相続人が遺産を具体的に分けることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 100,
+    "category": "権利関係",
+    "question": "「配偶者居住権」とは何か。",
+    "choices": [
+      "配偶者が相続開始時に居住していた建物に無償で居住できる権利",
+      "所有権",
+      "賃借権",
+      "地上権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「配偶者居住権」とは、配偶者が相続開始時に居住していた建物に無償で居住できる権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 101,
+    "category": "権利関係",
+    "question": "「特定物」とは何か。",
+    "choices": [
+      "当事者が物の個性に着目した特定の物",
+      "不特定物",
+      "代替物",
+      "消費物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「特定物」とは、当事者が物の個性に着目した特定の物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 102,
+    "category": "権利関係",
+    "question": "「不特定物」とは何か。",
+    "choices": [
+      "当事者が物の個性に着目しない物",
+      "特定物",
+      "種類物",
+      "限定物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「不特定物」とは、当事者が物の個性に着目しない物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 103,
+    "category": "権利関係",
+    "question": "「果実」とは何か。",
+    "choices": [
+      "物から生じる収益",
+      "元物",
+      "主物",
+      "従物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「果実」とは、物から生じる収益です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 104,
+    "category": "権利関係",
+    "question": "「主物」とは何か。",
+    "choices": [
+      "独立して取引の目的となる物",
+      "従物",
+      "果実",
+      "元物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「主物」とは、独立して取引の目的となる物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 105,
+    "category": "権利関係",
+    "question": "「従物」とは何か。",
+    "choices": [
+      "主物の常用に供するため付属させた物",
+      "主物",
+      "果実",
+      "元物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「従物」とは、主物の常用に供するため付属させた物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 106,
+    "category": "権利関係",
+    "question": "「即時取得」とは何か。",
+    "choices": [
+      "動産の占有を善意無過失で取得した者が、即時に所有権を取得すること",
+      "取得時効",
+      "相続",
+      "売買"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「即時取得」とは、動産の占有を善意無過失で取得した者が、即時に所有権を取得することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 107,
+    "category": "権利関係",
+    "question": "「添付」とは何か。",
+    "choices": [
+      "複数の物が結合して一つの物になること",
+      "混同",
+      "相殺",
+      "更改"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「添付」とは、複数の物が結合して一つの物になることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 108,
+    "category": "権利関係",
+    "question": "「原始取得」とは何か。",
+    "choices": [
+      "前主の権利と関係なく権利を取得すること",
+      "承継取得",
+      "相続",
+      "売買"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「原始取得」とは、前主の権利と関係なく権利を取得することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 109,
+    "category": "権利関係",
+    "question": "「承継取得」とは何か。",
+    "choices": [
+      "前主の権利を引き継いで権利を取得すること",
+      "原始取得",
+      "時効取得",
+      "即時取得"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「承継取得」とは、前主の権利を引き継いで権利を取得することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 110,
+    "category": "権利関係",
+    "question": "「善意」とは何か。",
+    "choices": [
+      "ある事実を知らないこと",
+      "悪意",
+      "過失",
+      "故意"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「善意」とは、ある事実を知らないことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 111,
+    "category": "権利関係",
+    "question": "「悪意」とは何か。",
+    "choices": [
+      "ある事実を知っていること",
+      "善意",
+      "無過失",
+      "重過失"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「悪意」とは、ある事実を知っていることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 112,
+    "category": "権利関係",
+    "question": "「過失」とは何か。",
+    "choices": [
+      "注意義務違反",
+      "故意",
+      "善意",
+      "悪意"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「過失」とは、注意義務違反です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 113,
+    "category": "権利関係",
+    "question": "「無過失」とは何か。",
+    "choices": [
+      "注意義務違反がないこと",
+      "過失",
+      "重過失",
+      "故意"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「無過失」とは、注意義務違反がないことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 114,
+    "category": "権利関係",
+    "question": "「履行遅滞」とは何か。",
+    "choices": [
+      "債務の履行が可能であるのに履行期を過ぎても履行しないこと",
+      "履行不能",
+      "不完全履行",
+      "受領遅滞"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「履行遅滞」とは、債務の履行が可能であるのに履行期を過ぎても履行しないことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 115,
+    "category": "権利関係",
+    "question": "「履行不能」とは何か。",
+    "choices": [
+      "債務の履行が不可能になること",
+      "履行遅滞",
+      "不完全履行",
+      "受領遅滞"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「履行不能」とは、債務の履行が不可能になることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 116,
+    "category": "権利関係",
+    "question": "「不完全履行」とは何か。",
+    "choices": [
+      "債務の履行がなされたが不完全であること",
+      "履行遅滞",
+      "履行不能",
+      "受領遅滞"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「不完全履行」とは、債務の履行がなされたが不完全であることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 117,
+    "category": "権利関係",
+    "question": "「受領遅滞」とは何か。",
+    "choices": [
+      "債権者が債務の履行を受領しないこと",
+      "履行遅滞",
+      "履行不能",
+      "不完全履行"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「受領遅滞」とは、債権者が債務の履行を受領しないことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 118,
+    "category": "権利関係",
+    "question": "「解除権」とは何か。",
+    "choices": [
+      "契約を解除して契約がなかった状態に戻す権利",
+      "取消権",
+      "撤回権",
+      "追認権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「解除権」とは、契約を解除して契約がなかった状態に戻す権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 119,
+    "category": "権利関係",
+    "question": "「取消権」とは何か。",
+    "choices": [
+      "取消可能な法律行為を無効にする権利",
+      "解除権",
+      "撤回権",
+      "追認権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「取消権」とは、取消可能な法律行為を無効にする権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 120,
+    "category": "権利関係",
+    "question": "「追認権」とは何か。",
+    "choices": [
+      "取消可能な法律行為を確定的に有効にする権利",
+      "取消権",
+      "解除権",
+      "撤回権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「追認権」とは、取消可能な法律行為を確定的に有効にする権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 121,
+    "category": "権利関係",
+    "question": "「無効」とは何か。",
+    "choices": [
+      "法律行為が初めから効力を生じないこと",
+      "取消",
+      "解除",
+      "撤回"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「無効」とは、法律行為が初めから効力を生じないことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 122,
+    "category": "権利関係",
+    "question": "「取消」とは何か。",
+    "choices": [
+      "一旦有効に成立した法律行為を遡って無効にすること",
+      "無効",
+      "解除",
+      "撤回"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「取消」とは、一旦有効に成立した法律行為を遡って無効にすることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 123,
+    "category": "権利関係",
+    "question": "「条件」とは何か。",
+    "choices": [
+      "法律行為の効力の発生・消滅を将来の不確実な事実にかからせる付款",
+      "期限",
+      "期間",
+      "時効"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「条件」とは、法律行為の効力の発生・消滅を将来の不確実な事実にかからせる付款です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 124,
+    "category": "権利関係",
+    "question": "「停止条件」とは何か。",
+    "choices": [
+      "条件の成就により法律行為の効力が発生する条件",
+      "解除条件",
+      "期限",
+      "期間"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「停止条件」とは、条件の成就により法律行為の効力が発生する条件です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 125,
+    "category": "権利関係",
+    "question": "「解除条件」とは何か。",
+    "choices": [
+      "条件の成就により法律行為の効力が消滅する条件",
+      "停止条件",
+      "期限",
+      "期間"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「解除条件」とは、条件の成就により法律行為の効力が消滅する条件です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 126,
+    "category": "権利関係",
+    "question": "「期限」とは何か。",
+    "choices": [
+      "法律行為の効力の発生・消滅を将来確実に到来する事実にかからせる付款",
+      "条件",
+      "期間",
+      "時効"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「期限」とは、法律行為の効力の発生・消滅を将来確実に到来する事実にかからせる付款です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 127,
+    "category": "権利関係",
+    "question": "「始期」とは何か。",
+    "choices": [
+      "法律行為の効力の発生時期",
+      "終期",
+      "期間",
+      "期限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「始期」とは、法律行為の効力の発生時期です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 128,
+    "category": "権利関係",
+    "question": "「終期」とは何か。",
+    "choices": [
+      "法律行為の効力の消滅時期",
+      "始期",
+      "期間",
+      "期限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「終期」とは、法律行為の効力の消滅時期です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 129,
+    "category": "権利関係",
+    "question": "「表見代理」とは何か。",
+    "choices": [
+      "無権代理であるが、代理権があると信じた相手方を保護するため、本人に責任を負わせる制度",
+      "無権代理",
+      "復代理",
+      "双方代理"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「表見代理」とは、無権代理であるが、代理権があると信じた相手方を保護するため、本人に責任を負わせる制度です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 130,
+    "category": "権利関係",
+    "question": "「無権代理」とは何か。",
+    "choices": [
+      "代理権がないのに代理行為をすること",
+      "表見代理",
+      "有権代理",
+      "復代理"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「無権代理」とは、代理権がないのに代理行為をすることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 131,
+    "category": "権利関係",
+    "question": "「復代理」とは何か。",
+    "choices": [
+      "代理人が選任した代理人",
+      "無権代理",
+      "表見代理",
+      "双方代理"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「復代理」とは、代理人が選任した代理人です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 132,
+    "category": "権利関係",
+    "question": "「双方代理」とは何か。",
+    "choices": [
+      "同一の法律行為について、双方の代理人となること",
+      "無権代理",
+      "表見代理",
+      "復代理"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「双方代理」とは、同一の法律行為について、双方の代理人となることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 133,
+    "category": "権利関係",
+    "question": "「制限行為能力者」とは何か。",
+    "choices": [
+      "単独で完全に有効な法律行為ができない者",
+      "行為能力者",
+      "権利能力者",
+      "意思能力者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「制限行為能力者」とは、単独で完全に有効な法律行為ができない者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 134,
+    "category": "権利関係",
+    "question": "「未成年者」とは何か。",
+    "choices": [
+      "20歳（民法改正後は18歳）未満の者",
+      "成年者",
+      "成年被後見人",
+      "被保佐人"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「未成年者」とは、20歳（民法改正後は18歳）未満の者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 135,
+    "category": "権利関係",
+    "question": "「成年被後見人」とは何か。",
+    "choices": [
+      "精神上の障害により事理を弁識する能力を欠く常況にある者で、後見開始の審判を受けた者",
+      "未成年者",
+      "被保佐人",
+      "被補助人"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「成年被後見人」とは、精神上の障害により事理を弁識する能力を欠く常況にある者で、後見開始の審判を受けた者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 136,
+    "category": "権利関係",
+    "question": "「被保佐人」とは何か。",
+    "choices": [
+      "精神上の障害により事理を弁識する能力が著しく不十分である者で、保佐開始の審判を受けた者",
+      "成年被後見人",
+      "被補助人",
+      "未成年者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「被保佐人」とは、精神上の障害により事理を弁識する能力が著しく不十分である者で、保佐開始の審判を受けた者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 137,
+    "category": "権利関係",
+    "question": "「被補助人」とは何か。",
+    "choices": [
+      "精神上の障害により事理を弁識する能力が不十分である者で、補助開始の審判を受けた者",
+      "成年被後見人",
+      "被保佐人",
+      "未成年者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「被補助人」とは、精神上の障害により事理を弁識する能力が不十分である者で、補助開始の審判を受けた者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 138,
+    "category": "権利関係",
+    "question": "「法定代理人」とは何か。",
+    "choices": [
+      "法律の規定により代理権を有する者（親権者、成年後見人等）",
+      "任意代理人",
+      "復代理人",
+      "表見代理人"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「法定代理人」とは、法律の規定により代理権を有する者です。未成年者の親権者、成年被後見人の成年後見人などが含まれます。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 139,
+    "category": "権利関係",
+    "question": "「成年後見人」とは何か。",
+    "choices": [
+      "成年被後見人の法定代理人",
+      "保佐人",
+      "補助人",
+      "親権者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「成年後見人」とは、成年被後見人の法定代理人です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 140,
+    "category": "権利関係",
+    "question": "「保佐人」とは何か。",
+    "choices": [
+      "被保佐人の特定の法律行為に同意する者",
+      "成年後見人",
+      "補助人",
+      "親権者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「保佐人」とは、被保佐人の特定の法律行為に同意する者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 141,
+    "category": "宅建業法",
+    "question": "「事務所」とは何か。",
+    "choices": [
+      "継続的に業務を行うことができる施設を有する場所",
+      "一時的な営業所",
+      "自宅",
+      "倉庫"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「事務所」とは、継続的に業務を行うことができる施設を有する場所です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 142,
+    "category": "宅建業法",
+    "question": "「案内所」とは何か。",
+    "choices": [
+      "宅地建物の売買契約等の締結をする場所で、事務所以外のもの",
+      "事務所",
+      "展示場",
+      "倉庫"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「案内所」とは、宅地建物の売買契約等の締結をする場所で、事務所以外のものです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 143,
+    "category": "宅建業法",
+    "question": "「業として行う」とは何か。",
+    "choices": [
+      "不特定多数の者を相手方として反復継続して行うこと",
+      "一回限り行うこと",
+      "友人間で行うこと",
+      "無償で行うこと"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「業として行う」とは、不特定多数の者を相手方として反復継続して行うことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 144,
+    "category": "宅建業法",
+    "question": "「免許換え」とは何か。",
+    "choices": [
+      "免許権者を変更する手続き",
+      "免許の更新",
+      "免許の新規取得",
+      "免許の廃止"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「免許換え」とは、免許権者を変更する手続きです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 145,
+    "category": "宅建業法",
+    "question": "「免許の更新」とは何か。",
+    "choices": [
+      "免許の有効期間満了後も業を続けるための手続き",
+      "免許換え",
+      "免許の新規取得",
+      "免許の廃止"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「免許の更新」とは、免許の有効期間満了後も業を続けるための手続きです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 146,
+    "category": "宅建業法",
+    "question": "「宅地建物取引士証」とは何か。",
+    "choices": [
+      "宅地建物取引士であることを証する証明書",
+      "免許証",
+      "身分証明書",
+      "登録証"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「宅地建物取引士証」とは、宅地建物取引士であることを証する証明書です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 147,
+    "category": "宅建業法",
+    "question": "「専任の宅地建物取引士」とは何か。",
+    "choices": [
+      "常勤の宅地建物取引士",
+      "非常勤の宅地建物取引士",
+      "パートタイムの取引士",
+      "アルバイトの取引士"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「専任の宅地建物取引士」とは、常勤の宅地建物取引士です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 148,
+    "category": "宅建業法",
+    "question": "「従業者証明書」とは何か。",
+    "choices": [
+      "宅建業者の従業者であることを証する書面",
+      "宅地建物取引士証",
+      "免許証",
+      "身分証明書"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「従業者証明書」とは、宅建業者の従業者であることを証する書面です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 149,
+    "category": "宅建業法",
+    "question": "「標識」とは何か。",
+    "choices": [
+      "事務所等に掲示する、業者名等を記載した掲示物",
+      "看板",
+      "広告",
+      "ポスター"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「標識」とは、事務所等に掲示する、業者名等を記載した掲示物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 150,
+    "category": "宅建業法",
+    "question": "「報酬額の掲示」とは何か。",
+    "choices": [
+      "事務所に報酬額を掲示する義務",
+      "標識の掲示",
+      "免許証の掲示",
+      "従業者名簿の備付"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「報酬額の掲示」とは、事務所に報酬額を掲示する義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 151,
+    "category": "宅建業法",
+    "question": "「帳簿」とは何か。",
+    "choices": [
+      "取引の年月日、物件の所在等を記載する帳簿",
+      "従業者名簿",
+      "標識",
+      "報酬額表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「帳簿」とは、取引の年月日、物件の所在等を記載する帳簿です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 152,
+    "category": "宅建業法",
+    "question": "「従業者名簿」とは何か。",
+    "choices": [
+      "従業者の氏名、住所、従事する業務内容等を記載した名簿",
+      "帳簿",
+      "標識",
+      "報酬額表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「従業者名簿」とは、従業者の氏名、住所、従事する業務内容等を記載した名簿です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 153,
+    "category": "宅建業法",
+    "question": "「秘密保持義務」とは何か。",
+    "choices": [
+      "業務上知り得た秘密を他に漏らしてはならない義務",
+      "誠実義務",
+      "報告義務",
+      "説明義務"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「秘密保持義務」とは、業務上知り得た秘密を他に漏らしてはならない義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 154,
+    "category": "宅建業法",
+    "question": "「誠実義務」とは何か。",
+    "choices": [
+      "信義を旨とし、誠実にその業務を行う義務",
+      "秘密保持義務",
+      "報告義務",
+      "説明義務"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「誠実義務」とは、信義を旨とし、誠実にその業務を行う義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 155,
+    "category": "宅建業法",
+    "question": "「営業保証金」とは何か。",
+    "choices": [
+      "業務開始前に供託する金銭",
+      "弁済業務保証金",
+      "手付金",
+      "仲介手数料"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「営業保証金」とは、業務開始前に供託する金銭です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 156,
+    "category": "宅建業法",
+    "question": "「弁済業務保証金」とは何か。",
+    "choices": [
+      "保証協会に加入する場合に納付する金銭",
+      "営業保証金",
+      "手付金",
+      "仲介手数料"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「弁済業務保証金」とは、保証協会に加入する場合に納付する金銭です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 157,
+    "category": "宅建業法",
+    "question": "「保証協会」とは何か。",
+    "choices": [
+      "弁済業務保証金制度を運営する社団法人",
+      "宅建業者の団体",
+      "国土交通省",
+      "都道府県"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「保証協会」とは、弁済業務保証金制度を運営する社団法人です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 158,
+    "category": "宅建業法",
+    "question": "「自ら売主制限」とは何か。",
+    "choices": [
+      "宅建業者が自ら売主となる場合の制限",
+      "媒介の制限",
+      "代理の制限",
+      "管理の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「自ら売主制限」とは、宅建業者が自ら売主となる場合の制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 159,
+    "category": "宅建業法",
+    "question": "「クーリング・オフ」とは何か。",
+    "choices": [
+      "一定期間内に無条件で契約を解除できる制度",
+      "手付解除",
+      "債務不履行解除",
+      "合意解除"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「クーリング・オフ」とは、一定期間内に無条件で契約を解除できる制度です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 160,
+    "category": "宅建業法",
+    "question": "「告知義務」とは何か。",
+    "choices": [
+      "クーリング・オフができることを告知する義務",
+      "説明義務",
+      "報告義務",
+      "秘密保持義務"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「告知義務」とは、クーリング・オフができることを告知する義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 161,
+    "category": "宅建業法",
+    "question": "「損害賠償額の予定等の制限」とは何か。",
+    "choices": [
+      "損害賠償の予定額・違約金の合計を代金の20%以内とする制限",
+      "手付額の制限",
+      "報酬額の制限",
+      "保証金の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「損害賠償額の予定等の制限」とは、損害賠償の予定額・違約金の合計を代金の20%以内とする制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 162,
+    "category": "宅建業法",
+    "question": "「手付の額の制限」とは何か。",
+    "choices": [
+      "手付の額を代金の20%以内とする制限（自ら売主の場合）",
+      "損害賠償額の制限",
+      "報酬額の制限",
+      "保証金の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「手付の額の制限」とは、手付の額を代金の20%以内とする制限（自ら売主の場合）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 163,
+    "category": "宅建業法",
+    "question": "「手付解除」とは何か。",
+    "choices": [
+      "手付を放棄又は倍返しすることにより契約を解除すること",
+      "クーリング・オフ",
+      "債務不履行解除",
+      "合意解除"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「手付解除」とは、手付を放棄又は倍返しすることにより契約を解除することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 164,
+    "category": "宅建業法",
+    "question": "「業務処理状況の報告」とは何か。",
+    "choices": [
+      "媒介契約における業務の処理状況を依頼者に報告する義務",
+      "重要事項の説明",
+      "37条書面の交付",
+      "標識の掲示"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「業務処理状況の報告」とは、媒介契約における業務の処理状況を依頼者に報告する義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 165,
+    "category": "宅建業法",
+    "question": "「指定流通機構」とは何か。",
+    "choices": [
+      "物件情報を登録・流通させる機関（レインズ）",
+      "保証協会",
+      "宅建業協会",
+      "国土交通省"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「指定流通機構」とは、物件情報を登録・流通させる機関（レインズ）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 166,
+    "category": "宅建業法",
+    "question": "「レインズ」とは何か。",
+    "choices": [
+      "不動産流通標準情報システム（指定流通機構）の通称",
+      "宅建業協会",
+      "保証協会",
+      "国土交通省"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「レインズ」とは、不動産流通標準情報システム（指定流通機構）の通称です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 167,
+    "category": "宅建業法",
+    "question": "「専属専任媒介契約」とは何か。",
+    "choices": [
+      "1社のみに依頼し、自己発見取引も不可の媒介契約",
+      "専任媒介契約",
+      "一般媒介契約",
+      "売買契約"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「専属専任媒介契約」とは、1社のみに依頼し、自己発見取引も不可の媒介契約です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 168,
+    "category": "宅建業法",
+    "question": "「一般媒介契約」とは何か。",
+    "choices": [
+      "複数の業者に重ねて依頼できる媒介契約",
+      "専任媒介契約",
+      "専属専任媒介契約",
+      "売買契約"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「一般媒介契約」とは、複数の業者に重ねて依頼できる媒介契約です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 169,
+    "category": "宅建業法",
+    "question": "「明示型一般媒介」とは何か。",
+    "choices": [
+      "他に依頼した業者を明示する一般媒介契約",
+      "非明示型一般媒介",
+      "専任媒介契約",
+      "専属専任媒介契約"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「明示型一般媒介」とは、他に依頼した業者を明示する一般媒介契約です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 170,
+    "category": "宅建業法",
+    "question": "「非明示型一般媒介」とは何か。",
+    "choices": [
+      "他に依頼した業者を明示しない一般媒介契約",
+      "明示型一般媒介",
+      "専任媒介契約",
+      "専属専任媒介契約"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「非明示型一般媒介」とは、他に依頼した業者を明示しない一般媒介契約です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 171,
+    "category": "宅建業法",
+    "question": "「有効期間」とは何か。",
+    "choices": [
+      "媒介契約の効力が存続する期間",
+      "更新期間",
+      "契約期間",
+      "免許期間"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「有効期間」とは、媒介契約の効力が存続する期間です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 172,
+    "category": "宅建業法",
+    "question": "「35条書面」とは何か。",
+    "choices": [
+      "重要事項説明書",
+      "37条書面",
+      "媒介契約書",
+      "売買契約書"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「35条書面」とは、重要事項説明書です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 173,
+    "category": "宅建業法",
+    "question": "「37条書面」とは何か。",
+    "choices": [
+      "契約内容を記載した書面",
+      "35条書面",
+      "媒介契約書",
+      "重要事項説明書"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「37条書面」とは、契約内容を記載した書面です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 174,
+    "category": "宅建業法",
+    "question": "「物件の表示に関する事項」とは何か。",
+    "choices": [
+      "重要事項説明における、物件の所在、面積等の事項",
+      "取引条件に関する事項",
+      "法令上の制限",
+      "契約条件"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「物件の表示に関する事項」とは、重要事項説明における、物件の所在、面積等の事項です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 175,
+    "category": "宅建業法",
+    "question": "「取引条件に関する事項」とは何か。",
+    "choices": [
+      "重要事項説明における、代金、支払時期等の事項",
+      "物件の表示",
+      "法令上の制限",
+      "契約解除"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「取引条件に関する事項」とは、重要事項説明における、代金、支払時期等の事項です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 176,
+    "category": "宅建業法",
+    "question": "「石綿使用調査」とは何か。",
+    "choices": [
+      "建物に石綿（アスベスト）が使用されているかの調査",
+      "耐震診断",
+      "地質調査",
+      "測量"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「石綿使用調査」とは、建物に石綿（アスベスト）が使用されているかの調査です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 177,
+    "category": "宅建業法",
+    "question": "「耐震診断」とは何か。",
+    "choices": [
+      "建物の耐震性能を診断すること",
+      "石綿使用調査",
+      "地質調査",
+      "測量"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「耐震診断」とは、建物の耐震性能を診断することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 178,
+    "category": "宅建業法",
+    "question": "「瑕疵担保責任」とは何か。",
+    "choices": [
+      "売買目的物に隠れた瑕疵があった場合の売主の責任",
+      "債務不履行責任",
+      "不法行為責任",
+      "製造物責任"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「瑕疵担保責任」とは、売買目的物に隠れた瑕疵があった場合の売主の責任です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 179,
+    "category": "宅建業法",
+    "question": "「契約不適合責任」とは何か。",
+    "choices": [
+      "引き渡された目的物が契約内容に適合しない場合の売主の責任（民法改正後）",
+      "瑕疵担保責任",
+      "債務不履行責任",
+      "不法行為責任"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「契約不適合責任」とは、引き渡された目的物が契約内容に適合しない場合の売主の責任（民法改正後）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 180,
+    "category": "宅建業法",
+    "question": "「供託」とは何か。",
+    "choices": [
+      "金銭等を供託所に寄託すること",
+      "寄付",
+      "納付",
+      "預金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「供託」とは、金銭等を供託所に寄託することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 181,
+    "category": "宅建業法",
+    "question": "「供託所」とは何か。",
+    "choices": [
+      "供託を扱う法務局又は地方法務局",
+      "銀行",
+      "郵便局",
+      "市役所"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「供託所」とは、供託を扱う法務局又は地方法務局です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 182,
+    "category": "宅建業法",
+    "question": "「還付」とは何か。",
+    "choices": [
+      "供託された営業保証金等を取引の相手方等に払い渡すこと",
+      "返還",
+      "払戻し",
+      "弁済"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「還付」とは、供託された営業保証金等を取引の相手方等に払い渡すことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 183,
+    "category": "宅建業法",
+    "question": "「監督処分」とは何か。",
+    "choices": [
+      "免許権者が宅建業者に対して行う処分",
+      "刑事罰",
+      "行政罰",
+      "民事罰"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「監督処分」とは、免許権者が宅建業者に対して行う処分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 184,
+    "category": "宅建業法",
+    "question": "「指示処分」とは何か。",
+    "choices": [
+      "業務の運営の改善に必要な措置を指示する処分",
+      "業務停止処分",
+      "免許取消処分",
+      "罰金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「指示処分」とは、業務の運営の改善に必要な措置を指示する処分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 185,
+    "category": "宅建業法",
+    "question": "「業務停止処分」とは何か。",
+    "choices": [
+      "1年以内の期間を定めて業務の全部又は一部の停止を命ずる処分",
+      "指示処分",
+      "免許取消処分",
+      "罰金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「業務停止処分」とは、1年以内の期間を定めて業務の全部又は一部の停止を命ずる処分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 186,
+    "category": "宅建業法",
+    "question": "「免許取消処分」とは何か。",
+    "choices": [
+      "免許を取り消す処分",
+      "業務停止処分",
+      "指示処分",
+      "罰金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「免許取消処分」とは、免許を取り消す処分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 187,
+    "category": "宅建業法",
+    "question": "「両手仲介」とは何か。",
+    "choices": [
+      "同一の宅建業者が売主と買主の双方から仲介を受けること",
+      "片手仲介",
+      "代理",
+      "売買"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「両手仲介」とは、同一の宅建業者が売主と買主の双方から仲介を受けることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 188,
+    "category": "宅建業法",
+    "question": "「片手仲介」とは何か。",
+    "choices": [
+      "売主又は買主の一方のみから仲介を受けること",
+      "両手仲介",
+      "代理",
+      "売買"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「片手仲介」とは、売主又は買主の一方のみから仲介を受けることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 189,
+    "category": "宅建業法",
+    "question": "「囲い込み」とは何か。",
+    "choices": [
+      "物件情報を他業者に公開せず、両手仲介を狙う行為",
+      "物件の隠匿",
+      "情報の独占",
+      "レインズ登録拒否"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「囲い込み」とは、物件情報を他業者に公開せず、両手仲介を狙う行為です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 190,
+    "category": "宅建業法",
+    "question": "「専任媒介契約の有効期間」とは何か。",
+    "choices": [
+      "専任媒介契約の有効期間（3か月以内）",
+      "一般媒介の有効期間",
+      "免許の有効期間",
+      "取引士証の有効期間"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「専任媒介契約の有効期間」とは、専任媒介契約の有効期間（3か月以内）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 191,
+    "category": "宅建業法",
+    "question": "「媒介契約書面」とは何か。",
+    "choices": [
+      "媒介契約の内容を記載した書面",
+      "重要事項説明書",
+      "37条書面",
+      "売買契約書"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「媒介契約書面」とは、媒介契約の内容を記載した書面です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 192,
+    "category": "宅建業法",
+    "question": "「成約時の報告」とは何か。",
+    "choices": [
+      "媒介契約において、契約成立時に報告する義務",
+      "業務処理状況の報告",
+      "重要事項の説明",
+      "37条書面の交付"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「成約時の報告」とは、媒介契約において、契約成立時に報告する義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 193,
+    "category": "宅建業法",
+    "question": "「取引態様の明示」とは何か。",
+    "choices": [
+      "広告等において、売主・代理・媒介の別を明示する義務",
+      "物件の明示",
+      "価格の明示",
+      "所在の明示"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「取引態様の明示」とは、広告等において、売主・代理・媒介の別を明示する義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 194,
+    "category": "宅建業法",
+    "question": "「誇大広告の禁止」とは何か。",
+    "choices": [
+      "著しく事実に相違する表示又は実際よりも著しく優良・有利であると誤認させる表示を禁止すること",
+      "虚偽広告の禁止",
+      "不当表示の禁止",
+      "誤認表示の禁止"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「誇大広告の禁止」とは、著しく事実に相違する表示又は実際よりも著しく優良・有利であると誤認させる表示を禁止することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 195,
+    "category": "宅建業法",
+    "question": "「広告開始時期の制限」とは何か。",
+    "choices": [
+      "開発許可等の処分前は広告できないとする制限",
+      "契約締結時期の制限",
+      "販売開始時期の制限",
+      "建築開始時期の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「広告開始時期の制限」とは、開発許可等の処分前は広告できないとする制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 196,
+    "category": "宅建業法",
+    "question": "「契約締結時期の制限」とは何か。",
+    "choices": [
+      "開発許可等の処分前は契約できないとする制限",
+      "広告開始時期の制限",
+      "販売開始時期の制限",
+      "建築開始時期の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「契約締結時期の制限」とは、開発許可等の処分前は契約できないとする制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 197,
+    "category": "宅建業法",
+    "question": "「取引一任代理等の禁止」とは何か。",
+    "choices": [
+      "一任を受けて契約を締結する代理又は媒介を業として行うことの禁止",
+      "無免許営業の禁止",
+      "名義貸しの禁止",
+      "誇大広告の禁止"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「取引一任代理等の禁止」とは、一任を受けて契約を締結する代理又は媒介を業として行うことの禁止です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 198,
+    "category": "宅建業法",
+    "question": "「他人物売買の制限」とは何か。",
+    "choices": [
+      "自ら売主として、他人の物を売る契約を締結することの制限",
+      "未完成物件の売買制限",
+      "無許可物件の売買制限",
+      "手付額の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「他人物売買の制限」とは、自ら売主として、他人の物を売る契約を締結することの制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 199,
+    "category": "宅建業法",
+    "question": "「未完成物件の売買制限」とは何か。",
+    "choices": [
+      "自ら売主として、未完成物件を売る場合の保全措置等の制限",
+      "他人物売買の制限",
+      "完成物件の売買制限",
+      "手付額の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「未完成物件の売買制限」とは、自ら売主として、未完成物件を売る場合の保全措置等の制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 200,
+    "category": "宅建業法",
+    "question": "「割賦販売契約の解除等の制限」とは何か。",
+    "choices": [
+      "割賦販売において、賦払金の支払が遅れた場合の契約解除等の制限",
+      "手付解除の制限",
+      "クーリング・オフの制限",
+      "違約金の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「割賦販売契約の解除等の制限」とは、割賦販売において、賦払金の支払が遅れた場合の契約解除等の制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 201,
+    "category": "宅建業法",
+    "question": "「所有権留保の禁止」とは何か。",
+    "choices": [
+      "割賦販売において、30%を超えて支払われた後は、所有権留保等を禁止すること",
+      "手付の制限",
+      "違約金の制限",
+      "報酬の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「所有権留保の禁止」とは、割賦販売において、30%を超えて支払われた後は、所有権留保等を禁止することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 202,
+    "category": "宅建業法",
+    "question": "「守秘義務」とは何か。",
+    "choices": [
+      "正当な理由なく、業務上知り得た秘密を他に漏らしてはならない義務",
+      "誠実義務",
+      "説明義務",
+      "報告義務"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「守秘義務」とは、正当な理由なく、業務上知り得た秘密を他に漏らしてはならない義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 203,
+    "category": "宅建業法",
+    "question": "「事務禁止処分」とは何か。",
+    "choices": [
+      "宅地建物取引士が事務を行うことを禁止する処分",
+      "登録消除処分",
+      "指示処分",
+      "業務停止処分"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「事務禁止処分」とは、宅地建物取引士が事務を行うことを禁止する処分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 204,
+    "category": "宅建業法",
+    "question": "「登録消除処分」とは何か。",
+    "choices": [
+      "宅地建物取引士の登録を消除する処分",
+      "事務禁止処分",
+      "取引士証の返納",
+      "免許取消"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「登録消除処分」とは、宅地建物取引士の登録を消除する処分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 205,
+    "category": "宅建業法",
+    "question": "「名義貸しの禁止」とは何か。",
+    "choices": [
+      "自己の名義を他人に宅建業を営む目的で使用させることの禁止",
+      "無免許営業の禁止",
+      "誇大広告の禁止",
+      "他人物売買の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「名義貸しの禁止」とは、自己の名義を他人に宅建業を営む目的で使用させることの禁止です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 206,
+    "category": "宅建業法",
+    "question": "「無免許営業の禁止」とは何か。",
+    "choices": [
+      "免許を受けずに宅建業を営むことの禁止",
+      "名義貸しの禁止",
+      "誇大広告の禁止",
+      "他人物売買の制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「無免許営業の禁止」とは、免許を受けずに宅建業を営むことの禁止です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 207,
+    "category": "宅建業法",
+    "question": "「変更の届出」とは何か。",
+    "choices": [
+      "免許申請事項に変更があった場合の届出",
+      "廃業等の届出",
+      "死亡等の届出",
+      "合併等の届出"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「変更の届出」とは、免許申請事項に変更があった場合の届出です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 208,
+    "category": "宅建業法",
+    "question": "「廃業等の届出」とは何か。",
+    "choices": [
+      "宅建業を廃止した場合等の届出",
+      "変更の届出",
+      "死亡等の届出",
+      "合併等の届出"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「廃業等の届出」とは、宅建業を廃止した場合等の届出です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 209,
+    "category": "宅建業法",
+    "question": "「死亡等の届出」とは何か。",
+    "choices": [
+      "宅建業者が死亡した場合等の届出",
+      "廃業等の届出",
+      "変更の届出",
+      "合併等の届出"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「死亡等の届出」とは、宅建業者が死亡した場合等の届出です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 210,
+    "category": "法令上の制限",
+    "question": "「都市計画区域」とは何か。",
+    "choices": [
+      "都市計画法の規定により指定される区域",
+      "市街化区域",
+      "市街化調整区域",
+      "用途地域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「都市計画区域」とは、都市計画法の規定により指定される区域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 211,
+    "category": "法令上の制限",
+    "question": "「準都市計画区域」とは何か。",
+    "choices": [
+      "都市計画区域外で、将来都市化が見込まれる区域",
+      "都市計画区域",
+      "市街化区域",
+      "市街化調整区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「準都市計画区域」とは、都市計画区域外で、将来都市化が見込まれる区域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 212,
+    "category": "法令上の制限",
+    "question": "「区域区分」とは何か。",
+    "choices": [
+      "都市計画区域を市街化区域と市街化調整区域に区分すること",
+      "地域地区",
+      "用途地域",
+      "都市施設"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「区域区分」とは、都市計画区域を市街化区域と市街化調整区域に区分することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 213,
+    "category": "法令上の制限",
+    "question": "「線引き」とは何か。",
+    "choices": [
+      "区域区分を定めること",
+      "用途地域の指定",
+      "地区計画の策定",
+      "開発許可"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「線引き」とは、区域区分を定めることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 214,
+    "category": "法令上の制限",
+    "question": "「非線引き区域」とは何か。",
+    "choices": [
+      "区域区分が定められていない都市計画区域",
+      "市街化区域",
+      "市街化調整区域",
+      "準都市計画区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「非線引き区域」とは、区域区分が定められていない都市計画区域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 215,
+    "category": "法令上の制限",
+    "question": "「地域地区」とは何か。",
+    "choices": [
+      "用途地域、防火地域等の総称",
+      "区域区分",
+      "都市施設",
+      "市街地開発事業"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「地域地区」とは、用途地域、防火地域等の総称です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 216,
+    "category": "法令上の制限",
+    "question": "「都市施設」とは何か。",
+    "choices": [
+      "道路、公園等の施設",
+      "地域地区",
+      "区域区分",
+      "市街地開発事業"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「都市施設」とは、道路、公園等の施設です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 217,
+    "category": "法令上の制限",
+    "question": "「市街地開発事業」とは何か。",
+    "choices": [
+      "土地区画整理事業、市街地再開発事業等",
+      "都市施設",
+      "地域地区",
+      "区域区分"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「市街地開発事業」とは、土地区画整理事業、市街地再開発事業等です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 218,
+    "category": "法令上の制限",
+    "question": "「地区計画」とは何か。",
+    "choices": [
+      "地区の特性に応じた良好な環境を整備・保全するための計画",
+      "都市計画",
+      "区域区分",
+      "用途地域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「地区計画」とは、地区の特性に応じた良好な環境を整備・保全するための計画です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 219,
+    "category": "法令上の制限",
+    "question": "「開発許可」とは何か。",
+    "choices": [
+      "都市計画法に基づく開発行為の許可",
+      "建築確認",
+      "農地転用許可",
+      "宅地造成規制"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「開発許可」とは、都市計画法に基づく開発行為の許可です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 220,
+    "category": "法令上の制限",
+    "question": "「開発許可権者」とは何か。",
+    "choices": [
+      "開発許可を行う都道府県知事又は指定都市等の長",
+      "国土交通大臣",
+      "市町村長",
+      "農業委員会"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「開発許可権者」とは、開発許可を行う都道府県知事又は指定都市等の長です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 221,
+    "category": "法令上の制限",
+    "question": "「予定建築物」とは何か。",
+    "choices": [
+      "開発行為により建築する予定の建築物",
+      "既存建築物",
+      "建築中の建築物",
+      "将来建築物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「予定建築物」とは、開発行為により建築する予定の建築物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 222,
+    "category": "法令上の制限",
+    "question": "「公共施設」とは何か。",
+    "choices": [
+      "道路、公園その他政令で定める公共の用に供する施設",
+      "都市施設",
+      "建築物",
+      "宅地"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「公共施設」とは、道路、公園その他政令で定める公共の用に供する施設です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 223,
+    "category": "法令上の制限",
+    "question": "「設計者」とは何か。",
+    "choices": [
+      "開発行為の設計をする者で、一定の資格を有する者",
+      "施工者",
+      "監理者",
+      "検査員"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「設計者」とは、開発行為の設計をする者で、一定の資格を有する者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 224,
+    "category": "法令上の制限",
+    "question": "「工事完了検査」とは何か。",
+    "choices": [
+      "開発行為の工事完了後に行う検査",
+      "中間検査",
+      "建築確認",
+      "完了検査"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「工事完了検査」とは、開発行為の工事完了後に行う検査です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 225,
+    "category": "法令上の制限",
+    "question": "「建築制限」とは何か。",
+    "choices": [
+      "用途地域等による建築物の用途、形態等の制限",
+      "開発制限",
+      "宅地造成規制",
+      "土地利用規制"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「建築制限」とは、用途地域等による建築物の用途、形態等の制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 226,
+    "category": "法令上の制限",
+    "question": "「建築確認」とは何か。",
+    "choices": [
+      "建築基準法に基づく建築物の確認",
+      "開発許可",
+      "農地転用許可",
+      "完了検査"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「建築確認」とは、建築基準法に基づく建築物の確認です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 227,
+    "category": "法令上の制限",
+    "question": "「確認済証」とは何か。",
+    "choices": [
+      "建築確認を受けたことを証する書面",
+      "検査済証",
+      "建築許可証",
+      "開発許可証"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「確認済証」とは、建築確認を受けたことを証する書面です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 228,
+    "category": "法令上の制限",
+    "question": "「検査済証」とは何か。",
+    "choices": [
+      "完了検査に合格したことを証する書面",
+      "確認済証",
+      "建築許可証",
+      "開発許可証"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「検査済証」とは、完了検査に合格したことを証する書面です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 229,
+    "category": "法令上の制限",
+    "question": "「違反建築物」とは何か。",
+    "choices": [
+      "建築基準法に違反する建築物",
+      "既存不適格建築物",
+      "仮設建築物",
+      "特殊建築物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「違反建築物」とは、建築基準法に違反する建築物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 230,
+    "category": "法令上の制限",
+    "question": "「既存不適格建築物」とは何か。",
+    "choices": [
+      "建築当時は適法だが、法改正により現行法に不適合となった建築物",
+      "違反建築物",
+      "仮設建築物",
+      "特殊建築物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「既存不適格建築物」とは、建築当時は適法だが、法改正により現行法に不適合となった建築物です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 231,
+    "category": "法令上の制限",
+    "question": "「道路」とは何か。",
+    "choices": [
+      "建築基準法上の道路（幅員4m以上等）",
+      "私道",
+      "通路",
+      "農道"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「道路」とは、建築基準法上の道路（幅員4m以上等）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 232,
+    "category": "法令上の制限",
+    "question": "「接道義務」とは何か。",
+    "choices": [
+      "建築物の敷地は道路に2m以上接しなければならない義務",
+      "建ぺい率",
+      "容積率",
+      "高さ制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「接道義務」とは、建築物の敷地は道路に2m以上接しなければならない義務です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 233,
+    "category": "法令上の制限",
+    "question": "「セットバック」とは何か。",
+    "choices": [
+      "2項道路において、道路の中心線から2m後退すること",
+      "壁面後退",
+      "斜線制限",
+      "高さ制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「セットバック」とは、2項道路において、道路の中心線から2m後退することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 234,
+    "category": "法令上の制限",
+    "question": "「2項道路」とは何か。",
+    "choices": [
+      "幅員4m未満で、特定行政庁が指定した道",
+      "1項道路",
+      "私道",
+      "位置指定道路"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「2項道路」とは、幅員4m未満で、特定行政庁が指定した道です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 235,
+    "category": "法令上の制限",
+    "question": "「防火地域」とは何か。",
+    "choices": [
+      "市街地における火災の危険を防除するため定める地域",
+      "準防火地域",
+      "用途地域",
+      "高度地区"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「防火地域」とは、市街地における火災の危険を防除するため定める地域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 236,
+    "category": "法令上の制限",
+    "question": "「準防火地域」とは何か。",
+    "choices": [
+      "防火地域に準じた制限を行う地域",
+      "防火地域",
+      "用途地域",
+      "高度地区"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「準防火地域」とは、防火地域に準じた制限を行う地域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 237,
+    "category": "法令上の制限",
+    "question": "「特定行政庁」とは何か。",
+    "choices": [
+      "建築主事を置く市町村の長又は都道府県知事",
+      "国土交通大臣",
+      "農業委員会",
+      "開発許可権者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「特定行政庁」とは、建築主事を置く市町村の長又は都道府県知事です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 238,
+    "category": "法令上の制限",
+    "question": "「建築主事」とは何か。",
+    "choices": [
+      "建築確認等の事務を行う地方公共団体の職員",
+      "特定行政庁",
+      "建築士",
+      "設計者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「建築主事」とは、建築確認等の事務を行う地方公共団体の職員です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 239,
+    "category": "法令上の制限",
+    "question": "「用途制限」とは何か。",
+    "choices": [
+      "用途地域における建築物の用途の制限",
+      "形態制限",
+      "高さ制限",
+      "面積制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「用途制限」とは、用途地域における建築物の用途の制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 240,
+    "category": "法令上の制限",
+    "question": "「形態制限」とは何か。",
+    "choices": [
+      "建築物の形態に関する制限（建ぺい率、容積率、高さ等）",
+      "用途制限",
+      "道路制限",
+      "防火制限"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「形態制限」とは、建築物の形態に関する制限（建ぺい率、容積率、高さ等）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 241,
+    "category": "法令上の制限",
+    "question": "「斜線制限」とは何か。",
+    "choices": [
+      "道路斜線、隣地斜線、北側斜線による高さの制限",
+      "絶対高さ制限",
+      "日影規制",
+      "建ぺい率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「斜線制限」とは、道路斜線、隣地斜線、北側斜線による高さの制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 242,
+    "category": "法令上の制限",
+    "question": "「日影規制」とは何か。",
+    "choices": [
+      "一定時間以上の日影を生じさせないようにする制限",
+      "斜線制限",
+      "高さ制限",
+      "建ぺい率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「日影規制」とは、一定時間以上の日影を生じさせないようにする制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 243,
+    "category": "法令上の制限",
+    "question": "「絶対高さ制限」とは何か。",
+    "choices": [
+      "第一種・第二種低層住居専用地域等における10m又は12mの高さ制限",
+      "斜線制限",
+      "日影規制",
+      "容積率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「絶対高さ制限」とは、第一種・第二種低層住居専用地域等における10m又は12mの高さ制限です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 244,
+    "category": "法令上の制限",
+    "question": "「高度地区」とは何か。",
+    "choices": [
+      "建築物の高さの最高限度又は最低限度を定める地区",
+      "高度利用地区",
+      "特定街区",
+      "用途地域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「高度地区」とは、建築物の高さの最高限度又は最低限度を定める地区です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 245,
+    "category": "法令上の制限",
+    "question": "「高度利用地区」とは何か。",
+    "choices": [
+      "土地の高度利用を図る地区",
+      "高度地区",
+      "特定街区",
+      "用途地域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「高度利用地区」とは、土地の高度利用を図る地区です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 246,
+    "category": "法令上の制限",
+    "question": "「特定街区」とは何か。",
+    "choices": [
+      "建築物の容積率、高さ等を個別に定める街区",
+      "高度地区",
+      "高度利用地区",
+      "用途地域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「特定街区」とは、建築物の容積率、高さ等を個別に定める街区です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 247,
+    "category": "法令上の制限",
+    "question": "「農地」とは何か。",
+    "choices": [
+      "耕作の目的に供される土地",
+      "宅地",
+      "山林",
+      "原野"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「農地」とは、耕作の目的に供される土地です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 248,
+    "category": "法令上の制限",
+    "question": "「採草放牧地」とは何か。",
+    "choices": [
+      "農地以外の土地で、主として耕作又は養畜の事業のための採草又は家畜の放牧の目的に供されるもの",
+      "農地",
+      "宅地",
+      "山林"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「採草放牧地」とは、農地以外の土地で、主として耕作又は養畜の事業のための採草又は家畜の放牧の目的に供されるものです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 249,
+    "category": "法令上の制限",
+    "question": "「農業委員会」とは何か。",
+    "choices": [
+      "農地法の許可等を行う市町村の機関",
+      "都道府県知事",
+      "国土交通大臣",
+      "特定行政庁"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「農業委員会」とは、農地法の許可等を行う市町村の機関です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 250,
+    "category": "法令上の制限",
+    "question": "「農地転用」とは何か。",
+    "choices": [
+      "農地を農地以外のものにすること",
+      "宅地造成",
+      "開発行為",
+      "建築"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「農地転用」とは、農地を農地以外のものにすることです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 251,
+    "category": "法令上の制限",
+    "question": "「宅地造成」とは何か。",
+    "choices": [
+      "宅地以外の土地を宅地にするため又は宅地において行う土地の形質の変更",
+      "農地転用",
+      "開発行為",
+      "建築"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「宅地造成」とは、宅地以外の土地を宅地にするため又は宅地において行う土地の形質の変更です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 252,
+    "category": "法令上の制限",
+    "question": "「宅地造成工事規制区域」とは何か。",
+    "choices": [
+      "宅地造成に伴う災害を防止するため指定される区域",
+      "土砂災害警戒区域",
+      "急傾斜地崩壊危険区域",
+      "地すべり防止区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「宅地造成工事規制区域」とは、宅地造成に伴う災害を防止するため指定される区域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 253,
+    "category": "法令上の制限",
+    "question": "「造成宅地防災区域」とは何か。",
+    "choices": [
+      "造成された宅地で、地震等により崩壊のおそれが大きい区域",
+      "宅地造成工事規制区域",
+      "土砂災害警戒区域",
+      "急傾斜地崩壊危険区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「造成宅地防災区域」とは、造成された宅地で、地震等により崩壊のおそれが大きい区域です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 254,
+    "category": "法令上の制限",
+    "question": "「土地取引の届出」とは何か。",
+    "choices": [
+      "国土利用計画法に基づく土地売買等の届出",
+      "変更の届出",
+      "廃業の届出",
+      "開発行為の届出"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「土地取引の届出」とは、国土利用計画法に基づく土地売買等の届出です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 255,
+    "category": "法令上の制限",
+    "question": "「事後届出制」とは何か。",
+    "choices": [
+      "契約締結後に届け出る制度",
+      "事前届出制",
+      "許可制",
+      "認可制"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「事後届出制」とは、契約締結後に届け出る制度です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 256,
+    "category": "法令上の制限",
+    "question": "「注視区域」とは何か。",
+    "choices": [
+      "地価が急激に上昇するおそれがある区域（事前届出）",
+      "監視区域",
+      "規制区域",
+      "都市計画区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「注視区域」とは、地価が急激に上昇するおそれがある区域（事前届出）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 257,
+    "category": "法令上の制限",
+    "question": "「監視区域」とは何か。",
+    "choices": [
+      "地価が相当な範囲にわたり上昇するおそれがある区域（事前届出）",
+      "注視区域",
+      "規制区域",
+      "都市計画区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「監視区域」とは、地価が相当な範囲にわたり上昇するおそれがある区域（事前届出）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 258,
+    "category": "法令上の制限",
+    "question": "「規制区域」とは何か。",
+    "choices": [
+      "土地の投機的取引が相当範囲で集中して行われ、地価が急激に上昇している区域（許可制）",
+      "注視区域",
+      "監視区域",
+      "都市計画区域"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「規制区域」とは、土地の投機的取引が相当範囲で集中して行われ、地価が急激に上昇している区域（許可制）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 259,
+    "category": "法令上の制限",
+    "question": "「景観地区」とは何か。",
+    "choices": [
+      "市街地の良好な景観の形成を図るための地区",
+      "風致地区",
+      "美観地区",
+      "高度地区"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「景観地区」とは、市街地の良好な景観の形成を図るための地区です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 260,
+    "category": "税・その他",
+    "question": "「課税標準」とは何か。",
+    "choices": [
+      "税額計算の基礎となる課税対象の数量・価額",
+      "税率",
+      "税額",
+      "控除額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「課税標準」とは、税額計算の基礎となる課税対象の数量・価額です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 261,
+    "category": "税・その他",
+    "question": "「標準税率」とは何か。",
+    "choices": [
+      "地方税法で定める税率",
+      "制限税率",
+      "超過税率",
+      "軽減税率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「標準税率」とは、地方税法で定める税率です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 262,
+    "category": "税・その他",
+    "question": "「特例税率」とは何か。",
+    "choices": [
+      "一定の要件を満たす場合の軽減された税率",
+      "標準税率",
+      "制限税率",
+      "超過税率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「特例税率」とは、一定の要件を満たす場合の軽減された税率です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 263,
+    "category": "税・その他",
+    "question": "「納税義務者」とは何か。",
+    "choices": [
+      "税を納める義務を負う者",
+      "課税者",
+      "徴収者",
+      "申告者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「納税義務者」とは、税を納める義務を負う者です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 264,
+    "category": "税・その他",
+    "question": "「課税主体」とは何か。",
+    "choices": [
+      "税を課す権限を持つ者（国又は地方公共団体）",
+      "納税義務者",
+      "徴税者",
+      "課税庁"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「課税主体」とは、税を課す権限を持つ者（国又は地方公共団体）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 265,
+    "category": "税・その他",
+    "question": "「賦課課税方式」とは何か。",
+    "choices": [
+      "課税庁が税額を計算して納税者に通知する方式",
+      "申告納税方式",
+      "源泉徴収方式",
+      "特別徴収方式"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「賦課課税方式」とは、課税庁が税額を計算して納税者に通知する方式です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 266,
+    "category": "税・その他",
+    "question": "「申告納税方式」とは何か。",
+    "choices": [
+      "納税者が自ら税額を計算して申告・納付する方式",
+      "賦課課税方式",
+      "源泉徴収方式",
+      "特別徴収方式"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「申告納税方式」とは、納税者が自ら税額を計算して申告・納付する方式です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 267,
+    "category": "税・その他",
+    "question": "「源泉徴収」とは何か。",
+    "choices": [
+      "給与等の支払者が税を差し引いて納付すること",
+      "申告納税",
+      "賦課課税",
+      "特別徴収"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「源泉徴収」とは、給与等の支払者が税を差し引いて納付することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 268,
+    "category": "税・その他",
+    "question": "「特別徴収」とは何か。",
+    "choices": [
+      "給与等から天引きして納付すること",
+      "普通徴収",
+      "源泉徴収",
+      "申告納税"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「特別徴収」とは、給与等から天引きして納付することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 269,
+    "category": "税・その他",
+    "question": "「普通徴収」とは何か。",
+    "choices": [
+      "納税通知書により納付すること",
+      "特別徴収",
+      "源泉徴収",
+      "申告納税"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「普通徴収」とは、納税通知書により納付することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 270,
+    "category": "税・その他",
+    "question": "「固定資産税評価額」とは何か。",
+    "choices": [
+      "固定資産税の課税標準となる価格",
+      "時価",
+      "路線価",
+      "公示価格"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「固定資産税評価額」とは、固定資産税の課税標準となる価格です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 271,
+    "category": "税・その他",
+    "question": "「固定資産課税台帳」とは何か。",
+    "choices": [
+      "固定資産の価格等を登録した帳簿",
+      "不動産登記簿",
+      "土地台帳",
+      "建物台帳"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「固定資産課税台帳」とは、固定資産の価格等を登録した帳簿です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 272,
+    "category": "税・その他",
+    "question": "「課税明細書」とは何か。",
+    "choices": [
+      "固定資産税の課税内容を記載した書面",
+      "納税通知書",
+      "課税台帳",
+      "評価証明書"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「課税明細書」とは、固定資産税の課税内容を記載した書面です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 273,
+    "category": "税・その他",
+    "question": "「小規模住宅用地」とは何か。",
+    "choices": [
+      "200㎡以下の住宅用地（固定資産税の軽減あり）",
+      "一般住宅用地",
+      "事業用地",
+      "雑種地"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「小規模住宅用地」とは、200㎡以下の住宅用地（固定資産税の軽減あり）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 274,
+    "category": "税・その他",
+    "question": "「一般住宅用地」とは何か。",
+    "choices": [
+      "200㎡超の住宅用地（固定資産税の軽減あり）",
+      "小規模住宅用地",
+      "事業用地",
+      "雑種地"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「一般住宅用地」とは、200㎡超の住宅用地（固定資産税の軽減あり）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 275,
+    "category": "税・その他",
+    "question": "「新築住宅の特例」とは何か。",
+    "choices": [
+      "新築住宅の固定資産税の減額措置",
+      "中古住宅の特例",
+      "耐震改修の特例",
+      "バリアフリー改修の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「新築住宅の特例」とは、新築住宅の固定資産税の減額措置です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 276,
+    "category": "税・その他",
+    "question": "「都市計画税」とは何か。",
+    "choices": [
+      "都市計画事業等に充てるため課される地方税",
+      "固定資産税",
+      "不動産取得税",
+      "登録免許税"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「都市計画税」とは、都市計画事業等に充てるため課される地方税です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 277,
+    "category": "税・その他",
+    "question": "「課税標準の特例」とは何か。",
+    "choices": [
+      "住宅用地等について、課税標準を軽減する特例",
+      "税率の特例",
+      "税額控除",
+      "非課税"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「課税標準の特例」とは、住宅用地等について、課税標準を軽減する特例です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 278,
+    "category": "税・その他",
+    "question": "「不動産の取得」とは何か。",
+    "choices": [
+      "売買、贈与、新築、増改築等により不動産の所有権を取得すること",
+      "不動産の譲渡",
+      "不動産の賃貸",
+      "不動産の相続"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「不動産の取得」とは、売買、贈与、新築、増改築等により不動産の所有権を取得することです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 279,
+    "category": "税・その他",
+    "question": "「免税点」とは何か。",
+    "choices": [
+      "この金額以下であれば課税されない基準額",
+      "課税標準",
+      "税率",
+      "控除額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「免税点」とは、この金額以下であれば課税されない基準額です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 280,
+    "category": "税・その他",
+    "question": "「住宅用家屋」とは何か。",
+    "choices": [
+      "居住の用に供する家屋",
+      "事業用家屋",
+      "店舗用家屋",
+      "倉庫"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「住宅用家屋」とは、居住の用に供する家屋です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 281,
+    "category": "税・その他",
+    "question": "「新築住宅の特例（不動産取得税）」とは何か。",
+    "choices": [
+      "新築住宅取得時の不動産取得税の軽減措置",
+      "中古住宅の特例",
+      "住宅用地の特例",
+      "耐震住宅の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「新築住宅の特例（不動産取得税）」とは、新築住宅取得時の不動産取得税の軽減措置です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 282,
+    "category": "税・その他",
+    "question": "「中古住宅の特例（不動産取得税）」とは何か。",
+    "choices": [
+      "中古住宅取得時の不動産取得税の軽減措置",
+      "新築住宅の特例",
+      "住宅用地の特例",
+      "耐震住宅の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「中古住宅の特例（不動産取得税）」とは、中古住宅取得時の不動産取得税の軽減措置です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 283,
+    "category": "税・その他",
+    "question": "「登記の種類」とは何か。",
+    "choices": [
+      "権利の登記、表示の登記等の区分",
+      "登記の目的",
+      "登記原因",
+      "登記の日付"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「登記の種類」とは、権利の登記、表示の登記等の区分です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 284,
+    "category": "税・その他",
+    "question": "「課税標準（登録免許税）」とは何か。",
+    "choices": [
+      "登録免許税の課税標準（不動産価額等）",
+      "税率",
+      "税額",
+      "控除額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「課税標準（登録免許税）」とは、登録免許税の課税標準（不動産価額等）です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 285,
+    "category": "税・その他",
+    "question": "「譲渡所得」とは何か。",
+    "choices": [
+      "資産の譲渡による所得",
+      "事業所得",
+      "給与所得",
+      "不動産所得"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「譲渡所得」とは、資産の譲渡による所得です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 286,
+    "category": "税・その他",
+    "question": "「取得費」とは何か。",
+    "choices": [
+      "資産の取得に要した金額",
+      "譲渡費用",
+      "譲渡価額",
+      "所得金額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「取得費」とは、資産の取得に要した金額です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 287,
+    "category": "税・その他",
+    "question": "「譲渡費用」とは何か。",
+    "choices": [
+      "資産の譲渡に要した費用",
+      "取得費",
+      "譲渡価額",
+      "所得金額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「譲渡費用」とは、資産の譲渡に要した費用です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 288,
+    "category": "税・その他",
+    "question": "「長期譲渡所得」とは何か。",
+    "choices": [
+      "所有期間5年超の資産の譲渡所得",
+      "短期譲渡所得",
+      "事業所得",
+      "給与所得"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「長期譲渡所得」とは、所有期間5年超の資産の譲渡所得です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 289,
+    "category": "税・その他",
+    "question": "「短期譲渡所得」とは何か。",
+    "choices": [
+      "所有期間5年以下の資産の譲渡所得",
+      "長期譲渡所得",
+      "事業所得",
+      "給与所得"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「短期譲渡所得」とは、所有期間5年以下の資産の譲渡所得です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 290,
+    "category": "税・その他",
+    "question": "「マイホームの特例」とは何か。",
+    "choices": [
+      "居住用財産を譲渡した場合の特例",
+      "事業用資産の特例",
+      "投資用不動産の特例",
+      "農地の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「マイホームの特例」とは、居住用財産を譲渡した場合の特例です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 291,
+    "category": "税・その他",
+    "question": "「3,000万円特別控除」とは何か。",
+    "choices": [
+      "居住用財産の譲渡所得から3,000万円を控除する特例",
+      "10年超所有の軽減税率",
+      "買換えの特例",
+      "交換の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「3,000万円特別控除」とは、居住用財産の譲渡所得から3,000万円を控除する特例です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 292,
+    "category": "税・その他",
+    "question": "「10年超所有軽減税率の特例」とは何か。",
+    "choices": [
+      "所有期間10年超の居住用財産の譲渡に係る軽減税率",
+      "3,000万円控除",
+      "買換えの特例",
+      "交換の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「10年超所有軽減税率の特例」とは、所有期間10年超の居住用財産の譲渡に係る軽減税率です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 293,
+    "category": "税・その他",
+    "question": "「買換えの特例」とは何か。",
+    "choices": [
+      "居住用財産を買い換えた場合の課税の繰延べ",
+      "3,000万円控除",
+      "軽減税率の特例",
+      "交換の特例"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「買換えの特例」とは、居住用財産を買い換えた場合の課税の繰延べです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 294,
+    "category": "税・その他",
+    "question": "「課税文書」とは何か。",
+    "choices": [
+      "印紙税法で定める文書",
+      "非課税文書",
+      "免税文書",
+      "不課税文書"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「課税文書」とは、印紙税法で定める文書です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 295,
+    "category": "税・その他",
+    "question": "「記載金額」とは何か。",
+    "choices": [
+      "課税文書に記載された契約金額等",
+      "印紙税額",
+      "消費税額",
+      "手数料額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「記載金額」とは、課税文書に記載された契約金額等です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 296,
+    "category": "税・その他",
+    "question": "「消印」とは何か。",
+    "choices": [
+      "印紙と文書にまたがって押す印",
+      "契印",
+      "割印",
+      "捨印"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「消印」とは、印紙と文書にまたがって押す印です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 297,
+    "category": "税・その他",
+    "question": "「過怠税」とは何か。",
+    "choices": [
+      "印紙を貼付しなかった場合等に課される税",
+      "延滞税",
+      "加算税",
+      "罰金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「過怠税」とは、印紙を貼付しなかった場合等に課される税です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 298,
+    "category": "税・その他",
+    "question": "「地価公示」とは何か。",
+    "choices": [
+      "国土交通省が毎年公示する標準地の正常な価格",
+      "相続税評価額",
+      "固定資産税評価額",
+      "時価"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「地価公示」とは、国土交通省が毎年公示する標準地の正常な価格です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 299,
+    "category": "税・その他",
+    "question": "「都道府県地価調査」とは何か。",
+    "choices": [
+      "都道府県知事が毎年公表する基準地の価格",
+      "地価公示",
+      "相続税評価額",
+      "固定資産税評価額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「都道府県地価調査」とは、都道府県知事が毎年公表する基準地の価格です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 300,
+    "category": "税・その他",
+    "question": "「路線価」とは何か。",
+    "choices": [
+      "相続税・贈与税の課税価格算定の基準となる土地の価格",
+      "固定資産税評価額",
+      "地価公示価格",
+      "時価"
+    ],
+    "correctAnswer": 0,
+    "explanation": "路線価とは、相続税・贈与税の課税価格算定の基準となる土地の価格で、国税庁が毎年公表します。",
+    "difficulty": "terminology"
   }
 ]
