@@ -17,9 +17,9 @@ export default function Home() {
     <main>
       <div className="row">
         <div className="col-12">
-          <h1 className="mb-4">危険物乙４試験対策クイズ</h1>
+          <h1 className="mb-4">宅建試験対策クイズ</h1>
           <p className="lead">
-            危険物取扱者乙種第4類試験の学習用アプリです。<br />
+            宅地建物取引士試験の学習用アプリです。<br />
             難易度とカテゴリを選択して学習を開始してください。
           </p>
         </div>
