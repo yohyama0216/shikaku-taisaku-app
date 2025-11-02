@@ -21,8 +21,10 @@ export default function HistoryPage() {
 
   if (!mounted) {
     return (
-      <div style={{ textAlign: 'center', padding: '2rem' }}>
-        <p aria-busy="true">読み込み中...</p>
+      <div className="text-center">
+        <div className="spinner-border text-primary" role="status">
+          <span className="visually-hidden">読み込み中...</span>
+        </div>
       </div>
     );
   }
@@ -47,101 +49,129 @@ export default function HistoryPage() {
     : '0';
 
   return (
-    <>
-      <hgroup>
-        <h2>学習履歴</h2>
-        <p>直近1ヶ月の学習記録を表示しています</p>
-      </hgroup>
+    <main>
+      <div className="row">
+        <div className="col-12">
+          <h1 className="mb-4">学習履歴</h1>
+          <p className="text-muted">直近1ヶ月の学習記録を表示しています</p>
+        </div>
+      </div>
 
       {/* Summary Statistics */}
-      <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', marginBottom: '2rem' }}>
-        <article style={{ textAlign: 'center' }}>
-          <header><small>学習日数</small></header>
-          <h3>{activities.length}</h3>
-          <small style={{ color: 'var(--muted-color)' }}>日</small>
-        </article>
-        <article style={{ textAlign: 'center' }}>
-          <header><small>合計回答数</small></header>
-          <h3>{totalQuestions}</h3>
-          <small style={{ color: 'var(--muted-color)' }}>問</small>
-        </article>
-        <article style={{ textAlign: 'center' }}>
-          <header><small>正解数</small></header>
-          <h3 style={{ color: '#28a745' }}>{totalCorrect}</h3>
-          <small style={{ color: 'var(--muted-color)' }}>問</small>
-        </article>
-        <article style={{ textAlign: 'center' }}>
-          <header><small>正答率</small></header>
-          <h3 style={{ color: 'var(--primary)' }}>{overallAccuracy}%</h3>
-        </article>
+      <div className="row mb-4">
+        <div className="col-md-3 col-sm-6 mb-3">
+          <div className="card text-center">
+            <div className="card-body">
+              <h5 className="card-title text-muted small">学習日数</h5>
+              <p className="card-text h3">{activities.length}</p>
+              <small className="text-muted">日</small>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-3">
+          <div className="card text-center">
+            <div className="card-body">
+              <h5 className="card-title text-muted small">合計回答数</h5>
+              <p className="card-text h3">{totalQuestions}</p>
+              <small className="text-muted">問</small>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-3">
+          <div className="card text-center">
+            <div className="card-body">
+              <h5 className="card-title text-muted small">正解数</h5>
+              <p className="card-text h3 text-success">{totalCorrect}</p>
+              <small className="text-muted">問</small>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-3">
+          <div className="card text-center">
+            <div className="card-body">
+              <h5 className="card-title text-muted small">正答率</h5>
+              <p className="card-text h3 text-primary">{overallAccuracy}%</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Daily Activity Table */}
-      <article style={{ marginBottom: '2rem' }}>
-        <header><h3>日別の学習記録</h3></header>
-        {activities.length === 0 ? (
-          <div className="alert alert-info">
-            <p style={{ marginBottom: 0 }}>まだ学習記録がありません。クイズに挑戦して記録を作りましょう！</p>
+      <div className="row mb-4">
+        <div className="col-12">
+          <div className="card">
+            <div className="card-body">
+              <h2 className="h5 mb-3">日別の学習記録</h2>
+              {activities.length === 0 ? (
+                <div className="alert alert-info">
+                  <p className="mb-0">まだ学習記録がありません。クイズに挑戦して記録を作りましょう！</p>
+                </div>
+              ) : (
+                <div className="table-responsive">
+                  <table className="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>日付</th>
+                        <th className="text-center">回答数</th>
+                        <th className="text-center">正解</th>
+                        <th className="text-center">不正解</th>
+                        <th className="text-center">正答率</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {activities.map((activity) => {
+                        const total = activity.correctAnswers + activity.incorrectAnswers;
+                        const accuracy = total > 0 
+                          ? ((activity.correctAnswers / total) * 100).toFixed(1) 
+                          : '0';
+                        
+                        return (
+                          <tr key={activity.date}>
+                            <td>{formatDate(activity.date)}</td>
+                            <td className="text-center">
+                              <strong>{activity.questionsAnswered}</strong>問
+                            </td>
+                            <td className="text-center text-success">
+                              <strong>{activity.correctAnswers}</strong>
+                            </td>
+                            <td className="text-center text-danger">
+                              <strong>{activity.incorrectAnswers}</strong>
+                            </td>
+                            <td className="text-center">
+                              <span className={`badge ${
+                                parseFloat(accuracy) >= 80 ? 'bg-success' : 
+                                parseFloat(accuracy) >= 60 ? 'bg-primary' : 
+                                parseFloat(accuracy) >= 40 ? 'bg-warning' : 
+                                'bg-danger'
+                              }`}>
+                                {accuracy}%
+                              </span>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
           </div>
-        ) : (
-          <figure>
-            <table>
-              <thead>
-                <tr>
-                  <th>日付</th>
-                  <th style={{ textAlign: 'center' }}>回答数</th>
-                  <th style={{ textAlign: 'center' }}>正解</th>
-                  <th style={{ textAlign: 'center' }}>不正解</th>
-                  <th style={{ textAlign: 'center' }}>正答率</th>
-                </tr>
-              </thead>
-              <tbody>
-                {activities.map((activity) => {
-                  const total = activity.correctAnswers + activity.incorrectAnswers;
-                  const accuracy = total > 0 
-                    ? ((activity.correctAnswers / total) * 100).toFixed(1) 
-                    : '0';
-                  
-                  return (
-                    <tr key={activity.date}>
-                      <td>{formatDate(activity.date)}</td>
-                      <td style={{ textAlign: 'center' }}>
-                        <strong>{activity.questionsAnswered}</strong>問
-                      </td>
-                      <td style={{ textAlign: 'center', color: '#28a745' }}>
-                        <strong>{activity.correctAnswers}</strong>
-                      </td>
-                      <td style={{ textAlign: 'center', color: '#dc3545' }}>
-                        <strong>{activity.incorrectAnswers}</strong>
-                      </td>
-                      <td style={{ textAlign: 'center' }}>
-                        <span className={`badge ${
-                          parseFloat(accuracy) >= 80 ? 'badge-success' : 
-                          parseFloat(accuracy) >= 60 ? 'badge-primary' : 
-                          parseFloat(accuracy) >= 40 ? 'badge-warning' : 
-                          'badge-danger'
-                        }`}>
-                          {accuracy}%
-                        </span>
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </figure>
-        )}
-      </article>
+        </div>
+      </div>
 
       {/* Action Buttons */}
-      <div className="grid grid-2">
-        <Link href="/" role="button">
-          ホームに戻る
-        </Link>
-        <Link href="/stats" role="button" className="secondary">
-          統計を表示
-        </Link>
+      <div className="row mb-4">
+        <div className="col-md-6 mb-3">
+          <Link href="/" className="btn btn-primary btn-lg w-100">
+            ホームに戻る
+          </Link>
+        </div>
+        <div className="col-md-6 mb-3">
+          <Link href="/stats" className="btn btn-info btn-lg w-100">
+            統計を表示
+          </Link>
+        </div>
       </div>
-    </>
+    </main>
   );
 }

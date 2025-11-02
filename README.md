@@ -16,7 +16,7 @@
 
 - **Next.js 16**: React フレームワーク
 - **TypeScript**: 型安全な開発
-- **Pico.css**: 軽量でモダンなCSSフレームワーク（~10KB）
+- **Bootstrap 5**: シンプルで洗練されたデザイン
 - **SSG (Static Site Generation)**: GitHub Pages でのホスティング
 
 ## 開発
