@@ -12,6 +12,7 @@ export default function Home() {
   const examQuestions = questions.filter(q => q.difficulty === 'exam').length;
   const basicQuestions = questions.filter(q => q.difficulty === 'basic').length;
   const comparisonQuestions = questions.filter(q => q.difficulty === 'comparison').length;
+  const terminologyQuestions = questions.filter(q => q.difficulty === 'terminology').length;
 
   return (
     <main>
@@ -30,32 +31,32 @@ export default function Home() {
         <div className="col-12">
           <h2 className="h4 mb-3">難易度を選択</h2>
           <div className="row">
-            <div className="col-md-4 mb-3">
-              <div className="card border-primary">
+            <div className="col-md-3 mb-3">
+              <div className="card border-info">
                 <div className="card-body">
                   <h5 className="card-title">
-                    <i className="bi bi-mortarboard-fill"></i> 試験レベル
+                    <i className="bi bi-list-check"></i> 用語定義
                   </h5>
-                  <p className="card-text">実際の試験に近い難易度の問題</p>
-                  <p className="mb-2"><strong>{examQuestions}問</strong></p>
-                  <Link href="/quiz?difficulty=exam&category=all" className="btn btn-primary w-100 mb-2">
+                  <p className="card-text">基本用語の定義を確認</p>
+                  <p className="mb-2"><strong>{terminologyQuestions}問</strong></p>
+                  <Link href="/quiz?difficulty=terminology&category=all" className="btn btn-info w-100 mb-2">
                     全問題を開始
                   </Link>
                   <details className="mt-2">
-                    <summary className="btn btn-outline-primary btn-sm w-100">カテゴリ別に選択</summary>
+                    <summary className="btn btn-outline-info btn-sm w-100">カテゴリ別に選択</summary>
                     <div className="list-group mt-2">
                       {categories.map((category) => {
-                        const count = questions.filter(q => q.category === category && q.difficulty === 'exam').length;
+                        const count = questions.filter(q => q.category === category && q.difficulty === 'terminology').length;
                         if (count === 0) return null;
                         return (
                           <Link 
                             key={category}
-                            href={`/quiz?difficulty=exam&category=${encodeURIComponent(category)}`}
+                            href={`/quiz?difficulty=terminology&category=${encodeURIComponent(category)}`}
                             className="list-group-item list-group-item-action"
                           >
                             <div className="d-flex justify-content-between">
                               <span>{category}</span>
-                              <span className="badge bg-primary rounded-pill">{count}</span>
+                              <span className="badge bg-info rounded-pill">{count}</span>
                             </div>
                           </Link>
                         );
@@ -65,8 +66,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
-            <div className="col-md-4 mb-3">
+
+            <div className="col-md-3 mb-3">
               <div className="card border-success">
                 <div className="card-body">
                   <h5 className="card-title">
@@ -102,7 +103,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-md-4 mb-3">
+            <div className="col-md-3 mb-3">
               <div className="card border-warning">
                 <div className="card-body">
                   <h5 className="card-title">
@@ -128,6 +129,42 @@ export default function Home() {
                             <div className="d-flex justify-content-between">
                               <span>{category}</span>
                               <span className="badge bg-warning rounded-pill">{count}</span>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+            
+            <div className="col-md-3 mb-3">
+              <div className="card border-primary">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <i className="bi bi-mortarboard-fill"></i> 試験レベル
+                  </h5>
+                  <p className="card-text">実際の試験に近い難易度の問題</p>
+                  <p className="mb-2"><strong>{examQuestions}問</strong></p>
+                  <Link href="/quiz?difficulty=exam&category=all" className="btn btn-primary w-100 mb-2">
+                    全問題を開始
+                  </Link>
+                  <details className="mt-2">
+                    <summary className="btn btn-outline-primary btn-sm w-100">カテゴリ別に選択</summary>
+                    <div className="list-group mt-2">
+                      {categories.map((category) => {
+                        const count = questions.filter(q => q.category === category && q.difficulty === 'exam').length;
+                        if (count === 0) return null;
+                        return (
+                          <Link 
+                            key={category}
+                            href={`/quiz?difficulty=exam&category=${encodeURIComponent(category)}`}
+                            className="list-group-item list-group-item-action"
+                          >
+                            <div className="d-flex justify-content-between">
+                              <span>{category}</span>
+                              <span className="badge bg-primary rounded-pill">{count}</span>
                             </div>
                           </Link>
                         );
