@@ -144,6 +144,8 @@ function QuizContent() {
         return { color: 'bg-success', label: '基礎' };
       case 'comparison':
         return { color: 'bg-warning', label: '比較' };
+      case 'terminology':
+        return { color: 'bg-info', label: '用語' };
       default:
         return { color: 'bg-secondary', label: '不明' };
     }
@@ -185,9 +187,10 @@ function QuizContent() {
                     onChange={handleDifficultyChange}
                   >
                     <option value="all">すべて</option>
-                    <option value="exam">試験レベル</option>
+                    <option value="terminology">用語定義</option>
                     <option value="basic">基礎レベル</option>
                     <option value="comparison">比較問題</option>
+                    <option value="exam">試験レベル</option>
                   </select>
                 </div>
                 <div className="col-md-6">
