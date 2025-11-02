@@ -5,7 +5,7 @@ export interface Question {
   choices: string[];
   correctAnswer: number; // 0-3 index of correct choice
   explanation: string;
-  difficulty?: 'exam' | 'basic' | 'comparison'; // exam level, basic level, or comparison (similar terms/concepts)
+  difficulty?: 'exam' | 'basic' | 'comparison' | 'terminology'; // exam level, basic level, comparison (similar terms/concepts), or terminology (simple definitions)
 }
 
 export interface QuestionProgress {
