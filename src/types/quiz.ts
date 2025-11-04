@@ -1,5 +1,6 @@
 export interface Question {
   id: number;
+  examType: 'takken' | 'bookkeeping-elementary'; // Type of exam
   category: string;
   question: string;
   choices: string[];
