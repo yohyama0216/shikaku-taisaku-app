@@ -1,32 +1,74 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
 
 const questions = questionsData as Question[];
 
 export default function Home() {
-  // Get unique categories
-  const categories = Array.from(new Set(questions.map(q => q.category)));
+  const [selectedExam, setSelectedExam] = useState<'takken' | 'bookkeeping-elementary'>('takken');
   
-  // Count questions by difficulty
-  const examQuestions = questions.filter(q => q.difficulty === 'exam').length;
-  const basicQuestions = questions.filter(q => q.difficulty === 'basic').length;
-  const comparisonQuestions = questions.filter(q => q.difficulty === 'comparison').length;
-  const terminologyQuestions = questions.filter(q => q.difficulty === 'terminology').length;
+  // Filter questions by exam type
+  const filteredQuestions = questions.filter(q => q.examType === selectedExam);
+  
+  // Get unique categories for selected exam
+  const categories = Array.from(new Set(filteredQuestions.map(q => q.category)));
+  
+  // Count questions by difficulty for selected exam
+  const examQuestions = filteredQuestions.filter(q => q.difficulty === 'exam').length;
+  const basicQuestions = filteredQuestions.filter(q => q.difficulty === 'basic').length;
+  const comparisonQuestions = filteredQuestions.filter(q => q.difficulty === 'comparison').length;
+  const terminologyQuestions = filteredQuestions.filter(q => q.difficulty === 'terminology').length;
 
-  // Count questions by category
+  // Count questions by category for selected exam
   const categoryCounts = categories.map(category => ({
     name: category,
-    count: questions.filter(q => q.category === category).length
+    count: filteredQuestions.filter(q => q.category === category).length
   }));
+
+  const examInfo = {
+    'takken': {
+      title: '宅建試験対策クイズ',
+      description: '宅地建物取引士試験の学習用アプリです。'
+    },
+    'bookkeeping-elementary': {
+      title: '簿記初級対策クイズ',
+      description: '簿記初級試験の学習用アプリです。'
+    }
+  };
 
   return (
     <main>
+      {/* Exam Type Selection */}
+      <div className="row mb-4">
+        <div className="col-12">
+          <h2 className="h4 mb-3"><i className="bi bi-journal-check"></i> 試験を選択</h2>
+          <div className="btn-group w-100" role="group">
+            <button
+              type="button"
+              className={`btn ${selectedExam === 'takken' ? 'btn-primary' : 'btn-outline-primary'}`}
+              onClick={() => setSelectedExam('takken')}
+            >
+              宅建試験
+            </button>
+            <button
+              type="button"
+              className={`btn ${selectedExam === 'bookkeeping-elementary' ? 'btn-primary' : 'btn-outline-primary'}`}
+              onClick={() => setSelectedExam('bookkeeping-elementary')}
+            >
+              簿記初級
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div className="row">
         <div className="col-12">
-          <h1 className="mb-4">宅建試験対策クイズ</h1>
+          <h1 className="mb-4">{examInfo[selectedExam].title}</h1>
           <p className="lead">
-            宅地建物取引士試験の学習用アプリです。<br />
+            {examInfo[selectedExam].description}<br />
             カテゴリまたは難易度を選択して学習を開始してください。
           </p>
         </div>
@@ -43,7 +85,7 @@ export default function Home() {
                   <div className="card-body">
                     <h5 className="card-title">{cat.name}</h5>
                     <p className="mb-2"><strong>{cat.count}問</strong></p>
-                    <Link href={`/quiz?difficulty=all&category=${encodeURIComponent(cat.name)}`} className="btn btn-outline-secondary w-100">
+                    <Link href={`/quiz?difficulty=all&category=${encodeURIComponent(cat.name)}&examType=${selectedExam}`} className="btn btn-outline-secondary w-100">
                       このカテゴリで学習
                     </Link>
                   </div>
@@ -59,20 +101,22 @@ export default function Home() {
         <div className="col-12">
           <h2 className="h4 mb-3"><i className="bi bi-bar-chart"></i> 難易度から選択</h2>
           <div className="row">
-            <div className="col-md-6 col-lg-3 mb-3">
-              <div className="card h-100 border-info">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    <i className="bi bi-list-check"></i> 用語定義
-                  </h5>
-                  <p className="card-text">基本用語の定義を確認</p>
-                  <p className="mb-2"><strong>{terminologyQuestions}問</strong></p>
-                  <Link href="/quiz?difficulty=terminology&category=all" className="btn btn-info w-100">
-                    学習を開始
-                  </Link>
+            {terminologyQuestions > 0 && (
+              <div className="col-md-6 col-lg-3 mb-3">
+                <div className="card h-100 border-info">
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <i className="bi bi-list-check"></i> 用語定義
+                    </h5>
+                    <p className="card-text">基本用語の定義を確認</p>
+                    <p className="mb-2"><strong>{terminologyQuestions}問</strong></p>
+                    <Link href={`/quiz?difficulty=terminology&category=all&examType=${selectedExam}`} className="btn btn-info w-100">
+                      学習を開始
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
 
             <div className="col-md-6 col-lg-3 mb-3">
               <div className="card h-100 border-success">
@@ -82,27 +126,29 @@ export default function Home() {
                   </h5>
                   <p className="card-text">初心者向けの基本問題</p>
                   <p className="mb-2"><strong>{basicQuestions}問</strong></p>
-                  <Link href="/quiz?difficulty=basic&category=all" className="btn btn-success w-100">
+                  <Link href={`/quiz?difficulty=basic&category=all&examType=${selectedExam}`} className="btn btn-success w-100">
                     学習を開始
                   </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-3 mb-3">
-              <div className="card h-100 border-warning">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    <i className="bi bi-arrow-left-right"></i> 比較問題
-                  </h5>
-                  <p className="card-text">似た用語・概念の違いを理解する問題</p>
-                  <p className="mb-2"><strong>{comparisonQuestions}問</strong></p>
-                  <Link href="/quiz?difficulty=comparison&category=all" className="btn btn-warning w-100">
-                    学習を開始
-                  </Link>
+            {comparisonQuestions > 0 && (
+              <div className="col-md-6 col-lg-3 mb-3">
+                <div className="card h-100 border-warning">
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <i className="bi bi-arrow-left-right"></i> 比較問題
+                    </h5>
+                    <p className="card-text">似た用語・概念の違いを理解する問題</p>
+                    <p className="mb-2"><strong>{comparisonQuestions}問</strong></p>
+                    <Link href={`/quiz?difficulty=comparison&category=all&examType=${selectedExam}`} className="btn btn-warning w-100">
+                      学習を開始
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
             
             <div className="col-md-6 col-lg-3 mb-3">
               <div className="card h-100 border-primary">
@@ -112,7 +158,7 @@ export default function Home() {
                   </h5>
                   <p className="card-text">実際の試験に近い難易度の問題</p>
                   <p className="mb-2"><strong>{examQuestions}問</strong></p>
-                  <Link href="/quiz?difficulty=exam&category=all" className="btn btn-primary w-100">
+                  <Link href={`/quiz?difficulty=exam&category=all&examType=${selectedExam}`} className="btn btn-primary w-100">
                     学習を開始
                   </Link>
                 </div>

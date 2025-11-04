@@ -3,8 +3,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '宅建試験対策クイズ',
-  description: '宅地建物取引士試験の学習用アプリ',
+  title: '資格試験対策クイズ',
+  description: '宅建・簿記初級試験の学習用アプリ',
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body>
         <nav className="navbar navbar-dark bg-primary mb-4">
           <div className="container">
-            <span className="navbar-brand mb-0 h1">宅建試験対策クイズ</span>
+            <span className="navbar-brand mb-0 h1">資格試験対策クイズ</span>
           </div>
         </nav>
         <div className="container">
@@ -28,7 +28,7 @@ export default function RootLayout({
         </div>
         <footer className="mt-5 py-3 bg-light">
           <div className="container text-center text-muted">
-            <small>宅地建物取引士試験 学習用アプリ</small>
+            <small>資格試験 学習用アプリ</small>
           </div>
         </footer>
       </body>
