@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter, useParams } from 'next/navigation';
 import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
-import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storage';
+import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType, getTodayActivity } from '@/utils/storage';
 import { getExamTypeFromSlug } from '@/utils/examMapping';
 
 const questions = questionsData as Question[];
@@ -26,6 +26,7 @@ export default function QuizContent() {
   const [timeLeft, setTimeLeft] = useState(20);
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [shuffledChoices, setShuffledChoices] = useState<Array<{ text: string; originalIndex: number }>>([]);
+  const [todayStats, setTodayStats] = useState({ questionsAnswered: 0, correctAnswers: 0 });
 
   // Handle invalid exam type
   if (!examType) {
@@ -45,9 +46,6 @@ export default function QuizContent() {
     );
   }
 
-  // Get unique categories for dropdown filtered by examType
-  const allCategories = Array.from(new Set(questions.filter(q => q.examType === examType).map(q => q.category)));
-
   // Save the exam type to localStorage when it changes (only if different from stored value)
   useEffect(() => {
     if (!examType) return;
@@ -56,6 +54,26 @@ export default function QuizContent() {
       saveLastExamType(examType);
     }
   }, [examType]);
+
+  // Update today's statistics
+  useEffect(() => {
+    if (!examType) return;
+    const activity = getTodayActivity(examType);
+    setTodayStats({
+      questionsAnswered: activity.questionsAnswered,
+      correctAnswers: activity.correctAnswers,
+    });
+  }, [examType]);
+  
+  // Function to update statistics
+  const updateTodayStats = () => {
+    if (!examType) return;
+    const activity = getTodayActivity(examType);
+    setTodayStats({
+      questionsAnswered: activity.questionsAnswered,
+      correctAnswers: activity.correctAnswers,
+    });
+  };
 
   // Shuffle choices whenever the current question changes
   useEffect(() => {
@@ -91,7 +109,7 @@ export default function QuizContent() {
 
     if (filtered.length === 0) {
       // No more questions available
-      router.push('/stats');
+      router.push(`/${examSlug}/stats`);
       return;
     }
 
@@ -117,9 +135,10 @@ export default function QuizContent() {
 
   const handleTimeUp = () => {
     const currentQuestion = availableQuestions[currentQuestionIndex];
-    if (currentQuestion) {
-      saveQuestionProgress(currentQuestion.id, false);
+    if (currentQuestion && examType) {
+      saveQuestionProgress(currentQuestion.id, false, examType);
       setShowResult(true);
+      updateTodayStats();
     }
   };
 
@@ -131,9 +150,13 @@ export default function QuizContent() {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     const isCorrect = originalIndex === currentQuestion.correctAnswer;
     
-    saveQuestionProgress(currentQuestion.id, isCorrect);
-    setShowResult(true);
+    if (examType) {
+      saveQuestionProgress(currentQuestion.id, isCorrect, examType);
+      setShowResult(true);
+      updateTodayStats();
+    }
   };
+
 
   const handleNext = () => {
     if (currentQuestionIndex < availableQuestions.length - 1) {
@@ -143,18 +166,8 @@ export default function QuizContent() {
       setTimeLeft(20);
       setIsTimeUp(false);
     } else {
-      router.push('/stats');
+      router.push(`/${examSlug}/stats`);
     }
-  };
-
-  const handleDifficultyChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const newDifficulty = e.target.value;
-    router.push(`/${examSlug}/quiz?difficulty=${newDifficulty}&category=${category}`);
-  };
-
-  const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const newCategory = e.target.value;
-    router.push(`/${examSlug}/quiz?difficulty=${difficulty}&category=${encodeURIComponent(newCategory)}`);
   };
 
   if (availableQuestions.length === 0) {
@@ -209,38 +222,22 @@ export default function QuizContent() {
             </div>
           </div>
 
-          {/* Settings Panel */}
-          <div className="card mb-3 border-info">
+          {/* Today's Statistics Panel */}
+          <div className="card mb-3 border-success">
             <div className="card-body py-2">
-              <div className="row g-2">
-                <div className="col-md-6">
-                  <label htmlFor="difficulty-select" className="form-label small mb-1">難易度</label>
-                  <select 
-                    id="difficulty-select"
-                    className="form-select form-select-sm"
-                    value={difficulty}
-                    onChange={handleDifficultyChange}
-                  >
-                    <option value="all">すべて</option>
-                    <option value="terminology">用語定義</option>
-                    <option value="basic">基礎レベル</option>
-                    <option value="comparison">比較問題</option>
-                    <option value="exam">試験レベル</option>
-                  </select>
+              <div className="row g-2 align-items-center">
+                <div className="col-auto">
+                  <span className="fw-bold text-muted">今日の学習</span>
                 </div>
-                <div className="col-md-6">
-                  <label htmlFor="category-select" className="form-label small mb-1">カテゴリ</label>
-                  <select 
-                    id="category-select"
-                    className="form-select form-select-sm"
-                    value={category}
-                    onChange={handleCategoryChange}
-                  >
-                    <option value="all">すべて</option>
-                    {allCategories.map((cat) => (
-                      <option key={cat} value={cat}>{cat}</option>
-                    ))}
-                  </select>
+                <div className="col-auto">
+                  <span className="badge bg-primary fs-6">
+                    学習数: {todayStats.questionsAnswered}問
+                  </span>
+                </div>
+                <div className="col-auto">
+                  <span className="badge bg-success fs-6">
+                    正解数: {todayStats.correctAnswers}問
+                  </span>
                 </div>
               </div>
             </div>

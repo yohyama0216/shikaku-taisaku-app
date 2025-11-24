@@ -34,6 +34,7 @@ export interface DailyStats {
 
 export interface DailyActivity {
   date: string; // ISO date string (YYYY-MM-DD)
+  examType: ExamType; // Type of exam
   questionsAnswered: number; // Number of questions answered on this day
   correctAnswers: number; // Number of correct answers on this day
   incorrectAnswers: number; // Number of incorrect answers on this day

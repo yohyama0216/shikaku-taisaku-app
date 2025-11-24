@@ -23,7 +23,7 @@ export const getQuestionProgress = (questionId: number): QuestionProgress | null
   }
 };
 
-export const saveQuestionProgress = (questionId: number, isCorrect: boolean): void => {
+export const saveQuestionProgress = (questionId: number, isCorrect: boolean, examType: ExamType): void => {
   if (typeof window === 'undefined') return;
   
   try {
@@ -53,8 +53,8 @@ export const saveQuestionProgress = (questionId: number, isCorrect: boolean): vo
     // Update daily statistics after saving progress
     updateDailyStats(allProgress);
     
-    // Update daily activity
-    updateDailyActivity(isCorrect);
+    // Update daily activity with examType
+    updateDailyActivity(isCorrect, examType);
     
     // Check for new badges
     const totalAnswered = Object.keys(allProgress).length;
@@ -162,7 +162,7 @@ export const getDailyStatsHistory = (): DailyStats[] => {
 };
 
 // Update daily activity tracking
-const updateDailyActivity = (isCorrect: boolean): void => {
+const updateDailyActivity = (isCorrect: boolean, examType: ExamType): void => {
   if (typeof window === 'undefined') return;
   
   try {
@@ -170,30 +170,32 @@ const updateDailyActivity = (isCorrect: boolean): void => {
     const activityData = localStorage.getItem(DAILY_ACTIVITY_KEY);
     const activities: DailyActivity[] = activityData ? JSON.parse(activityData) : [];
     
-    // Check if today's activity already exists
-    const todayIndex = activities.findIndex(activity => activity.date === today);
+    // Check if today's activity for this examType already exists
+    const todayIndex = activities.findIndex(activity => activity.date === today && activity.examType === examType);
     
     if (todayIndex >= 0) {
-      // Update today's activity
+      // Update today's activity for this exam type
       activities[todayIndex] = {
         date: today,
+        examType: examType,
         questionsAnswered: activities[todayIndex].questionsAnswered + 1,
         correctAnswers: activities[todayIndex].correctAnswers + (isCorrect ? 1 : 0),
         incorrectAnswers: activities[todayIndex].incorrectAnswers + (isCorrect ? 0 : 1),
       };
     } else {
-      // Add new entry for today
+      // Add new entry for today and this exam type
       activities.push({
         date: today,
+        examType: examType,
         questionsAnswered: 1,
         correctAnswers: isCorrect ? 1 : 0,
         incorrectAnswers: isCorrect ? 0 : 1,
       });
       
-      // Sort and keep only last 30 days of data
+      // Sort and keep only last 30 days of data per exam type (max 90 entries for 3 exam types)
       activities.sort((a, b) => b.date.localeCompare(a.date));
-      if (activities.length > 30) {
-        activities.splice(30);
+      if (activities.length > 90) { // Keep 30 days * 3 exam types max
+        activities.splice(90);
       }
     }
     
@@ -216,6 +218,42 @@ export const getDailyActivityHistory = (): DailyActivity[] => {
   } catch (error) {
     console.error('Error reading daily activity history:', error);
     return [];
+  }
+};
+
+// Get today's activity statistics for a specific exam type
+export const getTodayActivity = (examType: ExamType): DailyActivity => {
+  if (typeof window === 'undefined') {
+    return {
+      date: getTodayDate(),
+      examType: examType,
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      incorrectAnswers: 0,
+    };
+  }
+  
+  try {
+    const today = getTodayDate();
+    const activities = getDailyActivityHistory();
+    const todayActivity = activities.find(activity => activity.date === today && activity.examType === examType);
+    
+    return todayActivity || {
+      date: today,
+      examType: examType,
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      incorrectAnswers: 0,
+    };
+  } catch (error) {
+    console.error('Error reading today activity:', error);
+    return {
+      date: getTodayDate(),
+      examType: examType,
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      incorrectAnswers: 0,
+    };
   }
 };
 
