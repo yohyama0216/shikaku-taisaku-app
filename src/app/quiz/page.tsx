@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import questionsData from '@/data/questions.json';
 import { Question, ExamType } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storage';
+import { getSlugFromExamType } from '@/utils/examMapping';
 
 const questions = questionsData as Question[];
 
@@ -66,7 +67,8 @@ function QuizContent() {
 
     if (filtered.length === 0) {
       // No more questions available
-      router.push('/stats');
+      const examSlug = getSlugFromExamType(examType);
+      router.push(`/${examSlug}/stats`);
       return;
     }
 
@@ -118,7 +120,8 @@ function QuizContent() {
       setTimeLeft(20);
       setIsTimeUp(false);
     } else {
-      router.push('/stats');
+      const examSlug = getSlugFromExamType(examType);
+      router.push(`/${examSlug}/stats`);
     }
   };
 

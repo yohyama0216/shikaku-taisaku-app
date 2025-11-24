@@ -109,7 +109,7 @@ export default function QuizContent() {
 
     if (filtered.length === 0) {
       // No more questions available
-      router.push('/stats');
+      router.push(`/${examSlug}/stats`);
       return;
     }
 
@@ -166,7 +166,7 @@ export default function QuizContent() {
       setTimeLeft(20);
       setIsTimeUp(false);
     } else {
-      router.push('/stats');
+      router.push(`/${examSlug}/stats`);
     }
   };
 

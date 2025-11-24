@@ -172,7 +172,7 @@ export default function ExamPageClient() {
 
       <div className="row mt-4">
         <div className="col-md-6 mb-3">
-          <Link href="/stats" className="btn btn-info btn-lg w-100">
+          <Link href={`/${examSlug}/stats`} className="btn btn-info btn-lg w-100">
             統計を表示
           </Link>
         </div>
