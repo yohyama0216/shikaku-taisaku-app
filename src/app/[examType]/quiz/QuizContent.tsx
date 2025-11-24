@@ -57,16 +57,18 @@ export default function QuizContent() {
 
   // Update today's statistics
   useEffect(() => {
-    const activity = getTodayActivity();
+    if (!examType) return;
+    const activity = getTodayActivity(examType);
     setTodayStats({
       questionsAnswered: activity.questionsAnswered,
       correctAnswers: activity.correctAnswers,
     });
-  }, []);
+  }, [examType]);
   
   // Function to update statistics
   const updateTodayStats = () => {
-    const activity = getTodayActivity();
+    if (!examType) return;
+    const activity = getTodayActivity(examType);
     setTodayStats({
       questionsAnswered: activity.questionsAnswered,
       correctAnswers: activity.correctAnswers,
@@ -133,8 +135,8 @@ export default function QuizContent() {
 
   const handleTimeUp = () => {
     const currentQuestion = availableQuestions[currentQuestionIndex];
-    if (currentQuestion) {
-      saveQuestionProgress(currentQuestion.id, false);
+    if (currentQuestion && examType) {
+      saveQuestionProgress(currentQuestion.id, false, examType);
       setShowResult(true);
       updateTodayStats();
     }
@@ -148,10 +150,13 @@ export default function QuizContent() {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     const isCorrect = originalIndex === currentQuestion.correctAnswer;
     
-    saveQuestionProgress(currentQuestion.id, isCorrect);
-    setShowResult(true);
-    updateTodayStats();
+    if (examType) {
+      saveQuestionProgress(currentQuestion.id, isCorrect, examType);
+      setShowResult(true);
+      updateTodayStats();
+    }
   };
+
 
   const handleNext = () => {
     if (currentQuestionIndex < availableQuestions.length - 1) {

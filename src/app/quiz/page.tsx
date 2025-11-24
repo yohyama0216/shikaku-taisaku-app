@@ -93,7 +93,7 @@ function QuizContent() {
   const handleTimeUp = () => {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     if (currentQuestion) {
-      saveQuestionProgress(currentQuestion.id, false);
+      saveQuestionProgress(currentQuestion.id, false, examType);
       setShowResult(true);
     }
   };
@@ -106,7 +106,7 @@ function QuizContent() {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     const isCorrect = originalIndex === currentQuestion.correctAnswer;
     
-    saveQuestionProgress(currentQuestion.id, isCorrect);
+    saveQuestionProgress(currentQuestion.id, isCorrect, examType);
     setShowResult(true);
   };
 
