@@ -1,0 +1,602 @@
+[
+  {
+    "id": 301,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "簿記とは何か。",
+    "choices": [
+      "帳簿に記録し、計算・整理すること",
+      "税金を計算すること",
+      "お金を貯めること",
+      "商品を販売すること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "簿記とは、会社や商店などの経済活動を帳簿に記録し、計算・整理する技術です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 302,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "貸借対照表とは何か。",
+    "choices": [
+      "一定時点における財産の状態を示す表",
+      "一定期間の収益と費用を示す表",
+      "従業員の給料を示す表",
+      "商品の在庫を示す表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "貸借対照表（たいしゃくたいしょうひょう）は、一定時点（例えば決算日）における会社の財産の状態を示す表です。資産・負債・純資産が記載されます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 303,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "損益計算書とは何か。",
+    "choices": [
+      "一定期間の収益と費用、利益を示す表",
+      "一定時点の財産を示す表",
+      "お金の出入りを示す表",
+      "商品の売買記録を示す表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "損益計算書（そんえきけいさんしょ）は、一定期間（例えば1年間）の収益と費用、そしてその差額である利益を示す表です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 304,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "資産とは何か。",
+    "choices": [
+      "会社が所有している財産",
+      "会社が借りているお金",
+      "会社の利益",
+      "会社の費用"
+    ],
+    "correctAnswer": 0,
+    "explanation": "資産とは、会社が所有している財産のことです。現金、商品、建物、土地などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 305,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "負債とは何か。",
+    "choices": [
+      "会社が返済しなければならないお金",
+      "会社が所有している財産",
+      "会社の利益",
+      "会社の収益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "負債とは、会社が返済しなければならないお金のことです。借入金、買掛金などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 306,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "純資産とは何か。",
+    "choices": [
+      "資産から負債を引いた額",
+      "資産と負債を足した額",
+      "収益から費用を引いた額",
+      "現金と預金を足した額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "純資産とは、資産から負債を引いた額です。会社の正味の財産を表します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 307,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "収益とは何か。",
+    "choices": [
+      "会社の営業活動による収入",
+      "会社が借りたお金",
+      "会社が支払った費用",
+      "会社の財産"
+    ],
+    "correctAnswer": 0,
+    "explanation": "収益とは、会社の営業活動によって得られる収入のことです。売上などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 308,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "費用とは何か。",
+    "choices": [
+      "収益を得るために使ったお金",
+      "会社が借りたお金",
+      "会社の財産",
+      "会社の利益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "費用とは、収益を得るために使ったお金のことです。仕入、給料、家賃などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 309,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "仕訳とは何か。",
+    "choices": [
+      "取引を借方と貸方に分けて記録すること",
+      "商品を分類すること",
+      "お金を数えること",
+      "帳簿を整理すること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "仕訳（しわけ）とは、取引を借方（かりかた）と貸方（かしかた）に分けて記録することです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 310,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "借方とは何か。",
+    "choices": [
+      "仕訳の左側",
+      "仕訳の右側",
+      "資産のこと",
+      "負債のこと"
+    ],
+    "correctAnswer": 0,
+    "explanation": "借方（かりかた）とは、仕訳の左側のことです。資産の増加や費用の発生を記録します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 311,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "貸方とは何か。",
+    "choices": [
+      "仕訳の右側",
+      "仕訳の左側",
+      "収益のこと",
+      "費用のこと"
+    ],
+    "correctAnswer": 0,
+    "explanation": "貸方（かしかた）とは、仕訳の右側のことです。負債・純資産の増加や収益の発生を記録します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 312,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "現金で商品を仕入れたとき、借方に記入する勘定科目は何か。",
+    "choices": [
+      "仕入",
+      "現金",
+      "買掛金",
+      "売上"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金で商品を仕入れたときは、借方に「仕入（費用の増加）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 313,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "現金で商品を売り上げたとき、貸方に記入する勘定科目は何か。",
+    "choices": [
+      "売上",
+      "現金",
+      "売掛金",
+      "仕入"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金で商品を売り上げたときは、借方に「現金（資産の増加）」、貸方に「売上（収益の発生）」を記入します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 314,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "現金とは何か。",
+    "choices": [
+      "紙幣や硬貨などのお金",
+      "銀行に預けたお金",
+      "商品の代金",
+      "給料"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金とは、紙幣や硬貨などの手元にあるお金のことです。簿記では通貨代用証券（小切手など）も含みます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 315,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "当座預金とは何か。",
+    "choices": [
+      "銀行に預けた、小切手を振り出せる預金",
+      "紙幣や硬貨",
+      "定期預金",
+      "郵便貯金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "当座預金（とうざよきん）とは、銀行に預けた、小切手を振り出すことができる預金です。利息はつきません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 316,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "売掛金とは何か。",
+    "choices": [
+      "後で代金をもらう約束で商品を売ったときの代金",
+      "後で代金を払う約束で商品を買ったときの代金",
+      "現金で受け取った代金",
+      "銀行からの借入金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売掛金（うりかけきん）とは、後で代金をもらう約束（つけ・掛け）で商品を売ったときの代金です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 317,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "買掛金とは何か。",
+    "choices": [
+      "後で代金を払う約束で商品を買ったときの代金",
+      "後で代金をもらう約束で商品を売ったときの代金",
+      "現金で支払った代金",
+      "従業員への給料"
+    ],
+    "correctAnswer": 0,
+    "explanation": "買掛金（かいかけきん）とは、後で代金を払う約束（つけ・掛け）で商品を買ったときの代金です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 318,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "商品とは何か。",
+    "choices": [
+      "販売するために仕入れた品物",
+      "会社で使う備品",
+      "建物や土地",
+      "現金や預金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商品とは、販売するために仕入れた品物のことです。資産の勘定科目です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 319,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "借入金とは何か。",
+    "choices": [
+      "銀行などから借りたお金",
+      "銀行に預けたお金",
+      "商品の代金",
+      "会社の利益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "借入金（かりいれきん）とは、銀行などから借りたお金のことです。負債の勘定科目です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 320,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "資本金とは何か。",
+    "choices": [
+      "会社を始めるときに出資したお金",
+      "銀行から借りたお金",
+      "会社の利益",
+      "現金と預金の合計"
+    ],
+    "correctAnswer": 0,
+    "explanation": "資本金（しほんきん）とは、会社を始めるときに出資したお金のことです。純資産の勘定科目です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 321,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "商品¥50,000を仕入れ、代金は掛けとした。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)仕入 50,000 (貸方)買掛金 50,000",
+      "(借方)買掛金 50,000 (貸方)仕入 50,000",
+      "(借方)仕入 50,000 (貸方)現金 50,000",
+      "(借方)商品 50,000 (貸方)買掛金 50,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商品を掛けで仕入れた場合、借方に「仕入（費用の発生）」、貸方に「買掛金（負債の増加）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 322,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "商品¥80,000を売り上げ、代金は掛けとした。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)売掛金 80,000 (貸方)売上 80,000",
+      "(借方)売上 80,000 (貸方)売掛金 80,000",
+      "(借方)現金 80,000 (貸方)売上 80,000",
+      "(借方)売掛金 80,000 (貸方)商品 80,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商品を掛けで売り上げた場合、借方に「売掛金（資産の増加）」、貸方に「売上（収益の発生）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 323,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "売掛金¥30,000を現金で回収した。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)現金 30,000 (貸方)売掛金 30,000",
+      "(借方)売掛金 30,000 (貸方)現金 30,000",
+      "(借方)現金 30,000 (貸方)売上 30,000",
+      "(借方)当座預金 30,000 (貸方)売掛金 30,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売掛金を現金で回収した場合、借方に「現金（資産の増加）」、貸方に「売掛金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 324,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "買掛金¥40,000を現金で支払った。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)買掛金 40,000 (貸方)現金 40,000",
+      "(借方)現金 40,000 (貸方)買掛金 40,000",
+      "(借方)買掛金 40,000 (貸方)当座預金 40,000",
+      "(借方)仕入 40,000 (貸方)現金 40,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "買掛金を現金で支払った場合、借方に「買掛金（負債の減少）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 325,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "銀行から¥100,000を借り入れ、当座預金とした。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)当座預金 100,000 (貸方)借入金 100,000",
+      "(借方)借入金 100,000 (貸方)当座預金 100,000",
+      "(借方)現金 100,000 (貸方)借入金 100,000",
+      "(借方)当座預金 100,000 (貸方)資本金 100,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "銀行から借り入れて当座預金とした場合、借方に「当座預金（資産の増加）」、貸方に「借入金（負債の増加）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 326,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "給料¥200,000を現金で支払った。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)給料 200,000 (貸方)現金 200,000",
+      "(借方)現金 200,000 (貸方)給料 200,000",
+      "(借方)給料 200,000 (貸方)当座預金 200,000",
+      "(借方)費用 200,000 (貸方)現金 200,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "給料を現金で支払った場合、借方に「給料（費用の発生）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 327,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "家賃¥50,000を現金で支払った。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)支払家賃 50,000 (貸方)現金 50,000",
+      "(借方)現金 50,000 (貸方)支払家賃 50,000",
+      "(借方)家賃 50,000 (貸方)買掛金 50,000",
+      "(借方)費用 50,000 (貸方)現金 50,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "家賃を現金で支払った場合、借方に「支払家賃（費用の発生）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 328,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "現金¥60,000を当座預金に預け入れた。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)当座預金 60,000 (貸方)現金 60,000",
+      "(借方)現金 60,000 (貸方)当座預金 60,000",
+      "(借方)当座預金 60,000 (貸方)資本金 60,000",
+      "(借方)預金 60,000 (貸方)現金 60,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金を当座預金に預け入れた場合、借方に「当座預金（資産の増加）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 329,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "決算とは何か。",
+    "choices": [
+      "一定期間の経営成績と財政状態を明らかにする手続き",
+      "毎日の取引を記録すること",
+      "商品を売ること",
+      "お金を借りること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "決算（けっさん）とは、一定期間（通常1年）の経営成績（損益計算書）と財政状態（貸借対照表）を明らかにする手続きです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 330,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "期首商品棚卸高が¥100,000、当期商品仕入高が¥500,000、期末商品棚卸高が¥80,000のとき、売上原価はいくらか。",
+    "choices": [
+      "¥520,000",
+      "¥480,000",
+      "¥580,000",
+      "¥600,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売上原価 = 期首商品棚卸高 + 当期商品仕入高 - 期末商品棚卸高 = 100,000 + 500,000 - 80,000 = 520,000円です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 331,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "売上高が¥1,000,000、売上原価が¥600,000のとき、売上総利益はいくらか。",
+    "choices": [
+      "¥400,000",
+      "¥600,000",
+      "¥1,000,000",
+      "¥1,600,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売上総利益（粗利益）= 売上高 - 売上原価 = 1,000,000 - 600,000 = 400,000円です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 332,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "売上総利益が¥400,000、販売費及び一般管理費が¥250,000のとき、営業利益はいくらか。",
+    "choices": [
+      "¥150,000",
+      "¥250,000",
+      "¥400,000",
+      "¥650,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "営業利益 = 売上総利益 - 販売費及び一般管理費 = 400,000 - 250,000 = 150,000円です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 333,
+    "examType": "bookkeeping-elementary",
+    "category": "貸借対照表",
+    "question": "貸借対照表において、資産の部はどちらに記載されるか。",
+    "choices": [
+      "左側（借方）",
+      "右側（貸方）",
+      "上部",
+      "下部"
+    ],
+    "correctAnswer": 0,
+    "explanation": "貸借対照表では、資産の部は左側（借方）に、負債の部と純資産の部は右側（貸方）に記載されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 334,
+    "examType": "bookkeeping-elementary",
+    "category": "貸借対照表",
+    "question": "現金¥100,000、売掛金¥50,000、買掛金¥30,000、資本金¥120,000のとき、貸借対照表は貸借が一致するか。",
+    "choices": [
+      "一致する",
+      "一致しない（資産が多い）",
+      "一致しない（負債・純資産が多い）",
+      "計算できない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "資産合計 = 100,000 + 50,000 = 150,000円、負債・純資産合計 = 30,000 + 120,000 = 150,000円で、貸借は一致します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 335,
+    "examType": "bookkeeping-elementary",
+    "category": "損益計算書",
+    "question": "損益計算書において、売上は何の部に記載されるか。",
+    "choices": [
+      "収益の部",
+      "費用の部",
+      "資産の部",
+      "負債の部"
+    ],
+    "correctAnswer": 0,
+    "explanation": "損益計算書では、売上などの収益は収益の部（貸方）に、仕入や費用は費用の部（借方）に記載されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 336,
+    "examType": "bookkeeping-elementary",
+    "category": "試算表",
+    "question": "試算表とは何か。",
+    "choices": [
+      "総勘定元帳の各勘定の残高や合計を一覧表にしたもの",
+      "一年間の収益と費用を示す表",
+      "一定時点の財産を示す表",
+      "取引を記録した帳簿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "試算表（しさんひょう）とは、総勘定元帳の各勘定の残高や合計を一覧表にしたもので、仕訳や転記の正確性を確認するために作成します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 337,
+    "examType": "bookkeeping-elementary",
+    "category": "帳簿",
+    "question": "仕訳帳とは何か。",
+    "choices": [
+      "取引を発生順に仕訳として記録する帳簿",
+      "勘定科目ごとに記録する帳簿",
+      "現金の出入りを記録する帳簿",
+      "商品の在庫を記録する帳簿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "仕訳帳（しわけちょう）とは、取引を発生順に仕訳として記録する帳簿です。主要簿の一つです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 338,
+    "examType": "bookkeeping-elementary",
+    "category": "帳簿",
+    "question": "総勘定元帳とは何か。",
+    "choices": [
+      "勘定科目ごとに取引を記録する帳簿",
+      "取引を発生順に記録する帳簿",
+      "現金の出入りのみを記録する帳簿",
+      "商品の売買のみを記録する帳簿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "総勘定元帳（そうかんじょうもとちょう）とは、勘定科目ごとに取引を記録する帳簿です。仕訳帳の内容を勘定科目ごとに転記します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 339,
+    "examType": "bookkeeping-elementary",
+    "category": "現金と預金",
+    "question": "小切手を振り出して商品を仕入れたとき、貸方に記入する勘定科目は何か。",
+    "choices": [
+      "当座預金",
+      "現金",
+      "買掛金",
+      "仕入"
+    ],
+    "correctAnswer": 0,
+    "explanation": "小切手を振り出した場合、借方に「仕入」、貸方に「当座預金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 340,
+    "examType": "bookkeeping-elementary",
+    "category": "現金と預金",
+    "question": "他人振出の小切手を受け取ったとき、借方に記入する勘定科目は何か。",
+    "choices": [
+      "現金",
+      "当座預金",
+      "売掛金",
+      "受取手形"
+    ],
+    "correctAnswer": 0,
+    "explanation": "他人振出の小切手を受け取った場合、小切手は通貨代用証券として「現金（資産の増加）」で処理します。",
+    "difficulty": "exam"
+  }
+]

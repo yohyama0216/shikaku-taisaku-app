@@ -4,13 +4,11 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import questionsData from '@/data/questions.json';
 import { Question, QuestionProgress, DailyStats, Badge, ExamType } from '@/types/quiz';
 import { getAllProgress, clearAllProgress, getDailyStatsHistory } from '@/utils/storage';
 import { getAllBadges, getBadgeStats } from '@/utils/badges';
 import { getExamTypeFromSlug } from '@/utils/examMapping';
-
-const questions = questionsData as Question[];
+import { getQuestionsByExamType } from '@/utils/questionLoader';
 
 export default function StatsPage() {
   const params = useParams();
@@ -68,8 +66,8 @@ export default function StatsPage() {
     );
   }
 
-  // Filter questions by exam type
-  const examQuestions = questions.filter(q => q.examType === examType);
+  // Get questions for this exam type
+  const examQuestions = getQuestionsByExamType(examType);
 
   const totalAnswered = examQuestions.filter(q => progress[q.id]).length;
   const totalCorrect = examQuestions.reduce((sum, q) => sum + (progress[q.id]?.correctCount || 0), 0);

@@ -3,18 +3,19 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import questionsData from '@/data/questions.json';
 import { Question, QuestionProgress, DailyStats, Badge } from '@/types/quiz';
 import { getAllProgress, clearAllProgress, getDailyStatsHistory } from '@/utils/storage';
 import { getAllBadges, getBadgeStats } from '@/utils/badges';
-
-const questions = questionsData as Question[];
+import { getAllQuestions } from '@/utils/questionLoader';
 
 export default function StatsPage() {
   const [progress, setProgress] = useState<Record<number, QuestionProgress>>({});
   const [statsHistory, setStatsHistory] = useState<DailyStats[]>([]);
   const [badges, setBadges] = useState<Badge[]>([]);
   const [mounted, setMounted] = useState(false);
+
+  // Get all questions from all exam types
+  const questions = getAllQuestions();
 
   useEffect(() => {
     setMounted(true);

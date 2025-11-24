@@ -3,12 +3,10 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useEffect } from 'react';
-import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
 import { getExamTypeFromSlug, EXAM_INFO } from '@/utils/examMapping';
 import { saveLastExamType } from '@/utils/storage';
-
-const questions = questionsData as Question[];
+import { getQuestionsByExamType } from '@/utils/questionLoader';
 
 export default function ExamPageClient() {
   const params = useParams();
@@ -38,8 +36,8 @@ export default function ExamPageClient() {
 
   const examInfo = EXAM_INFO[examType];
   
-  // Filter questions by exam type
-  const filteredQuestions = questions.filter(q => q.examType === examType);
+  // Get questions for this exam type
+  const filteredQuestions = getQuestionsByExamType(examType);
   
   // Get unique categories for selected exam
   const categories = Array.from(new Set(filteredQuestions.map(q => q.category)));
