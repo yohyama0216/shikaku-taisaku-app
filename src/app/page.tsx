@@ -48,32 +48,6 @@ export default function Home() {
         })}
       </div>
 
-      <div className="row mt-5">
-        <div className="col-md-6 mb-3">
-          <Link href="/stats" className="btn btn-info btn-lg w-100">
-            統計を表示
-          </Link>
-        </div>
-        <div className="col-md-6 mb-3">
-          <Link href="/history" className="btn btn-secondary btn-lg w-100">
-            学習履歴を表示
-          </Link>
-        </div>
-      </div>
-
-      <div className="row mt-4">
-        <div className="col-12">
-          <div className="alert alert-info">
-            <h5 className="alert-heading">使い方</h5>
-            <ul className="mb-0">
-              <li>各問題には20秒の制限時間があります</li>
-              <li>4回正解した問題は自動的にスキップされます</li>
-              <li>学習進捗はブラウザに保存されます</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       <style jsx>{`
         .exam-card {
           transition: transform 0.2s;
