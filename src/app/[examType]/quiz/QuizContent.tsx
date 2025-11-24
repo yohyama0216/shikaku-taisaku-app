@@ -75,7 +75,7 @@ export default function QuizContent() {
       
       setShuffledChoices(shuffled);
     }
-  }, [currentQuestionIndex, availableQuestions]);
+  }, [currentQuestionIndex, availableQuestions.length, availableQuestions]);
 
   // Filter questions by examType, category, difficulty and availability
   useEffect(() => {
