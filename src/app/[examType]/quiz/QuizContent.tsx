@@ -57,19 +57,21 @@ export default function QuizContent() {
 
   // Update today's statistics
   useEffect(() => {
-    const updateStats = () => {
-      const activity = getTodayActivity();
-      setTodayStats({
-        questionsAnswered: activity.questionsAnswered,
-        correctAnswers: activity.correctAnswers,
-      });
-    };
-    
-    updateStats();
-    // Update stats after each question is answered
-    const interval = setInterval(updateStats, 1000);
-    return () => clearInterval(interval);
+    const activity = getTodayActivity();
+    setTodayStats({
+      questionsAnswered: activity.questionsAnswered,
+      correctAnswers: activity.correctAnswers,
+    });
   }, []);
+  
+  // Function to update statistics
+  const updateTodayStats = () => {
+    const activity = getTodayActivity();
+    setTodayStats({
+      questionsAnswered: activity.questionsAnswered,
+      correctAnswers: activity.correctAnswers,
+    });
+  };
 
   // Shuffle choices whenever the current question changes
   useEffect(() => {
@@ -134,6 +136,7 @@ export default function QuizContent() {
     if (currentQuestion) {
       saveQuestionProgress(currentQuestion.id, false);
       setShowResult(true);
+      updateTodayStats();
     }
   };
 
@@ -147,6 +150,7 @@ export default function QuizContent() {
     
     saveQuestionProgress(currentQuestion.id, isCorrect);
     setShowResult(true);
+    updateTodayStats();
   };
 
   const handleNext = () => {
