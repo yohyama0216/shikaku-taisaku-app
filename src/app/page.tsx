@@ -27,10 +27,7 @@ export default function Home() {
             <div key={examType} className="col-md-6 col-lg-4 mb-4">
               <Link 
                 href={`/${slug}`} 
-                className="card h-100 border-primary text-decoration-none"
-                style={{ transition: 'transform 0.2s' }}
-                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                className="card h-100 border-primary text-decoration-none exam-card"
               >
                 <div className="card-body d-flex flex-column">
                   <h3 className="card-title h4 mb-3 text-primary">
@@ -76,6 +73,20 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .exam-card {
+          transition: transform 0.2s;
+        }
+        .exam-card:hover {
+          transform: scale(1.05);
+        }
+        .exam-card:focus {
+          transform: scale(1.05);
+          outline: 2px solid #0d6efd;
+          outline-offset: 2px;
+        }
+      `}</style>
     </main>
   );
 }

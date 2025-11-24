@@ -1,17 +1,5 @@
 import { ExamType } from '@/types/quiz';
 
-export const EXAM_SLUG_MAP: Record<ExamType, string> = {
-  'takken': 'takken',
-  'bookkeeping-elementary': 'bookkeeping-elementary',
-  'web-creator': 'web-creator'
-};
-
-export const SLUG_EXAM_MAP: Record<string, ExamType> = {
-  'takken': 'takken',
-  'bookkeeping-elementary': 'bookkeeping-elementary',
-  'web-creator': 'web-creator'
-};
-
 export const EXAM_INFO: Record<ExamType, { title: string; description: string; shortName: string }> = {
   'takken': {
     title: '宅建試験対策クイズ',
@@ -31,9 +19,14 @@ export const EXAM_INFO: Record<ExamType, { title: string; description: string; s
 };
 
 export function getExamTypeFromSlug(slug: string): ExamType | null {
-  return SLUG_EXAM_MAP[slug] || null;
+  // Since slug and examType are the same, just validate
+  if (slug === 'takken' || slug === 'bookkeeping-elementary' || slug === 'web-creator') {
+    return slug as ExamType;
+  }
+  return null;
 }
 
 export function getSlugFromExamType(examType: ExamType): string {
-  return EXAM_SLUG_MAP[examType];
+  // Since slug and examType are the same, just return it
+  return examType;
 }

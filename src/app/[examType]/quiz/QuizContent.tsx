@@ -27,20 +27,21 @@ export default function QuizContent() {
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [shuffledChoices, setShuffledChoices] = useState<Array<{ text: string; originalIndex: number }>>([]);
 
-  // Redirect if invalid exam type
-  useEffect(() => {
-    if (!examType) {
-      router.push('/');
-    }
-  }, [examType, router]);
-
+  // Handle invalid exam type
   if (!examType) {
     return (
-      <div className="text-center">
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">読み込み中...</span>
+      <main>
+        <div className="alert alert-danger">
+          <h4>エラー</h4>
+          <p>指定された試験が見つかりません。</p>
+          <button 
+            onClick={() => router.push('/')} 
+            className="btn btn-primary"
+          >
+            ホームに戻る
+          </button>
         </div>
-      </div>
+      </main>
     );
   }
 
