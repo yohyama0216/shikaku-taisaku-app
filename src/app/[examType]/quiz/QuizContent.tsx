@@ -1,19 +1,23 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { useSearchParams, useRouter, useParams } from 'next/navigation';
 import questionsData from '@/data/questions.json';
-import { Question, ExamType } from '@/types/quiz';
+import { Question } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storage';
+import { getExamTypeFromSlug } from '@/utils/examMapping';
 
 const questions = questionsData as Question[];
 
-function QuizContent() {
+export default function QuizContent() {
+  const params = useParams();
   const searchParams = useSearchParams();
   const router = useRouter();
+  const examSlug = params.examType as string;
+  const examType = getExamTypeFromSlug(examSlug);
+  
   const category = searchParams.get('category') || 'all';
   const difficulty = searchParams.get('difficulty') || 'all';
-  const examType = (searchParams.get('examType') || 'takken') as ExamType;
 
   const [availableQuestions, setAvailableQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -23,11 +27,30 @@ function QuizContent() {
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [shuffledChoices, setShuffledChoices] = useState<Array<{ text: string; originalIndex: number }>>([]);
 
+  // Handle invalid exam type
+  if (!examType) {
+    return (
+      <main>
+        <div className="alert alert-danger">
+          <h4>エラー</h4>
+          <p>指定された試験が見つかりません。</p>
+          <button 
+            onClick={() => router.push('/')} 
+            className="btn btn-primary"
+          >
+            ホームに戻る
+          </button>
+        </div>
+      </main>
+    );
+  }
+
   // Get unique categories for dropdown filtered by examType
   const allCategories = Array.from(new Set(questions.filter(q => q.examType === examType).map(q => q.category)));
 
   // Save the exam type to localStorage when it changes (only if different from stored value)
   useEffect(() => {
+    if (!examType) return;
     const storedExamType = getLastExamType();
     if (storedExamType !== examType) {
       saveLastExamType(examType);
@@ -52,10 +75,12 @@ function QuizContent() {
       
       setShuffledChoices(shuffled);
     }
-  }, [currentQuestionIndex, availableQuestions.length]);
+  }, [currentQuestionIndex, availableQuestions.length, availableQuestions]);
 
   // Filter questions by examType, category, difficulty and availability
   useEffect(() => {
+    if (!examType) return;
+    
     const filtered = questions.filter((q) => {
       const matchesExamType = q.examType === examType;
       const matchesCategory = category === 'all' || q.category === category;
@@ -124,12 +149,12 @@ function QuizContent() {
 
   const handleDifficultyChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newDifficulty = e.target.value;
-    router.push(`/quiz?difficulty=${newDifficulty}&category=${category}&examType=${examType}`);
+    router.push(`/${examSlug}/quiz?difficulty=${newDifficulty}&category=${category}`);
   };
 
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newCategory = e.target.value;
-    router.push(`/quiz?difficulty=${difficulty}&category=${encodeURIComponent(newCategory)}&examType=${examType}`);
+    router.push(`/${examSlug}/quiz?difficulty=${difficulty}&category=${encodeURIComponent(newCategory)}`);
   };
 
   if (availableQuestions.length === 0) {
@@ -280,27 +305,13 @@ function QuizContent() {
           <div className="mt-3">
             <button
               className="btn btn-outline-secondary"
-              onClick={() => router.push('/')}
+              onClick={() => router.push(`/${examSlug}`)}
             >
-              ← ホームに戻る
+              ← 試験ページに戻る
             </button>
           </div>
         </div>
       </div>
     </main>
-  );
-}
-
-export default function QuizPage() {
-  return (
-    <Suspense fallback={
-      <div className="text-center">
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">読み込み中...</span>
-        </div>
-      </div>
-    }>
-      <QuizContent />
-    </Suspense>
   );
 }
