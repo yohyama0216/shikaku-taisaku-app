@@ -4,7 +4,7 @@ import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import questionsData from '@/data/questions.json';
 import { Question, ExamType } from '@/types/quiz';
-import { saveQuestionProgress, shouldShowQuestion, saveLastExamType } from '@/utils/storage';
+import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storage';
 
 const questions = questionsData as Question[];
 
@@ -26,9 +26,12 @@ function QuizContent() {
   // Get unique categories for dropdown filtered by examType
   const allCategories = Array.from(new Set(questions.filter(q => q.examType === examType).map(q => q.category)));
 
-  // Save the exam type to localStorage when it changes
+  // Save the exam type to localStorage when it changes (only if different from stored value)
   useEffect(() => {
-    saveLastExamType(examType);
+    const storedExamType = getLastExamType();
+    if (storedExamType !== examType) {
+      saveLastExamType(examType);
+    }
   }, [examType]);
 
   // Shuffle choices whenever the current question changes
