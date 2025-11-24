@@ -1,14 +1,29 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
+import { saveLastExamType, getLastExamType } from '@/utils/storage';
 
 const questions = questionsData as Question[];
 
 export default function Home() {
   const [selectedExam, setSelectedExam] = useState<'takken' | 'bookkeeping-elementary' | 'web-creator'>('takken');
+  
+  // Load the last selected exam type from localStorage on mount
+  useEffect(() => {
+    const lastExamType = getLastExamType();
+    if (lastExamType) {
+      setSelectedExam(lastExamType);
+    }
+  }, []);
+  
+  // Save exam type whenever it changes
+  const handleExamChange = (examType: 'takken' | 'bookkeeping-elementary' | 'web-creator') => {
+    setSelectedExam(examType);
+    saveLastExamType(examType);
+  };
   
   // Filter questions by exam type
   const filteredQuestions = questions.filter(q => q.examType === selectedExam);
@@ -53,21 +68,21 @@ export default function Home() {
             <button
               type="button"
               className={`btn ${selectedExam === 'takken' ? 'btn-primary' : 'btn-outline-primary'}`}
-              onClick={() => setSelectedExam('takken')}
+              onClick={() => handleExamChange('takken')}
             >
               宅建試験
             </button>
             <button
               type="button"
               className={`btn ${selectedExam === 'bookkeeping-elementary' ? 'btn-primary' : 'btn-outline-primary'}`}
-              onClick={() => setSelectedExam('bookkeeping-elementary')}
+              onClick={() => handleExamChange('bookkeeping-elementary')}
             >
               簿記初級
             </button>
             <button
               type="button"
               className={`btn ${selectedExam === 'web-creator' ? 'btn-primary' : 'btn-outline-primary'}`}
-              onClick={() => setSelectedExam('web-creator')}
+              onClick={() => handleExamChange('web-creator')}
             >
               Webクリエイター
             </button>

@@ -4,7 +4,7 @@ import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
-import { saveQuestionProgress, shouldShowQuestion } from '@/utils/storage';
+import { saveQuestionProgress, shouldShowQuestion, saveLastExamType } from '@/utils/storage';
 
 const questions = questionsData as Question[];
 
@@ -48,6 +48,9 @@ function QuizContent() {
 
   // Filter questions by examType, category, difficulty and availability
   useEffect(() => {
+    // Save the exam type to localStorage when quiz is started
+    saveLastExamType(examType);
+    
     const filtered = questions.filter((q) => {
       const matchesExamType = q.examType === examType;
       const matchesCategory = category === 'all' || q.category === category;

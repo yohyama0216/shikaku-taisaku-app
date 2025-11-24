@@ -4,6 +4,7 @@ import { checkAndAwardBadges } from './badges';
 const STORAGE_KEY = 'hazmat-quiz-progress';
 const STATS_HISTORY_KEY = 'hazmat-quiz-stats-history';
 const DAILY_ACTIVITY_KEY = 'hazmat-quiz-daily-activity';
+const LAST_EXAM_TYPE_KEY = 'hazmat-quiz-last-exam-type';
 
 export const getQuestionProgress = (questionId: number): QuestionProgress | null => {
   if (typeof window === 'undefined') return null;
@@ -213,5 +214,32 @@ export const getDailyActivityHistory = (): DailyActivity[] => {
   } catch (error) {
     console.error('Error reading daily activity history:', error);
     return [];
+  }
+};
+
+// Save the last selected exam type
+export const saveLastExamType = (examType: 'takken' | 'bookkeeping-elementary' | 'web-creator'): void => {
+  if (typeof window === 'undefined') return;
+  
+  try {
+    localStorage.setItem(LAST_EXAM_TYPE_KEY, examType);
+  } catch (error) {
+    console.error('Error saving last exam type:', error);
+  }
+};
+
+// Get the last selected exam type
+export const getLastExamType = (): 'takken' | 'bookkeeping-elementary' | 'web-creator' | null => {
+  if (typeof window === 'undefined') return null;
+  
+  try {
+    const examType = localStorage.getItem(LAST_EXAM_TYPE_KEY);
+    if (examType && ['takken', 'bookkeeping-elementary', 'web-creator'].includes(examType)) {
+      return examType as 'takken' | 'bookkeeping-elementary' | 'web-creator';
+    }
+    return null;
+  } catch (error) {
+    console.error('Error reading last exam type:', error);
+    return null;
   }
 };
