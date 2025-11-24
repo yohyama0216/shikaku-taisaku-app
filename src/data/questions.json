@@ -11,7 +11,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "強迫による意思表示は、取り消すことができます。詐欺の場合は善意の第三者に対抗できませんが、強迫の場合は対抗できます。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "未成年者は、原則として法定代理人の同意を得なければ法律行為をすることができません。ただし、単に権利を得る行為や義務を免れる行為は単独でできます。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "代理権は、本人の死亡により消滅します。代理人は行為能力者でなくてもよく、無権代理行為は本人が追認すれば有効となります。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "取得時効の期間は、所有の意思をもって、平穏に、かつ、公然と占有した場合、善意無過失であれば10年、それ以外は20年です。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "不動産物権の変動は、当事者の意思表示のみで効力を生じますが、第三者に対抗するためには登記が必要です。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "抵当権は、登記をしなければ第三者に対抗できません。占有の移転は不要で、被担保債権には利息や遅延損害金も含まれます。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "賃貸借契約の存続期間は、最長50年（改正前は20年）です。賃借人は原則として賃貸人の同意なく転貸できません。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "宅地建物取引業の免許は、都道府県知事または国土交通大臣が行います。免許の有効期間は5年で、更新が必要です。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "宅地建物取引士は、重要事項の説明をすることができる専門資格者です。取引士証の有効期間は5年で、登録は都道府県知事が行います。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "媒介契約の有効期間は、最長3か月（更新可能）です。専任媒介契約では1社のみに依頼し、媒介契約書面の交付は義務です。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "重要事項の説明は、宅地建物取引士が、契約成立前に書面を交付して行わなければなりません。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "報酬の上限額は、国土交通大臣が定めています。報酬は契約成立後に受領でき、上限額の範囲内で定める必要があります。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "8種規制は、宅建業者が自ら売主となり、買主が宅建業者でない場合に適用される特別な規制です。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "市街化区域は、すでに市街地を形成している区域及びおおむね10年以内に優先的かつ計画的に市街化を図るべき区域です。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "correctAnswer": 3,
     "explanation": "用途地域は、13種類（住居系8、商業系2、工業系3）あります。工業専用地域では住宅の建築はできません。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "建ぺい率は、建築面積の敷地面積に対する割合で、用途地域によって上限が定められています。一定の条件下で緩和規定もあります。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "容積率は、延べ面積の敷地面積に対する割合で、用途地域によって上限が定められています。前面道路の幅員による制限もあります。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "不動産取得税は、地方税であり、不動産を取得した時に一度だけ課税されます。相続による取得には課税されません。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "固定資産税は、毎年1月1日時点の所有者に課税される地方税です。標準税率は1.4%で、免税点があります。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "登録免許税は、国税であり、不動産登記などの際に課税されます。一定の要件を満たせば軽減措置があります。",
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "examType": "takken"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "不動産の二重譲渡では、先に登記を備えた者が優先します。登記を備えていないBは、登記を備えたCに対抗できません。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "抵当権設定後に設定された賃借権は、原則として抵当権者に対抗できません。競落により賃借権は消滅します。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "建物賃貸借契約の期間を1年未満とする定めをした場合、期間の定めのないものとみなされます。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "遺言は、15歳に達した者であれば、単独ですることができます。自筆証書遺言は全文自書が原則ですが、財産目録はパソコン等で作成可能です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 25,
@@ -347,7 +371,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "請負契約は、仕事の完成を目的とする契約です。仕事が完成しなければ、報酬請求権は発生しません。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 26,
@@ -361,7 +386,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "改正民法では、連帯債務者の一人についての時効の完成は、他の連帯債務者に影響しません（相対効）。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 27,
@@ -375,7 +401,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "2つ以上の都道府県に事務所を設置する場合は、国土交通大臣の免許が必要です。甲県知事免許から国土交通大臣免許への免許換えが必要です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 28,
@@ -389,7 +416,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "宅地建物取引士証の有効期間は5年で、更新時には都道府県知事が指定する法定講習を受講する必要があります。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 29,
@@ -403,7 +431,8 @@
     ],
     "correctAnswer": 1,
     "explanation": "専属専任媒介契約では、1週間に1回以上（専任媒介は2週間に1回以上）、業務処理状況を依頼者に報告する義務があります。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 30,
@@ -417,7 +446,8 @@
     ],
     "correctAnswer": 3,
     "explanation": "重要事項の説明は、宅地建物取引士が、宅地建物取引士証を提示して、契約成立前に行わなければなりません。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 31,
@@ -431,7 +461,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "37条書面（契約書面）には、宅地建物取引士の記名が必要です。交付は契約成立後遅滞なく行います。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 32,
@@ -445,7 +476,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "クーリング・オフは、書面により行う必要があります。期間は告知日から8日間で、事務所での契約や買主が業者の場合は適用されません。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 33,
@@ -459,7 +491,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "手付金等の保全措置は、手付金等を受領する前に講じなければなりません。未完成物件は5%以下かつ1,000万円以下、完成物件は10%以下かつ1,000万円以下なら不要です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 34,
@@ -473,7 +506,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "市街化区域内では、1,000㎡未満の開発行為は開発許可が不要です（自治体により異なる場合あり）。市街化調整区域では原則として全ての開発行為に許可が必要です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 35,
@@ -487,7 +521,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "第一種低層住居専用地域及び第二種低層住居専用地域では、建築物の高さの限度は10m又は12mです。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 36,
@@ -501,7 +536,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "市街化区域内の農地を転用する場合は、あらかじめ農業委員会に届け出れば許可は不要です。農地を農地として売買する場合は3条、転用する場合は4条（自己転用）又は5条（転用目的の権利移動）の許可が必要です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 37,
@@ -515,7 +551,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "市街化区域では2,000㎡以上の土地売買契約を締結した場合、買主が契約締結日から2週間以内に都道府県知事に事後届出を行う必要があります。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 38,
@@ -529,7 +566,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "仮換地の指定があった場合、従前の宅地の使用収益権は消滅し、仮換地について使用収益できるようになります。建築行為等には都道府県知事等の許可が必要です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 39,
@@ -543,7 +581,8 @@
     ],
     "correctAnswer": 3,
     "explanation": "居住用財産を譲渡した場合の3,000万円特別控除の適用を受けるためには、確定申告が必要です。軽減税率は所有期間10年超、買換え特例と3,000万円控除は選択適用です。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 40,
@@ -557,7 +596,8 @@
     ],
     "correctAnswer": 2,
     "explanation": "印紙税の納付は、課税文書に印紙を貼付し、消印（割印）することにより行います。契約書は各通に印紙が必要で、電子契約には課税されません。",
-    "difficulty": "exam"
+    "difficulty": "exam",
+    "examType": "takken"
   },
   {
     "id": 41,
@@ -571,7 +611,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "意思表示は、一定の法律効果を発生させる意思の表示です。法律行為は、意思表示を要素とする法律要件で、契約や遺言などが含まれます。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 42,
@@ -585,7 +626,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "詐欺による意思表示の取消しは、善意の第三者に対抗できません。しかし、強迫による取消しは、善意の第三者に対しても対抗できます。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 43,
@@ -599,7 +641,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "抵当権は、目的物の占有を債務者に残したまま設定できる担保物権です。質権は、目的物の占有を債権者に移転する必要があります。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 44,
@@ -613,7 +656,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "賃貸借は、賃料を支払う有償契約です。使用貸借は、無償で物を借りる契約で、賃貸借よりも借主の保護が弱くなります。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 45,
@@ -627,7 +671,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "取得時効は、一定期間、他人の物を占有することにより所有権等を取得します。消滅時効は、一定期間権利を行使しないことにより権利が消滅します。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 46,
@@ -641,7 +686,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "連帯債務は、複数の債務者が同一内容の債務を負担し、各自が全額を弁済する義務があります。保証債務は、主たる債務者とは別に保証人が債務を負担します。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 47,
@@ -655,7 +701,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "普通借地権は、一定の要件のもとで更新が可能です。定期借地権は、更新がなく、期間満了により確定的に終了します。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 48,
@@ -669,7 +716,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "一般媒介契約は、複数の宅建業者に重ねて依頼できます。専任媒介契約は、1社のみに依頼し、他社への重複依頼はできません。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 49,
@@ -683,7 +731,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "専任媒介契約では、依頼者が自ら発見した相手方と直接契約できます。専属専任媒介契約では、自己発見取引も業者を通す必要があります。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 50,
@@ -697,7 +746,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "重要事項説明は、契約成立前に宅地建物取引士が行います。37条書面（契約書面）は、契約成立後遅滞なく交付します。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 51,
@@ -711,7 +761,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "1つの都道府県内にのみ事務所を設置する場合は都道府県知事免許、2つ以上の都道府県に事務所を設置する場合は国土交通大臣免許が必要です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 52,
@@ -725,7 +776,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "手付金等には、手付金その他契約締結時に授受される金銭が含まれます。保全措置の対象となる手付金等は、代金の一部として授受される金銭です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 53,
@@ -739,7 +791,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "市街化区域では原則1,000㎡以上の開発行為に許可が必要です。市街化調整区域では、原則としてすべての開発行為に許可が必要です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 54,
@@ -753,7 +806,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "建ぺい率は、建築面積（建物を真上から見た面積）の敷地面積に対する割合です。容積率は、延べ面積（各階の床面積の合計）の敷地面積に対する割合です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 55,
@@ -767,7 +821,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "第一種低層住居専用地域は、低層住宅の良好な環境を保護するため、建築物の用途や高さに厳しい制限があります。第一種住居地域は、大規模店舗等も一定範囲で建築可能です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 56,
@@ -781,7 +836,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "農地法3条は、農地を農地として売買等する場合の許可です。5条は、農地を転用する目的で権利を移動する場合の許可です（4条は自己転用）。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 57,
@@ -795,7 +851,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "不動産取得税は、不動産を取得した時に一度だけ課税される地方税です。固定資産税は、毎年1月1日時点の所有者に課税される地方税です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 58,
@@ -809,7 +866,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "登録免許税は、登記や登録等の行為に対して課税される国税です。印紙税は、契約書等の課税文書の作成に対して課税される国税です。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 59,
@@ -823,7 +881,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "譲渡所得の短期譲渡所得は、所有期間が5年以下のものです。長期譲渡所得は、所有期間が5年を超えるもので、税率が異なります。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 60,
@@ -837,7 +896,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "居住用財産の3,000万円特別控除には、所有期間の要件はありません。軽減税率の特例は、所有期間が10年を超える場合に適用されます。",
-    "difficulty": "comparison"
+    "difficulty": "comparison",
+    "examType": "takken"
   },
   {
     "id": 61,
@@ -851,7 +911,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "宅地とは、建物の敷地に供される土地のことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 62,
@@ -865,7 +926,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "建物とは、土地に定着した工作物のうち、屋根及び柱又は壁を有するもので、建物登記の対象となります。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 63,
@@ -879,7 +941,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "所有権とは、物を全面的に支配する権利で、使用、収益、処分の権能を含みます。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 64,
@@ -893,7 +956,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "登記とは、不動産の権利関係等を公示するため、登記簿に記載することです。第三者対抗要件となります。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 65,
@@ -907,7 +971,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "抵当権とは、債務者又は第三者が占有を移転しないで債務の担保に供した不動産について、債権者が他の債権者に優先して弁済を受ける権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 66,
@@ -921,7 +986,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "地上権とは、他人の土地において工作物又は竹木を所有するため、その土地を使用する権利です。物権の一種です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 67,
@@ -935,7 +1001,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "借地権とは、建物の所有を目的とする地上権又は土地の賃借権をいいます。借地借家法で保護されます。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 68,
@@ -949,7 +1016,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "賃借権とは、賃料を払って、他人の物を使用収益する権利です。債権の一種で、賃貸借契約により発生します。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 69,
@@ -963,7 +1031,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "地役権とは、自己の土地（要役地）の便益のために他人の土地（承役地）を利用する権利です。例えば通行地役権などがあります。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 70,
@@ -977,7 +1046,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "共有とは、一つの物を複数人が共同で所有することです。各共有者は持分を有します。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 71,
@@ -991,7 +1061,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "宅地建物取引業とは、宅地又は建物の売買、交換又は売買、交換、賃借の代理若しくは媒介を業として行うことです。免許が必要です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 72,
@@ -1005,7 +1076,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "宅地建物取引士とは、宅地建物取引士試験に合格し、都道府県知事の登録を受け、宅地建物取引士証の交付を受けた者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 73,
@@ -1019,7 +1091,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "媒介とは、他人間の取引の成立に向けて尽力する行為です。仲介とも呼ばれます。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 74,
@@ -1033,7 +1106,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "代理とは、他人（本人）の名において、その他人のために法律行為をすることです。代理人の行為の効果は本人に帰属します。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 75,
@@ -1047,7 +1121,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "重要事項の説明とは、契約締結の判断に重要な影響を及ぼす事項を、宅地建物取引士が契約成立前に書面を交付して説明することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 76,
@@ -1061,7 +1136,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "手付金とは、契約締結時に、買主から売主に交付される金銭です。契約の証拠や解約の際の違約金として機能します。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 77,
@@ -1075,7 +1151,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "都市計画とは、都市の健全な発展と秩序ある整備を図るための土地利用、都市施設の整備等に関する計画です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 78,
@@ -1089,7 +1166,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "用途地域とは、土地の合理的な利用を図るため、建築できる建物の種類を制限する地域です。13種類あります。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 79,
@@ -1103,7 +1181,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "開発行為とは、主として建築物の建築又は特定工作物の建設の用に供する目的で行う土地の区画形質の変更をいいます。一定規模以上は許可が必要です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 80,
@@ -1117,7 +1196,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "固定資産税とは、土地、家屋及び償却資産に対して、毎年1月1日時点の所有者に課される地方税です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 81,
@@ -1131,7 +1211,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「免責的債務引受」とは、債務者の債務を引受人が引き受け、債務者は債務を免れることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 82,
@@ -1145,7 +1226,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「重畳的債務引受」とは、引受人が債務者と連帯して債務の履行義務を負うことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 83,
@@ -1159,7 +1241,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「連帯保証」とは、保証人が主たる債務者と連帯して債務を負うことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 84,
@@ -1173,7 +1256,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「物上保証」とは、債務者以外の第三者が、自己の財産を担保に供することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 85,
@@ -1187,7 +1271,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「催告の抗弁権」とは、保証人が、債権者に対し、まず主たる債務者に催告するよう請求できる権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 86,
@@ -1201,7 +1286,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「検索の抗弁権」とは、保証人が、主たる債務者に弁済の資力があり執行が容易であることを証明して、まず主たる債務者の財産に執行するよう請求できる権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 87,
@@ -1215,7 +1301,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「法定相続人」とは、民法の規定により相続人となる者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 88,
@@ -1229,7 +1316,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「法定相続分」とは、民法の規定による相続分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 89,
@@ -1243,7 +1331,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「遺留分」とは、一定の相続人に保障される最低限の相続分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 90,
@@ -1257,7 +1346,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「遺言」とは、遺言者の死後の法律関係を定める最終意思の表示です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 91,
@@ -1271,7 +1361,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「遺贈」とは、遺言により財産を無償で譲与することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 92,
@@ -1285,7 +1376,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「受遺者」とは、遺贈を受ける者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 93,
@@ -1299,7 +1391,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「遺言執行者」とは、遺言の内容を実現する者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 94,
@@ -1313,7 +1406,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「特別受益」とは、相続人が被相続人から生前贈与等を受けた利益です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 95,
@@ -1327,7 +1421,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「寄与分」とは、被相続人の財産の維持・増加に特別の寄与をした相続人に認められる取り分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 96,
@@ -1341,7 +1436,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「限定承認」とは、相続によって得た財産の限度でのみ債務を承継する相続の承認です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 97,
@@ -1355,7 +1451,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「相続放棄」とは、相続開始後に相続人が相続を拒否することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 98,
@@ -1369,7 +1466,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「単純承認」とは、無条件に相続を承認することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 99,
@@ -1383,7 +1481,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「遺産分割」とは、相続人が遺産を具体的に分けることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 100,
@@ -1397,7 +1496,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「配偶者居住権」とは、配偶者が相続開始時に居住していた建物に無償で居住できる権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 101,
@@ -1411,7 +1511,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「特定物」とは、当事者が物の個性に着目した特定の物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 102,
@@ -1425,7 +1526,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「不特定物」とは、当事者が物の個性に着目しない物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 103,
@@ -1439,7 +1541,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「果実」とは、物から生じる収益です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 104,
@@ -1453,7 +1556,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「主物」とは、独立して取引の目的となる物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 105,
@@ -1467,7 +1571,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「従物」とは、主物の常用に供するため付属させた物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 106,
@@ -1481,7 +1586,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「即時取得」とは、動産の占有を善意無過失で取得した者が、即時に所有権を取得することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 107,
@@ -1495,7 +1601,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「添付」とは、複数の物が結合して一つの物になることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 108,
@@ -1509,7 +1616,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「原始取得」とは、前主の権利と関係なく権利を取得することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 109,
@@ -1523,7 +1631,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「承継取得」とは、前主の権利を引き継いで権利を取得することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 110,
@@ -1537,7 +1646,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「善意」とは、ある事実を知らないことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 111,
@@ -1551,7 +1661,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「悪意」とは、ある事実を知っていることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 112,
@@ -1565,7 +1676,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「過失」とは、注意義務違反です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 113,
@@ -1579,7 +1691,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「無過失」とは、注意義務違反がないことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 114,
@@ -1593,7 +1706,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「履行遅滞」とは、債務の履行が可能であるのに履行期を過ぎても履行しないことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 115,
@@ -1607,7 +1721,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「履行不能」とは、債務の履行が不可能になることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 116,
@@ -1621,7 +1736,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「不完全履行」とは、債務の履行がなされたが不完全であることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 117,
@@ -1635,7 +1751,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「受領遅滞」とは、債権者が債務の履行を受領しないことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 118,
@@ -1649,7 +1766,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「解除権」とは、契約を解除して契約がなかった状態に戻す権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 119,
@@ -1663,7 +1781,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「取消権」とは、取消可能な法律行為を無効にする権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 120,
@@ -1677,7 +1796,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「追認権」とは、取消可能な法律行為を確定的に有効にする権利です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 121,
@@ -1691,7 +1811,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「無効」とは、法律行為が初めから効力を生じないことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 122,
@@ -1705,7 +1826,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「取消」とは、一旦有効に成立した法律行為を遡って無効にすることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 123,
@@ -1719,7 +1841,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「条件」とは、法律行為の効力の発生・消滅を将来の不確実な事実にかからせる付款です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 124,
@@ -1733,7 +1856,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「停止条件」とは、条件の成就により法律行為の効力が発生する条件です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 125,
@@ -1747,7 +1871,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「解除条件」とは、条件の成就により法律行為の効力が消滅する条件です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 126,
@@ -1761,7 +1886,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「期限」とは、法律行為の効力の発生・消滅を将来確実に到来する事実にかからせる付款です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 127,
@@ -1775,7 +1901,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「始期」とは、法律行為の効力の発生時期です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 128,
@@ -1789,7 +1916,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「終期」とは、法律行為の効力の消滅時期です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 129,
@@ -1803,7 +1931,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「表見代理」とは、無権代理であるが、代理権があると信じた相手方を保護するため、本人に責任を負わせる制度です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 130,
@@ -1817,7 +1946,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「無権代理」とは、代理権がないのに代理行為をすることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 131,
@@ -1831,7 +1961,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「復代理」とは、代理人が選任した代理人です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 132,
@@ -1845,7 +1976,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「双方代理」とは、同一の法律行為について、双方の代理人となることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 133,
@@ -1859,7 +1991,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「制限行為能力者」とは、単独で完全に有効な法律行為ができない者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 134,
@@ -1873,7 +2006,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「未成年者」とは、20歳（民法改正後は18歳）未満の者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 135,
@@ -1887,7 +2021,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「成年被後見人」とは、精神上の障害により事理を弁識する能力を欠く常況にある者で、後見開始の審判を受けた者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 136,
@@ -1901,7 +2036,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「被保佐人」とは、精神上の障害により事理を弁識する能力が著しく不十分である者で、保佐開始の審判を受けた者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 137,
@@ -1915,7 +2051,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「被補助人」とは、精神上の障害により事理を弁識する能力が不十分である者で、補助開始の審判を受けた者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 138,
@@ -1929,7 +2066,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「法定代理人」とは、法律の規定により代理権を有する者です。未成年者の親権者、成年被後見人の成年後見人などが含まれます。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 139,
@@ -1943,7 +2081,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「成年後見人」とは、成年被後見人の法定代理人です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 140,
@@ -1957,7 +2096,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「保佐人」とは、被保佐人の特定の法律行為に同意する者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 141,
@@ -1971,7 +2111,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「事務所」とは、継続的に業務を行うことができる施設を有する場所です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 142,
@@ -1985,7 +2126,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「案内所」とは、宅地建物の売買契約等の締結をする場所で、事務所以外のものです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 143,
@@ -1999,7 +2141,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「業として行う」とは、不特定多数の者を相手方として反復継続して行うことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 144,
@@ -2013,7 +2156,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「免許換え」とは、免許権者を変更する手続きです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 145,
@@ -2027,7 +2171,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「免許の更新」とは、免許の有効期間満了後も業を続けるための手続きです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 146,
@@ -2041,7 +2186,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「宅地建物取引士証」とは、宅地建物取引士であることを証する証明書です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 147,
@@ -2055,7 +2201,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「専任の宅地建物取引士」とは、常勤の宅地建物取引士です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 148,
@@ -2069,7 +2216,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「従業者証明書」とは、宅建業者の従業者であることを証する書面です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 149,
@@ -2083,7 +2231,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「標識」とは、事務所等に掲示する、業者名等を記載した掲示物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 150,
@@ -2097,7 +2246,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「報酬額の掲示」とは、事務所に報酬額を掲示する義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 151,
@@ -2111,7 +2261,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「帳簿」とは、取引の年月日、物件の所在等を記載する帳簿です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 152,
@@ -2125,7 +2276,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「従業者名簿」とは、従業者の氏名、住所、従事する業務内容等を記載した名簿です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 153,
@@ -2139,7 +2291,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「秘密保持義務」とは、業務上知り得た秘密を他に漏らしてはならない義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 154,
@@ -2153,7 +2306,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「誠実義務」とは、信義を旨とし、誠実にその業務を行う義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 155,
@@ -2167,7 +2321,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「営業保証金」とは、業務開始前に供託する金銭です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 156,
@@ -2181,7 +2336,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「弁済業務保証金」とは、保証協会に加入する場合に納付する金銭です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 157,
@@ -2195,7 +2351,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「保証協会」とは、弁済業務保証金制度を運営する社団法人です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 158,
@@ -2209,7 +2366,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「自ら売主制限」とは、宅建業者が自ら売主となる場合の制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 159,
@@ -2223,7 +2381,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「クーリング・オフ」とは、一定期間内に無条件で契約を解除できる制度です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 160,
@@ -2237,7 +2396,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「告知義務」とは、クーリング・オフができることを告知する義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 161,
@@ -2251,7 +2411,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「損害賠償額の予定等の制限」とは、損害賠償の予定額・違約金の合計を代金の20%以内とする制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 162,
@@ -2265,7 +2426,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「手付の額の制限」とは、手付の額を代金の20%以内とする制限（自ら売主の場合）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 163,
@@ -2279,7 +2441,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「手付解除」とは、手付を放棄又は倍返しすることにより契約を解除することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 164,
@@ -2293,7 +2456,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「業務処理状況の報告」とは、媒介契約における業務の処理状況を依頼者に報告する義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 165,
@@ -2307,7 +2471,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「指定流通機構」とは、物件情報を登録・流通させる機関（レインズ）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 166,
@@ -2321,7 +2486,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「レインズ」とは、不動産流通標準情報システム（指定流通機構）の通称です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 167,
@@ -2335,7 +2501,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「専属専任媒介契約」とは、1社のみに依頼し、自己発見取引も不可の媒介契約です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 168,
@@ -2349,7 +2516,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「一般媒介契約」とは、複数の業者に重ねて依頼できる媒介契約です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 169,
@@ -2363,7 +2531,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「明示型一般媒介」とは、他に依頼した業者を明示する一般媒介契約です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 170,
@@ -2377,7 +2546,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「非明示型一般媒介」とは、他に依頼した業者を明示しない一般媒介契約です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 171,
@@ -2391,7 +2561,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「有効期間」とは、媒介契約の効力が存続する期間です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 172,
@@ -2405,7 +2576,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「35条書面」とは、重要事項説明書です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 173,
@@ -2419,7 +2591,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「37条書面」とは、契約内容を記載した書面です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 174,
@@ -2433,7 +2606,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「物件の表示に関する事項」とは、重要事項説明における、物件の所在、面積等の事項です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 175,
@@ -2447,7 +2621,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「取引条件に関する事項」とは、重要事項説明における、代金、支払時期等の事項です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 176,
@@ -2461,7 +2636,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「石綿使用調査」とは、建物に石綿（アスベスト）が使用されているかの調査です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 177,
@@ -2475,7 +2651,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「耐震診断」とは、建物の耐震性能を診断することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 178,
@@ -2489,7 +2666,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「瑕疵担保責任」とは、売買目的物に隠れた瑕疵があった場合の売主の責任です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 179,
@@ -2503,7 +2681,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「契約不適合責任」とは、引き渡された目的物が契約内容に適合しない場合の売主の責任（民法改正後）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 180,
@@ -2517,7 +2696,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「供託」とは、金銭等を供託所に寄託することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 181,
@@ -2531,7 +2711,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「供託所」とは、供託を扱う法務局又は地方法務局です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 182,
@@ -2545,7 +2726,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「還付」とは、供託された営業保証金等を取引の相手方等に払い渡すことです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 183,
@@ -2559,7 +2741,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「監督処分」とは、免許権者が宅建業者に対して行う処分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 184,
@@ -2573,7 +2756,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「指示処分」とは、業務の運営の改善に必要な措置を指示する処分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 185,
@@ -2587,7 +2771,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「業務停止処分」とは、1年以内の期間を定めて業務の全部又は一部の停止を命ずる処分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 186,
@@ -2601,7 +2786,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「免許取消処分」とは、免許を取り消す処分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 187,
@@ -2615,7 +2801,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「両手仲介」とは、同一の宅建業者が売主と買主の双方から仲介を受けることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 188,
@@ -2629,7 +2816,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「片手仲介」とは、売主又は買主の一方のみから仲介を受けることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 189,
@@ -2643,7 +2831,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「囲い込み」とは、物件情報を他業者に公開せず、両手仲介を狙う行為です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 190,
@@ -2657,7 +2846,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「専任媒介契約の有効期間」とは、専任媒介契約の有効期間（3か月以内）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 191,
@@ -2671,7 +2861,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「媒介契約書面」とは、媒介契約の内容を記載した書面です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 192,
@@ -2685,7 +2876,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「成約時の報告」とは、媒介契約において、契約成立時に報告する義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 193,
@@ -2699,7 +2891,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「取引態様の明示」とは、広告等において、売主・代理・媒介の別を明示する義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 194,
@@ -2713,7 +2906,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「誇大広告の禁止」とは、著しく事実に相違する表示又は実際よりも著しく優良・有利であると誤認させる表示を禁止することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 195,
@@ -2727,7 +2921,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「広告開始時期の制限」とは、開発許可等の処分前は広告できないとする制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 196,
@@ -2741,7 +2936,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「契約締結時期の制限」とは、開発許可等の処分前は契約できないとする制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 197,
@@ -2755,7 +2951,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「取引一任代理等の禁止」とは、一任を受けて契約を締結する代理又は媒介を業として行うことの禁止です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 198,
@@ -2769,7 +2966,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「他人物売買の制限」とは、自ら売主として、他人の物を売る契約を締結することの制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 199,
@@ -2783,7 +2981,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「未完成物件の売買制限」とは、自ら売主として、未完成物件を売る場合の保全措置等の制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 200,
@@ -2797,7 +2996,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「割賦販売契約の解除等の制限」とは、割賦販売において、賦払金の支払が遅れた場合の契約解除等の制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 201,
@@ -2811,7 +3011,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「所有権留保の禁止」とは、割賦販売において、30%を超えて支払われた後は、所有権留保等を禁止することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 202,
@@ -2825,7 +3026,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「守秘義務」とは、正当な理由なく、業務上知り得た秘密を他に漏らしてはならない義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 203,
@@ -2839,7 +3041,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「事務禁止処分」とは、宅地建物取引士が事務を行うことを禁止する処分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 204,
@@ -2853,7 +3056,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「登録消除処分」とは、宅地建物取引士の登録を消除する処分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 205,
@@ -2867,7 +3071,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「名義貸しの禁止」とは、自己の名義を他人に宅建業を営む目的で使用させることの禁止です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 206,
@@ -2881,7 +3086,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「無免許営業の禁止」とは、免許を受けずに宅建業を営むことの禁止です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 207,
@@ -2895,7 +3101,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「変更の届出」とは、免許申請事項に変更があった場合の届出です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 208,
@@ -2909,7 +3116,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「廃業等の届出」とは、宅建業を廃止した場合等の届出です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 209,
@@ -2923,7 +3131,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「死亡等の届出」とは、宅建業者が死亡した場合等の届出です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 210,
@@ -2937,7 +3146,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「都市計画区域」とは、都市計画法の規定により指定される区域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 211,
@@ -2951,7 +3161,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「準都市計画区域」とは、都市計画区域外で、将来都市化が見込まれる区域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 212,
@@ -2965,7 +3176,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「区域区分」とは、都市計画区域を市街化区域と市街化調整区域に区分することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 213,
@@ -2979,7 +3191,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「線引き」とは、区域区分を定めることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 214,
@@ -2993,7 +3206,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「非線引き区域」とは、区域区分が定められていない都市計画区域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 215,
@@ -3007,7 +3221,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「地域地区」とは、用途地域、防火地域等の総称です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 216,
@@ -3021,7 +3236,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「都市施設」とは、道路、公園等の施設です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 217,
@@ -3035,7 +3251,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「市街地開発事業」とは、土地区画整理事業、市街地再開発事業等です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 218,
@@ -3049,7 +3266,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「地区計画」とは、地区の特性に応じた良好な環境を整備・保全するための計画です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 219,
@@ -3063,7 +3281,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「開発許可」とは、都市計画法に基づく開発行為の許可です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 220,
@@ -3077,7 +3296,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「開発許可権者」とは、開発許可を行う都道府県知事又は指定都市等の長です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 221,
@@ -3091,7 +3311,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「予定建築物」とは、開発行為により建築する予定の建築物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 222,
@@ -3105,7 +3326,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「公共施設」とは、道路、公園その他政令で定める公共の用に供する施設です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 223,
@@ -3119,7 +3341,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「設計者」とは、開発行為の設計をする者で、一定の資格を有する者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 224,
@@ -3133,7 +3356,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「工事完了検査」とは、開発行為の工事完了後に行う検査です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 225,
@@ -3147,7 +3371,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「建築制限」とは、用途地域等による建築物の用途、形態等の制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 226,
@@ -3161,7 +3386,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「建築確認」とは、建築基準法に基づく建築物の確認です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 227,
@@ -3175,7 +3401,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「確認済証」とは、建築確認を受けたことを証する書面です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 228,
@@ -3189,7 +3416,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「検査済証」とは、完了検査に合格したことを証する書面です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 229,
@@ -3203,7 +3431,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「違反建築物」とは、建築基準法に違反する建築物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 230,
@@ -3217,7 +3446,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「既存不適格建築物」とは、建築当時は適法だが、法改正により現行法に不適合となった建築物です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 231,
@@ -3231,7 +3461,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「道路」とは、建築基準法上の道路（幅員4m以上等）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 232,
@@ -3245,7 +3476,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「接道義務」とは、建築物の敷地は道路に2m以上接しなければならない義務です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 233,
@@ -3259,7 +3491,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「セットバック」とは、2項道路において、道路の中心線から2m後退することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 234,
@@ -3273,7 +3506,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「2項道路」とは、幅員4m未満で、特定行政庁が指定した道です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 235,
@@ -3287,7 +3521,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「防火地域」とは、市街地における火災の危険を防除するため定める地域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 236,
@@ -3301,7 +3536,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「準防火地域」とは、防火地域に準じた制限を行う地域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 237,
@@ -3315,7 +3551,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「特定行政庁」とは、建築主事を置く市町村の長又は都道府県知事です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 238,
@@ -3329,7 +3566,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「建築主事」とは、建築確認等の事務を行う地方公共団体の職員です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 239,
@@ -3343,7 +3581,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「用途制限」とは、用途地域における建築物の用途の制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 240,
@@ -3357,7 +3596,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「形態制限」とは、建築物の形態に関する制限（建ぺい率、容積率、高さ等）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 241,
@@ -3371,7 +3611,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「斜線制限」とは、道路斜線、隣地斜線、北側斜線による高さの制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 242,
@@ -3385,7 +3626,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「日影規制」とは、一定時間以上の日影を生じさせないようにする制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 243,
@@ -3399,7 +3641,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「絶対高さ制限」とは、第一種・第二種低層住居専用地域等における10m又は12mの高さ制限です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 244,
@@ -3413,7 +3656,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「高度地区」とは、建築物の高さの最高限度又は最低限度を定める地区です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 245,
@@ -3427,7 +3671,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「高度利用地区」とは、土地の高度利用を図る地区です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 246,
@@ -3441,7 +3686,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「特定街区」とは、建築物の容積率、高さ等を個別に定める街区です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 247,
@@ -3455,7 +3701,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「農地」とは、耕作の目的に供される土地です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 248,
@@ -3469,7 +3716,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「採草放牧地」とは、農地以外の土地で、主として耕作又は養畜の事業のための採草又は家畜の放牧の目的に供されるものです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 249,
@@ -3483,7 +3731,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「農業委員会」とは、農地法の許可等を行う市町村の機関です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 250,
@@ -3497,7 +3746,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「農地転用」とは、農地を農地以外のものにすることです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 251,
@@ -3511,7 +3761,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「宅地造成」とは、宅地以外の土地を宅地にするため又は宅地において行う土地の形質の変更です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 252,
@@ -3525,7 +3776,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「宅地造成工事規制区域」とは、宅地造成に伴う災害を防止するため指定される区域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 253,
@@ -3539,7 +3791,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「造成宅地防災区域」とは、造成された宅地で、地震等により崩壊のおそれが大きい区域です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 254,
@@ -3553,7 +3806,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「土地取引の届出」とは、国土利用計画法に基づく土地売買等の届出です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 255,
@@ -3567,7 +3821,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「事後届出制」とは、契約締結後に届け出る制度です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 256,
@@ -3581,7 +3836,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「注視区域」とは、地価が急激に上昇するおそれがある区域（事前届出）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 257,
@@ -3595,7 +3851,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「監視区域」とは、地価が相当な範囲にわたり上昇するおそれがある区域（事前届出）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 258,
@@ -3609,7 +3866,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「規制区域」とは、土地の投機的取引が相当範囲で集中して行われ、地価が急激に上昇している区域（許可制）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 259,
@@ -3623,7 +3881,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「景観地区」とは、市街地の良好な景観の形成を図るための地区です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 260,
@@ -3637,7 +3896,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「課税標準」とは、税額計算の基礎となる課税対象の数量・価額です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 261,
@@ -3651,7 +3911,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「標準税率」とは、地方税法で定める税率です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 262,
@@ -3665,7 +3926,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「特例税率」とは、一定の要件を満たす場合の軽減された税率です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 263,
@@ -3679,7 +3941,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「納税義務者」とは、税を納める義務を負う者です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 264,
@@ -3693,7 +3956,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「課税主体」とは、税を課す権限を持つ者（国又は地方公共団体）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 265,
@@ -3707,7 +3971,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「賦課課税方式」とは、課税庁が税額を計算して納税者に通知する方式です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 266,
@@ -3721,7 +3986,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「申告納税方式」とは、納税者が自ら税額を計算して申告・納付する方式です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 267,
@@ -3735,7 +4001,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「源泉徴収」とは、給与等の支払者が税を差し引いて納付することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 268,
@@ -3749,7 +4016,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「特別徴収」とは、給与等から天引きして納付することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 269,
@@ -3763,7 +4031,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「普通徴収」とは、納税通知書により納付することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 270,
@@ -3777,7 +4046,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「固定資産税評価額」とは、固定資産税の課税標準となる価格です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 271,
@@ -3791,7 +4061,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「固定資産課税台帳」とは、固定資産の価格等を登録した帳簿です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 272,
@@ -3805,7 +4076,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「課税明細書」とは、固定資産税の課税内容を記載した書面です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 273,
@@ -3819,7 +4091,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「小規模住宅用地」とは、200㎡以下の住宅用地（固定資産税の軽減あり）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 274,
@@ -3833,7 +4106,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「一般住宅用地」とは、200㎡超の住宅用地（固定資産税の軽減あり）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 275,
@@ -3847,7 +4121,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「新築住宅の特例」とは、新築住宅の固定資産税の減額措置です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 276,
@@ -3861,7 +4136,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「都市計画税」とは、都市計画事業等に充てるため課される地方税です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 277,
@@ -3875,7 +4151,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「課税標準の特例」とは、住宅用地等について、課税標準を軽減する特例です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 278,
@@ -3889,7 +4166,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「不動産の取得」とは、売買、贈与、新築、増改築等により不動産の所有権を取得することです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 279,
@@ -3903,7 +4181,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「免税点」とは、この金額以下であれば課税されない基準額です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 280,
@@ -3917,7 +4196,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「住宅用家屋」とは、居住の用に供する家屋です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 281,
@@ -3931,7 +4211,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「新築住宅の特例（不動産取得税）」とは、新築住宅取得時の不動産取得税の軽減措置です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 282,
@@ -3945,7 +4226,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「中古住宅の特例（不動産取得税）」とは、中古住宅取得時の不動産取得税の軽減措置です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 283,
@@ -3959,7 +4241,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「登記の種類」とは、権利の登記、表示の登記等の区分です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 284,
@@ -3973,7 +4256,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「課税標準（登録免許税）」とは、登録免許税の課税標準（不動産価額等）です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 285,
@@ -3987,7 +4271,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「譲渡所得」とは、資産の譲渡による所得です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 286,
@@ -4001,7 +4286,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「取得費」とは、資産の取得に要した金額です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 287,
@@ -4015,7 +4301,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「譲渡費用」とは、資産の譲渡に要した費用です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 288,
@@ -4029,7 +4316,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「長期譲渡所得」とは、所有期間5年超の資産の譲渡所得です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 289,
@@ -4043,7 +4331,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「短期譲渡所得」とは、所有期間5年以下の資産の譲渡所得です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 290,
@@ -4057,7 +4346,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「マイホームの特例」とは、居住用財産を譲渡した場合の特例です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 291,
@@ -4071,7 +4361,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「3,000万円特別控除」とは、居住用財産の譲渡所得から3,000万円を控除する特例です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 292,
@@ -4085,7 +4376,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「10年超所有軽減税率の特例」とは、所有期間10年超の居住用財産の譲渡に係る軽減税率です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 293,
@@ -4099,7 +4391,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「買換えの特例」とは、居住用財産を買い換えた場合の課税の繰延べです。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 294,
@@ -4113,7 +4406,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「課税文書」とは、印紙税法で定める文書です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 295,
@@ -4127,7 +4421,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「記載金額」とは、課税文書に記載された契約金額等です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 296,
@@ -4141,7 +4436,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「消印」とは、印紙と文書にまたがって押す印です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 297,
@@ -4155,7 +4451,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「過怠税」とは、印紙を貼付しなかった場合等に課される税です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 298,
@@ -4169,7 +4466,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「地価公示」とは、国土交通省が毎年公示する標準地の正常な価格です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 299,
@@ -4183,7 +4481,8 @@
     ],
     "correctAnswer": 0,
     "explanation": "「都道府県地価調査」とは、都道府県知事が毎年公表する基準地の価格です。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
   },
   {
     "id": 300,
@@ -4197,6 +4496,607 @@
     ],
     "correctAnswer": 0,
     "explanation": "路線価とは、相続税・贈与税の課税価格算定の基準となる土地の価格で、国税庁が毎年公表します。",
-    "difficulty": "terminology"
+    "difficulty": "terminology",
+    "examType": "takken"
+  },
+  {
+    "id": 301,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "簿記とは何か。",
+    "choices": [
+      "帳簿に記録し、計算・整理すること",
+      "税金を計算すること",
+      "お金を貯めること",
+      "商品を販売すること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "簿記とは、会社や商店などの経済活動を帳簿に記録し、計算・整理する技術です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 302,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "貸借対照表とは何か。",
+    "choices": [
+      "一定時点における財産の状態を示す表",
+      "一定期間の収益と費用を示す表",
+      "従業員の給料を示す表",
+      "商品の在庫を示す表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "貸借対照表（たいしゃくたいしょうひょう）は、一定時点（例えば決算日）における会社の財産の状態を示す表です。資産・負債・純資産が記載されます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 303,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "損益計算書とは何か。",
+    "choices": [
+      "一定期間の収益と費用、利益を示す表",
+      "一定時点の財産を示す表",
+      "お金の出入りを示す表",
+      "商品の売買記録を示す表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "損益計算書（そんえきけいさんしょ）は、一定期間（例えば1年間）の収益と費用、そしてその差額である利益を示す表です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 304,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "資産とは何か。",
+    "choices": [
+      "会社が所有している財産",
+      "会社が借りているお金",
+      "会社の利益",
+      "会社の費用"
+    ],
+    "correctAnswer": 0,
+    "explanation": "資産とは、会社が所有している財産のことです。現金、商品、建物、土地などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 305,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "負債とは何か。",
+    "choices": [
+      "会社が返済しなければならないお金",
+      "会社が所有している財産",
+      "会社の利益",
+      "会社の収益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "負債とは、会社が返済しなければならないお金のことです。借入金、買掛金などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 306,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "純資産とは何か。",
+    "choices": [
+      "資産から負債を引いた額",
+      "資産と負債を足した額",
+      "収益から費用を引いた額",
+      "現金と預金を足した額"
+    ],
+    "correctAnswer": 0,
+    "explanation": "純資産とは、資産から負債を引いた額です。会社の正味の財産を表します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 307,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "収益とは何か。",
+    "choices": [
+      "会社の営業活動による収入",
+      "会社が借りたお金",
+      "会社が支払った費用",
+      "会社の財産"
+    ],
+    "correctAnswer": 0,
+    "explanation": "収益とは、会社の営業活動によって得られる収入のことです。売上などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 308,
+    "examType": "bookkeeping-elementary",
+    "category": "簿記の基礎",
+    "question": "費用とは何か。",
+    "choices": [
+      "収益を得るために使ったお金",
+      "会社が借りたお金",
+      "会社の財産",
+      "会社の利益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "費用とは、収益を得るために使ったお金のことです。仕入、給料、家賃などが含まれます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 309,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "仕訳とは何か。",
+    "choices": [
+      "取引を借方と貸方に分けて記録すること",
+      "商品を分類すること",
+      "お金を数えること",
+      "帳簿を整理すること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "仕訳（しわけ）とは、取引を借方（かりかた）と貸方（かしかた）に分けて記録することです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 310,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "借方とは何か。",
+    "choices": [
+      "仕訳の左側",
+      "仕訳の右側",
+      "資産のこと",
+      "負債のこと"
+    ],
+    "correctAnswer": 0,
+    "explanation": "借方（かりかた）とは、仕訳の左側のことです。資産の増加や費用の発生を記録します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 311,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "貸方とは何か。",
+    "choices": [
+      "仕訳の右側",
+      "仕訳の左側",
+      "収益のこと",
+      "費用のこと"
+    ],
+    "correctAnswer": 0,
+    "explanation": "貸方（かしかた）とは、仕訳の右側のことです。負債・純資産の増加や収益の発生を記録します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 312,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "現金で商品を仕入れたとき、借方に記入する勘定科目は何か。",
+    "choices": [
+      "仕入",
+      "現金",
+      "買掛金",
+      "売上"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金で商品を仕入れたときは、借方に「仕入（費用の増加）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 313,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳の基礎",
+    "question": "現金で商品を売り上げたとき、貸方に記入する勘定科目は何か。",
+    "choices": [
+      "売上",
+      "現金",
+      "売掛金",
+      "仕入"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金で商品を売り上げたときは、借方に「現金（資産の増加）」、貸方に「売上（収益の発生）」を記入します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 314,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "現金とは何か。",
+    "choices": [
+      "紙幣や硬貨などのお金",
+      "銀行に預けたお金",
+      "商品の代金",
+      "給料"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金とは、紙幣や硬貨などの手元にあるお金のことです。簿記では通貨代用証券（小切手など）も含みます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 315,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "当座預金とは何か。",
+    "choices": [
+      "銀行に預けた、小切手を振り出せる預金",
+      "紙幣や硬貨",
+      "定期預金",
+      "郵便貯金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "当座預金（とうざよきん）とは、銀行に預けた、小切手を振り出すことができる預金です。利息はつきません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 316,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "売掛金とは何か。",
+    "choices": [
+      "後で代金をもらう約束で商品を売ったときの代金",
+      "後で代金を払う約束で商品を買ったときの代金",
+      "現金で受け取った代金",
+      "銀行からの借入金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売掛金（うりかけきん）とは、後で代金をもらう約束（つけ・掛け）で商品を売ったときの代金です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 317,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "買掛金とは何か。",
+    "choices": [
+      "後で代金を払う約束で商品を買ったときの代金",
+      "後で代金をもらう約束で商品を売ったときの代金",
+      "現金で支払った代金",
+      "従業員への給料"
+    ],
+    "correctAnswer": 0,
+    "explanation": "買掛金（かいかけきん）とは、後で代金を払う約束（つけ・掛け）で商品を買ったときの代金です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 318,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "商品とは何か。",
+    "choices": [
+      "販売するために仕入れた品物",
+      "会社で使う備品",
+      "建物や土地",
+      "現金や預金"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商品とは、販売するために仕入れた品物のことです。資産の勘定科目です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 319,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "借入金とは何か。",
+    "choices": [
+      "銀行などから借りたお金",
+      "銀行に預けたお金",
+      "商品の代金",
+      "会社の利益"
+    ],
+    "correctAnswer": 0,
+    "explanation": "借入金（かりいれきん）とは、銀行などから借りたお金のことです。負債の勘定科目です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 320,
+    "examType": "bookkeeping-elementary",
+    "category": "勘定科目",
+    "question": "資本金とは何か。",
+    "choices": [
+      "会社を始めるときに出資したお金",
+      "銀行から借りたお金",
+      "会社の利益",
+      "現金と預金の合計"
+    ],
+    "correctAnswer": 0,
+    "explanation": "資本金（しほんきん）とは、会社を始めるときに出資したお金のことです。純資産の勘定科目です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 321,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "商品¥50,000を仕入れ、代金は掛けとした。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)仕入 50,000 (貸方)買掛金 50,000",
+      "(借方)買掛金 50,000 (貸方)仕入 50,000",
+      "(借方)仕入 50,000 (貸方)現金 50,000",
+      "(借方)商品 50,000 (貸方)買掛金 50,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商品を掛けで仕入れた場合、借方に「仕入（費用の発生）」、貸方に「買掛金（負債の増加）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 322,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "商品¥80,000を売り上げ、代金は掛けとした。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)売掛金 80,000 (貸方)売上 80,000",
+      "(借方)売上 80,000 (貸方)売掛金 80,000",
+      "(借方)現金 80,000 (貸方)売上 80,000",
+      "(借方)売掛金 80,000 (貸方)商品 80,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商品を掛けで売り上げた場合、借方に「売掛金（資産の増加）」、貸方に「売上（収益の発生）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 323,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "売掛金¥30,000を現金で回収した。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)現金 30,000 (貸方)売掛金 30,000",
+      "(借方)売掛金 30,000 (貸方)現金 30,000",
+      "(借方)現金 30,000 (貸方)売上 30,000",
+      "(借方)当座預金 30,000 (貸方)売掛金 30,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売掛金を現金で回収した場合、借方に「現金（資産の増加）」、貸方に「売掛金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 324,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "買掛金¥40,000を現金で支払った。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)買掛金 40,000 (貸方)現金 40,000",
+      "(借方)現金 40,000 (貸方)買掛金 40,000",
+      "(借方)買掛金 40,000 (貸方)当座預金 40,000",
+      "(借方)仕入 40,000 (貸方)現金 40,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "買掛金を現金で支払った場合、借方に「買掛金（負債の減少）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 325,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "銀行から¥100,000を借り入れ、当座預金とした。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)当座預金 100,000 (貸方)借入金 100,000",
+      "(借方)借入金 100,000 (貸方)当座預金 100,000",
+      "(借方)現金 100,000 (貸方)借入金 100,000",
+      "(借方)当座預金 100,000 (貸方)資本金 100,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "銀行から借り入れて当座預金とした場合、借方に「当座預金（資産の増加）」、貸方に「借入金（負債の増加）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 326,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "給料¥200,000を現金で支払った。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)給料 200,000 (貸方)現金 200,000",
+      "(借方)現金 200,000 (貸方)給料 200,000",
+      "(借方)給料 200,000 (貸方)当座預金 200,000",
+      "(借方)費用 200,000 (貸方)現金 200,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "給料を現金で支払った場合、借方に「給料（費用の発生）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 327,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "家賃¥50,000を現金で支払った。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)支払家賃 50,000 (貸方)現金 50,000",
+      "(借方)現金 50,000 (貸方)支払家賃 50,000",
+      "(借方)家賃 50,000 (貸方)買掛金 50,000",
+      "(借方)費用 50,000 (貸方)現金 50,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "家賃を現金で支払った場合、借方に「支払家賃（費用の発生）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 328,
+    "examType": "bookkeeping-elementary",
+    "category": "仕訳",
+    "question": "現金¥60,000を当座預金に預け入れた。この取引の仕訳として正しいものはどれか。",
+    "choices": [
+      "(借方)当座預金 60,000 (貸方)現金 60,000",
+      "(借方)現金 60,000 (貸方)当座預金 60,000",
+      "(借方)当座預金 60,000 (貸方)資本金 60,000",
+      "(借方)預金 60,000 (貸方)現金 60,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "現金を当座預金に預け入れた場合、借方に「当座預金（資産の増加）」、貸方に「現金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 329,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "決算とは何か。",
+    "choices": [
+      "一定期間の経営成績と財政状態を明らかにする手続き",
+      "毎日の取引を記録すること",
+      "商品を売ること",
+      "お金を借りること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "決算（けっさん）とは、一定期間（通常1年）の経営成績（損益計算書）と財政状態（貸借対照表）を明らかにする手続きです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 330,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "期首商品棚卸高が¥100,000、当期商品仕入高が¥500,000、期末商品棚卸高が¥80,000のとき、売上原価はいくらか。",
+    "choices": [
+      "¥520,000",
+      "¥480,000",
+      "¥580,000",
+      "¥600,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売上原価 = 期首商品棚卸高 + 当期商品仕入高 - 期末商品棚卸高 = 100,000 + 500,000 - 80,000 = 520,000円です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 331,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "売上高が¥1,000,000、売上原価が¥600,000のとき、売上総利益はいくらか。",
+    "choices": [
+      "¥400,000",
+      "¥600,000",
+      "¥1,000,000",
+      "¥1,600,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "売上総利益（粗利益）= 売上高 - 売上原価 = 1,000,000 - 600,000 = 400,000円です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 332,
+    "examType": "bookkeeping-elementary",
+    "category": "決算",
+    "question": "売上総利益が¥400,000、販売費及び一般管理費が¥250,000のとき、営業利益はいくらか。",
+    "choices": [
+      "¥150,000",
+      "¥250,000",
+      "¥400,000",
+      "¥650,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "営業利益 = 売上総利益 - 販売費及び一般管理費 = 400,000 - 250,000 = 150,000円です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 333,
+    "examType": "bookkeeping-elementary",
+    "category": "貸借対照表",
+    "question": "貸借対照表において、資産の部はどちらに記載されるか。",
+    "choices": [
+      "左側（借方）",
+      "右側（貸方）",
+      "上部",
+      "下部"
+    ],
+    "correctAnswer": 0,
+    "explanation": "貸借対照表では、資産の部は左側（借方）に、負債の部と純資産の部は右側（貸方）に記載されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 334,
+    "examType": "bookkeeping-elementary",
+    "category": "貸借対照表",
+    "question": "現金¥100,000、売掛金¥50,000、買掛金¥30,000、資本金¥120,000のとき、貸借対照表は貸借が一致するか。",
+    "choices": [
+      "一致する",
+      "一致しない（資産が多い）",
+      "一致しない（負債・純資産が多い）",
+      "計算できない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "資産合計 = 100,000 + 50,000 = 150,000円、負債・純資産合計 = 30,000 + 120,000 = 150,000円で、貸借は一致します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 335,
+    "examType": "bookkeeping-elementary",
+    "category": "損益計算書",
+    "question": "損益計算書において、売上は何の部に記載されるか。",
+    "choices": [
+      "収益の部",
+      "費用の部",
+      "資産の部",
+      "負債の部"
+    ],
+    "correctAnswer": 0,
+    "explanation": "損益計算書では、売上などの収益は収益の部（貸方）に、仕入や費用は費用の部（借方）に記載されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 336,
+    "examType": "bookkeeping-elementary",
+    "category": "試算表",
+    "question": "試算表とは何か。",
+    "choices": [
+      "総勘定元帳の各勘定の残高や合計を一覧表にしたもの",
+      "一年間の収益と費用を示す表",
+      "一定時点の財産を示す表",
+      "取引を記録した帳簿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "試算表（しさんひょう）とは、総勘定元帳の各勘定の残高や合計を一覧表にしたもので、仕訳や転記の正確性を確認するために作成します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 337,
+    "examType": "bookkeeping-elementary",
+    "category": "帳簿",
+    "question": "仕訳帳とは何か。",
+    "choices": [
+      "取引を発生順に仕訳として記録する帳簿",
+      "勘定科目ごとに記録する帳簿",
+      "現金の出入りを記録する帳簿",
+      "商品の在庫を記録する帳簿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "仕訳帳（しわけちょう）とは、取引を発生順に仕訳として記録する帳簿です。主要簿の一つです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 338,
+    "examType": "bookkeeping-elementary",
+    "category": "帳簿",
+    "question": "総勘定元帳とは何か。",
+    "choices": [
+      "勘定科目ごとに取引を記録する帳簿",
+      "取引を発生順に記録する帳簿",
+      "現金の出入りのみを記録する帳簿",
+      "商品の売買のみを記録する帳簿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "総勘定元帳（そうかんじょうもとちょう）とは、勘定科目ごとに取引を記録する帳簿です。仕訳帳の内容を勘定科目ごとに転記します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 339,
+    "examType": "bookkeeping-elementary",
+    "category": "現金と預金",
+    "question": "小切手を振り出して商品を仕入れたとき、貸方に記入する勘定科目は何か。",
+    "choices": [
+      "当座預金",
+      "現金",
+      "買掛金",
+      "仕入"
+    ],
+    "correctAnswer": 0,
+    "explanation": "小切手を振り出した場合、借方に「仕入」、貸方に「当座預金（資産の減少）」を記入します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 340,
+    "examType": "bookkeeping-elementary",
+    "category": "現金と預金",
+    "question": "他人振出の小切手を受け取ったとき、借方に記入する勘定科目は何か。",
+    "choices": [
+      "現金",
+      "当座預金",
+      "売掛金",
+      "受取手形"
+    ],
+    "correctAnswer": 0,
+    "explanation": "他人振出の小切手を受け取った場合、小切手は通貨代用証券として「現金（資産の増加）」で処理します。",
+    "difficulty": "exam"
   }
 ]

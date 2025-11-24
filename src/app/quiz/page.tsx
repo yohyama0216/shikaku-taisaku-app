@@ -13,6 +13,7 @@ function QuizContent() {
   const router = useRouter();
   const category = searchParams.get('category') || 'all';
   const difficulty = searchParams.get('difficulty') || 'all';
+  const examType = (searchParams.get('examType') || 'takken') as 'takken' | 'bookkeeping-elementary';
 
   const [availableQuestions, setAvailableQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -22,8 +23,8 @@ function QuizContent() {
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [shuffledChoices, setShuffledChoices] = useState<Array<{ text: string; originalIndex: number }>>([]);
 
-  // Get unique categories for dropdown
-  const allCategories = Array.from(new Set(questions.map(q => q.category)));
+  // Get unique categories for dropdown filtered by examType
+  const allCategories = Array.from(new Set(questions.filter(q => q.examType === examType).map(q => q.category)));
 
   // Shuffle choices whenever the current question changes
   useEffect(() => {
@@ -45,13 +46,14 @@ function QuizContent() {
     }
   }, [currentQuestionIndex, availableQuestions.length]);
 
-  // Filter questions by category, difficulty and availability
+  // Filter questions by examType, category, difficulty and availability
   useEffect(() => {
     const filtered = questions.filter((q) => {
+      const matchesExamType = q.examType === examType;
       const matchesCategory = category === 'all' || q.category === category;
       const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
       const shouldShow = shouldShowQuestion(q.id);
-      return matchesCategory && matchesDifficulty && shouldShow;
+      return matchesExamType && matchesCategory && matchesDifficulty && shouldShow;
     });
 
     if (filtered.length === 0) {
@@ -61,7 +63,7 @@ function QuizContent() {
     }
 
     setAvailableQuestions(filtered);
-  }, [category, difficulty, router]);
+  }, [examType, category, difficulty, router]);
 
   // Timer countdown
   useEffect(() => {
@@ -114,12 +116,12 @@ function QuizContent() {
 
   const handleDifficultyChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newDifficulty = e.target.value;
-    router.push(`/quiz?difficulty=${newDifficulty}&category=${category}`);
+    router.push(`/quiz?difficulty=${newDifficulty}&category=${category}&examType=${examType}`);
   };
 
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newCategory = e.target.value;
-    router.push(`/quiz?difficulty=${difficulty}&category=${encodeURIComponent(newCategory)}`);
+    router.push(`/quiz?difficulty=${difficulty}&category=${encodeURIComponent(newCategory)}&examType=${examType}`);
   };
 
   if (availableQuestions.length === 0) {
