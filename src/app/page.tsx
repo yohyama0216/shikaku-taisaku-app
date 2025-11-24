@@ -8,7 +8,7 @@ import { Question } from '@/types/quiz';
 const questions = questionsData as Question[];
 
 export default function Home() {
-  const [selectedExam, setSelectedExam] = useState<'takken' | 'bookkeeping-elementary'>('takken');
+  const [selectedExam, setSelectedExam] = useState<'takken' | 'bookkeeping-elementary' | 'web-creator'>('takken');
   
   // Filter questions by exam type
   const filteredQuestions = questions.filter(q => q.examType === selectedExam);
@@ -36,6 +36,10 @@ export default function Home() {
     'bookkeeping-elementary': {
       title: '簿記初級対策クイズ',
       description: '簿記初級試験の学習用アプリです。'
+    },
+    'web-creator': {
+      title: 'Webクリエイター能力認定試験対策クイズ',
+      description: 'Webクリエイター能力認定試験の学習用アプリです。'
     }
   };
 
@@ -59,6 +63,13 @@ export default function Home() {
               onClick={() => setSelectedExam('bookkeeping-elementary')}
             >
               簿記初級
+            </button>
+            <button
+              type="button"
+              className={`btn ${selectedExam === 'web-creator' ? 'btn-primary' : 'btn-outline-primary'}`}
+              onClick={() => setSelectedExam('web-creator')}
+            >
+              Webクリエイター
             </button>
           </div>
         </div>
