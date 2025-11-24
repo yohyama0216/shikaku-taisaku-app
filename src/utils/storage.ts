@@ -192,7 +192,7 @@ const updateDailyActivity = (isCorrect: boolean, examType: ExamType): void => {
         incorrectAnswers: isCorrect ? 0 : 1,
       });
       
-      // Sort and keep only last 30 days of data
+      // Sort and keep only last 30 days of data per exam type (max 90 entries for 3 exam types)
       activities.sort((a, b) => b.date.localeCompare(a.date));
       if (activities.length > 90) { // Keep 30 days * 3 exam types max
         activities.splice(90);
