@@ -3,13 +3,13 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import questionsData from '@/data/questions.json';
-import { Question } from '@/types/quiz';
+import { Question, ExamType } from '@/types/quiz';
 import { saveLastExamType, getLastExamType } from '@/utils/storage';
 
 const questions = questionsData as Question[];
 
 export default function Home() {
-  const [selectedExam, setSelectedExam] = useState<'takken' | 'bookkeeping-elementary' | 'web-creator'>('takken');
+  const [selectedExam, setSelectedExam] = useState<ExamType>('takken');
   
   // Load the last selected exam type from localStorage on mount
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
   
   // Save exam type whenever it changes
-  const handleExamChange = (examType: 'takken' | 'bookkeeping-elementary' | 'web-creator') => {
+  const handleExamChange = (examType: ExamType) => {
     setSelectedExam(examType);
     saveLastExamType(examType);
   };

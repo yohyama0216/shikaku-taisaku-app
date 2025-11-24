@@ -1,4 +1,4 @@
-import { QuestionProgress, DailyStats, DailyActivity } from '@/types/quiz';
+import { QuestionProgress, DailyStats, DailyActivity, ExamType } from '@/types/quiz';
 import { checkAndAwardBadges } from './badges';
 
 const STORAGE_KEY = 'hazmat-quiz-progress';
@@ -218,7 +218,7 @@ export const getDailyActivityHistory = (): DailyActivity[] => {
 };
 
 // Save the last selected exam type
-export const saveLastExamType = (examType: 'takken' | 'bookkeeping-elementary' | 'web-creator'): void => {
+export const saveLastExamType = (examType: ExamType): void => {
   if (typeof window === 'undefined') return;
   
   try {
@@ -229,13 +229,13 @@ export const saveLastExamType = (examType: 'takken' | 'bookkeeping-elementary' |
 };
 
 // Get the last selected exam type
-export const getLastExamType = (): 'takken' | 'bookkeeping-elementary' | 'web-creator' | null => {
+export const getLastExamType = (): ExamType | null => {
   if (typeof window === 'undefined') return null;
   
   try {
     const examType = localStorage.getItem(LAST_EXAM_TYPE_KEY);
     if (examType && ['takken', 'bookkeeping-elementary', 'web-creator'].includes(examType)) {
-      return examType as 'takken' | 'bookkeeping-elementary' | 'web-creator';
+      return examType as ExamType;
     }
     return null;
   } catch (error) {

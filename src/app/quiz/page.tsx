@@ -3,7 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import questionsData from '@/data/questions.json';
-import { Question } from '@/types/quiz';
+import { Question, ExamType } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion, saveLastExamType } from '@/utils/storage';
 
 const questions = questionsData as Question[];
@@ -13,7 +13,7 @@ function QuizContent() {
   const router = useRouter();
   const category = searchParams.get('category') || 'all';
   const difficulty = searchParams.get('difficulty') || 'all';
-  const examType = (searchParams.get('examType') || 'takken') as 'takken' | 'bookkeeping-elementary' | 'web-creator';
+  const examType = (searchParams.get('examType') || 'takken') as ExamType;
 
   const [availableQuestions, setAvailableQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -25,6 +25,11 @@ function QuizContent() {
 
   // Get unique categories for dropdown filtered by examType
   const allCategories = Array.from(new Set(questions.filter(q => q.examType === examType).map(q => q.category)));
+
+  // Save the exam type to localStorage when it changes
+  useEffect(() => {
+    saveLastExamType(examType);
+  }, [examType]);
 
   // Shuffle choices whenever the current question changes
   useEffect(() => {
@@ -48,9 +53,6 @@ function QuizContent() {
 
   // Filter questions by examType, category, difficulty and availability
   useEffect(() => {
-    // Save the exam type to localStorage when quiz is started
-    saveLastExamType(examType);
-    
     const filtered = questions.filter((q) => {
       const matchesExamType = q.examType === examType;
       const matchesCategory = category === 'all' || q.category === category;

@@ -9,6 +9,8 @@ export interface Question {
   difficulty?: 'exam' | 'basic' | 'comparison' | 'terminology'; // exam level, basic level, comparison (similar terms/concepts), or terminology (simple definitions)
 }
 
+export type ExamType = 'takken' | 'bookkeeping-elementary' | 'web-creator';
+
 export interface QuestionProgress {
   questionId: number;
   correctCount: number;
