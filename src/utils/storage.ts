@@ -219,6 +219,39 @@ export const getDailyActivityHistory = (): DailyActivity[] => {
   }
 };
 
+// Get today's activity statistics
+export const getTodayActivity = (): DailyActivity => {
+  if (typeof window === 'undefined') {
+    return {
+      date: getTodayDate(),
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      incorrectAnswers: 0,
+    };
+  }
+  
+  try {
+    const today = getTodayDate();
+    const activities = getDailyActivityHistory();
+    const todayActivity = activities.find(activity => activity.date === today);
+    
+    return todayActivity || {
+      date: today,
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      incorrectAnswers: 0,
+    };
+  } catch (error) {
+    console.error('Error reading today activity:', error);
+    return {
+      date: getTodayDate(),
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      incorrectAnswers: 0,
+    };
+  }
+};
+
 // Save the last selected exam type
 export const saveLastExamType = (examType: ExamType): void => {
   if (typeof window === 'undefined') return;
