@@ -2,12 +2,10 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import questionsData from '@/data/questions.json';
 import { Question, ExamType } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storage';
 import { getSlugFromExamType } from '@/utils/examMapping';
-
-const questions = questionsData as Question[];
+import { getQuestionsByExamType } from '@/utils/questionLoader';
 
 function QuizContent() {
   const searchParams = useSearchParams();
@@ -24,8 +22,11 @@ function QuizContent() {
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [shuffledChoices, setShuffledChoices] = useState<Array<{ text: string; originalIndex: number }>>([]);
 
+  // Get questions for the exam type
+  const questions = getQuestionsByExamType(examType);
+  
   // Get unique categories for dropdown filtered by examType
-  const allCategories = Array.from(new Set(questions.filter(q => q.examType === examType).map(q => q.category)));
+  const allCategories = Array.from(new Set(questions.map(q => q.category)));
 
   // Save the exam type to localStorage when it changes (only if different from stored value)
   useEffect(() => {
@@ -55,14 +56,13 @@ function QuizContent() {
     }
   }, [currentQuestionIndex, availableQuestions.length]);
 
-  // Filter questions by examType, category, difficulty and availability
+  // Filter questions by category, difficulty and availability
   useEffect(() => {
     const filtered = questions.filter((q) => {
-      const matchesExamType = q.examType === examType;
       const matchesCategory = category === 'all' || q.category === category;
       const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
       const shouldShow = shouldShowQuestion(q.id);
-      return matchesExamType && matchesCategory && matchesDifficulty && shouldShow;
+      return matchesCategory && matchesDifficulty && shouldShow;
     });
 
     if (filtered.length === 0) {

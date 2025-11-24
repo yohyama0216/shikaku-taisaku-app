@@ -2,12 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter, useParams } from 'next/navigation';
-import questionsData from '@/data/questions.json';
 import { Question } from '@/types/quiz';
 import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType, getTodayActivity } from '@/utils/storage';
 import { getExamTypeFromSlug } from '@/utils/examMapping';
-
-const questions = questionsData as Question[];
+import { getQuestionsByExamType } from '@/utils/questionLoader';
 
 export default function QuizContent() {
   const params = useParams();
@@ -99,12 +97,14 @@ export default function QuizContent() {
   useEffect(() => {
     if (!examType) return;
     
+    // Get questions for this exam type
+    const questions = getQuestionsByExamType(examType);
+    
     const filtered = questions.filter((q) => {
-      const matchesExamType = q.examType === examType;
       const matchesCategory = category === 'all' || q.category === category;
       const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
       const shouldShow = shouldShowQuestion(q.id);
-      return matchesExamType && matchesCategory && matchesDifficulty && shouldShow;
+      return matchesCategory && matchesDifficulty && shouldShow;
     });
 
     if (filtered.length === 0) {
