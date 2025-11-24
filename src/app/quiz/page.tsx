@@ -13,7 +13,7 @@ function QuizContent() {
   const router = useRouter();
   const category = searchParams.get('category') || 'all';
   const difficulty = searchParams.get('difficulty') || 'all';
-  const examType = (searchParams.get('examType') || 'takken') as 'takken' | 'bookkeeping-elementary';
+  const examType = (searchParams.get('examType') || 'takken') as 'takken' | 'bookkeeping-elementary' | 'web-creator';
 
   const [availableQuestions, setAvailableQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);

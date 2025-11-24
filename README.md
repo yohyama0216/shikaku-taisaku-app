@@ -6,6 +6,7 @@
 
 - **宅建試験**: 宅地建物取引士試験
 - **簿記初級**: 簿記初級試験
+- **Webクリエイター**: Webクリエイター能力認定試験
 
 ## 機能
 
@@ -98,6 +99,7 @@ GitHub Pages を有効化した後、以下の方法でデプロイできます�
 ### examType の値
 - `takken`: 宅建試験
 - `bookkeeping-elementary`: 簿記初級
+- `web-creator`: Webクリエイター能力認定試験
 
 ### difficulty の値
 - `exam`: 試験レベル

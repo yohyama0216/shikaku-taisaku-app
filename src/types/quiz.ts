@@ -1,6 +1,6 @@
 export interface Question {
   id: number;
-  examType: 'takken' | 'bookkeeping-elementary'; // Type of exam
+  examType: 'takken' | 'bookkeeping-elementary' | 'web-creator'; // Type of exam
   category: string;
   question: string;
   choices: string[];
