@@ -6,6 +6,8 @@ const STATS_HISTORY_KEY = 'hazmat-quiz-stats-history';
 const DAILY_ACTIVITY_KEY = 'hazmat-quiz-daily-activity';
 const LAST_EXAM_TYPE_KEY = 'hazmat-quiz-last-exam-type';
 
+const EXAM_TYPES: ExamType[] = ['takken', 'bookkeeping-elementary', 'web-creator'];
+
 export const getQuestionProgress = (questionId: number): QuestionProgress | null => {
   if (typeof window === 'undefined') return null;
   
@@ -234,7 +236,7 @@ export const getLastExamType = (): ExamType | null => {
   
   try {
     const examType = localStorage.getItem(LAST_EXAM_TYPE_KEY);
-    if (examType && ['takken', 'bookkeeping-elementary', 'web-creator'].includes(examType)) {
+    if (examType && EXAM_TYPES.includes(examType as ExamType)) {
       return examType as ExamType;
     }
     return null;
