@@ -156,7 +156,8 @@ export default function StatsPage() {
   const getExamName = (type: ExamType): string => {
     switch (type) {
       case 'takken': return '宅建試験';
-      case 'web-creator': return 'Webクリエイター';
+      case 'land-surveyor': return '土地家屋調査士';
+      case 'real-estate-appraiser': return '不動産鑑定士';
       default: return '';
     }
   };

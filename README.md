@@ -5,7 +5,8 @@
 ## 対応試験
 
 - **宅建試験**: 宅地建物取引士試験
-- **Webクリエイター**: Webクリエイター能力認定試験
+- **土地家屋調査士**: 土地家屋調査士試験
+- **不動産鑑定士**: 不動産鑑定士試験
 
 ## 機能
 
@@ -92,7 +93,8 @@ npm run start
 
 ### examType の値
 - `takken`: 宅建試験
-- `web-creator`: Webクリエイター能力認定試験
+- `land-surveyor`: 土地家屋調査士試験
+- `real-estate-appraiser`: 不動産鑑定士試験
 
 ### difficulty の値
 - `exam`: 試験レベル

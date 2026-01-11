@@ -6,7 +6,7 @@ const STATS_HISTORY_KEY = 'hazmat-quiz-stats-history';
 const DAILY_ACTIVITY_KEY = 'hazmat-quiz-daily-activity';
 const LAST_EXAM_TYPE_KEY = 'hazmat-quiz-last-exam-type';
 
-const EXAM_TYPES: ExamType[] = ['takken', 'web-creator'];
+const EXAM_TYPES: ExamType[] = ['takken', 'land-surveyor', 'real-estate-appraiser'];
 
 export const getQuestionProgress = (questionId: number): QuestionProgress | null => {
   if (typeof window === 'undefined') return null;

@@ -6,16 +6,21 @@ export const EXAM_INFO: Record<ExamType, { title: string; description: string; s
     description: '宅地建物取引士試験の学習用アプリです。',
     shortName: '宅建試験'
   },
-  'web-creator': {
-    title: 'Webクリエイター能力認定試験対策クイズ',
-    description: 'Webクリエイター能力認定試験の学習用アプリです。',
-    shortName: 'Webクリエイター'
+  'land-surveyor': {
+    title: '土地家屋調査士試験対策クイズ',
+    description: '土地家屋調査士試験の学習用アプリです。',
+    shortName: '土地家屋調査士'
+  },
+  'real-estate-appraiser': {
+    title: '不動産鑑定士試験対策クイズ',
+    description: '不動産鑑定士試験の学習用アプリです。',
+    shortName: '不動産鑑定士'
   }
 };
 
 export function getExamTypeFromSlug(slug: string): ExamType | null {
   // Since slug and examType are the same, just validate
-  if (slug === 'takken' || slug === 'web-creator') {
+  if (slug === 'takken' || slug === 'land-surveyor' || slug === 'real-estate-appraiser') {
     return slug as ExamType;
   }
   return null;
