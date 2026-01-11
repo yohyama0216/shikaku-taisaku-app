@@ -74,7 +74,7 @@ export async function POST(request: NextRequest) {
         .set({
           correctCount: existing[0].correctCount + (isCorrect ? 1 : 0),
           incorrectCount: existing[0].incorrectCount + (isCorrect ? 0 : 1),
-          lastAttemptCorrect: isCorrect ? 1 : 0,
+          lastAttemptCorrect: isCorrect,
           updatedAt: new Date(),
         })
         .where(eq(questionProgress.questionId, questionId));
@@ -84,7 +84,7 @@ export async function POST(request: NextRequest) {
         questionId,
         correctCount: isCorrect ? 1 : 0,
         incorrectCount: isCorrect ? 0 : 1,
-        lastAttemptCorrect: isCorrect ? 1 : 0,
+        lastAttemptCorrect: isCorrect,
       });
     }
 

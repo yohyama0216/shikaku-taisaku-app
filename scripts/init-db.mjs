@@ -6,9 +6,6 @@
  */
 
 import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
-import { migrate } from 'drizzle-orm/better-sqlite3/migrator';
-import * as schema from '../src/db/schema.js';
 
 const dbPath = process.env.DATABASE_PATH || 'local.db';
 
@@ -17,7 +14,6 @@ console.log(`Database path: ${dbPath}`);
 
 try {
   const sqlite = new Database(dbPath);
-  const db = drizzle(sqlite, { schema });
 
   // Create tables
   sqlite.exec(`
