@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { DailyActivity } from '@/types/quiz';
-import { getDailyActivityHistory } from '@/utils/storage';
+import { getDailyActivityHistory } from '@/utils/storageDB';
 
 export default function HistoryPage() {
   const [activities, setActivities] = useState<DailyActivity[]>([]);
@@ -14,8 +14,8 @@ export default function HistoryPage() {
     loadActivities();
   }, []);
 
-  const loadActivities = () => {
-    const data = getDailyActivityHistory();
+  const loadActivities = async () => {
+    const data = await getDailyActivityHistory();
     setActivities(data);
   };
 

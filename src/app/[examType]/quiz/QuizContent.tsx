@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, useRouter, useParams } from 'next/navigation';
 import { Question } from '@/types/quiz';
-import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType, getTodayActivity } from '@/utils/storage';
+import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType, getTodayActivity } from '@/utils/storageDB';
 import { getExamTypeFromSlug } from '@/utils/examMapping';
 import { getQuestionsByExamType } from '@/utils/questionLoader';
 
@@ -56,17 +56,20 @@ export default function QuizContent() {
   // Update today's statistics
   useEffect(() => {
     if (!examType) return;
-    const activity = getTodayActivity(examType);
-    setTodayStats({
-      questionsAnswered: activity.questionsAnswered,
-      correctAnswers: activity.correctAnswers,
-    });
+    const updateStats = async () => {
+      const activity = await getTodayActivity(examType);
+      setTodayStats({
+        questionsAnswered: activity.questionsAnswered,
+        correctAnswers: activity.correctAnswers,
+      });
+    };
+    updateStats();
   }, [examType]);
   
   // Function to update statistics
-  const updateTodayStats = () => {
+  const updateTodayStats = async () => {
     if (!examType) return;
-    const activity = getTodayActivity(examType);
+    const activity = await getTodayActivity(examType);
     setTodayStats({
       questionsAnswered: activity.questionsAnswered,
       correctAnswers: activity.correctAnswers,
@@ -97,23 +100,30 @@ export default function QuizContent() {
   useEffect(() => {
     if (!examType) return;
     
-    // Get questions for this exam type
-    const questions = getQuestionsByExamType(examType);
-    
-    const filtered = questions.filter((q) => {
-      const matchesCategory = category === 'all' || q.category === category;
-      const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
-      const shouldShow = shouldShowQuestion(q.id);
-      return matchesCategory && matchesDifficulty && shouldShow;
-    });
+    const filterQuestions = async () => {
+      // Get questions for this exam type
+      const questions = getQuestionsByExamType(examType);
+      
+      const filtered = [];
+      for (const q of questions) {
+        const matchesCategory = category === 'all' || q.category === category;
+        const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
+        const shouldShow = await shouldShowQuestion(q.id);
+        if (matchesCategory && matchesDifficulty && shouldShow) {
+          filtered.push(q);
+        }
+      }
 
-    if (filtered.length === 0) {
-      // No more questions available
-      router.push(`/${examSlug}/stats`);
-      return;
-    }
+      if (filtered.length === 0) {
+        // No more questions available
+        router.push(`/${examSlug}/stats`);
+        return;
+      }
 
-    setAvailableQuestions(filtered);
+      setAvailableQuestions(filtered);
+    };
+
+    filterQuestions();
   }, [examType, category, difficulty, router]);
 
   // Timer countdown
@@ -133,16 +143,16 @@ export default function QuizContent() {
     return () => clearInterval(timer);
   }, [timeLeft, showResult, availableQuestions.length]);
 
-  const handleTimeUp = () => {
+  const handleTimeUp = async () => {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     if (currentQuestion && examType) {
-      saveQuestionProgress(currentQuestion.id, false, examType);
+      await saveQuestionProgress(currentQuestion.id, false, examType);
       setShowResult(true);
-      updateTodayStats();
+      await updateTodayStats();
     }
   };
 
-  const handleAnswer = (shuffledIndex: number) => {
+  const handleAnswer = async (shuffledIndex: number) => {
     if (showResult || isTimeUp || shuffledIndex >= shuffledChoices.length) return;
 
     const originalIndex = shuffledChoices[shuffledIndex].originalIndex;
@@ -151,9 +161,9 @@ export default function QuizContent() {
     const isCorrect = originalIndex === currentQuestion.correctAnswer;
     
     if (examType) {
-      saveQuestionProgress(currentQuestion.id, isCorrect, examType);
+      await saveQuestionProgress(currentQuestion.id, isCorrect, examType);
       setShowResult(true);
-      updateTodayStats();
+      await updateTodayStats();
     }
   };
 

@@ -1,0 +1,77 @@
+[
+  {
+    "id": 4001,
+    "examType": "condominium-manager",
+    "category": "区分所有法",
+    "question": "区分所有者の共有持分の割合について、規約で別段の定めがない場合はどうなるか。",
+    "choices": [
+      "専有部分の床面積の割合による",
+      "戸数の割合による",
+      "取得価格の割合による",
+      "全員平等とする"
+    ],
+    "correctAnswer": 0,
+    "explanation": "区分所有法では、規約で別段の定めがない限り、共有持分の割合は専有部分の床面積の割合によるとされています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 4002,
+    "examType": "condominium-manager",
+    "category": "管理組合",
+    "question": "マンション管理組合の総会における普通決議の要件として正しいものはどれか。",
+    "choices": [
+      "区分所有者の過半数、議決権の過半数",
+      "区分所有者の3分の2以上、議決権の3分の2以上",
+      "区分所有者の4分の3以上、議決権の4分の3以上",
+      "区分所有者及び議決権の各5分の4以上"
+    ],
+    "correctAnswer": 0,
+    "explanation": "普通決議は、区分所有者の過半数かつ議決権の過半数で成立します。特別決議や建替え決議はより厳格な要件となります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 4003,
+    "examType": "condominium-manager",
+    "category": "管理業務",
+    "question": "マンション管理業者の登録の有効期間は何年か。",
+    "choices": [
+      "3年",
+      "5年",
+      "7年",
+      "10年"
+    ],
+    "correctAnswer": 1,
+    "explanation": "マンション管理適正化法において、マンション管理業者の登録の有効期間は5年です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 4004,
+    "examType": "condominium-manager",
+    "category": "大規模修繕",
+    "question": "長期修繕計画の見直しは、一般的に何年ごとに行うことが推奨されているか。",
+    "choices": [
+      "3年",
+      "5年",
+      "7年",
+      "10年"
+    ],
+    "correctAnswer": 1,
+    "explanation": "マンション標準管理規約等では、長期修繕計画は5年程度ごとに見直すことが推奨されています。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 4005,
+    "examType": "condominium-manager",
+    "category": "会計",
+    "question": "管理費と修繕積立金の違いとして正しいものはどれか。",
+    "choices": [
+      "管理費は日常的な管理に、修繕積立金は計画修繕に充てる",
+      "管理費は修繕に、修繕積立金は日常管理に充てる",
+      "両者に違いはなく、自由に使い分けできる",
+      "管理費は任意、修繕積立金は必須である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "管理費は日常的な管理運営に充てられ、修繕積立金は計画的な修繕工事のために積み立てられます。両者は明確に区分して経理されます。",
+    "difficulty": "basic"
+  }
+]

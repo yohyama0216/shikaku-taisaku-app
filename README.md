@@ -5,8 +5,10 @@
 ## 対応試験
 
 - **宅建試験**: 宅地建物取引士試験
-- **簿記初級**: 簿記初級試験
-- **Webクリエイター**: Webクリエイター能力認定試験
+- **土地家屋調査士**: 土地家屋調査士試験
+- **不動産鑑定士**: 不動産鑑定士試験
+- **賃貸不動産経営管理士**: 賃貸不動産経営管理士試験
+- **マンション管理士**: マンション管理士試験
 
 ## 機能
 
@@ -24,7 +26,7 @@
 - **Next.js 16**: React フレームワーク
 - **TypeScript**: 型安全な開発
 - **Bootstrap 5**: シンプルで洗練されたデザイン
-- **SSG (Static Site Generation)**: GitHub Pages でのホスティング
+- **Vercel**: ホスティングプラットフォーム
 
 ## 開発
 
@@ -39,49 +41,58 @@
 # 依存関係のインストール
 npm install
 
+# データベースの初期化（ローカル開発用 SQLite）
+npm run db:init
+
 # 開発サーバーの起動
 npm run dev
 ```
 
 開発サーバーは http://localhost:3000 で起動します。
 
+**注意**: ローカル開発では SQLite、本番環境では Neon PostgreSQL を使用します。詳細は [DATABASE.md](./DATABASE.md) を参照してください。
+
 ### ビルド
 
 ```bash
 # 本番用ビルド
 npm run build
-```
 
-ビルド成果物は `out/` ディレクトリに生成されます。
+# ビルド結果の確認
+npm run start
+```
 
 ## デプロイ
 
-### GitHub Pages の設定
+### Vercel へのデプロイ
 
-初回デプロイの前に、以下の手順で GitHub Pages を有効化してください：
+このアプリケーションは Vercel にデプロイすることを推奨します。
 
-1. リポジトリの Settings → Pages にアクセス
-   - URL: https://github.com/yohyama0216/shikaku-taisaku-app/settings/pages
-2. "Build and deployment" セクションで、Source を **GitHub Actions** に設定
-3. 保存して設定を完了
+#### データベースのセットアップ（本番環境）
 
-**注意**: このリポジトリはプライベートです。GitHub Pages をプライベートリポジトリで使用するには、GitHub Pro、Team、Enterprise Cloud、または Enterprise Server のプランが必要です。
+1. [Neon](https://neon.tech/) でアカウントを作成
+2. 新しいプロジェクトを作成
+3. PostgreSQL 接続文字列を取得
 
-### 自動デプロイ
+#### 初回デプロイ
 
-GitHub Pages を有効化した後、以下の方法でデプロイできます：
+1. [Vercel](https://vercel.com) にサインアップまたはログイン
+2. GitHub リポジトリと連携
+3. プロジェクトをインポート
+4. 環境変数を設定:
+   - `DATABASE_URL`: Neon の PostgreSQL 接続文字列
+5. デプロイボタンをクリック
 
-- **手動デプロイ**: Actions タブから "Deploy to GitHub Pages" ワークフローを手動実行
-- **自動デプロイ**: workflow_dispatch トリガーを使用して手動でデプロイを実行
+#### 自動デプロイ
 
-デプロイが成功すると、アプリは以下の URL でアクセスできます：
-- https://yohyama0216.github.io/shikaku-taisaku-app/
+- main ブランチへのプッシュで自動的にデプロイされます
+- プルリクエストごとにプレビューデプロイが作成されます
 
-詳細なデプロイ手順とトラブルシューティングについては、[DEPLOYMENT.md](./DEPLOYMENT.md) を参照してください。
+詳細なデータベース設定については、[DATABASE.md](./DATABASE.md) を参照してください。
 
 ## データ構造
 
-問題データは `src/data/questions.json` に格納されています。
+問題データは `src/data/` ディレクトリに格納されています。
 
 ```json
 {
@@ -98,8 +109,10 @@ GitHub Pages を有効化した後、以下の方法でデプロイできます�
 
 ### examType の値
 - `takken`: 宅建試験
-- `bookkeeping-elementary`: 簿記初級
-- `web-creator`: Webクリエイター能力認定試験
+- `land-surveyor`: 土地家屋調査士試験
+- `real-estate-appraiser`: 不動産鑑定士試験
+- `rental-property-manager`: 賃貸不動産経営管理士試験
+- `condominium-manager`: マンション管理士試験
 
 ### difficulty の値
 - `exam`: 試験レベル
