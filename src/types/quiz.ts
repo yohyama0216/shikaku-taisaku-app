@@ -1,4 +1,4 @@
-export type ExamType = 'takken' | 'bookkeeping-elementary' | 'web-creator';
+export type ExamType = 'takken' | 'web-creator';
 
 export interface Question {
   id: number;

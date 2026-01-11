@@ -156,7 +156,6 @@ export default function StatsPage() {
   const getExamName = (type: ExamType): string => {
     switch (type) {
       case 'takken': return '宅建試験';
-      case 'bookkeeping-elementary': return '簿記初級';
       case 'web-creator': return 'Webクリエイター';
       default: return '';
     }

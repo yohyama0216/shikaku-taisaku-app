@@ -2,13 +2,11 @@ import { Question, ExamType } from '@/types/quiz';
 
 // Import all question files
 import takkenQuestions from '@/data/takken.json';
-import bookkeepingQuestions from '@/data/bookkeeping-elementary.json';
 import webCreatorQuestions from '@/data/web-creator.json';
 
 // Map of exam types to their questions
 const questionsMap: Record<ExamType, Question[]> = {
   'takken': takkenQuestions as Question[],
-  'bookkeeping-elementary': bookkeepingQuestions as Question[],
   'web-creator': webCreatorQuestions as Question[],
 };
 

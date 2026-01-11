@@ -5,7 +5,7 @@ import { EXAM_INFO, getSlugFromExamType } from '@/utils/examMapping';
 import { ExamType } from '@/types/quiz';
 
 export default function Home() {
-  const examTypes: ExamType[] = ['takken', 'bookkeeping-elementary', 'web-creator'];
+  const examTypes: ExamType[] = ['takken', 'web-creator'];
 
   return (
     <main>

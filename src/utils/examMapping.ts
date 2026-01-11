@@ -6,11 +6,6 @@ export const EXAM_INFO: Record<ExamType, { title: string; description: string; s
     description: '宅地建物取引士試験の学習用アプリです。',
     shortName: '宅建試験'
   },
-  'bookkeeping-elementary': {
-    title: '簿記初級対策クイズ',
-    description: '簿記初級試験の学習用アプリです。',
-    shortName: '簿記初級'
-  },
   'web-creator': {
     title: 'Webクリエイター能力認定試験対策クイズ',
     description: 'Webクリエイター能力認定試験の学習用アプリです。',
@@ -20,7 +15,7 @@ export const EXAM_INFO: Record<ExamType, { title: string; description: string; s
 
 export function getExamTypeFromSlug(slug: string): ExamType | null {
   // Since slug and examType are the same, just validate
-  if (slug === 'takken' || slug === 'bookkeeping-elementary' || slug === 'web-creator') {
+  if (slug === 'takken' || slug === 'web-creator') {
     return slug as ExamType;
   }
   return null;
