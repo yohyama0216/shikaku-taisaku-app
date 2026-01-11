@@ -5,7 +5,7 @@ import { EXAM_INFO, getSlugFromExamType } from '@/utils/examMapping';
 import { ExamType } from '@/types/quiz';
 
 export default function Home() {
-  const examTypes: ExamType[] = ['takken', 'land-surveyor', 'real-estate-appraiser'];
+  const examTypes: ExamType[] = ['takken', 'land-surveyor', 'real-estate-appraiser', 'rental-property-manager', 'condominium-manager'];
 
   return (
     <main>

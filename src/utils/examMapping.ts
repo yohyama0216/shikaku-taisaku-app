@@ -15,12 +15,22 @@ export const EXAM_INFO: Record<ExamType, { title: string; description: string; s
     title: '不動産鑑定士試験対策クイズ',
     description: '不動産鑑定士試験の学習用アプリです。',
     shortName: '不動産鑑定士'
+  },
+  'rental-property-manager': {
+    title: '賃貸不動産経営管理士試験対策クイズ',
+    description: '賃貸不動産経営管理士試験の学習用アプリです。',
+    shortName: '賃貸不動産経営管理士'
+  },
+  'condominium-manager': {
+    title: 'マンション管理士試験対策クイズ',
+    description: 'マンション管理士試験の学習用アプリです。',
+    shortName: 'マンション管理士'
   }
 };
 
 export function getExamTypeFromSlug(slug: string): ExamType | null {
   // Since slug and examType are the same, just validate
-  if (slug === 'takken' || slug === 'land-surveyor' || slug === 'real-estate-appraiser') {
+  if (slug === 'takken' || slug === 'land-surveyor' || slug === 'real-estate-appraiser' || slug === 'rental-property-manager' || slug === 'condominium-manager') {
     return slug as ExamType;
   }
   return null;

@@ -7,6 +7,8 @@
 - **宅建試験**: 宅地建物取引士試験
 - **土地家屋調査士**: 土地家屋調査士試験
 - **不動産鑑定士**: 不動産鑑定士試験
+- **賃貸不動産経営管理士**: 賃貸不動産経営管理士試験
+- **マンション管理士**: マンション管理士試験
 
 ## 機能
 
@@ -95,6 +97,8 @@ npm run start
 - `takken`: 宅建試験
 - `land-surveyor`: 土地家屋調査士試験
 - `real-estate-appraiser`: 不動産鑑定士試験
+- `rental-property-manager`: 賃貸不動産経営管理士試験
+- `condominium-manager`: マンション管理士試験
 
 ### difficulty の値
 - `exam`: 試験レベル

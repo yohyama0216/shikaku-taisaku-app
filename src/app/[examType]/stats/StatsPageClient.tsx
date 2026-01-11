@@ -158,6 +158,8 @@ export default function StatsPage() {
       case 'takken': return '宅建試験';
       case 'land-surveyor': return '土地家屋調査士';
       case 'real-estate-appraiser': return '不動産鑑定士';
+      case 'rental-property-manager': return '賃貸不動産経営管理士';
+      case 'condominium-manager': return 'マンション管理士';
       default: return '';
     }
   };

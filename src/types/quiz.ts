@@ -1,4 +1,4 @@
-export type ExamType = 'takken' | 'land-surveyor' | 'real-estate-appraiser';
+export type ExamType = 'takken' | 'land-surveyor' | 'real-estate-appraiser' | 'rental-property-manager' | 'condominium-manager';
 
 export interface Question {
   id: number;
