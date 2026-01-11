@@ -41,11 +41,16 @@
 # 依存関係のインストール
 npm install
 
+# データベースの初期化（ローカル開発用 SQLite）
+npm run db:init
+
 # 開発サーバーの起動
 npm run dev
 ```
 
 開発サーバーは http://localhost:3000 で起動します。
+
+**注意**: ローカル開発では SQLite、本番環境では Neon PostgreSQL を使用します。詳細は [DATABASE.md](./DATABASE.md) を参照してください。
 
 ### ビルド
 
@@ -63,18 +68,27 @@ npm run start
 
 このアプリケーションは Vercel にデプロイすることを推奨します。
 
+#### データベースのセットアップ（本番環境）
+
+1. [Neon](https://neon.tech/) でアカウントを作成
+2. 新しいプロジェクトを作成
+3. PostgreSQL 接続文字列を取得
+
 #### 初回デプロイ
 
 1. [Vercel](https://vercel.com) にサインアップまたはログイン
 2. GitHub リポジトリと連携
 3. プロジェクトをインポート
-4. デプロイ設定はデフォルトのまま（自動検出）
+4. 環境変数を設定:
+   - `DATABASE_URL`: Neon の PostgreSQL 接続文字列
 5. デプロイボタンをクリック
 
 #### 自動デプロイ
 
 - main ブランチへのプッシュで自動的にデプロイされます
 - プルリクエストごとにプレビューデプロイが作成されます
+
+詳細なデータベース設定については、[DATABASE.md](./DATABASE.md) を参照してください。
 
 ## データ構造
 
