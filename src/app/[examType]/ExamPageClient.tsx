@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import { useEffect } from 'react';
 import { Question } from '@/types/quiz';
 import { getExamTypeFromSlug, EXAM_INFO } from '@/utils/examMapping';
-import { saveLastExamType } from '@/utils/storage';
+import { saveLastExamType } from '@/utils/storageDB';
 import { getQuestionsByExamType } from '@/utils/questionLoader';
 
 export default function ExamPageClient() {

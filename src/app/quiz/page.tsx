@@ -3,7 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Question, ExamType } from '@/types/quiz';
-import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storage';
+import { saveQuestionProgress, shouldShowQuestion, saveLastExamType, getLastExamType } from '@/utils/storageDB';
 import { getSlugFromExamType } from '@/utils/examMapping';
 import { getQuestionsByExamType } from '@/utils/questionLoader';
 
@@ -58,21 +58,28 @@ function QuizContent() {
 
   // Filter questions by category, difficulty and availability
   useEffect(() => {
-    const filtered = questions.filter((q) => {
-      const matchesCategory = category === 'all' || q.category === category;
-      const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
-      const shouldShow = shouldShowQuestion(q.id);
-      return matchesCategory && matchesDifficulty && shouldShow;
-    });
+    const filterQuestions = async () => {
+      const filtered = [];
+      for (const q of questions) {
+        const matchesCategory = category === 'all' || q.category === category;
+        const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
+        const shouldShow = await shouldShowQuestion(q.id);
+        if (matchesCategory && matchesDifficulty && shouldShow) {
+          filtered.push(q);
+        }
+      }
 
-    if (filtered.length === 0) {
-      // No more questions available
-      const examSlug = getSlugFromExamType(examType);
-      router.push(`/${examSlug}/stats`);
-      return;
-    }
+      if (filtered.length === 0) {
+        // No more questions available
+        const examSlug = getSlugFromExamType(examType);
+        router.push(`/${examSlug}/stats`);
+        return;
+      }
 
-    setAvailableQuestions(filtered);
+      setAvailableQuestions(filtered);
+    };
+
+    filterQuestions();
   }, [examType, category, difficulty, router]);
 
   // Timer countdown
@@ -92,15 +99,15 @@ function QuizContent() {
     return () => clearInterval(timer);
   }, [timeLeft, showResult, availableQuestions.length]);
 
-  const handleTimeUp = () => {
+  const handleTimeUp = async () => {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     if (currentQuestion) {
-      saveQuestionProgress(currentQuestion.id, false, examType);
+      await saveQuestionProgress(currentQuestion.id, false, examType);
       setShowResult(true);
     }
   };
 
-  const handleAnswer = (shuffledIndex: number) => {
+  const handleAnswer = async (shuffledIndex: number) => {
     if (showResult || isTimeUp || shuffledIndex >= shuffledChoices.length) return;
 
     const originalIndex = shuffledChoices[shuffledIndex].originalIndex;
@@ -108,7 +115,7 @@ function QuizContent() {
     const currentQuestion = availableQuestions[currentQuestionIndex];
     const isCorrect = originalIndex === currentQuestion.correctAnswer;
     
-    saveQuestionProgress(currentQuestion.id, isCorrect, examType);
+    await saveQuestionProgress(currentQuestion.id, isCorrect, examType);
     setShowResult(true);
   };
 

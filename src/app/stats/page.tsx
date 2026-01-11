@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Question, QuestionProgress, DailyStats, Badge } from '@/types/quiz';
-import { getAllProgress, clearAllProgress, getDailyStatsHistory } from '@/utils/storage';
+import { getAllProgress, clearAllProgress, getDailyStatsHistory } from '@/utils/storageDB';
 import { getAllBadges, getBadgeStats } from '@/utils/badges';
 import { getAllQuestions } from '@/utils/questionLoader';
 
@@ -22,10 +22,10 @@ export default function StatsPage() {
     loadProgress();
   }, []);
 
-  const loadProgress = () => {
-    const data = getAllProgress();
+  const loadProgress = async () => {
+    const data = await getAllProgress();
     setProgress(data);
-    const history = getDailyStatsHistory();
+    const history = await getDailyStatsHistory();
     setStatsHistory(history);
     
     // Load badges
@@ -35,10 +35,10 @@ export default function StatsPage() {
     setBadges(allBadges);
   };
 
-  const handleClearProgress = () => {
+  const handleClearProgress = async () => {
     if (confirm('すべての学習進捗を削除してもよろしいですか？')) {
-      clearAllProgress();
-      loadProgress();
+      await clearAllProgress();
+      await loadProgress();
     }
   };
 
