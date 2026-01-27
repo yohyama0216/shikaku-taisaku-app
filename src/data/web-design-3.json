@@ -1,0 +1,602 @@
+[
+  {
+    "id": 5001,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで段落を表すタグとして正しいものはどれか。",
+    "choices": [
+      "<p>タグ",
+      "<div>タグ",
+      "<span>タグ",
+      "<section>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<p>タグは段落（paragraph）を表す基本的なHTMLタグです。文章の段落を構造的にマークアップする際に使用します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5002,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の背景色を指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "background-color",
+      "color",
+      "bg-color",
+      "fill"
+    ],
+    "correctAnswer": 0,
+    "explanation": "background-colorプロパティは、要素の背景色を設定するCSSプロパティです。colorプロパティは文字色を指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5003,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "リンクを作成するHTMLタグとして正しいものはどれか。",
+    "choices": [
+      "<a>タグ",
+      "<link>タグ",
+      "<href>タグ",
+      "<url>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<a>タグ（アンカータグ）はハイパーリンクを作成するために使用します。href属性でリンク先のURLを指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5004,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSでテキストを中央揃えにするプロパティと値の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "text-align: center",
+      "align: center",
+      "text-center: true",
+      "center-text: yes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "text-align: centerは、テキストを水平方向に中央揃えにするCSSプロパティです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5005,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "画像を表示するHTMLタグとして正しいものはどれか。",
+    "choices": [
+      "<img>タグ",
+      "<image>タグ",
+      "<picture>タグ",
+      "<photo>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<img>タグは画像を埋め込むために使用します。src属性で画像ファイルのパスを、alt属性で代替テキストを指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5006,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSでフォントサイズを指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "font-size",
+      "text-size",
+      "size",
+      "font-scale"
+    ],
+    "correctAnswer": 0,
+    "explanation": "font-sizeプロパティは、テキストのフォントサイズを設定するCSSプロパティです。px、em、rem、%などの単位で指定できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5007,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "順序なしリスト（箇条書き）を作成するHTMLタグとして正しいものはどれか。",
+    "choices": [
+      "<ul>タグ",
+      "<ol>タグ",
+      "<list>タグ",
+      "<li>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<ul>タグ（Unordered List）は順序なしリストを作成します。<ol>は順序ありリスト、<li>は各リスト項目を表します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5008,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのボックスモデルにおいて、要素の内側の余白を指定するプロパティはどれか。",
+    "choices": [
+      "padding",
+      "margin",
+      "border",
+      "spacing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "paddingは要素の内側の余白（コンテンツと境界線の間）を指定します。marginは要素の外側の余白を指定します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5009,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで見出しを表すタグのうち、最も重要度が高いものはどれか。",
+    "choices": [
+      "<h1>タグ",
+      "<h2>タグ",
+      "<h6>タグ",
+      "<header>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<h1>タグは見出しタグの中で最も重要度が高く、通常ページに1つだけ使用します。<h2>から<h6>へと重要度が下がります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5010,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を非表示にするプロパティと値の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "display: none",
+      "visible: false",
+      "hidden: true",
+      "show: none"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: noneは、要素を完全に非表示にし、レイアウトからも除外します。visibility: hiddenは要素を非表示にしますが、レイアウト上の領域は保持されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5011,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPプロトコルで、クライアントがサーバーにデータを送信する際に使用されるメソッドはどれか。",
+    "choices": [
+      "POST",
+      "GET",
+      "SEND",
+      "TRANSFER"
+    ],
+    "correctAnswer": 0,
+    "explanation": "POSTメソッドは、クライアントからサーバーへデータを送信する際に使用されます。GETはデータを取得する際に使用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5012,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "ワールドワイドウェブの標準化を行っている国際的な組織はどれか。",
+    "choices": [
+      "W3C",
+      "ISO",
+      "IEEE",
+      "ANSI"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3C（World Wide Web Consortium）は、ワールドワイドウェブの標準化を推進する国際的な組織です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5013,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "クライアント・サーバモデルにおいて、Webページを提供する側の役割を果たすのはどれか。",
+    "choices": [
+      "Webサーバ",
+      "Webブラウザ",
+      "プロキシサーバ",
+      "DNSサーバ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Webサーバは、クライアント（Webブラウザ）からのリクエストに応じてWebページを提供する役割を果たします。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5014,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "個人情報保護法において、個人情報の適切な管理が義務付けられている主体はどれか。",
+    "choices": [
+      "個人情報取扱事業者",
+      "インターネット利用者",
+      "ウェブデザイナー",
+      "一般企業のみ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "個人情報保護法では、個人情報取扱事業者に対して個人情報の適切な管理が義務付けられています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5015,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "不正アクセス行為の禁止等に関する法律で禁止されている行為はどれか。",
+    "choices": [
+      "他人のIDとパスワードを無断で使用してシステムにアクセスする行為",
+      "自分のパスワードを定期的に変更する行為",
+      "ウイルス対策ソフトをインストールする行為",
+      "正規の手続きでアカウントを取得する行為"
+    ],
+    "correctAnswer": 0,
+    "explanation": "不正アクセス禁止法では、他人のIDとパスワードを無断で使用してコンピュータにアクセスする行為が禁止されています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5016,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権法において、プログラムやWebサイトのデザインなどの創作物を保護する権利はどれか。",
+    "choices": [
+      "著作権",
+      "特許権",
+      "商標権",
+      "意匠権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作権は、文芸、学術、美術、音楽などの創作物を保護する権利で、Webサイトのデザインやプログラムも対象となります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5017,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで表（テーブル）を作成する際に使用するタグはどれか。",
+    "choices": [
+      "<table>タグ",
+      "<tab>タグ",
+      "<grid>タグ",
+      "<matrix>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<table>タグは、HTMLで表を作成する際に使用します。<tr>で行、<td>でセルを定義します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5018,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで入力フォームを作成する際に使用するタグはどれか。",
+    "choices": [
+      "<form>タグ",
+      "<input>タグのみ",
+      "<text>タグ",
+      "<field>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<form>タグは、入力フォーム全体を定義します。その中に<input>、<textarea>などの入力要素を配置します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5019,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで強調（太字）を表すタグとして正しいものはどれか。",
+    "choices": [
+      "<strong>タグ",
+      "<bold>タグ",
+      "<b>タグのみ",
+      "<emphasis>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<strong>タグは、テキストを強調（太字）で表示し、意味的に重要であることを示します。<b>タグも太字にしますが、意味的な強調は含みません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5020,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで改行を表すタグとして正しいものはどれか。",
+    "choices": [
+      "<br>タグ",
+      "<newline>タグ",
+      "<line>タグ",
+      "<break>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<br>タグは、テキスト内で改行を行う際に使用します。空要素であり、終了タグは不要です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5021,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の幅を指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "width",
+      "size",
+      "length",
+      "scale"
+    ],
+    "correctAnswer": 0,
+    "explanation": "widthプロパティは、要素の幅を設定するCSSプロパティです。px、%、emなどの単位で指定できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5022,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の外側の余白を指定するプロパティはどれか。",
+    "choices": [
+      "margin",
+      "padding",
+      "border",
+      "spacing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "marginプロパティは、要素の外側の余白を設定します。paddingは内側の余白を設定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5023,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで文字色を指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "color",
+      "text-color",
+      "font-color",
+      "foreground-color"
+    ],
+    "correctAnswer": 0,
+    "explanation": "colorプロパティは、テキストの文字色を設定するCSSプロパティです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5024,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の境界線を指定するプロパティはどれか。",
+    "choices": [
+      "border",
+      "outline",
+      "frame",
+      "edge"
+    ],
+    "correctAnswer": 0,
+    "explanation": "borderプロパティは、要素の境界線を設定します。線の太さ、スタイル、色を指定できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5025,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSでフォントの種類を指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "font-family",
+      "font-type",
+      "typeface",
+      "text-font"
+    ],
+    "correctAnswer": 0,
+    "explanation": "font-familyプロパティは、使用するフォントの種類を設定します。複数のフォントを優先順位順に指定できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5026,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "W3Cが勧告するHTML文書の妥当性をチェックするツールはどれか。",
+    "choices": [
+      "Validator",
+      "Compiler",
+      "Debugger",
+      "Inspector"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3C Validatorは、HTML文書がW3Cの標準に準拠しているかをチェックするツールです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5027,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "Webページで使用される画像形式のうち、透過処理が可能なものはどれか。",
+    "choices": [
+      "PNG",
+      "JPEG",
+      "BMP",
+      "TIFF"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PNG形式は、透過処理（背景を透明にすること）が可能な画像形式です。JPEGは透過処理に対応していません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5028,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "Webページの配色を決める際に、色相環で反対側に位置する色の組み合わせを何というか。",
+    "choices": [
+      "補色",
+      "類似色",
+      "同系色",
+      "中間色"
+    ],
+    "correctAnswer": 0,
+    "explanation": "補色は、色相環で正反対に位置する色の組み合わせで、お互いを引き立て合う効果があります。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5029,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "レスポンシブWebデザインで使用される、画面サイズに応じてレイアウトを変更する技術はどれか。",
+    "choices": [
+      "メディアクエリ",
+      "クッキー",
+      "セッション",
+      "キャッシュ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "メディアクエリは、CSSで画面サイズやデバイスの種類に応じて、異なるスタイルを適用する技術です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5030,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "Webサイトのナビゲーションにおいて、現在位置を示すために使用されるものはどれか。",
+    "choices": [
+      "パンくずリスト",
+      "サイトマップ",
+      "フッター",
+      "ヘッダー"
+    ],
+    "correctAnswer": 0,
+    "explanation": "パンくずリストは、Webサイト内での現在位置を階層的に示すナビゲーションで、ユーザビリティの向上に貢献します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5031,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "Webアクセシビリティに関するJIS規格はどれか。",
+    "choices": [
+      "JIS X 8341-3",
+      "JIS X 0208",
+      "JIS Z 8301",
+      "JIS Q 9001"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JIS X 8341-3は、高齢者や障害者を含むすべての人がWebコンテンツを利用できるようにするための規格です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5032,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "画像に代替テキストを設定する際に使用するHTML属性はどれか。",
+    "choices": [
+      "alt属性",
+      "title属性",
+      "caption属性",
+      "text属性"
+    ],
+    "correctAnswer": 0,
+    "explanation": "alt属性は、画像が表示できない場合や、スクリーンリーダーを使用する際に代替テキストを提供するために使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5033,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptでHTML要素を取得する際に、IDを指定して取得するメソッドはどれか。",
+    "choices": [
+      "getElementById",
+      "getElementByClass",
+      "querySelector",
+      "findElement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "getElementById()メソッドは、指定したID属性を持つHTML要素を取得するJavaScriptのメソッドです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5034,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "Webサイトの構造を視覚的に表現した図を何というか。",
+    "choices": [
+      "サイトマップ",
+      "ワイヤーフレーム",
+      "フローチャート",
+      "ER図"
+    ],
+    "correctAnswer": 0,
+    "explanation": "サイトマップは、Webサイト全体のページ構造を階層的に表現した図で、サイト設計の基本となります。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5035,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "Webページのレイアウトや配置を視覚的に示した設計図を何というか。",
+    "choices": [
+      "ワイヤーフレーム",
+      "サイトマップ",
+      "モックアップ",
+      "プロトタイプ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ワイヤーフレームは、Webページのレイアウトや要素の配置を簡素化して示した設計図です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5036,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトの更新や改善のために、訪問者の行動を分析するツールを何というか。",
+    "choices": [
+      "アクセス解析ツール",
+      "CMS",
+      "FTPクライアント",
+      "テキストエディタ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "アクセス解析ツール（例：Google Analytics）は、訪問者数やページビュー、滞在時間などを分析し、サイト改善に役立てるツールです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5037,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で動画を埋め込む際に使用するタグはどれか。",
+    "choices": [
+      "<video>タグ",
+      "<movie>タグ",
+      "<media>タグ",
+      "<embed>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<video>タグは、HTML5で動画コンテンツを埋め込むための標準的なタグです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5038,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で音声を埋め込む際に使用するタグはどれか。",
+    "choices": [
+      "<audio>タグ",
+      "<sound>タグ",
+      "<music>タグ",
+      "<voice>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<audio>タグは、HTML5で音声コンテンツを埋め込むための標準的なタグです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5039,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を横並びにする際に使用するdisplayプロパティの値はどれか。",
+    "choices": [
+      "inline-block",
+      "block",
+      "none",
+      "hidden"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: inline-blockは、要素をインライン要素として横並びにしつつ、幅や高さを指定できるようにします。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5040,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "VDT作業における適切な作業環境として推奨される照度はどれか。",
+    "choices": [
+      "300～500ルクス程度",
+      "100～200ルクス程度",
+      "1000～2000ルクス程度",
+      "50ルクス以下"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VDT作業環境においては、目の疲労を軽減するため、300～500ルクス程度の照度が推奨されています。",
+    "difficulty": "exam"
+  }
+]
