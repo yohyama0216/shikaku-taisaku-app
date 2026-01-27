@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '資格試験対策クイズ',
@@ -20,9 +21,13 @@ export default function RootLayout({
       <body>
         <nav className="navbar navbar-dark bg-primary mb-4">
           <div className="container">
-            <a href="/" className="navbar-brand mb-0 h1 text-white text-decoration-none">資格試験対策クイズ</a>
+            <Link href="/" className="navbar-brand mb-0 h1 text-white text-decoration-none">
+              資格試験対策クイズ
+            </Link>
             <div className="navbar-nav">
-              <a href="/syllabus" className="nav-link text-white">試験範囲</a>
+              <Link href="/syllabus" className="nav-link text-white">
+                試験範囲
+              </Link>
             </div>
           </div>
         </nav>

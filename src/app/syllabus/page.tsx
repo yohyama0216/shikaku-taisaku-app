@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function SyllabusPage() {
   return (
     <main>
@@ -260,7 +262,7 @@ export default function SyllabusPage() {
       </section>
 
       <div className="mt-4">
-        <a href="/" className="btn btn-primary">← トップページに戻る</a>
+        <Link href="/" className="btn btn-primary">← トップページに戻る</Link>
       </div>
     </main>
   );
