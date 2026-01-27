@@ -224,7 +224,7 @@ export const getDailyActivityHistory = async (): Promise<DailyActivity[]> => {
 };
 
 export const getTodayActivity = async (examType: ExamType): Promise<DailyActivity> => {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getTodayDate();
   
   if (typeof window === 'undefined') {
     return {
