@@ -1,0 +1,152 @@
+[
+  {
+    "id": 5001,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで段落を表すタグとして正しいものはどれか。",
+    "choices": [
+      "<p>タグ",
+      "<div>タグ",
+      "<span>タグ",
+      "<section>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<p>タグは段落（paragraph）を表す基本的なHTMLタグです。文章の段落を構造的にマークアップする際に使用します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5002,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の背景色を指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "background-color",
+      "color",
+      "bg-color",
+      "fill"
+    ],
+    "correctAnswer": 0,
+    "explanation": "background-colorプロパティは、要素の背景色を設定するCSSプロパティです。colorプロパティは文字色を指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5003,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "リンクを作成するHTMLタグとして正しいものはどれか。",
+    "choices": [
+      "<a>タグ",
+      "<link>タグ",
+      "<href>タグ",
+      "<url>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<a>タグ（アンカータグ）はハイパーリンクを作成するために使用します。href属性でリンク先のURLを指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5004,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSでテキストを中央揃えにするプロパティと値の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "text-align: center",
+      "align: center",
+      "text-center: true",
+      "center-text: yes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "text-align: centerは、テキストを水平方向に中央揃えにするCSSプロパティです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5005,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "画像を表示するHTMLタグとして正しいものはどれか。",
+    "choices": [
+      "<img>タグ",
+      "<image>タグ",
+      "<picture>タグ",
+      "<photo>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<img>タグは画像を埋め込むために使用します。src属性で画像ファイルのパスを、alt属性で代替テキストを指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5006,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSでフォントサイズを指定するプロパティとして正しいものはどれか。",
+    "choices": [
+      "font-size",
+      "text-size",
+      "size",
+      "font-scale"
+    ],
+    "correctAnswer": 0,
+    "explanation": "font-sizeプロパティは、テキストのフォントサイズを設定するCSSプロパティです。px、em、rem、%などの単位で指定できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5007,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "順序なしリスト（箇条書き）を作成するHTMLタグとして正しいものはどれか。",
+    "choices": [
+      "<ul>タグ",
+      "<ol>タグ",
+      "<list>タグ",
+      "<li>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<ul>タグ（Unordered List）は順序なしリストを作成します。<ol>は順序ありリスト、<li>は各リスト項目を表します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5008,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのボックスモデルにおいて、要素の内側の余白を指定するプロパティはどれか。",
+    "choices": [
+      "padding",
+      "margin",
+      "border",
+      "spacing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "paddingは要素の内側の余白（コンテンツと境界線の間）を指定します。marginは要素の外側の余白を指定します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5009,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで見出しを表すタグのうち、最も重要度が高いものはどれか。",
+    "choices": [
+      "<h1>タグ",
+      "<h2>タグ",
+      "<h6>タグ",
+      "<header>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<h1>タグは見出しタグの中で最も重要度が高く、通常ページに1つだけ使用します。<h2>から<h6>へと重要度が下がります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5010,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を非表示にするプロパティと値の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "display: none",
+      "visible: false",
+      "hidden: true",
+      "show: none"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: noneは、要素を完全に非表示にし、レイアウトからも除外します。visibility: hiddenは要素を非表示にしますが、レイアウト上の領域は保持されます。",
+    "difficulty": "exam"
+  }
+]
