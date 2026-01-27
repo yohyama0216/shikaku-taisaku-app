@@ -20,7 +20,10 @@ export default function RootLayout({
       <body>
         <nav className="navbar navbar-dark bg-primary mb-4">
           <div className="container">
-            <span className="navbar-brand mb-0 h1">資格試験対策クイズ</span>
+            <a href="/" className="navbar-brand mb-0 h1 text-white text-decoration-none">資格試験対策クイズ</a>
+            <div className="navbar-nav">
+              <a href="/syllabus" className="nav-link text-white">試験範囲</a>
+            </div>
           </div>
         </nav>
         <div className="container">
