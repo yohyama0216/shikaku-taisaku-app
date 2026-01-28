@@ -2778,15 +2778,15 @@
     "id": 5186,
     "examType": "web-design-3",
     "category": "JavaScript",
-    "question": "JavaScriptで変数を宣言する際、ブロックスコープを持つキーワードはどれか。",
+    "question": "JavaScriptで変数を宣言する際、ブロックスコープを持つキーワードの一つはどれか。",
     "choices": [
       "let",
       "var",
-      "const のみ",
+      "function",
       "global"
     ],
     "correctAnswer": 0,
-    "explanation": "letとconstはブロックスコープを持ちますが、選択肢ではletが正解です。varは関数スコープです。",
+    "explanation": "letとconstはブロックスコープを持ちます。varは関数スコープのため、ブロック内で宣言しても外部からアクセス可能です。",
     "difficulty": "exam"
   },
   {
