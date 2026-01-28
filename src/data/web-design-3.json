@@ -598,5 +598,3305 @@
     "correctAnswer": 0,
     "explanation": "VDT作業環境においては、目の疲労を軽減するため、300～500ルクス程度の照度が推奨されています。",
     "difficulty": "exam"
+  },
+  {
+    "id": 5041,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLでドロップダウンリストを作成する際に使用するタグはどれか。",
+    "choices": [
+      "<select>タグ",
+      "<dropdown>タグ",
+      "<list>タグ",
+      "<option>タグのみ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<select>タグはドロップダウンリストを作成し、その中に<option>タグで選択肢を定義します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5042,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLで複数行のテキスト入力欄を作成するタグはどれか。",
+    "choices": [
+      "<textarea>タグ",
+      "<input type=\"text\">タグ",
+      "<multitext>タグ",
+      "<textbox>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<textarea>タグは、複数行のテキストを入力できる領域を作成します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5043,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5のセマンティック要素で、ページのヘッダー部分を表すタグはどれか。",
+    "choices": [
+      "<header>タグ",
+      "<head>タグ",
+      "<top>タグ",
+      "<banner>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<header>タグは、ページやセクションのヘッダー部分を表すHTML5のセマンティック要素です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5044,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5のセマンティック要素で、ナビゲーションリンクをまとめる際に使用するタグはどれか。",
+    "choices": [
+      "<nav>タグ",
+      "<navigation>タグ",
+      "<menu>タグ",
+      "<links>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<nav>タグは、ナビゲーションリンクをグループ化するためのHTML5セマンティック要素です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5045,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で独立した記事コンテンツを表すセマンティック要素はどれか。",
+    "choices": [
+      "<article>タグ",
+      "<section>タグ",
+      "<content>タグ",
+      "<post>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<article>タグは、ブログ記事やニュース記事など、独立したコンテンツを表すセマンティック要素です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5046,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLでモバイル表示の最適化を指定するメタタグの属性はどれか。",
+    "choices": [
+      "viewport",
+      "mobile",
+      "responsive",
+      "device"
+    ],
+    "correctAnswer": 0,
+    "explanation": "viewportメタタグは、モバイルデバイスでの表示領域を制御し、レスポンシブデザインに不可欠です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5047,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で文字エンコーディングをUTF-8に指定するメタタグはどれか。",
+    "choices": [
+      "<meta charset=\"UTF-8\">",
+      "<meta encoding=\"UTF-8\">",
+      "<meta type=\"UTF-8\">",
+      "<meta lang=\"UTF-8\">"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<meta charset=\"UTF-8\">は、HTML文書の文字エンコーディングをUTF-8に指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5048,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLでボタンを作成する際に使用するタグはどれか。",
+    "choices": [
+      "<button>タグ",
+      "<btn>タグ",
+      "<click>タグ",
+      "<submit>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<button>タグは、クリック可能なボタンを作成します。type属性でsubmit、reset、buttonなどを指定できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5049,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5でページのフッター部分を表すセマンティック要素はどれか。",
+    "choices": [
+      "<footer>タグ",
+      "<bottom>タグ",
+      "<end>タグ",
+      "<foot>タグ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<footer>タグは、ページやセクションのフッター部分を表すHTML5のセマンティック要素です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5050,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのFlexboxで子要素を横並びにする際に親要素に指定するプロパティはどれか。",
+    "choices": [
+      "display: flex",
+      "flex-direction: row",
+      "align-items: center",
+      "justify-content: space-between"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: flexを親要素に指定すると、Flexboxレイアウトが有効になり、子要素が横並びになります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5051,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を相対的な位置に配置するpositionプロパティの値はどれか。",
+    "choices": [
+      "relative",
+      "absolute",
+      "fixed",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "position: relativeは、要素を元の位置を基準に相対的に配置します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5052,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を絶対位置に配置する際に使用するpositionプロパティの値はどれか。",
+    "choices": [
+      "absolute",
+      "relative",
+      "fixed",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "position: absoluteは、最も近い位置指定された祖先要素を基準に絶対位置で配置します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5053,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素にマウスカーソルが乗った時のスタイルを指定する疑似クラスはどれか。",
+    "choices": [
+      ":hover",
+      ":focus",
+      ":active",
+      ":visited"
+    ],
+    "correctAnswer": 0,
+    "explanation": ":hover疑似クラスは、マウスカーソルが要素の上に乗った時のスタイルを指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5054,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の前にコンテンツを挿入する疑似要素はどれか。",
+    "choices": [
+      "::before",
+      "::after",
+      "::first-line",
+      "::first-letter"
+    ],
+    "correctAnswer": 0,
+    "explanation": "::before疑似要素は、要素のコンテンツの前に内容を挿入します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5055,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の透明度を変化させるアニメーション効果を指定するプロパティはどれか。",
+    "choices": [
+      "transition",
+      "transform",
+      "animation",
+      "opacity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "transitionプロパティは、CSSプロパティの変化を滑らかにアニメーションさせます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5056,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSグリッドレイアウトを有効にするdisplayプロパティの値はどれか。",
+    "choices": [
+      "grid",
+      "flex",
+      "inline-grid",
+      "block"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: gridは、CSS Grid Layoutを有効にし、2次元のグリッドレイアウトを作成できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5057,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を固定位置に配置し、スクロールしても動かないようにするpositionの値はどれか。",
+    "choices": [
+      "fixed",
+      "sticky",
+      "absolute",
+      "relative"
+    ],
+    "correctAnswer": 0,
+    "explanation": "position: fixedは、ビューポートを基準に要素を固定し、スクロールしても位置が変わりません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5058,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSでアニメーションを定義する際に使用する@ルールはどれか。",
+    "choices": [
+      "@keyframes",
+      "@animation",
+      "@transition",
+      "@motion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "@keyframesルールは、CSSアニメーションの動きを段階的に定義します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5059,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "インターネットで使用されるプロトコルの階層モデルとして正しいものはどれか。",
+    "choices": [
+      "TCP/IP",
+      "OSI参照モデル",
+      "HTTPプロトコル",
+      "FTPプロトコル"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP/IPは、インターネットで使用される通信プロトコルの階層モデルです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5060,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "ドメイン名をIPアドレスに変換するシステムはどれか。",
+    "choices": [
+      "DNS",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS（Domain Name System）は、ドメイン名とIPアドレスを相互変換するシステムです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5061,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPSで使用される暗号化通信のプロトコルはどれか。",
+    "choices": [
+      "SSL/TLS",
+      "SSH",
+      "IPsec",
+      "VPN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS通信では、SSL/TLSプロトコルを使用してデータを暗号化します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5062,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "IPv4アドレスのビット数として正しいものはどれか。",
+    "choices": [
+      "32ビット",
+      "64ビット",
+      "128ビット",
+      "16ビット"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IPv4アドレスは32ビットで構成され、約43億個のアドレスを表現できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5063,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "IPv6アドレスのビット数として正しいものはどれか。",
+    "choices": [
+      "128ビット",
+      "64ビット",
+      "32ビット",
+      "256ビット"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IPv6アドレスは128ビットで構成され、IPv4アドレスの枯渇問題を解決します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5064,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "ファイル転送に使用されるプロトコルはどれか。",
+    "choices": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "POP3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP（File Transfer Protocol）は、ファイルの送受信に使用されるプロトコルです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5065,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "電子メールの送信に使用されるプロトコルはどれか。",
+    "choices": [
+      "SMTP",
+      "POP3",
+      "IMAP",
+      "HTTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SMTP（Simple Mail Transfer Protocol）は、電子メールの送信に使用されるプロトコルです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5066,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "電子メールの受信に使用されるプロトコルはどれか。",
+    "choices": [
+      "POP3",
+      "SMTP",
+      "FTP",
+      "HTTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "POP3（Post Office Protocol version 3）は、メールサーバーからメールを受信するプロトコルです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5067,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "Webブラウザがサーバーに情報を保存するための仕組みはどれか。",
+    "choices": [
+      "Cookie",
+      "Cache",
+      "Session",
+      "Token"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cookieは、Webサイトがユーザーのブラウザに情報を保存する仕組みです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5068,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPの標準ポート番号として正しいものはどれか。",
+    "choices": [
+      "80",
+      "443",
+      "21",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPの標準ポート番号は80です。HTTPSは443を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5069,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPSの標準ポート番号として正しいものはどれか。",
+    "choices": [
+      "443",
+      "80",
+      "8080",
+      "8443"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPSの標準ポート番号は443です。HTTPは80を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5070,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "サーバーとクライアント間で状態を保持する仕組みはどれか。",
+    "choices": [
+      "セッション",
+      "Cookie",
+      "キャッシュ",
+      "プロキシ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "セッションは、サーバー側でユーザーの状態情報を保持する仕組みです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5071,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "FTPの標準ポート番号（制御用）として正しいものはどれか。",
+    "choices": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTPの制御用ポート番号は21、データ転送用は20を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5072,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPリクエストメソッドで、リソースを削除する際に使用されるものはどれか。",
+    "choices": [
+      "DELETE",
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DELETEメソッドは、指定したリソースをサーバーから削除する際に使用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5073,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPステータスコードで「ページが見つかりません」を示すコードはどれか。",
+    "choices": [
+      "404",
+      "500",
+      "403",
+      "200"
+    ],
+    "correctAnswer": 0,
+    "explanation": "404 Not Foundは、要求されたリソースがサーバーに存在しないことを示します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5074,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPステータスコードで「リクエストが成功した」ことを示すコードはどれか。",
+    "choices": [
+      "200",
+      "404",
+      "500",
+      "301"
+    ],
+    "correctAnswer": 0,
+    "explanation": "200 OKは、HTTPリクエストが正常に処理されたことを示すステータスコードです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5075,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "リソースが別のURLに永久的に移動したことを示すHTTPステータスコードはどれか。",
+    "choices": [
+      "301",
+      "302",
+      "404",
+      "500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "301 Moved Permanentlyは、リソースが永久的に新しいURLに移動したことを示します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5076,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "Webサイトの安全性を証明するSSL/TLS証明書を発行する機関を何というか。",
+    "choices": [
+      "認証局（CA）",
+      "DNS",
+      "ISP",
+      "レジストラ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "認証局（Certificate Authority）は、SSL/TLS証明書を発行し、Webサイトの信頼性を保証します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5077,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "Webページに悪意のあるスクリプトを埋め込む攻撃手法はどれか。",
+    "choices": [
+      "XSS（クロスサイトスクリプティング）",
+      "SQLインジェクション",
+      "CSRF",
+      "DDoS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XSS攻撃は、Webページに悪意のあるスクリプトを埋め込み、ユーザーのブラウザで実行させる攻撃です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5078,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "データベースに不正なSQL文を実行させる攻撃手法はどれか。",
+    "choices": [
+      "SQLインジェクション",
+      "XSS",
+      "CSRF",
+      "セッションハイジャック"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQLインジェクションは、入力フォームなどから不正なSQL文を送信し、データベースを不正操作する攻撃です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5079,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "ユーザーの意図しない操作を強制的に実行させる攻撃手法はどれか。",
+    "choices": [
+      "CSRF（クロスサイトリクエストフォージェリ）",
+      "XSS",
+      "SQLインジェクション",
+      "フィッシング"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSRF攻撃は、ログイン済みのユーザーに意図しない操作を実行させる攻撃手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5080,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "パスワードを安全に保管する際に使用される一方向暗号化技術はどれか。",
+    "choices": [
+      "ハッシュ化",
+      "暗号化",
+      "圧縮",
+      "エンコード"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ハッシュ化は、元のデータに戻せない一方向の変換で、パスワードの保管に適しています。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5081,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "パスワードに加えて、別の認証要素を組み合わせる仕組みを何というか。",
+    "choices": [
+      "二要素認証（2FA）",
+      "シングルサインオン",
+      "生体認証のみ",
+      "パスワードレス認証"
+    ],
+    "correctAnswer": 0,
+    "explanation": "二要素認証は、パスワードと別の認証要素（SMS、アプリなど）を組み合わせてセキュリティを強化します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5082,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "情報セキュリティの三要素（CIA）に含まれないものはどれか。",
+    "choices": [
+      "効率性",
+      "機密性",
+      "完全性",
+      "可用性"
+    ],
+    "correctAnswer": 0,
+    "explanation": "情報セキュリティの三要素は、機密性（Confidentiality）、完全性（Integrity）、可用性（Availability）です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5083,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "正規のWebサイトを装い、個人情報を詐取する攻撃手法はどれか。",
+    "choices": [
+      "フィッシング",
+      "スパム",
+      "ウイルス",
+      "ワーム"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フィッシングは、偽のWebサイトや電子メールで正規のサービスを装い、個人情報を盗む攻撃です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5084,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "コンピュータに感染して自己増殖する悪意のあるプログラムの総称はどれか。",
+    "choices": [
+      "マルウェア",
+      "ファイアウォール",
+      "アンチウイルス",
+      "スパイウェア"
+    ],
+    "correctAnswer": 0,
+    "explanation": "マルウェアは、ウイルス、ワーム、トロイの木馬などの悪意のあるソフトウェアの総称です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5085,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "ファイルを暗号化して身代金を要求するマルウェアはどれか。",
+    "choices": [
+      "ランサムウェア",
+      "スパイウェア",
+      "アドウェア",
+      "トロイの木馬"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ランサムウェアは、ファイルを暗号化して使用不能にし、復号の対価として身代金を要求するマルウェアです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5086,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "Webアプリケーションへの攻撃を検知・防御する仕組みはどれか。",
+    "choices": [
+      "WAF（Web Application Firewall）",
+      "IDS",
+      "VPN",
+      "プロキシサーバー"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WAFは、Webアプリケーションへの攻撃を検知・遮断するセキュリティ対策です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5087,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "大量のアクセスを送信してサーバーを過負荷状態にする攻撃はどれか。",
+    "choices": [
+      "DDoS攻撃",
+      "SQLインジェクション",
+      "XSS",
+      "CSRF"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DDoS攻撃は、大量のリクエストを送信してサーバーを機能停止させる攻撃手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5088,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "パスワードを総当たりで試行する攻撃手法はどれか。",
+    "choices": [
+      "ブルートフォース攻撃",
+      "辞書攻撃",
+      "SQLインジェクション",
+      "XSS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ブルートフォース攻撃は、考えられるすべてのパスワードを試行して不正ログインを試みる攻撃です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5089,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "情報セキュリティの三要素のうち、データが改ざんされていないことを保証する要素はどれか。",
+    "choices": [
+      "完全性",
+      "機密性",
+      "可用性",
+      "真正性"
+    ],
+    "correctAnswer": 0,
+    "explanation": "完全性（Integrity）は、データが正確で改ざんされていないことを保証する要素です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5090,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "情報セキュリティの三要素のうち、許可された者だけが情報にアクセスできることを保証する要素はどれか。",
+    "choices": [
+      "機密性",
+      "完全性",
+      "可用性",
+      "否認防止"
+    ],
+    "correctAnswer": 0,
+    "explanation": "機密性（Confidentiality）は、許可された者のみが情報にアクセスできることを保証します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5091,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "情報セキュリティの三要素のうち、必要な時に情報やシステムが利用可能であることを保証する要素はどれか。",
+    "choices": [
+      "可用性",
+      "機密性",
+      "完全性",
+      "責任追跡性"
+    ],
+    "correctAnswer": 0,
+    "explanation": "可用性（Availability）は、必要な時にシステムや情報が利用できることを保証します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5092,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "SSHの標準ポート番号として正しいものはどれか。",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSH（Secure Shell）の標準ポート番号は22です。安全なリモート接続に使用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5093,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "Webサイトにアクセスした際、URLの先頭が「https://」となっている場合、通信が暗号化されていることを示すものはどれか。",
+    "choices": [
+      "SSL/TLS証明書",
+      "Cookie",
+      "セッション",
+      "キャッシュ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPSは、SSL/TLS証明書により通信が暗号化され、安全な通信が確立されていることを示します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5094,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権法における著作物の保護期間（原則）として正しいものはどれか。",
+    "choices": [
+      "著作者の死後70年",
+      "著作者の死後50年",
+      "著作者の死後100年",
+      "永久に保護される"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作権法では、著作物は著作者の死後70年間保護されます（2018年改正後）。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5095,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "他人の著作物を引用する際に必要な条件として誤っているものはどれか。",
+    "choices": [
+      "引用元に許可を得る必要がある",
+      "引用の目的が正当である",
+      "引用部分が明確に区別されている",
+      "出所が明示されている"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作権法上の正当な引用では、引用元への許可は不要です。ただし、その他の条件を満たす必要があります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5096,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "クリエイティブ・コモンズ（CC）ライセンスの説明として正しいものはどれか。",
+    "choices": [
+      "著作者が一定の条件下で著作物の利用を許可する仕組み",
+      "著作権を完全に放棄する仕組み",
+      "商用利用を禁止する仕組み",
+      "政府が発行する利用許諾"
+    ],
+    "correctAnswer": 0,
+    "explanation": "クリエイティブ・コモンズは、著作者が条件を指定して著作物の利用を許可するライセンスです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5097,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "企業やサービスの名称やロゴを保護する権利はどれか。",
+    "choices": [
+      "商標権",
+      "著作権",
+      "特許権",
+      "意匠権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商標権は、商品やサービスの名称、ロゴマークなどを保護する権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5098,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "技術的な発明を保護する権利はどれか。",
+    "choices": [
+      "特許権",
+      "著作権",
+      "商標権",
+      "実用新案権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "特許権は、新規性のある技術的発明を保護する権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5099,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作者の人格的利益を保護する権利はどれか。",
+    "choices": [
+      "著作者人格権",
+      "著作財産権",
+      "特許権",
+      "商標権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作者人格権は、公表権、氏名表示権、同一性保持権など、著作者の人格的利益を保護します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5100,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権が消滅し、誰でも自由に利用できる状態を何というか。",
+    "choices": [
+      "パブリックドメイン",
+      "フリーソフトウェア",
+      "オープンソース",
+      "シェアウェア"
+    ],
+    "correctAnswer": 0,
+    "explanation": "パブリックドメインは、著作権が消滅または放棄され、誰でも自由に利用できる状態です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5101,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "Webサイトで他人の写真を無断で使用した場合、侵害される可能性がある権利はどれか。",
+    "choices": [
+      "著作権",
+      "特許権",
+      "商標権",
+      "実用新案権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "写真は著作物であり、無断使用は著作権侵害となる可能性があります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5102,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "プログラムの著作権は、著作権法上どのように扱われるか。",
+    "choices": [
+      "著作物として保護される",
+      "特許権として保護される",
+      "保護されない",
+      "商標権として保護される"
+    ],
+    "correctAnswer": 0,
+    "explanation": "プログラムは著作権法上の著作物として保護されます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5103,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "フォント（書体）の著作権に関する説明として正しいものはどれか。",
+    "choices": [
+      "書体デザイン自体は原則として著作権保護の対象外",
+      "すべての書体デザインが著作権で保護される",
+      "商標権で保護される",
+      "特許権で保護される"
+    ],
+    "correctAnswer": 0,
+    "explanation": "書体デザイン自体は、実用品として原則著作権保護の対象外ですが、フォントプログラムは保護されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5104,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権の保護に登録や申請が必要か。",
+    "choices": [
+      "不要（創作と同時に発生）",
+      "必要（文化庁への登録が必須）",
+      "必要（特許庁への申請が必須）",
+      "必要（著作権協会への登録が必須）"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作権は創作と同時に自動的に発生し、登録や申請は不要です（無方式主義）。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5105,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "他人の著作物を教育目的で複製する場合の説明として正しいものはどれか。",
+    "choices": [
+      "一定の条件下で著作権者の許諾なく利用できる",
+      "常に著作権者の許諾が必要",
+      "著作権侵害となるため不可",
+      "商用目的でなければ自由に利用できる"
+    ],
+    "correctAnswer": 0,
+    "explanation": "学校その他の教育機関では、一定の条件下で著作物を複製できます（著作権法第35条）。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5106,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "Webサイトに掲載されている文章を引用する際に必要なこととして誤っているものはどれか。",
+    "choices": [
+      "引用部分は全体の50%以上でなければならない",
+      "引用の必然性がある",
+      "引用部分と自分の文章が明確に区別されている",
+      "出所を明示する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "引用に特定の割合の規定はありません。主従関係や必然性などが重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5107,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権の財産権に含まれないものはどれか。",
+    "choices": [
+      "氏名表示権",
+      "複製権",
+      "公衆送信権",
+      "翻案権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "氏名表示権は著作者人格権であり、著作財産権には含まれません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5108,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "フリー素材サイトから画像をダウンロードして使用する際に注意すべき点はどれか。",
+    "choices": [
+      "利用規約を確認し、条件を守る",
+      "著作権が放棄されているため自由に使える",
+      "商用利用は常に禁止されている",
+      "クレジット表記は不要"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フリー素材でも利用規約があり、用途や表記方法などの条件を守る必要があります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5109,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作隣接権が認められる対象として正しいものはどれか。",
+    "choices": [
+      "実演家、レコード製作者、放送事業者",
+      "著作者のみ",
+      "出版社のみ",
+      "一般利用者"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作隣接権は、実演家、レコード製作者、放送事業者などに認められる権利です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5110,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "二次的著作物（翻訳、編曲など）の著作権に関する説明として正しいものはどれか。",
+    "choices": [
+      "原著作物と二次的著作物の両方の権利が存在する",
+      "原著作物の権利のみが存在する",
+      "二次的著作物の権利のみが存在する",
+      "著作権は消滅する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "二次的著作物には独自の著作権が発生しますが、原著作物の権利も併存します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5111,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "営業秘密を不正に取得・使用する行為を規制する法律はどれか。",
+    "choices": [
+      "不正競争防止法",
+      "著作権法",
+      "特許法",
+      "商標法"
+    ],
+    "correctAnswer": 0,
+    "explanation": "不正競争防止法は、営業秘密の不正取得や使用などを規制します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5112,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権の存続期間が終了した作品を利用する場合、著作者人格権はどうなるか。",
+    "choices": [
+      "著作者人格権は一身専属のため消滅しないが、配慮が求められる",
+      "著作者人格権も消滅し完全に自由",
+      "著作者人格権のみ存続する",
+      "著作権と同じ期間存続する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作者人格権は一身専属ですが、死後も著作者の意を害する行為は禁止されます（第60条）。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5113,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "W3Cの主な役割として正しいものはどれか。",
+    "choices": [
+      "ウェブ技術の標準化",
+      "ドメイン名の管理",
+      "インターネットの接続提供",
+      "Webサイトの制作"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3C（World Wide Web Consortium）は、HTML、CSSなどのウェブ技術の標準化を行う組織です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5114,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "W3Cの勧告プロセスにおいて、最終段階の呼称はどれか。",
+    "choices": [
+      "勧告（Recommendation）",
+      "草案（Draft）",
+      "候補勧告（Candidate Recommendation）",
+      "提案勧告（Proposed Recommendation）"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3Cの標準化プロセスの最終段階は「勧告（Recommendation）」です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5115,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "HTML5において、DOCTYPE宣言として正しいものはどれか。",
+    "choices": [
+      "<!DOCTYPE html>",
+      "<!DOCTYPE HTML PUBLIC>",
+      "<!DOCTYPE html5>",
+      "<!DOCTYPE>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML5では、シンプルに<!DOCTYPE html>と宣言します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5116,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "CSS3の説明として正しいものはどれか。",
+    "choices": [
+      "モジュール化されており、機能ごとに仕様が策定されている",
+      "すべての機能が一度に勧告された",
+      "CSS2の完全な上位互換",
+      "バージョン番号がある"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSS3はモジュール化されており、Selectors、Flexbox、Gridなど機能ごとに仕様が策定されています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5117,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "ブラウザ間の表示の違いを吸収するために、ベンダープレフィックスが使用される理由はどれか。",
+    "choices": [
+      "実験的な機能を先行実装するため",
+      "古いブラウザをサポートするため",
+      "W3Cが義務付けているため",
+      "セキュリティ向上のため"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ベンダープレフィックス（-webkit-、-moz-など）は、標準化前の実験的機能を実装する際に使用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5118,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "HTML文書の妥当性を検証するW3Cのツールはどれか。",
+    "choices": [
+      "Markup Validation Service",
+      "CSS Validator",
+      "Link Checker",
+      "Accessibility Checker"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3C Markup Validation Serviceは、HTML文書の妥当性を検証するツールです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5119,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "WHATWGの説明として正しいものはどれか。",
+    "choices": [
+      "HTML Living Standardを策定している団体",
+      "CSSの標準化を行う団体",
+      "JavaScriptの標準化を行う団体",
+      "画像フォーマットを策定する団体"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WHATWG（Web Hypertext Application Technology Working Group）は、HTML Living Standardを策定しています。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5120,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "ポリフィルの説明として正しいものはどれか。",
+    "choices": [
+      "古いブラウザで新しい機能を使えるようにするコード",
+      "ブラウザの互換性を検証するツール",
+      "CSSのプリプロセッサ",
+      "HTMLの検証ツール"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ポリフィルは、古いブラウザで新しいAPI機能を使えるようにするJavaScriptコードです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5121,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "プログレッシブエンハンスメントの説明として正しいものはどれか。",
+    "choices": [
+      "基本機能を全ブラウザで提供し、対応ブラウザでは拡張機能を追加する手法",
+      "最新ブラウザのみをサポートする手法",
+      "古いブラウザのみをサポートする手法",
+      "モバイルファーストの設計手法"
+    ],
+    "correctAnswer": 0,
+    "explanation": "プログレッシブエンハンスメントは、すべての環境で基本機能を提供し、対応環境では段階的に機能を追加する手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5122,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "セマンティックHTMLの利点として正しいものはどれか。",
+    "choices": [
+      "検索エンジンやスクリーンリーダーが内容を理解しやすくなる",
+      "ページの読み込み速度が向上する",
+      "デザインの自由度が高まる",
+      "JavaScriptの実行速度が向上する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "セマンティックHTMLは、文書の意味を正確に伝え、SEOやアクセシビリティの向上に貢献します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5123,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "文字エンコーディングの指定をHTML文書内で行う理由はどれか。",
+    "choices": [
+      "ブラウザが文字を正しく表示するため",
+      "ページの読み込み速度を向上させるため",
+      "セキュリティを強化するため",
+      "検索エンジンの評価を高めるため"
+    ],
+    "correctAnswer": 0,
+    "explanation": "文字エンコーディングの指定により、ブラウザが文字を正しく解釈して表示できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5124,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "HTMLのバージョン5以降の特徴として正しいものはどれか。",
+    "choices": [
+      "動画や音声をプラグインなしで再生できる",
+      "必ずXMLとして記述する必要がある",
+      "すべてのタグに終了タグが必須",
+      "JavaScriptが使用できない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML5では、<video>、<audio>タグによりプラグインなしでメディアを再生できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5125,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "CSSの仕様策定において、Candidate Recommendationの次の段階はどれか。",
+    "choices": [
+      "Proposed Recommendation",
+      "Working Draft",
+      "Recommendation",
+      "First Public Working Draft"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3Cプロセスでは、Candidate Recommendation（候補勧告）の次はProposed Recommendation（提案勧告）です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5126,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "ウェブブラウザの互換性テストに使用されるツールはどれか。",
+    "choices": [
+      "Can I use",
+      "W3C Validator",
+      "GitHub",
+      "Stack Overflow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Can I useは、ブラウザの各機能のサポート状況を確認できるツールです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5127,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "HTML Living Standardの特徴として正しいものはどれか。",
+    "choices": [
+      "バージョン番号がなく継続的に更新される",
+      "5年ごとにバージョンアップする",
+      "W3Cのみが管理している",
+      "変更が一切行われない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML Living Standardは、バージョン番号を持たず、継続的に更新される仕様です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5128,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "グレースフルデグラデーションの説明として正しいものはどれか。",
+    "choices": [
+      "最新機能を実装し、古い環境でも基本機能が動作するようにする手法",
+      "古いブラウザのサポートを完全に切り捨てる手法",
+      "すべての環境で同じ表示を保証する手法",
+      "モバイル専用の設計手法"
+    ],
+    "correctAnswer": 0,
+    "explanation": "グレースフルデグラデーションは、最新環境向けに開発し、古い環境でも段階的に機能を縮退させる手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5129,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "ベンダープレフィックス「-webkit-」を使用するブラウザはどれか。",
+    "choices": [
+      "Chrome、Safari",
+      "Firefox",
+      "Internet Explorer",
+      "Opera（古いバージョン）"
+    ],
+    "correctAnswer": 0,
+    "explanation": "-webkit-は、ChromeやSafariなどWebKitベースのブラウザで使用されるプレフィックスです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5130,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "標準モードとクワークスモードの違いを決定するものはどれか。",
+    "choices": [
+      "DOCTYPE宣言の有無や記述方法",
+      "ブラウザの種類",
+      "CSSの記述方法",
+      "JavaScriptの有無"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DOCTYPE宣言の有無や記述方法により、ブラウザは標準モードかクワークスモードを決定します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5131,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "Webコンポーネントの説明として正しいものはどれか。",
+    "choices": [
+      "再利用可能なカスタム要素を作成するための技術",
+      "CSSフレームワークの一種",
+      "JavaScriptライブラリの一種",
+      "画像最適化ツール"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Webコンポーネントは、Custom Elements、Shadow DOMなどを使い再利用可能なコンポーネントを作成する技術です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5132,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "色の三属性に含まれないものはどれか。",
+    "choices": [
+      "透明度",
+      "色相",
+      "明度",
+      "彩度"
+    ],
+    "correctAnswer": 0,
+    "explanation": "色の三属性は、色相（色味）、明度（明るさ）、彩度（鮮やかさ）です。透明度は別の概念です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5133,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "補色の説明として正しいものはどれか。",
+    "choices": [
+      "色相環で正反対に位置する色の組み合わせ",
+      "隣り合う色の組み合わせ",
+      "同じ色相で明度が異なる色",
+      "無彩色の組み合わせ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "補色は色相環で180度反対側に位置する色で、お互いを引き立て合う効果があります。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5134,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "Webデザインにおけるタイポグラフィの説明として正しいものはどれか。",
+    "choices": [
+      "文字の書体、サイズ、配置などを設計すること",
+      "画像を最適化すること",
+      "レイアウトを決定すること",
+      "色を選択すること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "タイポグラフィは、文字の書体、サイズ、行間、字間などを設計し、読みやすさと美しさを追求します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5135,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "レスポンシブデザインの説明として正しいものはどれか。",
+    "choices": [
+      "画面サイズに応じてレイアウトを最適化する手法",
+      "常に固定幅でデザインする手法",
+      "モバイル専用のデザイン手法",
+      "印刷用のデザイン手法"
+    ],
+    "correctAnswer": 0,
+    "explanation": "レスポンシブデザインは、デバイスの画面サイズに応じて柔軟にレイアウトを変更する手法です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5136,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "グリッドシステムを使用する利点として正しいものはどれか。",
+    "choices": [
+      "要素の配置が整理され、統一感のあるデザインになる",
+      "ページの読み込み速度が向上する",
+      "SEO効果が高まる",
+      "セキュリティが強化される"
+    ],
+    "correctAnswer": 0,
+    "explanation": "グリッドシステムは、要素を規則正しく配置し、整然としたレイアウトを実現します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5137,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "JPEG形式の画像の特徴として正しいものはどれか。",
+    "choices": [
+      "写真などフルカラー画像の圧縮に適している",
+      "透過処理が可能",
+      "アニメーションに対応",
+      "ベクター形式である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JPEG（Joint Photographic Experts Group）は、フルカラー写真の圧縮に適した形式です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5138,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "PNG形式の画像の特徴として正しいものはどれか。",
+    "choices": [
+      "透過処理が可能で可逆圧縮方式",
+      "写真の圧縮率が最も高い",
+      "アニメーションに対応",
+      "ベクター形式である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PNG（Portable Network Graphics）は、透過処理が可能で、可逆圧縮により画質劣化がありません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5139,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "SVG形式の画像の特徴として正しいものはどれか。",
+    "choices": [
+      "ベクター形式で拡大しても画質が劣化しない",
+      "ビットマップ形式である",
+      "写真の保存に適している",
+      "透過処理ができない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SVG（Scalable Vector Graphics）は、ベクター形式のため拡大縮小しても画質が劣化しません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5140,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "GIF形式の画像の特徴として正しいものはどれか。",
+    "choices": [
+      "アニメーションに対応している",
+      "フルカラーに対応",
+      "写真の保存に最適",
+      "ベクター形式である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GIF（Graphics Interchange Format）は、アニメーション対応で、最大256色を扱えます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5141,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "WebP形式の画像の説明として正しいものはどれか。",
+    "choices": [
+      "Googleが開発した次世代画像フォーマット",
+      "Microsoft が開発した形式",
+      "Apple が開発した形式",
+      "Adobe が開発した形式"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WebPは、Googleが開発した画像フォーマットで、JPEGやPNGより高い圧縮率を実現します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5142,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "ホワイトスペース（余白）の役割として正しいものはどれか。",
+    "choices": [
+      "要素を区別し、読みやすさを向上させる",
+      "ページの読み込みを高速化する",
+      "セキュリティを強化する",
+      "データ通信量を削減する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ホワイトスペースは、要素間に余白を設け、視認性と可読性を向上させます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5143,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "視線誘導の「Z型」レイアウトの説明として正しいものはどれか。",
+    "choices": [
+      "左上から右上、左下、右下へとZ字に視線が流れる",
+      "縦に一直線に視線が流れる",
+      "円形に視線が流れる",
+      "ランダムに視線が流れる"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Z型レイアウトは、人の視線が自然にZ字を描くように流れる特性を利用したデザインです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5144,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "フォントの行間を指定するCSSプロパティはどれか。",
+    "choices": [
+      "line-height",
+      "letter-spacing",
+      "word-spacing",
+      "text-spacing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "line-heightプロパティは、テキストの行間（行の高さ）を指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5145,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "文字間隔を指定するCSSプロパティはどれか。",
+    "choices": [
+      "letter-spacing",
+      "line-height",
+      "word-spacing",
+      "text-indent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "letter-spacingプロパティは、文字と文字の間隔を指定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5146,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "暖色系の色として正しいものはどれか。",
+    "choices": [
+      "赤、オレンジ、黄色",
+      "青、緑、紫",
+      "白、黒、グレー",
+      "すべての色"
+    ],
+    "correctAnswer": 0,
+    "explanation": "暖色系は、赤、オレンジ、黄色など、温かみを感じさせる色です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5147,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "寒色系の色として正しいものはどれか。",
+    "choices": [
+      "青、青緑、青紫",
+      "赤、オレンジ、黄色",
+      "ピンク、ベージュ",
+      "白、黒、グレー"
+    ],
+    "correctAnswer": 0,
+    "explanation": "寒色系は、青系の色で、涼しさや冷たさを感じさせます。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5148,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "モバイルファーストデザインの説明として正しいものはどれか。",
+    "choices": [
+      "モバイル向けのデザインから開始し、PCへ拡張する手法",
+      "PC向けのデザインから開始し、モバイルへ縮小する手法",
+      "モバイル専用のサイトを作成する手法",
+      "PCとモバイルで別々のサイトを作成する手法"
+    ],
+    "correctAnswer": 0,
+    "explanation": "モバイルファーストは、モバイル環境を優先して設計し、段階的に大画面へ対応させる手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5149,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ユーザビリティの定義として正しいものはどれか。",
+    "choices": [
+      "使いやすさ、有効性、効率性、満足度",
+      "見た目の美しさ",
+      "処理速度の速さ",
+      "セキュリティの高さ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザビリティは、有効性、効率性、満足度を含む使いやすさの総合的な指標です（ISO 9241-11）。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5150,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ナビゲーション設計において重要な原則として正しいものはどれか。",
+    "choices": [
+      "どこにいるか、どこへ行けるかが明確である",
+      "デザインが派手である",
+      "アニメーションが豊富である",
+      "広告が多い"
+    ],
+    "correctAnswer": 0,
+    "explanation": "効果的なナビゲーションは、現在位置と移動先が明確で、直感的に操作できることが重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5151,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ユーザビリティテストの目的として正しいものはどれか。",
+    "choices": [
+      "実際のユーザーの行動を観察し問題点を発見する",
+      "デザインの美しさを評価する",
+      "プログラムのバグを発見する",
+      "セキュリティの脆弱性を検査する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザビリティテストは、実際のユーザーにタスクを実行させ、使いやすさの問題を発見します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5152,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "アフォーダンスの説明として正しいものはどれか。",
+    "choices": [
+      "物の形状や見た目から使い方を直感的に理解できること",
+      "色の組み合わせ",
+      "文字の大きさ",
+      "画像の解像度"
+    ],
+    "correctAnswer": 0,
+    "explanation": "アフォーダンスは、物の形状や見た目から行為を誘発する性質のことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5153,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "UX（ユーザーエクスペリエンス）の説明として正しいものはどれか。",
+    "choices": [
+      "製品やサービスを通じてユーザーが得る総合的な体験",
+      "ユーザーインターフェースのデザインのみ",
+      "画面の美しさ",
+      "処理速度"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UXは、ユーザーが製品・サービスを利用する際の総合的な体験価値を指します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5154,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "インタラクションデザインの説明として正しいものはどれか。",
+    "choices": [
+      "ユーザーとシステムの相互作用を設計すること",
+      "色彩設計のこと",
+      "レイアウト設計のこと",
+      "データベース設計のこと"
+    ],
+    "correctAnswer": 0,
+    "explanation": "インタラクションデザインは、ユーザーとシステムの対話的な相互作用を設計します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5155,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ヒューリスティック評価の説明として正しいものはどれか。",
+    "choices": [
+      "専門家が経験則に基づいてユーザビリティを評価する手法",
+      "実際のユーザーにテストしてもらう手法",
+      "自動化ツールで評価する手法",
+      "アンケート調査による評価手法"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ヒューリスティック評価は、専門家が確立された原則に基づいて問題点を発見する手法です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5156,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ヤコブ・ニールセンのユーザビリティ10原則に含まれないものはどれか。",
+    "choices": [
+      "高度なアニメーション効果",
+      "システムの状態を可視化",
+      "ユーザーの自由とコントロール",
+      "一貫性と標準"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ニールセンの10原則には、可視性、自由度、一貫性などがありますが、アニメーション効果は含まれません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5157,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "認知的負荷を軽減する方法として正しいものはどれか。",
+    "choices": [
+      "情報を整理し、一度に表示する情報量を減らす",
+      "すべての情報を一画面に詰め込む",
+      "複雑なナビゲーションを使用する",
+      "専門用語を多用する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "認知的負荷を減らすには、情報を整理し、適切に階層化してわかりやすく提示します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5158,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "エラーメッセージの設計において重要なこととして正しいものはどれか。",
+    "choices": [
+      "何が問題で、どう解決すべきかを明確に示す",
+      "技術的な専門用語を使用する",
+      "エラーコードのみを表示する",
+      "英語で表示する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "効果的なエラーメッセージは、問題の内容と解決方法を平易な言葉で明確に示します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5159,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "フィッツの法則が示す内容として正しいものはどれか。",
+    "choices": [
+      "ターゲットが大きく近いほど素早く操作できる",
+      "色が鮮やかなほど見やすい",
+      "文字が多いほど読みやすい",
+      "画像が大きいほど美しい"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フィッツの法則は、ターゲットのサイズと距離が操作時間に影響することを示します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5160,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ヒックの法則が示す内容として正しいものはどれか。",
+    "choices": [
+      "選択肢が増えるほど意思決定に時間がかかる",
+      "文字が大きいほど読みやすい",
+      "色が多いほど美しい",
+      "画像が多いほど魅力的"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ヒックの法則は、選択肢の数が増えると意思決定時間が長くなることを示します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5161,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ミラーの法則（マジカルナンバー7±2）が示す内容として正しいものはどれか。",
+    "choices": [
+      "人が短期記憶で保持できる情報の数は7±2個程度",
+      "ページは7秒以内に読み込むべき",
+      "メニュー項目は必ず7個にすべき",
+      "フォントサイズは7pt以上にすべき"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ミラーの法則は、人の短期記憶の容量が5〜9個程度であることを示します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5162,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ユーザビリティの5つの品質特性に含まれないものはどれか。",
+    "choices": [
+      "セキュリティ",
+      "学習しやすさ",
+      "効率性",
+      "記憶しやすさ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ニールセンのユーザビリティ5要素は、学習しやすさ、効率性、記憶しやすさ、エラー、満足度です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5163,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "タスク完了率の説明として正しいものはどれか。",
+    "choices": [
+      "ユーザーが目的のタスクを達成できた割合",
+      "ページの読み込み速度",
+      "デザインの美しさの評価",
+      "広告のクリック率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "タスク完了率は、ユーザーが意図したタスクを成功裏に完了できた割合を示す重要な指標です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5164,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "カード・ソーティング法の目的として正しいものはどれか。",
+    "choices": [
+      "情報の分類やナビゲーション構造を決定する",
+      "色の組み合わせを決める",
+      "フォントを選択する",
+      "画像を最適化する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "カードソーティングは、ユーザーの認知モデルに基づいて情報を分類し、ナビゲーション構造を設計する手法です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5165,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ペルソナの説明として正しいものはどれか。",
+    "choices": [
+      "典型的なユーザー像を具体的に設定したもの",
+      "実在する特定のユーザー",
+      "開発者の主観的な想像",
+      "アンケート結果の統計"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ペルソナは、調査に基づいて作成された架空の典型的ユーザー像で、設計の指針となります。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5166,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ユーザーストーリーの説明として正しいものはどれか。",
+    "choices": [
+      "ユーザーの視点から機能や要件を記述したもの",
+      "開発者の作業手順",
+      "システムの技術仕様",
+      "デザインのガイドライン"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザーストーリーは、「〜として、〜したい、なぜなら〜」という形式でユーザー視点の要求を記述します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5167,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "A/Bテストの説明として正しいものはどれか。",
+    "choices": [
+      "2つの異なるバージョンを比較してより効果的なものを選ぶ手法",
+      "セキュリティテスト",
+      "性能テスト",
+      "互換性テスト"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A/Bテストは、2つのバージョンを実際のユーザーに提示し、どちらがより効果的かを検証します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5168,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WCAG 2.0で定義されているアクセシビリティの原則に含まれないものはどれか。",
+    "choices": [
+      "効率性",
+      "知覚可能",
+      "操作可能",
+      "理解可能"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WCAGの4原則は、知覚可能（Perceivable）、操作可能（Operable）、理解可能（Understandable）、堅牢（Robust）です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5169,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "スクリーンリーダーの説明として正しいものはどれか。",
+    "choices": [
+      "画面の内容を音声で読み上げる支援技術",
+      "画面を拡大表示するツール",
+      "色を調整するツール",
+      "キーボードを補助するツール"
+    ],
+    "correctAnswer": 0,
+    "explanation": "スクリーンリーダーは、視覚障害者向けに画面の内容を音声で読み上げる支援技術です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5170,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "キーボード操作のみでWebサイトを利用できるようにする必要がある理由として正しいものはどれか。",
+    "choices": [
+      "マウスを使用できないユーザーへの配慮",
+      "デザインの美しさ向上",
+      "ページ速度の向上",
+      "SEO効果の向上"
+    ],
+    "correctAnswer": 0,
+    "explanation": "運動障害のあるユーザーや支援技術利用者のため、キーボードのみでの操作を保証する必要があります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5171,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "色覚異常のあるユーザーへの配慮として正しいものはどれか。",
+    "choices": [
+      "色だけに頼らず、形やテキストでも情報を伝える",
+      "カラフルなデザインにする",
+      "赤色を多用する",
+      "小さい文字を使う"
+    ],
+    "correctAnswer": 0,
+    "explanation": "色覚異常のユーザーのため、色のみに依存せず、形状、パターン、テキストなど複数の手段で情報を伝えます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5172,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WCAGで推奨される最小コントラスト比（通常テキスト）はどれか。",
+    "choices": [
+      "4.5:1",
+      "2:1",
+      "3:1",
+      "7:1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WCAGレベルAAでは、通常サイズのテキストに対して4.5:1以上のコントラスト比が推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5173,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "ARIA属性の「role」の役割として正しいものはどれか。",
+    "choices": [
+      "要素の役割を支援技術に伝える",
+      "デザインを装飾する",
+      "JavaScriptを実行する",
+      "CSSを適用する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ARIAのrole属性は、要素の役割（ボタン、ナビゲーションなど）をスクリーンリーダーに伝えます。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5174,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "aria-label属性の用途として正しいものはどれか。",
+    "choices": [
+      "視覚的なラベルがない要素にラベルを提供する",
+      "要素を非表示にする",
+      "色を変更する",
+      "アニメーションを追加する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "aria-label属性は、視覚的なテキストがない要素（アイコンボタンなど）に音声ラベルを提供します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5175,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "画像のalt属性の説明として正しいものはどれか。",
+    "choices": [
+      "画像の内容を説明する代替テキストを提供する",
+      "画像のファイル名を指定する",
+      "画像のサイズを指定する",
+      "画像の配置を指定する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "alt属性は、画像が表示できない場合やスクリーンリーダー使用時に、画像の内容を説明します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5176,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "装飾目的のみの画像のalt属性はどうすべきか。",
+    "choices": [
+      "空文字（alt=\"\"）にする",
+      "詳細な説明を記述する",
+      "ファイル名を記述する",
+      "「画像」と記述する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "装飾目的のみの画像は、alt=\"\"として空にし、スクリーンリーダーが読み飛ばすようにします。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5177,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "見出しタグ（h1〜h6）を適切に使用する理由として正しいものはどれか。",
+    "choices": [
+      "文書構造を明確にし、ナビゲーションを容易にする",
+      "デザインを美しくする",
+      "ページ速度を向上させる",
+      "画像を最適化する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "見出しタグは文書の階層構造を示し、スクリーンリーダーユーザーのナビゲーションを支援します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5178,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "フォームの入力欄にlabel要素を使用する理由として正しいものはどれか。",
+    "choices": [
+      "入力欄の目的を明確に示す",
+      "デザインを装飾する",
+      "入力検証を行う",
+      "データを送信する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "label要素は入力欄の目的を明示し、クリック領域を拡大し、スクリーンリーダーに情報を提供します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5179,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WCAGのレベルAAAの説明として正しいものはどれか。",
+    "choices": [
+      "最も厳格なアクセシビリティ基準",
+      "最低限の基準",
+      "推奨される基準",
+      "法的に必須の基準"
+    ],
+    "correctAnswer": 0,
+    "explanation": "レベルAAAは最も厳格な基準ですが、すべてのコンテンツで達成することは困難とされます。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5180,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "tabindex属性の役割として正しいものはどれか。",
+    "choices": [
+      "Tabキーによる移動順序を制御する",
+      "タブのデザインを指定する",
+      "タブの数を指定する",
+      "タブの色を指定する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "tabindex属性は、キーボードのTabキーでフォーカスが移動する順序を制御します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5181,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "スキップリンクの目的として正しいものはどれか。",
+    "choices": [
+      "繰り返しのナビゲーションをスキップしてメインコンテンツへ移動する",
+      "ページ全体をスキップする",
+      "広告をスキップする",
+      "画像をスキップする"
+    ],
+    "correctAnswer": 0,
+    "explanation": "スキップリンクは、キーボードユーザーが共通のナビゲーションを飛ばしてメインコンテンツに直接移動できるようにします。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5182,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "音声や動画コンテンツに字幕をつける目的として正しいものはどれか。",
+    "choices": [
+      "聴覚障害者や音声を聞けない環境のユーザーへの配慮",
+      "デザインの装飾",
+      "ファイルサイズの削減",
+      "SEO効果のみ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "字幕は聴覚障害者や音声を再生できない環境のユーザーがコンテンツを理解できるようにします。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5183,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "リンクテキストの設計において重要なこととして正しいものはどれか。",
+    "choices": [
+      "リンク先の内容が明確にわかるテキストにする",
+      "「こちら」「クリック」などの一般的な語句を使う",
+      "できるだけ短くする",
+      "URLをそのまま使う"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「こちら」ではなく、「製品カタログをダウンロード」など、リンク先が明確なテキストが推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5184,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "フォーカスインジケーター（フォーカスリング）を削除してはいけない理由はどれか。",
+    "choices": [
+      "キーボードユーザーが現在位置を把握できなくなる",
+      "デザインが美しくなる",
+      "ページ速度が向上する",
+      "SEO効果が高まる"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フォーカスインジケーターは、キーボード操作時に現在フォーカスされている要素を視覚的に示す重要な機能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5185,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WCAG 2.1のレベルAAを満たすために必要なこととして誤っているものはどれか。",
+    "choices": [
+      "すべてのページで同じデザインを使用する",
+      "十分なコントラスト比を確保する",
+      "キーボードで操作可能にする",
+      "代替テキストを提供する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "同じデザインの使用は必須ではありません。重要なのはコントラスト、キーボード操作、代替テキストなどです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5186,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで変数を宣言する際、ブロックスコープを持つキーワードの一つはどれか。",
+    "choices": [
+      "let",
+      "var",
+      "function",
+      "global"
+    ],
+    "correctAnswer": 0,
+    "explanation": "letとconstはブロックスコープを持ちます。varは関数スコープのため、ブロック内で宣言しても外部からアクセス可能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5187,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで定数を宣言するキーワードはどれか。",
+    "choices": [
+      "const",
+      "let",
+      "var",
+      "final"
+    ],
+    "correctAnswer": 0,
+    "explanation": "constキーワードは、再代入できない定数を宣言します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5188,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのデータ型に含まれないものはどれか。",
+    "choices": [
+      "character",
+      "string",
+      "number",
+      "boolean"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JavaScriptには、string、number、boolean、object、undefinedなどがありますが、characterはありません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5189,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで配列を作成する方法として正しいものはどれか。",
+    "choices": [
+      "let arr = [1, 2, 3]",
+      "let arr = (1, 2, 3)",
+      "let arr = {1, 2, 3}",
+      "let arr = <1, 2, 3>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "配列は角括弧[]を使用して作成します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5190,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptでオブジェクトを作成する方法として正しいものはどれか。",
+    "choices": [
+      "let obj = {name: \"太郎\"}",
+      "let obj = [name: \"太郎\"]",
+      "let obj = (name: \"太郎\")",
+      "let obj = <name: \"太郎\">"
+    ],
+    "correctAnswer": 0,
+    "explanation": "オブジェクトは波括弧{}を使用し、キーと値のペアで作成します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5191,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "IDが「myElement」の要素を取得するメソッドはどれか。",
+    "choices": [
+      "document.getElementById(\"myElement\")",
+      "document.getElement(\"myElement\")",
+      "document.findById(\"myElement\")",
+      "document.selectId(\"myElement\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "getElementById()メソッドは、指定したIDを持つ要素を取得します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5192,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "CSSセレクタで要素を取得するメソッドはどれか。",
+    "choices": [
+      "document.querySelector(\".class\")",
+      "document.getElement(\".class\")",
+      "document.findElement(\".class\")",
+      "document.selectElement(\".class\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "querySelector()は、CSSセレクタを使用して最初にマッチする要素を取得します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5193,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "要素にクリックイベントを追加する方法として推奨されるものはどれか。",
+    "choices": [
+      "element.addEventListener(\"click\", function)",
+      "element.onclick のみ",
+      "HTMLのonclick属性のみ",
+      "すべて同等"
+    ],
+    "correctAnswer": 0,
+    "explanation": "addEventListener()は、複数のイベントハンドラを登録でき、推奨される方法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5194,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで関数を定義する方法として正しいものはどれか。",
+    "choices": [
+      "function myFunc() {}",
+      "func myFunc() {}",
+      "def myFunc() {}",
+      "method myFunc() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "functionキーワードを使用して関数を定義します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5195,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのアロー関数の記法として正しいものはどれか。",
+    "choices": [
+      "const func = () => {}",
+      "const func = -> {}",
+      "const func = => {}",
+      "const func = function-> {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "アロー関数は「() => {}」の形式で記述します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5196,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "if文の条件式として正しいものはどれか。",
+    "choices": [
+      "if (x > 10) {}",
+      "if x > 10 {}",
+      "if (x > 10) then {}",
+      "if x > 10 then {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "if文の条件は括弧()で囲みます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5197,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "配列の要素数を取得するプロパティはどれか。",
+    "choices": [
+      "length",
+      "size",
+      "count",
+      "num"
+    ],
+    "correctAnswer": 0,
+    "explanation": "lengthプロパティは、配列やstringの要素数（長さ）を返します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5198,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "for文を使った繰り返し処理の記法として正しいものはどれか。",
+    "choices": [
+      "for (let i = 0; i < 10; i++) {}",
+      "for i = 0 to 10 {}",
+      "for (i in 10) {}",
+      "loop (i < 10) {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "for文は「for (初期化; 条件; 更新) {}」の形式で記述します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5199,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "配列の各要素に対して処理を実行するメソッドはどれか。",
+    "choices": [
+      "forEach()",
+      "each()",
+      "loop()",
+      "iterate()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "forEach()メソッドは、配列の各要素に対して指定した関数を実行します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5200,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "文字列と数値を連結した結果として正しいものはどれか。",
+    "choices": [
+      "\"5\" + 3 は \"53\"",
+      "\"5\" + 3 は 8",
+      "\"5\" + 3 は エラー",
+      "\"5\" + 3 は undefined"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JavaScriptでは、文字列と数値の+演算は文字列連結となり、\"53\"になります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5201,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "要素の内容（HTML）を変更するプロパティはどれか。",
+    "choices": [
+      "innerHTML",
+      "innerText のみ",
+      "textContent のみ",
+      "value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "innerHTMLプロパティは、要素のHTML内容を取得または設定します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5202,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "要素のテキスト内容のみを変更するプロパティはどれか。",
+    "choices": [
+      "textContent",
+      "innerHTML",
+      "html",
+      "text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "textContentプロパティは、HTMLタグを除いたテキスト内容のみを扱います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5203,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで真偽値として扱われるfalsy値に含まれないものはどれか。",
+    "choices": [
+      "\"0\"（文字列のゼロ）",
+      "0（数値のゼロ）",
+      "\"\"（空文字列）",
+      "null"
+    ],
+    "correctAnswer": 0,
+    "explanation": "文字列\"0\"はtruthyです。falsyは、0、\"\"、null、undefined、false、NaNです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5204,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "配列に要素を末尾に追加するメソッドはどれか。",
+    "choices": [
+      "push()",
+      "add()",
+      "append()",
+      "insert()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "push()メソッドは、配列の末尾に要素を追加します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5205,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "情報アーキテクチャ（IA）の説明として正しいものはどれか。",
+    "choices": [
+      "情報を整理し、ユーザーが見つけやすい構造を設計すること",
+      "画像を最適化すること",
+      "CSSを設計すること",
+      "データベースを設計すること"
+    ],
+    "correctAnswer": 0,
+    "explanation": "情報アーキテクチャは、コンテンツを論理的に整理し、ユーザーが情報を見つけやすい構造を設計します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5206,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ペルソナ設定の目的として正しいものはどれか。",
+    "choices": [
+      "典型的なユーザー像を具体化し、設計の指針とする",
+      "実在するユーザーを特定する",
+      "開発者の好みを反映する",
+      "デザインを装飾する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ペルソナは、ターゲットユーザーの典型像を具体的に設定し、設計判断の基準とします。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5207,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ユーザーストーリーの記述形式として正しいものはどれか。",
+    "choices": [
+      "〜として、〜したい、なぜなら〜",
+      "システムは〜を実行する",
+      "開発者は〜を実装する",
+      "データベースは〜を保存する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザーストーリーは、「（役割）として、（機能）したい、なぜなら（理由）」の形式で記述します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5208,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ワイヤーフレームの説明として正しいものはどれか。",
+    "choices": [
+      "ページのレイアウトを簡素化した設計図",
+      "完成形のデザイン",
+      "プログラムのソースコード",
+      "データベース設計図"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ワイヤーフレームは、色やデザインを省き、レイアウトと要素配置に焦点を当てた設計図です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5209,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "プロトタイピングの目的として正しいものはどれか。",
+    "choices": [
+      "実際に動作する試作版を作成し、早期に問題を発見する",
+      "最終製品を完成させる",
+      "デザインを装飾する",
+      "セキュリティをテストする"
+    ],
+    "correctAnswer": 0,
+    "explanation": "プロトタイプは、早い段階で動作モデルを作成し、ユーザビリティや機能の問題を発見します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5210,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "サイトマップの説明として正しいものはどれか。",
+    "choices": [
+      "Webサイトのページ構造を階層的に示した図",
+      "地図を表示する機能",
+      "画像の配置図",
+      "データの流れ図"
+    ],
+    "correctAnswer": 0,
+    "explanation": "サイトマップは、Webサイト全体のページ構造と階層関係を視覚化した図です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5211,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ユーザーフローの説明として正しいものはどれか。",
+    "choices": [
+      "ユーザーがタスクを達成するまでの流れを図示したもの",
+      "プログラムの処理フロー",
+      "データの流れ",
+      "ネットワークの経路"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザーフローは、ユーザーが目的を達成するまでの画面遷移や操作の流れを図示します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5212,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "カスタマージャーニーマップの説明として正しいものはどれか。",
+    "choices": [
+      "顧客の体験プロセスを時系列で可視化したもの",
+      "サイトマップの一種",
+      "プログラムの設計図",
+      "データベースの構造図"
+    ],
+    "correctAnswer": 0,
+    "explanation": "カスタマージャーニーマップは、顧客の行動、感情、接点を時系列で可視化し、体験全体を理解します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5213,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "MVPの説明として正しいものはどれか。",
+    "choices": [
+      "最小限の機能で価値を提供できる製品",
+      "最も価値のあるページ",
+      "最高のビジュアルデザイン",
+      "最大のパフォーマンス"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MVP（Minimum Viable Product）は、最小限の機能で価値を検証できる製品です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5214,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "コンテンツインベントリの説明として正しいものはどれか。",
+    "choices": [
+      "既存コンテンツの一覧と詳細情報をまとめたもの",
+      "在庫管理システム",
+      "画像ファイルのリスト",
+      "プログラムの変数リスト"
+    ],
+    "correctAnswer": 0,
+    "explanation": "コンテンツインベントリは、既存の全コンテンツを棚卸しし、整理・評価するための一覧です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5215,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "タスク分析の目的として正しいものはどれか。",
+    "choices": [
+      "ユーザーが目標を達成するために必要な手順を分析する",
+      "プログラムの処理時間を測定する",
+      "デザインの美しさを評価する",
+      "サーバーの負荷を分析する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "タスク分析は、ユーザーが目標達成のために行う一連の行動を詳細に分析します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5216,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "メンタルモデルの説明として正しいものはどれか。",
+    "choices": [
+      "ユーザーがシステムの動作を理解している認知的な枠組み",
+      "データベースのモデル",
+      "デザインのモックアップ",
+      "プログラムの構造"
+    ],
+    "correctAnswer": 0,
+    "explanation": "メンタルモデルは、ユーザーがシステムの仕組みや動作について持っている理解や期待です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5217,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "情報設計における「ラベリング」の説明として正しいものはどれか。",
+    "choices": [
+      "コンテンツやナビゲーションに適切な名称をつける作業",
+      "デザインにラベルを貼る作業",
+      "商品にタグをつける作業",
+      "ファイルに名前をつける作業"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ラベリングは、ユーザーが理解しやすい適切な名称をナビゲーションやコンテンツにつける重要な作業です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5218,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "カード・ソーティングの目的として正しいものはどれか。",
+    "choices": [
+      "ユーザーの認知に基づいて情報を分類・整理する",
+      "トランプゲームを作成する",
+      "画像を並べ替える",
+      "データを並び替える"
+    ],
+    "correctAnswer": 0,
+    "explanation": "カードソーティングは、ユーザーに情報を分類させることで、直感的なナビゲーション構造を設計します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5219,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "シナリオベース設計の説明として正しいものはどれか。",
+    "choices": [
+      "具体的な利用シナリオを想定して設計する手法",
+      "脚本を書く作業",
+      "ストーリーを作成する作業",
+      "動画を企画する作業"
+    ],
+    "correctAnswer": 0,
+    "explanation": "シナリオベース設計は、具体的な利用状況を想定し、その文脈に沿って機能を設計する手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5220,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "スケッチの役割として正しいものはどれか。",
+    "choices": [
+      "アイデアを素早く視覚化し、コミュニケーションを促進する",
+      "最終的なデザインを作成する",
+      "プログラムを書く",
+      "データベースを構築する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "スケッチは、初期段階でアイデアを素早く視覚化し、チーム内での議論を活性化させます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5221,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ムードボードの説明として正しいものはどれか。",
+    "choices": [
+      "デザインの方向性を視覚的に示すイメージ集",
+      "感情の記録",
+      "作業スケジュール",
+      "データの可視化"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ムードボードは、色、フォント、画像などを集めてデザインの雰囲気や方向性を共有します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5222,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "デザインシステムの説明として正しいものはどれか。",
+    "choices": [
+      "UI部品やデザイン原則をまとめた再利用可能なシステム",
+      "設計用のソフトウェア",
+      "グラフィックツール",
+      "データベース管理システム"
+    ],
+    "correctAnswer": 0,
+    "explanation": "デザインシステムは、コンポーネント、パターン、ガイドラインを体系化し、一貫性を保つシステムです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5223,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Google Analyticsの主な用途として正しいものはどれか。",
+    "choices": [
+      "Webサイトのアクセス状況を分析する",
+      "Webサイトを作成する",
+      "画像を編集する",
+      "プログラムを開発する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Google Analyticsは、訪問者数、ページビュー、滞在時間などを分析するツールです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5224,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "SEO対策の基本として正しいものはどれか。",
+    "choices": [
+      "適切なtitleタグとmeta descriptionを設定する",
+      "派手なアニメーションを追加する",
+      "広告を大量に掲載する",
+      "ページ数を減らす"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SEOでは、検索エンジンが理解しやすいtitleタグやmeta descriptionの設定が重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5225,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "構造化データの役割として正しいものはどれか。",
+    "choices": [
+      "検索エンジンがコンテンツの意味を理解しやすくする",
+      "ページの読み込み速度を向上させる",
+      "デザインを装飾する",
+      "セキュリティを強化する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "構造化データ（schema.org）は、検索エンジンにコンテンツの意味を明確に伝えます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5226,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "CMS（Content Management System）の説明として正しいものはどれか。",
+    "choices": [
+      "専門知識がなくてもコンテンツを更新できるシステム",
+      "画像編集ソフト",
+      "プログラミング言語",
+      "セキュリティツール"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CMSは、HTMLやプログラミングの知識がなくてもWebサイトを管理・更新できるシステムです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5227,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "WordPress の説明として正しいものはどれか。",
+    "choices": [
+      "世界で広く使われているオープンソースのCMS",
+      "画像編集ソフト",
+      "JavaScript フレームワーク",
+      "データベース管理システム"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WordPressは、世界中で広く利用されているオープンソースのCMSです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5228,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトのバックアップ戦略として適切なものはどれか。",
+    "choices": [
+      "定期的に自動バックアップを取得し、複数の場所に保管する",
+      "バックアップは不要",
+      "年に1回だけバックアップする",
+      "同じサーバー内のみに保管する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "定期的な自動バックアップと、異なる場所への保管（オフサイトバックアップ）が重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5229,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトのセキュリティアップデートを行う理由として正しいものはどれか。",
+    "choices": [
+      "脆弱性を修正し、セキュリティリスクを低減する",
+      "デザインを変更する",
+      "ページ速度を向上させる",
+      "アクセス数を増やす"
+    ],
+    "correctAnswer": 0,
+    "explanation": "セキュリティアップデートは、発見された脆弱性を修正し、攻撃から保護するために必要です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5230,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトのパフォーマンス最適化の方法として正しいものはどれか。",
+    "choices": [
+      "画像を圧縮し、ファイルサイズを削減する",
+      "画像を増やす",
+      "JavaScriptを大量に追加する",
+      "すべてのCSSをインラインに記述する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "画像の圧縮、minification、キャッシュ活用などがパフォーマンス向上に効果的です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5231,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "A/Bテストの説明として正しいものはどれか。",
+    "choices": [
+      "2つの異なるバージョンを比較して効果を測定する",
+      "セキュリティテスト",
+      "アクセシビリティテスト",
+      "互換性テスト"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A/Bテストは、2つのバージョンを実際のユーザーに提示し、どちらが効果的かをデータで検証します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5232,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "リダイレクト（301）を使用する場面として正しいものはどれか。",
+    "choices": [
+      "ページのURLを恒久的に変更する場合",
+      "一時的なメンテナンス",
+      "エラーページを表示する",
+      "アクセスを拒否する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "301リダイレクトは、ページが恒久的に別のURLに移動した際に使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5233,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "robots.txtファイルの役割として正しいものはどれか。",
+    "choices": [
+      "検索エンジンのクローラーに対してアクセス制御を行う",
+      "ロボットを作成する",
+      "自動化スクリプトを実行する",
+      "ユーザー認証を行う"
+    ],
+    "correctAnswer": 0,
+    "explanation": "robots.txtは、検索エンジンのクローラーがアクセスできるページを制御します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5234,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "XMLサイトマップの役割として正しいものはどれか。",
+    "choices": [
+      "検索エンジンにサイト構造を伝える",
+      "ユーザー向けのナビゲーション",
+      "画像のリスト",
+      "JavaScriptのマップ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XMLサイトマップは、検索エンジンにページのURLや更新頻度などを伝えます。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5235,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "コンバージョン率（CVR）の説明として正しいものはどれか。",
+    "choices": [
+      "訪問者のうち目標を達成した人の割合",
+      "ページの読み込み速度",
+      "広告費用",
+      "サーバーの稼働率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "コンバージョン率は、訪問者のうち購入や申し込みなどの目標を達成した割合です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5236,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "直帰率の説明として正しいものはどれか。",
+    "choices": [
+      "1ページだけ見て離脱した訪問の割合",
+      "エラーが発生した割合",
+      "広告のクリック率",
+      "ページの読み込み失敗率"
+    ],
+    "correctAnswer": 0,
+    "explanation": "直帰率は、最初の1ページだけを見てサイトを離れた訪問の割合を示します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5237,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "ページ表示速度を測定するGoogleのツールはどれか。",
+    "choices": [
+      "PageSpeed Insights",
+      "Google Analytics",
+      "Google Ads",
+      "Google Maps"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PageSpeed Insightsは、ページの表示速度を測定し、改善提案を提供するツールです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5238,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "キャッシュの役割として正しいものはどれか。",
+    "choices": [
+      "データを一時保存して読み込みを高速化する",
+      "データを完全に削除する",
+      "データを暗号化する",
+      "データをバックアップする"
+    ],
+    "correctAnswer": 0,
+    "explanation": "キャッシュは、頻繁にアクセスされるデータを保存し、読み込み時間を短縮します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5239,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "CDN（Content Delivery Network）の役割として正しいものはどれか。",
+    "choices": [
+      "世界中のサーバーからコンテンツを配信し、表示速度を向上させる",
+      "コンテンツを作成する",
+      "デザインを管理する",
+      "データベースを管理する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CDNは、地理的に分散したサーバーからコンテンツを配信し、ユーザーに近いサーバーから高速に提供します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5240,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトの可用性を高める方法として正しいものはどれか。",
+    "choices": [
+      "負荷分散やバックアップサーバーを用意する",
+      "サーバーを1台のみにする",
+      "メンテナンスを行わない",
+      "バックアップを取らない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "負荷分散、冗長化、定期的なメンテナンスにより、サイトの可用性を高めます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5241,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "ヒートマップツールの役割として正しいものはどれか。",
+    "choices": [
+      "ユーザーのクリックやスクロール行動を可視化する",
+      "サーバーの温度を監視する",
+      "画像の色を分析する",
+      "コードのエラーを検出する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ヒートマップは、ユーザーがどこをクリックし、どこまでスクロールしたかを視覚的に示します。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5242,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "VDT作業ガイドラインにおける推奨される作業時間はどれか。",
+    "choices": [
+      "連続作業は1時間以内とし、10〜15分の休憩を取る",
+      "連続作業は3時間以内",
+      "休憩は不要",
+      "連続作業は30分以内"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VDT作業ガイドラインでは、1時間を超えないように作業し、10〜15分の休憩が推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5243,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "VDT作業における適切な室内照度として推奨されるものはどれか。",
+    "choices": [
+      "300〜500ルクス程度",
+      "100ルクス程度",
+      "1000ルクス以上",
+      "50ルクス以下"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VDT作業では、300〜500ルクス程度の照度が目の疲労軽減に適しています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5244,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ディスプレイと目の距離として適切なものはどれか。",
+    "choices": [
+      "40cm以上",
+      "10cm程度",
+      "1m以上",
+      "距離は関係ない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ディスプレイと目の距離は40cm以上（50〜70cm程度が理想）が推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5245,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ディスプレイの上端の位置として適切なものはどれか。",
+    "choices": [
+      "目の高さか、やや下",
+      "目の高さより上",
+      "できるだけ高く",
+      "床に近い位置"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ディスプレイの上端は目の高さか、やや下にすると首への負担が軽減されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5246,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "VDT作業における適切な室温として推奨されるものはどれか。",
+    "choices": [
+      "17〜28℃程度",
+      "10℃以下",
+      "35℃以上",
+      "温度は関係ない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "快適な作業環境のため、室温は17〜28℃程度が推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5247,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "VDT作業における適切な湿度として推奨されるものはどれか。",
+    "choices": [
+      "40〜70%程度",
+      "10%以下",
+      "90%以上",
+      "湿度は関係ない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "適切な湿度は40〜70%程度で、目や喉の乾燥を防ぎます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5248,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "椅子の高さの調整として適切なものはどれか。",
+    "choices": [
+      "足の裏全体が床につく高さ",
+      "つま先だけが床につく高さ",
+      "足が床につかない高さ",
+      "できるだけ低く"
+    ],
+    "correctAnswer": 0,
+    "explanation": "足の裏全体が床につき、膝が約90度になる高さが理想です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5249,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "キーボードとディスプレイの配置として適切なものはどれか。",
+    "choices": [
+      "体の正面に配置する",
+      "体の横に配置する",
+      "できるだけ離して配置する",
+      "配置は関係ない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "キーボードとディスプレイは体の正面に配置し、不自然な姿勢を避けます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5250,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "眼精疲労の予防方法として適切なものはどれか。",
+    "choices": [
+      "定期的に遠くを見て目を休める",
+      "ディスプレイを凝視し続ける",
+      "暗い部屋で作業する",
+      "休憩を取らない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "定期的に遠くを見たり、まばたきを意識することで眼精疲労を軽減できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5251,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "肩こりの予防方法として適切なものはどれか。",
+    "choices": [
+      "適切な姿勢を保ち、定期的にストレッチを行う",
+      "前かがみの姿勢を続ける",
+      "長時間同じ姿勢を保つ",
+      "ストレッチは不要"
+    ],
+    "correctAnswer": 0,
+    "explanation": "正しい姿勢の維持と、定期的なストレッチや体操が肩こり予防に効果的です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5252,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "エルゴノミクス（人間工学）の説明として正しいものはどれか。",
+    "choices": [
+      "人間の特性に合わせて作業環境や道具を設計する学問",
+      "経済学の一分野",
+      "プログラミング手法",
+      "デザイン理論"
+    ],
+    "correctAnswer": 0,
+    "explanation": "エルゴノミクスは、人間の身体的・認知的特性に適合した環境や道具を設計する学問です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5253,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ディスプレイのグレア（画面の映り込み）対策として適切なものはどれか。",
+    "choices": [
+      "アンチグレアフィルムを使用する、照明位置を調整する",
+      "画面の明るさを最大にする",
+      "暗い部屋で作業する",
+      "対策は不要"
+    ],
+    "correctAnswer": 0,
+    "explanation": "グレア対策として、フィルム使用、照明調整、ディスプレイの角度調整が有効です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5254,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ブルーライトの説明として正しいものはどれか。",
+    "choices": [
+      "可視光線の中で目への負担が大きいとされる青色光",
+      "紫外線の一種",
+      "赤外線の一種",
+      "電磁波の一種"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ブルーライトは可視光線の中の青色光で、長時間の曝露は目の疲れの原因となる可能性があります。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5255,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "腰痛予防のための椅子の使い方として適切なものはどれか。",
+    "choices": [
+      "背もたれを使い、腰をしっかり支える",
+      "浅く腰掛ける",
+      "背もたれを使わない",
+      "前かがみの姿勢を保つ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "背もたれで腰部をしっかり支え、深く腰掛けることで腰への負担を軽減します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5256,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "キーボード操作時の手首の位置として適切なものはどれか。",
+    "choices": [
+      "自然な角度を保ち、過度に曲げない",
+      "できるだけ曲げる",
+      "反らせる",
+      "位置は関係ない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "手首を自然な角度に保ち、リストレストを使用することで腱鞘炎を予防できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5257,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ドライアイ（目の乾燥）の予防方法として適切なものはどれか。",
+    "choices": [
+      "意識的にまばたきを増やす、適切な湿度を保つ",
+      "まばたきを減らす",
+      "乾燥した環境で作業する",
+      "水分を取らない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "意識的なまばたき、適切な湿度維持、定期的な休憩がドライアイ予防に有効です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5258,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ノートPCを長時間使用する際の対策として適切なものはどれか。",
+    "choices": [
+      "外部ディスプレイやキーボードを使用する",
+      "本体のみで作業し続ける",
+      "できるだけ小さい画面で作業する",
+      "姿勢は気にしない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ノートPCは画面位置が低く姿勢が悪くなりやすいため、外部機器の使用が推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5259,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "定期的な健康診断の重要性として正しいものはどれか。",
+    "choices": [
+      "VDT作業による健康影響を早期発見する",
+      "必要ない",
+      "費用の無駄",
+      "年に1回で十分"
+    ],
+    "correctAnswer": 0,
+    "explanation": "定期的な健康診断により、視力低下や筋骨格系の問題を早期発見し、対処できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5260,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "作業環境の空気の入れ替えの重要性として正しいものはどれか。",
+    "choices": [
+      "CO2濃度を下げ、集中力を維持する",
+      "必要ない",
+      "夏冬は窓を開けない",
+      "換気は有害"
+    ],
+    "correctAnswer": 0,
+    "explanation": "定期的な換気により、CO2濃度を下げ、快適な作業環境を維持できます。",
+    "difficulty": "basic"
   }
 ]
