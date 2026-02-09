@@ -4267,7 +4267,7 @@
     "id": 5289,
     "examType": "web-design-3",
     "category": "HTML",
-    "question": "<meta>タグは、HTMLヘッダー内で使用される。",
+    "question": "<meta>タグは、HTMLヘッド内で使用される。",
     "choices": [
       "正しい",
       "誤り"
@@ -4786,7 +4786,7 @@
       "audio要素"
     ],
     "correctAnswer": 0,
-    "explanation": "frame要素とframeset要素はHTML5で廃止されました。ページ分割にはiframe要素やCSSのレイアウト手法を使用します。canvas、video、audio要素はHTML5で追加されました。",
+    "explanation": "frame要素はHTML5で廃止されました。ページ分割にはiframe要素やCSSのレイアウト手法を使用します。canvas、video、audio要素はHTML5で追加されました。",
     "difficulty": "exam"
   },
   {
