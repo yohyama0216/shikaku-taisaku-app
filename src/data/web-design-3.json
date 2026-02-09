@@ -4267,7 +4267,7 @@
     "id": 5289,
     "examType": "web-design-3",
     "category": "HTML",
-    "question": "<meta>タグは、HTMLヘッド内で使用される。",
+    "question": "<meta>タグは、<head>要素内で使用される。",
     "choices": [
       "正しい",
       "誤り"
