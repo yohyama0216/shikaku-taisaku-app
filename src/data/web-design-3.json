@@ -4818,5 +4818,435 @@
     "correctAnswer": 0,
     "explanation": "strike要素はHTML5で廃止されました。打ち消し線にはCSSのtext-decoration: line-throughやdel要素を使用します。section、aside、footer要素はHTML5で追加されたセマンティック要素です。",
     "difficulty": "exam"
+  },
+  {
+    "id": 5331,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "ユニバーサルデザインとは、特に障害を持つ人や高齢者に配慮したデザインのことを指す。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ユニバーサルデザインは、年齢や障害の有無に関わらず、すべての人が利用しやすいデザインのことです。特定の層だけでなく、万人のための設計思想です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5332,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "audio要素やvideo要素に再生・停止などのコントロールを表示するには、controls属性を指定する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "controls属性を指定することで、ブラウザの標準的な再生コントロール（再生、停止、音量調整など）が表示されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5333,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "HTMLのタグの中にCSSの指定が直接記述されていても、外部CSSを読み込んだ場合には、外部CSSが優先して適用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSSの優先順位は、インラインスタイル（style属性）> 内部スタイルシート > 外部スタイルシートの順です。タグ内に直接記述されたインラインスタイルが最も優先されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5334,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "div要素はその範囲を段落として意味づけるために使用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "div要素は汎用的なコンテナ要素で、特定の意味を持ちません。段落を示すには<p>要素を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5335,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "トロイの木馬とは、独立したプログラムであり、自己を複製して拡散する性質を持つマルウェアのことである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "トロイの木馬は有用なプログラムを装って侵入するマルウェアです。自己複製するのはウイルスやワームの特徴で、トロイの木馬は自己複製しません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5336,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "事業主は、作業管理だけでなく、健康管理についても配慮し、労働衛生教育を行わなくてはいけない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "労働安全衛生法により、事業主は労働者の安全と健康を確保するため、作業管理と健康管理の両面で配慮し、必要な教育を実施する義務があります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5337,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "透過画像を作成するときにはPNG形式を使用し、半透過画像を作成するときにはGIF形式を使用する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GIF形式は完全な透過のみ対応で、半透過（アルファチャンネル）には対応していません。半透過画像にはPNG形式を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5338,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "img要素のalt属性には、その画像についての説明を記述する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "alt属性は、画像が表示されない場合や音声読み上げ時に使用される代替テキストで、画像の内容を説明します。アクセシビリティ向上に重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5339,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "取り扱う個人情報が5,000件以下の場合には、個人情報保護法における個人情報取扱事業者に該当しない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2017年の改正個人情報保護法により、個人情報データベース等を事業に利用している者は、取扱件数に関わらず個人情報取扱事業者に該当します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5340,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTP通信において、サーバからステータスコード「HTTP 403 Forbidden」が返ってきたときには、アクセス権限がないことを示している。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "403 Forbiddenは、サーバがリクエストを理解したが、アクセス権限がないため実行を拒否していることを示すステータスコードです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5341,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSS3モジュールの内、2021年以前にW3C勧告となっているものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "CSS Color Module Level 3",
+      "CSS Box Model Module Level 3",
+      "CSS Box Sizing Module Level 3",
+      "CSS Text Module Level 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSS Color Module Level 3は2011年に勧告されました。他のモジュールは2021年時点で勧告に至っていません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5342,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "筆記体のフォントを指定するときに使用するものはどれか。適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "serif",
+      "sans-serif",
+      "cursive",
+      "monospace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "cursiveは筆記体のフォントファミリーを指定します。serifは明朝体系、sans-serifはゴシック体系、monospaceは等幅フォントです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5343,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサーバー用アプリケーションはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "Postfix",
+      "Apache",
+      "Samba",
+      "SharePoint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Apacheは代表的なWebサーバーソフトウェアです。Postfixはメールサーバー、Sambaはファイル共有サーバー、SharePointは文書管理システムです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5344,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "「光の三原色」に含まれないものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "赤",
+      "緑",
+      "青",
+      "黄"
+    ],
+    "correctAnswer": 3,
+    "explanation": "光の三原色は赤(Red)、緑(Green)、青(Blue)です。黄色は色の三原色（減法混色）の一つです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5345,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "産業財産権に含まれないものを、以下より1つ選択しなさい。",
+    "choices": [
+      "特許権",
+      "実用新案権",
+      "商標権",
+      "著作権"
+    ],
+    "correctAnswer": 3,
+    "explanation": "産業財産権は、特許権、実用新案権、意匠権、商標権の4つです。著作権は産業財産権とは別の知的財産権です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5346,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "強い重要性、深刻さ、または緊急性が高いテキストを表すときに使用する要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "b要素",
+      "i要素",
+      "span要素",
+      "strong要素"
+    ],
+    "correctAnswer": 3,
+    "explanation": "strong要素は、重要性や緊急性が高いテキストを示すための要素です。b要素は単に太字にする視覚的な要素です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5347,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "番号付きリストを記述するときに使用する要素はどれか。適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "dt",
+      "dd",
+      "ol",
+      "ul"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ol(Ordered List)要素は番号付きリストを作成します。ul(Unordered List)は番号なしリスト、dt/ddは定義リストで使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5348,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "メディアクエリを指定しているlink要素の記述として、適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "<link rel=\"stylesheet\" href=\"style.css\" media=\"screen and (max-width:480px)\">",
+      "<link rel=\"stylesheet\" href=\"style.css\" @media screen and (min-width:480px)>",
+      "<link type=\"text/css\" href=\"style.css\" media=\"screen and (max-width:480px)\">",
+      "<link rel=\"stylesheet\" href=\"style.css\" mediasource=\"screen and (max-width:480px)\">"
+    ],
+    "correctAnswer": 0,
+    "explanation": "link要素でメディアクエリを指定するには、media属性を使用し、その値として条件を記述します。選択肢1が正しい構文です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5349,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "SEO（Search Engine Optimization）の説明として適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "検索結果において上位に表示されるよう、Webサイトの構成や内容等を調整していくこと。",
+      "ページ内検索を高速で行うように調整していくこと。",
+      "ユーザが検索したキーワードに関連した広告を検索結果画面に表示すること。",
+      "ユーザの属性によって、表示するページを切り替えること。"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SEO（検索エンジン最適化）は、検索エンジンの検索結果で上位に表示されるようWebサイトを最適化する手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5350,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "Webサイト設計時に、主に表計算ツールなどを用いて、Webサイト内の全ページのURL、タイトル、記事内容などを一覧表としたものを何と呼ぶか。最も適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "ワイヤーフレーム",
+      "モックアップ",
+      "フレームワーク",
+      "ディレクトリマップ"
+    ],
+    "correctAnswer": 3,
+    "explanation": "ディレクトリマップは、サイト内の全ページの情報を一覧表にまとめたものです。ワイヤーフレームはページレイアウトの設計図、モックアップは実物に近い試作品です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5351,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "Webサイトの構築・管理ツールとして利用されている、CMSとは何の略か。適切なものを1つ選択しなさい。",
+    "choices": [
+      "クラウド・モバイル・システム",
+      "コンテンツ・マネジメント・システム",
+      "コンテナ・メンテナンス・システム",
+      "カスタマー・マニュアル・システム"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CMSはContent Management Systemの略で、Webサイトのコンテンツを管理するシステムです。WordPressなどが代表例です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5352,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "form要素についての説明として正しいものを、以下より1つ選択しなさい。",
+    "choices": [
+      "form要素を入れ子にすることができる。",
+      "条件によっては開始タグまたは終了タグの省略が可能である。",
+      "form要素内にはh要素を入れることはできない。",
+      "DOM (Document Object Model)でのアクセスや操作が可能である。"
+    ],
+    "correctAnswer": 3,
+    "explanation": "form要素はDOMを通じてJavaScriptからアクセス・操作できます。form要素の入れ子は不可、タグの省略も不可、h要素も含めることができます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5353,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "Webサイト内での現在のWebページの位置を、ツリー構造を持ったハイパーリンクの一覧として示すものを指す用語として、最も適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "グローバルナビゲーション",
+      "ハンバーガーボタン",
+      "パンくずリスト",
+      "サイトマップ"
+    ],
+    "correctAnswer": 2,
+    "explanation": "パンくずリストは、現在のページ位置を階層的に示すナビゲーションです。ホーム > カテゴリ > ページのような形式で表示されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5354,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "「情報機器作業における労働衛生管理のためのガイドライン」における、照明及び採光についての記述で、室内の照明及び採光については、明暗の対照が著しくなく、かつ、何を生じさせない方法によらなければならないか。適切なものを以下より1つ選択しなさい。",
+    "choices": [
+      "影",
+      "まぶしさ",
+      "業務量の増大",
+      "高さ調整"
+    ],
+    "correctAnswer": 1,
+    "explanation": "VDT作業ガイドラインでは、照明・採光は明暗の対照が著しくなく、まぶしさ(グレア)を生じさせない方法によることが求められています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5355,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で新たに追加された要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "div要素",
+      "span要素",
+      "article要素",
+      "table要素"
+    ],
+    "correctAnswer": 2,
+    "explanation": "article要素はHTML5で新たに追加されたセマンティック要素です。div、span、table要素はHTML4以前から存在します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5356,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptでコメントを記述する方法として正しいものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "<!-- コメント -->",
+      "/* コメント */",
+      "# コメント",
+      "' コメント"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JavaScriptでは、/* */で複数行コメント、//で単一行コメントを記述します。<!---->はHTML、#はPythonやRuby、'はVBAなどのコメント記法です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5357,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を非表示にするプロパティと値の組み合わせとして正しいものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "display: none",
+      "visible: hidden",
+      "show: false",
+      "hide: true"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: noneは要素を非表示にし、レイアウトからも削除します。visibility: hiddenも非表示にしますが、レイアウト上のスペースは保持されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5358,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPSで使用される通信の暗号化プロトコルはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "FTP",
+      "SMTP",
+      "SSL/TLS",
+      "POP3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTTPSは、HTTPにSSL/TLSによる暗号化を加えたプロトコルです。FTPはファイル転送、SMTPはメール送信、POP3はメール受信のプロトコルです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5359,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "Webアプリケーションの脆弱性を悪用した攻撃手法でないものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "SQLインジェクション",
+      "クロスサイトスクリプティング(XSS)",
+      "CSRF(クロスサイトリクエストフォージェリ)",
+      "DDoS攻撃"
+    ],
+    "correctAnswer": 3,
+    "explanation": "DDoS攻撃は、大量のアクセスでサーバーを機能不全にする攻撃で、アプリケーションの脆弱性を悪用するものではありません。他の3つは脆弱性を利用した攻撃です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5360,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WCAG（Web Content Accessibility Guidelines）を策定している団体はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "ISO",
+      "W3C",
+      "ECMA",
+      "IEEE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WCAG（Webコンテンツ・アクセシビリティ・ガイドライン）はW3C（World Wide Web Consortium）が策定しています。",
+    "difficulty": "exam"
   }
 ]
