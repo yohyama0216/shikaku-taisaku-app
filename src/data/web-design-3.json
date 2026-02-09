@@ -5658,5 +5658,415 @@
     "correctAnswer": 0,
     "explanation": "WHATWG（Web Hypertext Application Technology Working Group）が、HTML Living Standardの策定と管理を行っています。",
     "difficulty": "exam"
+  },
+  {
+    "id": 5391,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "img要素のalt属性に指定すべき値は、画像が利用できない場合に画像の代わりとして使用するためのテキストではなく、指定されている画像を補足する説明である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "alt属性は、画像が利用できない場合に画像の代わりとして使用される代替テキストです。画像を補足する説明ではありません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5392,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "情報機器作業者の1日の作業時間は300分程度が望ましい。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "VDT作業ガイドラインでは、1日の作業時間について具体的な推奨時間は定められていません。連続作業時間や休憩の取り方が重要視されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5393,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "Webサイト利用者の認証情報を管理しやすくするために、パスワードは平文で保存すべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "パスワードを平文で保存することは重大なセキュリティリスクです。必ずハッシュ化（一方向暗号化）して保存する必要があります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5394,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLの属性値を引用符で囲まない場合、属性値の内容に関わらず文法エラーとなる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTML5では、属性値にスペースや特殊文字が含まれない場合は引用符を省略できます。ただし、可読性のため引用符を使用することが推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5395,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "複製権は著作権に含まれる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "複製権は著作財産権の一つであり、著作権に含まれます。著作物を複製する権利は著作者が専有します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5396,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "html要素にはlang属性を指定し、その文書の言語を示すことが推奨されている。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "html要素にlang属性を指定することで、検索エンジンやスクリーンリーダーが文書の言語を正しく認識できます。日本語の場合はlang=\"ja\"を指定します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5397,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "フィッシング詐欺とは、実在の金融機関やショッピングサイトなどを装い、偽のWebサイトに誘導して、個人情報などを詐取することである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フィッシング詐欺は、正規サイトを装った偽サイトに誘導し、IDやパスワード、クレジットカード情報などを盗み取る詐欺手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5398,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "カラーコード #00ff00 は緑系の色である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "#00ff00は、R(赤)=0、G(緑)=255、B(青)=0を表し、純粋な緑色です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5399,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "JPEG形式は圧縮による画質の劣化がない可逆圧縮形式の画像ファイルフォーマットである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JPEG形式は非可逆圧縮で、圧縮により画質が劣化します。可逆圧縮形式にはPNGやGIFがあります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5400,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "不要になったページやWebサイトは情報維持のため、そのまま公開を続けておくべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "不要なページは削除し、必要に応じて適切なリダイレクトを設定すべきです。古い情報の公開は、ユーザーに誤解を与えたりSEOに悪影響を及ぼす可能性があります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5401,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのz-indexプロパティは、負の値を指定することができる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "z-indexは負の値を含む整数値を指定できます。負の値を指定すると、他の要素より背面に配置されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5402,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML Living Standardでは、すべてのブロックレベル要素とインラインレベル要素の区別が廃止された。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML Living Standardでは、ブロックレベル/インラインレベルという分類は廃止され、コンテンツモデル（フローコンテンツ、フレージングコンテンツなど）による分類に変更されました。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5403,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのletキーワードで宣言された変数は、ブロックスコープを持つ。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "letで宣言された変数はブロックスコープを持ち、宣言されたブロック内でのみ有効です。varは関数スコープを持ちます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5404,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "tabindex属性に0を指定すると、その要素はキーボードでフォーカスできなくなる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "tabindex=\"0\"を指定すると、要素は自然なタブ順序でフォーカス可能になります。tabindex=\"-1\"がフォーカスを無効化します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5405,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "プロトタイプは、デザインや機能を検証するための試作品である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "プロトタイプは、実装前にデザインやユーザー体験を検証するための試作品で、早期にフィードバックを得るために重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5406,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPとHTTPSは同じポート番号を使用する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTTPは通常ポート80、HTTPSはポート443を使用します。異なるポート番号で動作します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5407,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "CSS Snapshot 2024は、W3Cが定義するCSS仕様の安定版をまとめたものである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSS Snapshotは、特定時点でのCSS仕様の安定版をまとめた文書で、実装の指針として利用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5408,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "クロスサイトスクリプティング(XSS)対策として、ユーザー入力をそのまま出力せず、エスケープ処理を行うべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XSS対策では、ユーザー入力をHTML出力する際に、<、>、&などの特殊文字をエスケープすることが重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5409,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのgrid-template-columnsプロパティは、CSS Gridレイアウトで列の数とサイズを定義する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "grid-template-columnsは、グリッドコンテナの列のトラックサイズとライン名を定義するプロパティです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5410,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "404エラーページには、ユーザーを他のページに誘導するリンクを設置することが推奨される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "404エラーページには、トップページや検索機能へのリンクを設置し、ユーザーが目的の情報を見つけやすくすることが重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5411,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML要素で、引用や参照を示すために使用される要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "blockquote要素",
+      "quote要素",
+      "ref要素",
+      "cite要素のみ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "blockquote要素は長い引用を、cite要素は作品のタイトルなどを示します。両方とも引用関連ですが、blockquoteが引用ブロックを表します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5412,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の表示・非表示を切り替えるプロパティと値の組み合わせで、要素の領域も含めて非表示にするものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "display: none",
+      "visibility: hidden",
+      "opacity: 0",
+      "hidden: true"
+    ],
+    "correctAnswer": 0,
+    "explanation": "display: noneは要素とその領域を完全に非表示にします。visibility: hiddenは要素を非表示にしますが領域は残ります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5413,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで文字列を数値に変換するメソッドはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "parseInt()",
+      "toString()",
+      "valueOf()",
+      "stringify()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "parseInt()は文字列を整数に変換します。parseFloat()は浮動小数点数に変換します。toString()は逆に数値を文字列に変換します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5414,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "SVG形式の画像の特徴として正しいものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "ベクター形式のため拡大しても画質が劣化しない",
+      "ラスター形式のため高解像度表示に適している",
+      "アニメーションには対応していない",
+      "透過には対応していない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SVGはベクター形式の画像で、拡大縮小しても画質が劣化しません。アニメーションや透過にも対応しています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5415,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "Webアクセシビリティの4つの原則（POUR原則）に含まれないものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "高速性（Performance）",
+      "知覚可能（Perceivable）",
+      "操作可能（Operable）",
+      "理解可能（Understandable）"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WCAG 2のPOUR原則は、知覚可能（Perceivable）、操作可能（Operable）、理解可能（Understandable）、堅牢性（Robust）の4つです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5416,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Google Analyticsなどで使用される、ユーザーがサイトに訪問してから離脱するまでの一連の行動を表す指標はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "セッション",
+      "ページビュー",
+      "直帰率",
+      "コンバージョン"
+    ],
+    "correctAnswer": 0,
+    "explanation": "セッションは、ユーザーがサイトを訪問してから離脱するまでの一連の行動を1単位として数える指標です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5417,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "HTTPヘッダーで、クロスサイトスクリプティング（XSS）攻撃を防ぐために使用されるヘッダーはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "Content-Security-Policy",
+      "Access-Control-Allow-Origin",
+      "X-Frame-Options",
+      "Strict-Transport-Security"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Content-Security-Policyヘッダーは、スクリプトの実行元を制限してXSS攻撃を防ぎます。X-Frame-Optionsはクリックジャッキング対策です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5418,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で追加された、日付と時刻を表す要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "time要素",
+      "date要素",
+      "datetime要素",
+      "calendar要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "time要素はHTML5で追加され、datetime属性で機械可読な日時を指定できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5419,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのtransitionプロパティの役割として正しいものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "プロパティの値が変化する際のアニメーション効果を指定する",
+      "要素の位置を移動する",
+      "要素の透明度を変更する",
+      "要素の変形を行う"
+    ],
+    "correctAnswer": 0,
+    "explanation": "transitionプロパティは、CSSプロパティの値が変化する際のアニメーション効果（速度や時間）を指定します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5420,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権法において、著作権の保護期間として正しいものはどれか（原則）。以下より1つ選択しなさい。",
+    "choices": [
+      "著作者の死後70年",
+      "著作者の死後50年",
+      "公表後70年",
+      "公表後50年"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2018年の改正により、日本の著作権保護期間は著作者の死後70年（映画は公表後70年）に延長されました。",
+    "difficulty": "exam"
   }
 ]
