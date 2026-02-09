@@ -5007,7 +5007,7 @@
     ],
     "correctAnswer": 3,
     "explanation": "光の三原色は赤(Red)、緑(Green)、青(Blue)です。黄色は色の三原色（減法混色）の一つです。",
-    "difficulty": "basic"
+    "difficulty": "exam"
   },
   {
     "id": 5345,
@@ -5187,7 +5187,7 @@
     ],
     "correctAnswer": 1,
     "explanation": "JavaScriptでは、/* */で複数行コメント、//で単一行コメントを記述します。<!---->はHTML、#はPythonやRuby、'はVBAなどのコメント記法です。",
-    "difficulty": "basic"
+    "difficulty": "exam"
   },
   {
     "id": 5357,
