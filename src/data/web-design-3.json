@@ -3898,5 +3898,343 @@
     "correctAnswer": 0,
     "explanation": "定期的な換気により、CO2濃度を下げ、快適な作業環境を維持できます。",
     "difficulty": "basic"
+  },
+  {
+    "id": 5261,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5では、DOCTYPE宣言は必須である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML5では、DOCTYPE宣言（<!DOCTYPE html>）は文書型を指定するために必須です。ブラウザが標準モードでページをレンダリングするために重要です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5262,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLの<br>タグは終了タグが必要である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "<br>タグは空要素であり、終了タグは不要です。HTML5では<br>または<br />の形式で使用できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5263,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのz-indexプロパティは、要素の重なり順を制御する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "z-indexプロパティは、positionがstatic以外の要素の重なり順（スタッキング順序）を制御します。値が大きいほど前面に表示されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5264,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのmarginプロパティは、要素の内側の余白を設定する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "marginは要素の外側の余白を設定します。内側の余白はpaddingプロパティで設定します。",
+    "difficulty": "comparison"
+  },
+  {
+    "id": 5265,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptの変数宣言には、var、let、constの3種類がある。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JavaScriptでは、var（関数スコープ）、let（ブロックスコープ）、const（ブロックスコープ・再代入不可）の3種類の変数宣言方法があります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5266,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのalert()関数は、ユーザーに警告メッセージを表示する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "alert()関数は、ブラウザに警告ダイアログを表示し、ユーザーに情報を伝えるために使用されます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5267,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ワイヤーフレームは、Webサイトの視覚的なデザインを決定するものである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ワイヤーフレームは、ページのレイアウトや構造を示す設計図であり、色やフォントなどの視覚的デザインを決定するものではありません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5268,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "レスポンシブデザインは、デバイスの画面サイズに応じてレイアウトを調整する設計手法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "レスポンシブデザインは、スマートフォン、タブレット、PCなど、異なる画面サイズに対応してレイアウトが自動的に調整される設計手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5269,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトのアクセス解析には、Google Analyticsなどのツールが利用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Google Analyticsは、Webサイトの訪問者数、閲覧ページ、滞在時間などを分析するための代表的なツールです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5270,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "SEO対策は、検索エンジンでの表示順位を下げるための施策である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SEO（Search Engine Optimization）対策は、検索エンジンでの表示順位を上げるための施策です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5271,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "画像には、alt属性で代替テキストを設定することが推奨される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "alt属性は、視覚障害者がスクリーンリーダーを使用する際や、画像が表示されない場合に代替情報を提供するため重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5272,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "文字サイズは固定することが、アクセシビリティ向上につながる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "文字サイズを固定すると、視覚障害者が文字サイズを変更できなくなるため、アクセシビリティが低下します。相対単位を使用することが推奨されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5273,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "HTTPSは、HTTPに暗号化機能を追加したプロトコルである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS（HTTP Secure）は、SSL/TLSを使用してHTTP通信を暗号化し、安全なデータ送受信を実現するプロトコルです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5274,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "IPアドレスは、インターネット上の機器を識別するための番号である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IPアドレスは、ネットワーク上の各機器に割り当てられる一意の識別番号で、データの送受信先を特定するために使用されます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5275,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "カラースキームとは、Webサイトで使用する色の組み合わせのことである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "カラースキームは、Webサイトの統一感を出すために使用する配色計画のことです。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5276,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "視認性を高めるには、背景と文字の色のコントラストを低くすることが重要である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "視認性を高めるには、背景と文字の色のコントラストを高くすることが重要です。コントラストが低いと文字が読みにくくなります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5277,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "W3Cは、Web技術の標準化を推進する国際団体である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3C（World Wide Web Consortium）は、HTMLやCSSなどのWeb技術の標準化を推進する国際的な団体です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5278,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "HTML5から、セマンティック要素（header、nav、articleなど）が導入された。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML5では、文書構造をより明確にするため、header、nav、article、sectionなどのセマンティック要素が導入されました。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5279,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "XSS（クロスサイトスクリプティング）は、Webサイトの脆弱性を悪用した攻撃である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XSSは、Webサイトに悪意のあるスクリプトを埋め込み、訪問者のブラウザで実行させる攻撃手法です。入力値の適切なエスケープ処理が重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5280,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "パスワードは、平文でデータベースに保存することが推奨される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "パスワードは、ハッシュ化（暗号化）してデータベースに保存することが必須です。平文保存は重大なセキュリティリスクです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5281,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ナビゲーションは、サイト内の移動を容易にするための重要な要素である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ナビゲーションは、ユーザーが目的のページに簡単にアクセスできるようにするための重要な要素で、ユーザビリティに大きく影響します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5282,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "クリック可能な要素は、マウスホバー時に視覚的フィードバックを提供しない方が良い。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "クリック可能な要素は、マウスホバー時に色の変化やカーソルの変化などの視覚的フィードバックを提供することで、ユーザビリティが向上します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5283,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "VDT作業では、1時間ごとに10〜15分程度の休憩を取ることが推奨される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VDT作業では、目や身体の疲労を防ぐため、1時間ごとに10〜15分程度の休憩を取ることが厚生労働省のガイドラインで推奨されています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5284,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ディスプレイの明るさは、できるだけ最大にすることが目に良い。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ディスプレイの明るさは、周囲の環境光に合わせて適切に調整することが重要です。明るすぎると目の疲労につながります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5285,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権は、創作した時点で自動的に発生する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "著作権は、作品を創作した時点で自動的に発生し、登録などの手続きは不要です（無方式主義）。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5286,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "他人の写真を無断でWebサイトに掲載しても、出典を明記すれば著作権侵害にならない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "出典を明記しても、著作権者の許可なく他人の著作物を使用すると著作権侵害になります。利用には著作権者の許諾が必要です。",
+    "difficulty": "exam"
   }
 ]
