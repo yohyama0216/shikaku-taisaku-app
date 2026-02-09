@@ -6068,5 +6068,415 @@
     "correctAnswer": 0,
     "explanation": "2018年の改正により、日本の著作権保護期間は著作者の死後70年（映画は公表後70年）に延長されました。",
     "difficulty": "exam"
+  },
+  {
+    "id": 5421,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "class属性はグローバル属性であり、全ての要素に指定できる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "class属性はグローバル属性の一つで、すべてのHTML要素に指定できます。CSS のスタイル指定やJavaScriptでの要素選択に使用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5422,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "HTML文書にはJavaScriptファイルを1つだけ読み込むことができる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTML文書には複数のJavaScriptファイルを読み込むことができます。複数のscript要素を使用して、必要な数だけ読み込めます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5423,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "カラーコード #000000 を指定すると色は透明になる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "#000000は黒色を表します。透明を指定するにはCSSのtransparentキーワードやRGBAのalpha値0を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5424,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "WebサイトのURLが「https://」から始まっている場合、そのサイトとユーザーのブラウザ間の通信は暗号化されている。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPSはHTTP over SSL/TLSの略で、通信が暗号化されます。URLが「https://」で始まる場合、通信内容は第三者から保護されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5425,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "安全衛生作業上、ディスプレイに表示する文字の大きさは、小さすぎないように配慮し、文字高さがおおむね3mm以上とするのが望ましい。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VDT作業ガイドラインでは、ディスプレイの文字高さはおおむね3mm以上が望ましいとされています。これは眼精疲労を防ぐための基準です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5426,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "GIFは可逆圧縮形式のファイルフォーマットであり、256色以下の画像を扱うことができる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GIF形式は可逆圧縮で、最大256色（8ビット）までの画像を扱えます。アニメーションや透過にも対応しています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5427,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "個人情報を取得するときは、その利用目的をあらかじめWebサイト等により公表するか、本人に知らせなければならない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "個人情報保護法により、個人情報を取得する際は利用目的を明示することが義務付けられています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5428,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "header要素とfooter要素は、同一のWebページ内には1つずつしか配置できない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "header要素とfooter要素は、セクショニングコンテンツ内にそれぞれ複数配置できます。例えば、ページ全体とarticle要素内にそれぞれ配置可能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5429,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "img要素のalt属性には、画像が表示された場合にそれがどのように見えるのかを説明するテキストを指定する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "alt属性は画像が表示されない場合の代替テキストです。画像の見た目を説明するのではなく、画像が伝える情報や機能を代替するテキストを指定します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5430,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権は知的財産権のひとつであり、審査を経て登録されなければ権利は発生しない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "著作権は著作物の創作と同時に自動的に発生します（無方式主義）。特許権や商標権と異なり、登録や審査は不要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5431,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのmarginプロパティで負の値を指定することはできない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "marginプロパティには負の値を指定できます。負のマージンを使用すると、要素を重ねたり特殊なレイアウトを実現できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5432,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "meta要素のcharset属性でUTF-8を指定する場合、大文字小文字は区別されない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "文字エンコーディング名は大文字小文字を区別しません。「UTF-8」「utf-8」「Utf-8」のいずれも有効です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5433,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのconstキーワードで宣言された変数は、再代入できない。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "constで宣言された変数は再代入できません。ただし、オブジェクトや配列の場合、内容の変更は可能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5434,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ワイヤーフレームは、Webページのレイアウトや構成要素の配置を示す設計図である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ワイヤーフレームは、ページの構造やレイアウトを視覚的に示す設計図で、詳細なデザインの前段階で作成します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5435,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "DNSはDomain Name Systemの略で、ドメイン名とIPアドレスを対応付けるシステムである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNSは、人間が理解しやすいドメイン名を、コンピュータが使用するIPアドレスに変換するシステムです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5436,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "W3Cはワールドワイドウェブコンソーシアムの略称である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "W3C（World Wide Web Consortium）は、Webの標準化を推進する国際的な団体です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5437,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "CSRFは、ユーザーが意図しない操作を実行させる攻撃手法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSRF（Cross-Site Request Forgery）は、ユーザーの意図しないリクエストを送信させる攻撃です。トークンによる対策が一般的です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5438,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのflexboxレイアウトでは、flex-directionプロパティで主軸の方向を指定できる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "flex-directionプロパティは、flexアイテムの配置方向（row、column等）を指定します。これがflexコンテナの主軸となります。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5439,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ユーザビリティテストは、実際のユーザーにWebサイトを使用してもらい、問題点を発見する手法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザビリティテストは、実際のユーザーの行動を観察し、使いやすさの問題点を発見・改善するための重要な手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5440,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "リダイレクトは、あるURLから別のURLへ自動的に転送する仕組みである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "リダイレクトは、サイトの移転やURL変更時に、旧URLから新URLへユーザーを自動転送する重要な機能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5441,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5で追加された、動画を埋め込むための要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "video要素",
+      "movie要素",
+      "media要素",
+      "film要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "video要素はHTML5で追加され、Webページに動画を埋め込むために使用されます。controls、autoplay、loop等の属性で制御できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5442,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素の幅を指定するプロパティはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "width",
+      "size",
+      "length",
+      "dimension"
+    ],
+    "correctAnswer": 0,
+    "explanation": "widthプロパティは要素の幅を指定します。px、%、em、vw等の単位で指定できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5443,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで配列の要素数を取得するプロパティはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "length",
+      "size",
+      "count",
+      "number"
+    ],
+    "correctAnswer": 0,
+    "explanation": "lengthプロパティは、配列の要素数や文字列の文字数を取得します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5444,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "RGBカラーモデルにおいて、R・G・Bすべてを最大値にした場合の色はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "白",
+      "黒",
+      "グレー",
+      "透明"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RGB(255, 255, 255)または#FFFFFFは白色を表します。すべて最小値(0, 0, 0)の場合は黒色です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5445,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WCAGで定義されている、テキストと背景のコントラスト比の最低基準（レベルAA）はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "4.5:1",
+      "3:1",
+      "7:1",
+      "2:1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WCAG 2.1のレベルAAでは、通常サイズのテキストで4.5:1以上のコントラスト比が求められます。大きなテキストでは3:1以上です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5446,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "SQLインジェクション攻撃を防ぐための対策として最も適切なものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "プリペアドステートメントを使用する",
+      "JavaScriptを無効化する",
+      "HTTPSを使用する",
+      "Cookieを削除する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "プリペアドステートメント（パラメータ化クエリ）を使用することで、SQLインジェクション攻撃を効果的に防げます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5447,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "リスト項目を表す要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "li要素",
+      "list要素",
+      "item要素",
+      "ul要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "li（list item）要素は、ul（順序なしリスト）やol（順序付きリスト）内のリスト項目を表します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5448,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSで要素を中央に配置する際に使用できるプロパティの組み合わせとして適切なものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "margin: 0 auto",
+      "padding: 0 center",
+      "align: middle",
+      "position: center"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ブロック要素を水平方向に中央配置するには、widthを指定した上でmargin: 0 autoを使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5449,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Googleが提供する、Webサイトのパフォーマンスを測定・分析するツールはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "Google Lighthouse",
+      "Google Maps",
+      "Google Drive",
+      "Google Translate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Google Lighthouseは、Webサイトのパフォーマンス、アクセシビリティ、SEO等を総合的に評価するツールです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5450,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "商標権の存続期間として正しいものはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "登録から10年（更新可能）",
+      "登録から20年",
+      "永久",
+      "登録から5年"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商標権の存続期間は登録から10年ですが、更新により半永久的に権利を維持できます。",
+    "difficulty": "exam"
   }
 ]
