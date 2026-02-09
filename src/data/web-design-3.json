@@ -5248,5 +5248,415 @@
     "correctAnswer": 1,
     "explanation": "WCAG（Webコンテンツ・アクセシビリティ・ガイドライン）はW3C（World Wide Web Consortium）が策定しています。",
     "difficulty": "exam"
+  },
+  {
+    "id": 5361,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "2025年4月1日時点において、HTMLの標準仕様はWHATWGが管理する「HTML Living Standard」になっている。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2019年以降、W3CとWHATWGの合意により、HTMLの標準仕様はWHATWGが管理する「HTML Living Standard」が唯一の標準となっています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5362,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ディスプレイ画面に直接または間接的に太陽光等が入射する場合は、必要に応じて窓にブラインドまたはカーテン等を設け、適切な明るさとなるようにすることが望ましい。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VDT作業ガイドラインでは、直射日光や反射光によるグレアを防ぐため、ブラインドやカーテンで調整することが推奨されています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5363,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "著作権は著作者人格権と商標権に分けられる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "著作権は著作者人格権と著作財産権に分けられます。商標権は産業財産権の一つで、著作権とは別の権利です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5364,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "JPEGは背景の透過が可能な画像形式である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JPEG形式は透過（アルファチャンネル）に対応していません。透過が必要な場合はPNGやGIF形式を使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5365,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTMLのbr要素は、段落間の余白調整を目的として使用する。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "br要素は改行を表す要素で、段落間の余白調整に使用すべきではありません。余白調整にはCSSのmarginやpaddingを使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5366,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "クロスブラウザチェックとは、複数の異なるWebブラウザで仕様どおりにWebページが表示され機能するかを検証することである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "クロスブラウザチェックは、Chrome、Firefox、Safari、Edgeなど、複数のブラウザで正しく表示・動作するかを確認する重要なテスト工程です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5367,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "個人情報取扱事業者は、本人からの請求があった場合は、保有個人データの開示、訂正、利用停止などに対応する必要がある。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "個人情報保護法により、個人情報取扱事業者は本人の請求に基づき、開示、訂正、利用停止などの対応が義務付けられています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5368,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "h1要素はフレージングコンテンツである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "h1要素はフローコンテンツおよびヘディングコンテンツですが、フレージングコンテンツではありません。フレージングコンテンツは文中に含められるテキストレベルの要素です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5369,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "ユーザアカウントの権限を最小限に設定しておくことで、セキュリティリスクを低減することができる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "最小権限の原則により、ユーザーに必要最小限の権限のみを付与することで、不正アクセスや情報漏洩のリスクを低減できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5370,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "同一のルータに接続されている複数のクライアントPCのIPアドレスは同一である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "同一ルータに接続されていても、各クライアントPCには異なるローカルIPアドレスが割り当てられます。外部からはルータの同一グローバルIPアドレスで見えます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5371,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのflexboxレイアウトは、一次元のレイアウトシステムである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flexboxは行または列の一次元レイアウトに適しています。二次元レイアウト（行と列の両方）にはCSS Gridが適しています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5372,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5では、すべての要素に閉じタグが必要である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTML5には、img、br、hr、inputなどの空要素（void elements）があり、これらには閉じタグが不要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5373,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "WAI-ARIAは、動的コンテンツやリッチインターネットアプリケーションのアクセシビリティを向上させるための技術仕様である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WAI-ARIA（Accessible Rich Internet Applications）は、JavaScriptで動的に変化するコンテンツのアクセシビリティを向上させるためのW3C仕様です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5374,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "HTTPSを使用することで、通信内容の改ざんを検知することができる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPSはSSL/TLSによる暗号化だけでなく、通信内容の完全性も保証します。改ざんがあった場合は検知できます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5375,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのasync/awaitは、非同期処理を同期的な記述で扱うための構文である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "async/awaitは、Promiseベースの非同期処理を、同期処理のように読みやすく記述できる構文です。ES2017で導入されました。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5376,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "WebPは、Googleによって開発された画像フォーマットである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WebPはGoogleが開発した画像フォーマットで、JPEGやPNGより高い圧縮率を実現しながら、透過やアニメーションにも対応しています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5377,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "レスポンシブWebデザインでは、メディアクエリを使用してデバイスごとに異なるCSSを適用できる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "メディアクエリは、画面幅、解像度、向きなどの条件に応じて異なるスタイルを適用する機能で、レスポンシブデザインの中核技術です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5378,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトのパフォーマンス測定には、GoogleのPageSpeed Insightsなどのツールが利用できる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PageSpeed Insightsは、Webページの表示速度を測定し、改善提案を行うGoogleの無料ツールです。Core Web Vitalsの測定にも対応しています。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5379,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSの:hover疑似クラスは、マウスポインタが要素上にある状態を表す。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": ":hover疑似クラスは、マウスポインタが要素の上にあるときにスタイルを適用するために使用されます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5380,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "nav要素は、ページ内のナビゲーションリンクをまとめるためのセマンティック要素である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "nav要素はHTML5で導入されたセマンティック要素で、主要なナビゲーションリンクのグループを示します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5381,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML Living Standardで定義されている、文書のメインコンテンツを表すセマンティック要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "main要素",
+      "content要素",
+      "body要素",
+      "article要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "main要素は、文書のメインコンテンツを表すセマンティック要素です。ページ内で1度だけ使用されるべきです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5382,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのposition プロパティで、親要素を基準に配置する値はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "absolute",
+      "fixed",
+      "static",
+      "relative"
+    ],
+    "correctAnswer": 0,
+    "explanation": "position: absoluteは、positionがstatic以外の最も近い祖先要素を基準に配置されます。relativeは自身の元の位置を基準とします。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5383,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptで配列の各要素に対して処理を実行するメソッドはどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "forEach()",
+      "forAll()",
+      "each()",
+      "loop()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "forEach()メソッドは、配列の各要素に対してコールバック関数を実行します。ES5で導入されました。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5384,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "色の表現で、16進数のカラーコード #FFFFFF が表す色はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "白",
+      "黒",
+      "赤",
+      "青"
+    ],
+    "correctAnswer": 0,
+    "explanation": "#FFFFFFは白色を表します。#000000が黒、#FF0000が赤、#0000FFが青です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5385,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "パスワードを安全に保存するために使用されるべき技術はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "ハッシュ化",
+      "Base64エンコード",
+      "暗号化",
+      "圧縮"
+    ],
+    "correctAnswer": 0,
+    "explanation": "パスワードは、SHA-256などのハッシュ関数でハッシュ化して保存すべきです。ハッシュ化は一方向性で、元のパスワードに戻せません。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5386,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "スクリーンリーダーが読み上げる際に、画像の内容を伝えるために使用する属性はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "alt属性",
+      "title属性",
+      "name属性",
+      "aria-label属性"
+    ],
+    "correctAnswer": 0,
+    "explanation": "img要素のalt属性は、画像の代替テキストを提供し、スクリーンリーダーで読み上げられます。アクセシビリティに必須です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5387,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "IPv4アドレスを表記する際に使用される区切り文字はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "ピリオド(.)",
+      "コロン(:)",
+      "スラッシュ(/)",
+      "ハイフン(-)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IPv4アドレスは、192.168.1.1のようにピリオドで区切られた4つの数値で表記されます。IPv6ではコロンを使用します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5388,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "Webサイトの情報設計において、ユーザーの行動や思考を可視化する図はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "ユーザーフローチャート",
+      "サイトマップ",
+      "ワイヤーフレーム",
+      "モックアップ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ユーザーフローチャートは、ユーザーがサイト内でどのように移動し、どのような行動をとるかを図式化したものです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5389,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "Webサイトのアクセス数などを分析するために使用される指標で、1人のユーザーが訪問することを表す単位はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "セッション",
+      "ページビュー",
+      "インプレッション",
+      "クリック"
+    ],
+    "correctAnswer": 0,
+    "explanation": "セッションは、ユーザーがサイトを訪問してから離脱するまでの一連の行動を1単位として数えます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5390,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "HTML Living Standardを管理している組織はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "WHATWG",
+      "W3C",
+      "ECMA International",
+      "ISO"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WHATWG（Web Hypertext Application Technology Working Group）が、HTML Living Standardの策定と管理を行っています。",
+    "difficulty": "exam"
   }
 ]
