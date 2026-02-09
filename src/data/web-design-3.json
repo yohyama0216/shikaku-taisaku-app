@@ -4236,5 +4236,587 @@
     "correctAnswer": 1,
     "explanation": "出典を明記しても、著作権者の許可なく他人の著作物を使用すると著作権侵害になります。利用には著作権者の許諾が必要です。",
     "difficulty": "exam"
+  },
+  {
+    "id": 5287,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML文書の文字コードはUTF-8を使用することが推奨される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UTF-8は世界中の文字を扱える標準的な文字コードで、HTML5でも推奨されています。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5288,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "<table>要素は、データの表組みにのみ使用すべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<table>要素はレイアウト目的ではなく、データの表組みに使用すべきです。レイアウトにはCSSを使用します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5289,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "<meta>タグは、HTMLヘッダー内で使用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "<meta>タグは<head>セクション内で、文書のメタデータ（文字コード、ビューポート設定など）を定義します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5290,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのfloatプロパティは、要素を左右に配置するために使用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "floatプロパティは、要素を左(left)または右(right)に配置し、周囲のコンテンツを回り込ませるために使用されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5291,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSの!importantは、他のスタイルより優先度を高くする。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "!importantを付けたスタイルは、通常のスタイルよりも優先度が高くなりますが、濫用は避けるべきです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5292,
+    "examType": "web-design-3",
+    "category": "CSS",
+    "question": "CSSのborder-radiusプロパティは、角を丸くするために使用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "border-radiusプロパティは、要素の角を丸くするために使用されます。値が大きいほど丸みが強くなります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5293,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのif文は、条件分岐に使用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "if文は、条件に基づいて処理を分岐させるための基本的な制御構文です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5294,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptでは、==と===は全く同じ動作をする。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "==は型変換を行う緩い等価比較、===は型変換を行わない厳密な等価比較です。通常は===の使用が推奨されます。",
+    "difficulty": "comparison"
+  },
+  {
+    "id": 5295,
+    "examType": "web-design-3",
+    "category": "JavaScript",
+    "question": "JavaScriptのfor文は、繰り返し処理に使用される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "for文は、指定した回数だけ処理を繰り返すためのループ構文です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5296,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "サイトマップは、Webサイトの構造を視覚化したものである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "サイトマップは、Webサイトのページ構成や階層構造を図式化したもので、設計段階で重要な資料です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5297,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "ペルソナは、ターゲットユーザーの具体的な人物像である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ペルソナは、サイトのターゲットとなるユーザーを具体的な人物像として定義したもので、設計の指針となります。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5298,
+    "examType": "web-design-3",
+    "category": "Webサイト設計",
+    "question": "モバイルファーストとは、スマートフォン向けデザインを優先する設計手法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "モバイルファーストは、スマートフォンなどモバイル端末向けのデザインを先に行い、その後デスクトップ版を作成する設計手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5299,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "コンバージョン率とは、訪問者が目標アクションを完了した割合である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "コンバージョン率（CVR）は、サイト訪問者のうち購入や問い合わせなどの目標アクションを完了した人の割合を示す重要な指標です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5300,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "A/Bテストは、複数のデザインやコンテンツを比較するテスト手法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A/Bテストは、2つ以上のバージョンを用意してユーザーに提示し、どちらがより効果的かを測定する手法です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5301,
+    "examType": "web-design-3",
+    "category": "Webサイト運用",
+    "question": "バックアップは、データ損失に備えて定期的に行うべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Webサイトのデータやデータベースは、障害や攻撃に備えて定期的にバックアップすることが重要です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5302,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "キーボードのみでWebサイトを操作できることは、アクセシビリティ向上につながる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "マウスが使えないユーザーのために、キーボードのみで全ての機能を操作できるようにすることは重要なアクセシビリティ要件です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5303,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "見出しタグ（h1-h6）は、文書の構造を正しく伝えるために重要である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "見出しタグを適切に使用することで、スクリーンリーダーが文書構造を理解しやすくなり、アクセシビリティが向上します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5304,
+    "examType": "web-design-3",
+    "category": "アクセシビリティ",
+    "question": "色だけで情報を伝えることは、色覚障害者のために避けるべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "色覚障害者が情報を理解できるよう、色以外にもテキストやアイコンなどで情報を補足すべきです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5305,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "DNSは、ドメイン名をIPアドレスに変換するシステムである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS（Domain Name System）は、人間が理解しやすいドメイン名を、コンピュータが使用するIPアドレスに変換する仕組みです。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5306,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "FTPは、ファイル転送のためのプロトコルである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP（File Transfer Protocol）は、サーバーとクライアント間でファイルを送受信するための通信プロトコルです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5307,
+    "examType": "web-design-3",
+    "category": "インターネット概論",
+    "question": "URLは、インターネット上のリソースの場所を示すアドレスである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "URL（Uniform Resource Locator）は、Webページや画像などのリソースがインターネット上のどこにあるかを示すアドレスです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5308,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "グリッドシステムは、レイアウトを整理するのに役立つ。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "グリッドシステムは、ページを格子状に分割してコンテンツを配置する手法で、統一感のあるレイアウトを作成できます。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5309,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "ホワイトスペース（余白）は、デザインの可読性を向上させる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "適切な余白は、コンテンツを読みやすくし、視覚的な階層を明確にするため、優れたデザインには不可欠です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5310,
+    "examType": "web-design-3",
+    "category": "ウェブデザイン",
+    "question": "タイポグラフィとは、文字のデザインや配置に関する技法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "タイポグラフィは、フォントの選択、サイズ、行間、字間などを調整して、読みやすく美しい文字表現を実現する技法です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5311,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "バリデーションは、HTMLやCSSが標準に準拠しているか確認するプロセスである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "バリデーション（検証）は、W3Cなどの標準規格に準拠しているかをチェックするプロセスで、互換性の確保に重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5312,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "セマンティックHTMLとは、意味のあるタグを使用してマークアップすることである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "セマンティックHTMLは、<article>、<nav>、<header>などの意味を持つタグを使い、文書構造を明確にする手法です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5313,
+    "examType": "web-design-3",
+    "category": "ウェブ標準",
+    "question": "CSSの外部ファイル化は、保守性の向上につながる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSSを外部ファイルとして分離することで、複数のページで共有でき、保守性やパフォーマンスが向上します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5314,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "SQLインジェクションは、データベースへの不正アクセスを試みる攻撃手法である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQLインジェクションは、入力フォームなどから悪意のあるSQL文を送信し、データベースを不正操作する攻撃です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5315,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "CSRF対策には、トークンの使用が有効である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSRF（クロスサイトリクエストフォージェリ）対策として、予測不可能なトークンを使用することが一般的です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5316,
+    "examType": "web-design-3",
+    "category": "セキュリティ",
+    "question": "HTTPSを使用することで、通信内容の盗聴を防ぐことができる。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPSは通信を暗号化するため、第三者による盗聴や改ざんを防ぐことができます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5317,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "パンくずリストは、ユーザーが現在位置を把握するのに役立つ。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "パンくずリストは、サイト内の現在位置を階層的に示すナビゲーション要素で、ユーザビリティ向上に寄与します。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5318,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "エラーメッセージは、問題の原因と解決方法を明確に示すべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "分かりやすいエラーメッセージは、ユーザーが問題を理解し、適切に対処できるようにするため重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5319,
+    "examType": "web-design-3",
+    "category": "ユーザビリティ",
+    "question": "ページの読み込み速度は、ユーザビリティに影響を与える。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ページの読み込みが遅いと、ユーザーの離脱率が高まるため、速度はユーザビリティの重要な要素です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5320,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "椅子の高さは、足が床に着く程度に調整すべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "足が床にしっかり着く高さに椅子を調整することで、正しい姿勢を保ち、疲労を軽減できます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 5321,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "ディスプレイは、目線の高さより少し下に配置することが推奨される。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ディスプレイの上端が目線と同じかやや下になるように配置すると、首や肩への負担が軽減されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5322,
+    "examType": "web-design-3",
+    "category": "作業環境",
+    "question": "キーボードとマウスは、肘が90度程度の角度になる位置に配置すべきである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "肘が約90度の角度になるようにキーボードとマウスを配置すると、手首や腕への負担が軽減されます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5323,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "フリー素材であっても、利用規約を確認する必要がある。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フリー素材でも、商用利用の可否、クレジット表記の要否など、利用規約を確認することが重要です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5324,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "クリエイティブ・コモンズ・ライセンスは、著作物の利用条件を示すライセンスである。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "クリエイティブ・コモンズ・ライセンスは、著作者が作品の利用条件を柔軟に設定できるライセンス体系です。",
+    "difficulty": "terminology"
+  },
+  {
+    "id": 5325,
+    "examType": "web-design-3",
+    "category": "知的財産権",
+    "question": "商標権は、商品やサービスの識別標識を保護する権利である。",
+    "choices": [
+      "正しい",
+      "誤り"
+    ],
+    "correctAnswer": 0,
+    "explanation": "商標権は、ロゴやブランド名などの商標を独占的に使用できる権利で、他者の無断使用を防ぐことができます。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5326,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5以降では廃止されている要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "center要素",
+      "mark要素",
+      "s要素",
+      "iframe要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "center要素はHTML5で廃止されました。テキストの中央揃えにはCSSのtext-align: centerを使用します。mark要素、s要素、iframe要素は現在も使用可能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5327,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5以降では廃止されている要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "font要素",
+      "header要素",
+      "nav要素",
+      "article要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "font要素はHTML5で廃止されました。フォントの指定にはCSSのfont-familyやcolorプロパティを使用します。header、nav、article要素はHTML5で追加されたセマンティック要素です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5328,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5以降では廃止されている要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "frame要素",
+      "canvas要素",
+      "video要素",
+      "audio要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "frame要素とframeset要素はHTML5で廃止されました。ページ分割にはiframe要素やCSSのレイアウト手法を使用します。canvas、video、audio要素はHTML5で追加されました。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5329,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5以降では廃止されている要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "big要素",
+      "small要素",
+      "strong要素",
+      "em要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "big要素はHTML5で廃止されました。文字サイズの変更にはCSSのfont-sizeプロパティを使用します。small、strong、em要素は現在も使用可能です。",
+    "difficulty": "exam"
+  },
+  {
+    "id": 5330,
+    "examType": "web-design-3",
+    "category": "HTML",
+    "question": "HTML5以降では廃止されている要素はどれか。以下より1つ選択しなさい。",
+    "choices": [
+      "strike要素",
+      "section要素",
+      "aside要素",
+      "footer要素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "strike要素はHTML5で廃止されました。打ち消し線にはCSSのtext-decoration: line-throughやdel要素を使用します。section、aside、footer要素はHTML5で追加されたセマンティック要素です。",
+    "difficulty": "exam"
   }
 ]
