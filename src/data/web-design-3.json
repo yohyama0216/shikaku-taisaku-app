@@ -6079,7 +6079,7 @@
       "誤り"
     ],
     "correctAnswer": 0,
-    "explanation": "class属性はグローバル属性の一つで、すべてのHTML要素に指定できます。CSS のスタイル指定やJavaScriptでの要素選択に使用されます。",
+    "explanation": "class属性はグローバル属性の一つで、すべてのHTML要素に指定できます。CSSのスタイル指定やJavaScriptでの要素選択に使用されます。",
     "difficulty": "exam"
   },
   {
