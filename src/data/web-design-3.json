@@ -5494,7 +5494,7 @@
     ],
     "correctAnswer": 0,
     "explanation": ":hover疑似クラスは、マウスポインタが要素の上にあるときにスタイルを適用するために使用されます。",
-    "difficulty": "basic"
+    "difficulty": "exam"
   },
   {
     "id": 5380,
@@ -5567,7 +5567,7 @@
     ],
     "correctAnswer": 0,
     "explanation": "#FFFFFFは白色を表します。#000000が黒、#FF0000が赤、#0000FFが青です。",
-    "difficulty": "basic"
+    "difficulty": "exam"
   },
   {
     "id": 5385,
@@ -5612,7 +5612,7 @@
     ],
     "correctAnswer": 0,
     "explanation": "IPv4アドレスは、192.168.1.1のようにピリオドで区切られた4つの数値で表記されます。IPv6ではコロンを使用します。",
-    "difficulty": "basic"
+    "difficulty": "exam"
   },
   {
     "id": 5388,
