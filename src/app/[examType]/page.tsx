@@ -7,7 +7,8 @@ export function generateStaticParams() {
     { examType: 'real-estate-appraiser' },
     { examType: 'rental-property-manager' },
     { examType: 'condominium-manager' },
-    { examType: 'web-design-3' }
+    { examType: 'web-design-3' },
+    { examType: 'junior-high-english' }
   ];
 }
 

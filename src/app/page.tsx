@@ -11,7 +11,8 @@ export default function Home() {
     // 'real-estate-appraiser', 
     // 'rental-property-manager', 
     // 'condominium-manager', 
-    'web-design-3'
+    'web-design-3',
+    'junior-high-english'
   ];
 
   return (
