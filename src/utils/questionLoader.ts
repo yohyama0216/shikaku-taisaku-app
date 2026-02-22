@@ -1,21 +1,11 @@
 import { Question, ExamType } from '@/types/quiz';
 
 // Import all question files
-import takkenQuestions from '@/data/takken.json';
-import landSurveyorQuestions from '@/data/land-surveyor.json';
-import realEstateAppraiserQuestions from '@/data/real-estate-appraiser.json';
-import rentalPropertyManagerQuestions from '@/data/rental-property-manager.json';
-import condominiumManagerQuestions from '@/data/condominium-manager.json';
 import webDesign3Questions from '@/data/web-design-3.json';
 import juniorHighEnglishQuestions from '@/data/junior-high-english.json';
 
 // Map of exam types to their questions
 const questionsMap: Record<ExamType, Question[]> = {
-  'takken': takkenQuestions as Question[],
-  'land-surveyor': landSurveyorQuestions as Question[],
-  'real-estate-appraiser': realEstateAppraiserQuestions as Question[],
-  'rental-property-manager': rentalPropertyManagerQuestions as Question[],
-  'condominium-manager': condominiumManagerQuestions as Question[],
   'web-design-3': webDesign3Questions as Question[],
   'junior-high-english': juniorHighEnglishQuestions as Question[],
 };
