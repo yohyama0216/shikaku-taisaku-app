@@ -1,7 +1,7 @@
 import { QuestionProgress, DailyStats, DailyActivity, ExamType } from '@/types/quiz';
 import { checkAndAwardBadges } from './badges';
 
-const EXAM_TYPES: ExamType[] = ['takken', 'land-surveyor', 'real-estate-appraiser', 'rental-property-manager', 'condominium-manager'];
+const EXAM_TYPES: ExamType[] = ['web-design-3', 'junior-high-english'];
 const LAST_EXAM_TYPE_KEY = 'hazmat-quiz-last-exam-type';
 const PROGRESS_STORAGE_KEY = 'shikaku-quiz-progress';
 const DAILY_STATS_STORAGE_KEY = 'shikaku-quiz-daily-stats';

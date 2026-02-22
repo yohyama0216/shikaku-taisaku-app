@@ -155,11 +155,8 @@ export default function StatsPage() {
   // Get exam name for display
   const getExamName = (type: ExamType): string => {
     switch (type) {
-      case 'takken': return '宅建試験';
-      case 'land-surveyor': return '土地家屋調査士';
-      case 'real-estate-appraiser': return '不動産鑑定士';
-      case 'rental-property-manager': return '賃貸不動産経営管理士';
-      case 'condominium-manager': return 'マンション管理士';
+      case 'web-design-3': return 'Webデザイン技能検定3級';
+      case 'junior-high-english': return '中学英語・日常会話';
       default: return '';
     }
   };
