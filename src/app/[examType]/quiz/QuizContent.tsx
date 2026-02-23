@@ -15,6 +15,7 @@ export default function QuizContent() {
   const examType = getExamTypeFromSlug(examSlug);
   
   const category = searchParams.get('category') || 'all';
+  const subcategory = searchParams.get('subcategory') || 'all';
   const difficulty = searchParams.get('difficulty') || 'all';
 
   const [availableQuestions, setAvailableQuestions] = useState<Question[]>([]);
@@ -107,9 +108,10 @@ export default function QuizContent() {
       const filtered = [];
       for (const q of questions) {
         const matchesCategory = category === 'all' || q.category === category;
+        const matchesSubcategory = subcategory === 'all' || q.subcategory === subcategory;
         const matchesDifficulty = difficulty === 'all' || q.difficulty === difficulty;
         const shouldShow = await shouldShowQuestion(q.id);
-        if (matchesCategory && matchesDifficulty && shouldShow) {
+        if (matchesCategory && matchesSubcategory && matchesDifficulty && shouldShow) {
           filtered.push(q);
         }
       }
@@ -124,7 +126,7 @@ export default function QuizContent() {
     };
 
     filterQuestions();
-  }, [examType, category, difficulty, router]);
+  }, [examType, category, subcategory, difficulty, router]);
 
   // Timer countdown
   useEffect(() => {
@@ -224,6 +226,9 @@ export default function QuizContent() {
             <div>
               <span className={`badge ${difficultyBadgeColor} me-2`}>{difficultyLabel}</span>
               <span className="badge bg-secondary me-2">{currentQuestion.category}</span>
+              {currentQuestion.subcategory && (
+                <span className="badge bg-light text-secondary border me-2">{currentQuestion.subcategory}</span>
+              )}
               {!showResult && (
                 <span className={`badge ${timeLeft <= 5 ? 'bg-danger' : 'bg-primary'} fs-6`}>
                   残り{timeLeft}秒

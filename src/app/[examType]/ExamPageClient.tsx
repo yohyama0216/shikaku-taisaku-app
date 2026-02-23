@@ -51,7 +51,12 @@ export default function ExamPageClient() {
   // Count questions by category for selected exam
   const categoryCounts = categories.map(category => ({
     name: category,
-    count: filteredQuestions.filter(q => q.category === category).length
+    count: filteredQuestions.filter(q => q.category === category).length,
+    subcategories: Array.from(new Set(
+      filteredQuestions
+        .filter(q => q.category === category && q.subcategory)
+        .map(q => q.subcategory as string)
+    ))
   }));
 
   return (
@@ -85,6 +90,19 @@ export default function ExamPageClient() {
                   <div className="card-body">
                     <h5 className="card-title">{cat.name}</h5>
                     <p className="mb-2"><strong>{cat.count}問</strong></p>
+                    {cat.subcategories.length > 0 && (
+                      <div className="mb-2">
+                        {cat.subcategories.map(sub => (
+                          <Link
+                            key={sub}
+                            href={`/${examSlug}/quiz?difficulty=all&category=${encodeURIComponent(cat.name)}&subcategory=${encodeURIComponent(sub)}`}
+                            className="badge bg-secondary text-decoration-none me-1 mb-1"
+                          >
+                            {sub}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                     <Link href={`/${examSlug}/quiz?difficulty=all&category=${encodeURIComponent(cat.name)}`} className="btn btn-outline-secondary w-100">
                       このカテゴリで学習
                     </Link>

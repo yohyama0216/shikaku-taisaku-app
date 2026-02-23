@@ -4,6 +4,7 @@ export interface Question {
   id: number;
   examType: ExamType; // Type of exam
   category: string;
+  subcategory?: string;
   question: string;
   choices: string[];
   correctAnswer: number; // 0-3 index of correct choice
