@@ -1,0 +1,962 @@
+[
+  {
+    "id": 6001,
+    "examType": "junior-high-english",
+    "category": "挨拶・自己紹介",
+    "subcategory": "初対面の挨拶",
+    "question": "初めて会った人に「はじめまして」と伝えるとき、最も自然な英語表現はどれか。",
+    "choices": [
+      "Nice to meet you.",
+      "Nice to meet you too.",
+      "How do you do, Mr.?",
+      "I'm glad to see you."
+    ],
+    "correctAnswer": 0,
+    "explanation": "初めて会う相手には \"Nice to meet you.\" が最も一般的です。\"Nice to meet you too.\" は相手が先に言ってくれた後の返答です。\"How do you do\" は非常に古い表現で現代ではほとんど使われません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6002,
+    "examType": "junior-high-english",
+    "category": "挨拶・自己紹介",
+    "subcategory": "日常の挨拶",
+    "question": "「お元気ですか？」と尋ねられ「おかげさまで元気です」と返すとき、最も自然な表現はどれか。",
+    "choices": [
+      "I'm fine, thank you.",
+      "Yes, I'm fine.",
+      "Fine, fine.",
+      "Thank you, I'm fine too."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'm fine, thank you.\" が最も自然な返答です。日本人は \"Yes, I'm fine.\" とYesを頭につけがちですが不自然です。\"Fine, fine.\" のような繰り返しや \"too\" を使うのは文脈上不自然な場合があります。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6003,
+    "examType": "junior-high-english",
+    "category": "挨拶・自己紹介",
+    "subcategory": "名前・自己紹介",
+    "question": "自己紹介で「私の名前は田中です」と言うとき、最も自然な表現はどれか。",
+    "choices": [
+      "My name is Tanaka.",
+      "I am Tanaka my name.",
+      "I call Tanaka.",
+      "My name Tanaka is."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"My name is Tanaka.\" または \"I'm Tanaka.\" が正しい表現です。「私はタナカと呼ばれています」は \"I'm called Tanaka.\" であり \"I call Tanaka.\" は誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6004,
+    "examType": "junior-high-english",
+    "category": "挨拶・自己紹介",
+    "subcategory": "名前・自己紹介",
+    "question": "「私は東京出身です」を英語で言うとき、正しい表現はどれか。",
+    "choices": [
+      "I'm from Tokyo.",
+      "I come from in Tokyo.",
+      "I'm born in Tokyo city.",
+      "I live from Tokyo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'm from Tokyo.\" が最もシンプルで正しい表現です。\"come from\" も使えますが前置詞 in は不要です。\"born in\" は出身ではなく「生まれた場所」を示す表現で通常 \"I was born in Tokyo.\" とします。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6005,
+    "examType": "junior-high-english",
+    "category": "挨拶・自己紹介",
+    "subcategory": "別れの挨拶",
+    "question": "別れ際に「またね」と言うとき、最もカジュアルで自然な表現はどれか。",
+    "choices": [
+      "See you later.",
+      "Good bye forever.",
+      "I will meet you.",
+      "Until we meet again formally."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"See you later.\" はカジュアルな別れの挨拶として最も自然です。\"Goodbye\" は使えますが \"forever\" をつけると永遠の別れになってしまいます。\"I will meet you.\" は「私はあなたに会います」という意味で別れの挨拶には使いません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6006,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "電話・連絡",
+    "question": "友人に「電話してもいいですか？」と尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Can I call you?",
+      "May I telephone to you?",
+      "Is it OK to phone at you?",
+      "Shall I ring your phone?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Can I call you?\" が最も自然な口語表現です。\"telephone to\" は誤りで、telephone は自動詞として \"telephone you\" と使います。\"phone at\" も誤りで、\"phone\" の後に直接目的語を置きます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6007,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "聞き直し・確認",
+    "question": "「もう一度言ってもらえますか？」と聞き返すとき、最も自然な表現はどれか。",
+    "choices": [
+      "Could you say that again?",
+      "Please say one more time.",
+      "Can you tell again please?",
+      "Excuse, what?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Could you say that again?\" が丁寧で自然な表現です。\"say one more time\" は \"say it one more time\" とする必要があります。\"tell again\" は目的語が必要で \"tell me that again\" とします。\"Excuse, what?\" は不完全で失礼な印象を与えます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6008,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "能力・得意分野",
+    "question": "「英語が得意ではありません」と伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "I'm not good at English.",
+      "I'm not good in English.",
+      "My English is not strong.",
+      "English is not my forte field."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'm not good at English.\" が正しい表現です。\"good at\" が正しく \"good in\" は誤りです。\"My English is not strong.\" は通じますが不自然です。\"forte field\" は \"forte\" だけで十分であり重複表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6009,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "許可を求める",
+    "question": "「〜してもいいですか？」と許可を求めるとき、最も一般的な表現はどれか。",
+    "choices": [
+      "Can I ~?",
+      "Do I ~?",
+      "Am I ~?",
+      "Have I ~?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "許可を求める場合は \"Can I ~?\" または丁寧に \"May I ~?\" / \"Could I ~?\" を使います。\"Do I ~?\" は習慣や事実を尋ね、\"Am I ~?\" は状態を確認し、\"Have I ~?\" は完了を確認する場合に使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6010,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "好み・感想",
+    "question": "「〜が好きです」と伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "I like ~.",
+      "I'm like ~.",
+      "I'm enjoy ~.",
+      "I favorite ~."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I like ~.\" が正しい表現です。\"I'm like\" は「私は〜のようだ」という意味になります。\"enjoy\" の前に be 動詞は不要です（I enjoy ~.）。\"favorite\" は形容詞・名詞なので \"~ is my favorite.\" のように使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6011,
+    "examType": "junior-high-english",
+    "category": "時間・日程",
+    "subcategory": "時刻を尋ねる",
+    "question": "「今、何時ですか？」と尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "What time is it now?",
+      "What is the time now?",
+      "How much time is it?",
+      "Do you have the hour?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"What time is it now?\" が最も一般的です。\"What is the time?\" も正しいですが、\"How much time is it?\" は時間の量を尋ねる表現です。\"Do you have the hour?\" は非英語圏では使われない表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6012,
+    "examType": "junior-high-english",
+    "category": "時間・日程",
+    "subcategory": "約束・待ち合わせ",
+    "question": "「午前10時に会いましょう」と伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "Let's meet at 10 a.m.",
+      "Let's meet in 10 a.m.",
+      "Let's meet on 10 a.m.",
+      "Let's meet by 10 a.m."
+    ],
+    "correctAnswer": 0,
+    "explanation": "特定の時刻には前置詞 \"at\" を使います。\"in\" は月・年など幅のある期間に使い、\"on\" は曜日・日付に使います。\"by\" は「〜までに」という期限を表します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6013,
+    "examType": "junior-high-english",
+    "category": "時間・日程",
+    "subcategory": "曜日・日付",
+    "question": "「月曜日に学校があります」を英語で言うとき、正しい前置詞はどれか。",
+    "choices": [
+      "I have school on Monday.",
+      "I have school in Monday.",
+      "I have school at Monday.",
+      "I have school by Monday."
+    ],
+    "correctAnswer": 0,
+    "explanation": "曜日の前には前置詞 \"on\" を使います。\"in\" は月・年、\"at\" は時刻・場所、\"by\" は期限に使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6014,
+    "examType": "junior-high-english",
+    "category": "時間・日程",
+    "subcategory": "月・季節",
+    "question": "「3月に花見をします」を英語で言うとき、正しい前置詞はどれか。",
+    "choices": [
+      "We have a flower viewing in March.",
+      "We have a flower viewing on March.",
+      "We have a flower viewing at March.",
+      "We have a flower viewing during March month."
+    ],
+    "correctAnswer": 0,
+    "explanation": "月の前には前置詞 \"in\" を使います。\"on\" は曜日・特定の日付、\"at\" は特定の時刻に使います。\"during March month\" は \"month\" が重複しており不自然です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6015,
+    "examType": "junior-high-english",
+    "category": "時間・日程",
+    "subcategory": "過去の出来事",
+    "question": "「昨日、彼女は図書館へ行きました」を英語で言うとき、正しい表現はどれか。",
+    "choices": [
+      "She went to the library yesterday.",
+      "She go to the library yesterday.",
+      "She was go to the library yesterday.",
+      "She goed to the library yesterday."
+    ],
+    "correctAnswer": 0,
+    "explanation": "過去形では \"go\" の不規則変化 \"went\" を使います。\"go\" は現在形、\"was go\" は文法的に誤り、\"goed\" は規則変化を誤って適用した誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6016,
+    "examType": "junior-high-english",
+    "category": "買い物",
+    "subcategory": "価格・支払い",
+    "question": "お店で「これはいくらですか？」と尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "How much is this?",
+      "What is the price of this?",
+      "How many yen is this?",
+      "What money does this cost?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"How much is this?\" が最もシンプルで自然な表現です。\"What is the price?\" も正しいですが会話ではやや堅い印象です。\"How many yen\" は特定の通貨を指定しており不自然です。\"What money\" という表現は英語として不自然です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6017,
+    "examType": "junior-high-english",
+    "category": "食事",
+    "subcategory": "レストランでの注文",
+    "question": "レストランで「水をください」と注文するとき、最も自然な表現はどれか。",
+    "choices": [
+      "Can I have some water, please?",
+      "Give me water.",
+      "I want water now.",
+      "Please bring water to me now."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Can I have some water, please?\" が丁寧で自然な注文の仕方です。\"Give me\" は命令口調で失礼に聞こえます。\"I want water now.\" の \"now\" は要求が強すぎる印象を与えます。\"Please bring water to me now.\" も \"now\" が急かす印象を与えます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6018,
+    "examType": "junior-high-english",
+    "category": "買い物",
+    "subcategory": "買い物での注文",
+    "question": "「〜をひとつください」と買い物で注文するとき、正しい表現はどれか。",
+    "choices": [
+      "I'd like one ~, please.",
+      "I want one piece of ~, please.",
+      "Please give me a one ~.",
+      "I will buy a one ~ please."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'd like one ~, please.\" が丁寧で正確な注文表現です。\"a one\" は冠詞が重複しており誤りです。\"I want\" は使えますが \"I'd like\" の方が丁寧です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6019,
+    "examType": "junior-high-english",
+    "category": "食事",
+    "subcategory": "会計・支払い",
+    "question": "「お会計をお願いします」とレストランで伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Check, please.",
+      "Money, please.",
+      "Pay, please.",
+      "Price, please."
+    ],
+    "correctAnswer": 0,
+    "explanation": "英語圏では会計を \"check\" と呼びます（イギリス英語では \"bill\"）。\"Check, please.\" または \"Can I have the check, please?\" が自然です。\"Money\" や \"Pay\" や \"Price\" を単独で使う表現は英語として不自然です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6020,
+    "examType": "junior-high-english",
+    "category": "食事",
+    "subcategory": "食事の感想",
+    "question": "「おいしい！」と食事の感想を伝えるとき、最も自然な英語表現はどれか。",
+    "choices": [
+      "This is delicious!",
+      "This is very yummy very!",
+      "This taste is good very!",
+      "How delicious this is very!"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"This is delicious!\" がシンプルで正しい表現です。\"very yummy very\" のように副詞を重ねるのは誤りです。\"taste is good very\" は語順が誤り（\"This tastes very good!\" が正しい）。感嘆文は \"How delicious this is!\" ですが文末に \"very\" は不要です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6021,
+    "examType": "junior-high-english",
+    "category": "道案内",
+    "subcategory": "場所を尋ねる",
+    "question": "「〜はどこですか？」と場所を尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Where is the ~?",
+      "Where is ~ placed?",
+      "What place is ~?",
+      "In where can I find ~?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Where is the ~?\" が最もシンプルで自然な表現です。\"placed\" は書き言葉では使えますが日常会話では不自然です。\"What place is ~?\" は英語として不自然な語順です。\"In where\" は誤りで、\"Where\" だけで場所を表します。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6022,
+    "examType": "junior-high-english",
+    "category": "道案内",
+    "subcategory": "所要時間",
+    "question": "「駅まで歩いてどのくらいかかりますか？」と尋ねるとき、正しい表現はどれか。",
+    "choices": [
+      "How long does it take to walk to the station?",
+      "How much time to walk the station?",
+      "How far is walking to station?",
+      "What time is needed walking to station?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"How long does it take to walk to the station?\" が正しい表現です。所要時間を尋ねるには \"How long does it take to...?\" を使います。\"How much time\" は使えますが後の文法が不完全です。\"How far\" は距離を尋ねます。\"What time is needed\" は英語として不自然です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6023,
+    "examType": "junior-high-english",
+    "category": "道案内",
+    "subcategory": "方向指示",
+    "question": "「まっすぐ行ってください」と道案内するとき、正しい表現はどれか。",
+    "choices": [
+      "Go straight.",
+      "Go directly.",
+      "Walk to straight.",
+      "Proceed the straight way."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Go straight.\" が最もシンプルで正しい道案内表現です。\"Go directly\" は目的地に直行するイメージで、道案内としては不自然です。\"Walk to straight\" は前置詞が不要で誤りです。\"Proceed the straight way\" は英語として不自然です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6024,
+    "examType": "junior-high-english",
+    "category": "道案内",
+    "subcategory": "方向指示",
+    "question": "「次の角を右に曲がってください」と伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "Turn right at the next corner.",
+      "Turn to right at the next corner.",
+      "Right turn next corner.",
+      "Please go to right in next corner."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Turn right at the next corner.\" が正しい表現です。\"turn right\" の後に前置詞 \"to\" は不要です。\"Right turn next corner.\" は主語・動詞がなく不完全な文です。\"go to right\" は \"turn right\" とすべきで、\"in\" ではなく \"at\" を使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6025,
+    "examType": "junior-high-english",
+    "category": "道案内",
+    "subcategory": "位置の説明",
+    "question": "「〜の近くにあります」と場所を説明するとき、正しい表現はどれか。",
+    "choices": [
+      "It's near the ~.",
+      "It's close by ~.",
+      "It's besides ~.",
+      "It's neighboring ~."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"It's near the ~.\" が最も自然な表現です。\"close by\" は使えますが後の名詞に \"to\" が必要な場合があります。\"besides\" は「〜に加えて」という意味で場所の \"beside\" と混同しやすい誤りです。\"neighboring\" は形容詞であり \"It's a neighboring ~.\" のように使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6026,
+    "examType": "junior-high-english",
+    "category": "挨拶・自己紹介",
+    "subcategory": "趣味・関心",
+    "question": "相手の趣味を尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "What do you like to do in your free time?",
+      "What is your hobby time?",
+      "How do you enjoy?",
+      "What do you hobby?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"What do you like to do in your free time?\" が最も自然な表現です。\"What is your hobby?\" は正しいですが \"hobby time\" は不自然です。\"How do you enjoy?\" は目的語が必要で \"How do you enjoy yourself?\" とします。\"hobby\" は動詞として使えません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6027,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "助動詞・義務",
+    "question": "「〜してはいけません」と禁止を伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "You must not ~.",
+      "You don't must ~.",
+      "You mustn't to ~.",
+      "You not must ~."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"You must not ~.\" または \"You mustn't ~.\" が正しい禁止の表現です。\"don't must\" は助動詞の二重使用で誤りです。\"mustn't to\" の後に to 不定詞は不要で動詞の原形を使います。\"not must\" は語順が誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6028,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "助動詞・義務",
+    "question": "「〜しなくてもいいです」と伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "You don't have to ~.",
+      "You must not ~.",
+      "You cannot ~.",
+      "You should not ~."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"You don't have to ~.\" は「〜する必要はない」という意味です。\"You must not ~.\" は「〜してはいけない（禁止）」であり全く異なります。日本人はこの2つを混同しやすいので注意が必要です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6029,
+    "examType": "junior-high-english",
+    "category": "日常会話",
+    "subcategory": "助動詞・義務",
+    "question": "「〜できます」と能力を伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "I can ~.",
+      "I am able to ~ well.",
+      "I am possible to ~.",
+      "I have the ability of ~."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I can ~.\" が最もシンプルで正しい表現です。\"I am able to ~\" も正しいですが口語では \"can\" が一般的です。\"I am possible\" は誤りで \"It is possible for me to ~\" が正しい形です。\"have the ability of\" は \"have the ability to\" とすべきです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6030,
+    "examType": "junior-high-english",
+    "category": "買い物",
+    "subcategory": "在庫確認",
+    "question": "「〜はありますか？」と在庫を確認するとき、最も自然な表現はどれか。",
+    "choices": [
+      "Do you have ~?",
+      "Is there ~?",
+      "Have you ~?",
+      "Are you having ~?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "お店での在庫確認には \"Do you have ~?\" が最も自然です。\"Is there ~?\" も正しいですが一般的な場所を指す表現です。\"Have you ~?\" は経験・完了を尋ねる現在完了形で誤りです（日本人が混同しやすいパターン）。\"Are you having ~?\" は進行中の動作を指し不適切です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6031,
+    "examType": "junior-high-english",
+    "category": "ホテル",
+    "subcategory": "チェックイン",
+    "question": "ホテルのフロントで「予約しています」と伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "I have a reservation.",
+      "I made a reserve.",
+      "I booked a room before.",
+      "I have reserved a room yesterday."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I have a reservation.\" が最も自然な表現です。\"reserve\" は動詞なので \"a reserve\" とはなりません（名詞は \"reservation\"）。\"I booked a room\" は通じますが \"before\" は不要です。\"yesterday\" と現在完了 \"have reserved\" は一緒に使えません。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6032,
+    "examType": "junior-high-english",
+    "category": "ホテル",
+    "subcategory": "チェックイン",
+    "question": "「禁煙ルームをお願いします」と要望するとき、正しい表現はどれか。",
+    "choices": [
+      "I'd like a non-smoking room, please.",
+      "I want no smoke room.",
+      "Please give me a room without smoking.",
+      "I prefer a not smoking room."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'd like a non-smoking room, please.\" が正しく丁寧な表現です。\"no smoke room\" は \"non-smoking room\" とすべきです。\"without smoking\" は英語として不自然です。\"not smoking\" も誤りで \"non-smoking\" が正しい形容詞表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6033,
+    "examType": "junior-high-english",
+    "category": "ホテル",
+    "subcategory": "トラブル対応",
+    "question": "「お湯が出ません」とホテルのフロントに伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "There's no hot water.",
+      "Hot water is not coming.",
+      "The hot water doesn't work out.",
+      "We have no hot water problem."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"There's no hot water.\" が最もシンプルで自然な表現です。\"is not coming\" は英語としてやや不自然です。\"work out\" は「うまくいく」という意味で文脈に合いません。\"have no hot water problem\" は逆の意味になってしまいます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6034,
+    "examType": "junior-high-english",
+    "category": "ホテル",
+    "subcategory": "設備・サービス",
+    "question": "「タオルを追加でいただけますか？」と依頼するとき、最も自然な表現はどれか。",
+    "choices": [
+      "Could I have some extra towels?",
+      "Can you give me more towel?",
+      "Please bring additional towel for me.",
+      "I need towels more."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Could I have some extra towels?\" が丁寧で自然な依頼表現です。\"towel\" は可算名詞なので複数形 \"towels\" が必要です。\"I need towels more.\" は語順が誤り（\"I need more towels.\" が正しい）。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6035,
+    "examType": "junior-high-english",
+    "category": "ホテル",
+    "subcategory": "チェックアウト",
+    "question": "「チェックアウトをお願いします」と伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "I'd like to check out, please.",
+      "I want to check out from hotel.",
+      "Please do my checking out.",
+      "I will check out now immediately."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'd like to check out, please.\" が丁寧で自然な表現です。\"check out from hotel\" は \"from\" が不要です。\"do my checking out\" は英語として不自然です。\"now immediately\" は重複した表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6036,
+    "examType": "junior-high-english",
+    "category": "空港",
+    "subcategory": "搭乗手続き",
+    "question": "空港のカウンターで「窓側の席をお願いします」と伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "I'd like a window seat, please.",
+      "I want the seat near window.",
+      "Please give window side seat.",
+      "I prefer to sit by window side."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I'd like a window seat, please.\" が正しく自然な表現です。\"near window\" は \"near the window\" とすべきで、一般的には \"window seat\" という表現を使います。\"window side seat\" は英語としてぎこちない表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6037,
+    "examType": "junior-high-english",
+    "category": "空港",
+    "subcategory": "入国審査",
+    "question": "入国審査で「観光目的です」と答えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "The purpose of my visit is tourism.",
+      "I come here for tourism purpose.",
+      "My visit reason is sightseeing.",
+      "I am here because of tourist."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"The purpose of my visit is tourism.\" が最も正確で自然な表現です。\"tourism purpose\" は語順が不自然です。\"visit reason\" は英語として不自然で \"purpose of my visit\" とします。\"because of tourist\" は「観光客のために」という意味になり誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6038,
+    "examType": "junior-high-english",
+    "category": "空港",
+    "subcategory": "入国審査",
+    "question": "「申告するものはありません」と税関で伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "I have nothing to declare.",
+      "I don't have something to declare.",
+      "There is no things to declare.",
+      "I have no declare things."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I have nothing to declare.\" が正しい表現です。\"don't have something\" は否定文では \"anything\" を使い \"I don't have anything to declare.\" とします。\"no things\" は \"nothing\" とすべきです。\"no declare things\" は文法的に誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6039,
+    "examType": "junior-high-english",
+    "category": "空港",
+    "subcategory": "案内・移動",
+    "question": "「搭乗ゲートはどこですか？」と尋ねるとき、正しい表現はどれか。",
+    "choices": [
+      "Where is the boarding gate?",
+      "Where is the getting on gate?",
+      "What place is the gate for boarding?",
+      "Where can I ride the plane?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Where is the boarding gate?\" が最も自然な表現です。\"getting on gate\" は英語として不自然で \"boarding gate\" が正しい表現です。\"What place is\" は不自然な語順です。\"ride the plane\" は \"board the plane\" または \"take the plane\" とすべきです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6040,
+    "examType": "junior-high-english",
+    "category": "空港",
+    "subcategory": "搭乗手続き",
+    "question": "「荷物は一つです」とチェックインで伝えるとき、正しい表現はどれか。",
+    "choices": [
+      "I have one bag to check.",
+      "I have one luggage.",
+      "My baggage is one pieces.",
+      "I bring one baggage."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I have one bag to check.\" が正しい表現です。\"luggage\" は不可算名詞なので \"one luggage\" は誤りです（\"a piece of luggage\" とします）。\"one pieces\" は数の一致が誤りです。\"bring\" より \"have ... to check\" が自然な空港表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6041,
+    "examType": "junior-high-english",
+    "category": "ビジネスメール",
+    "subcategory": "書き出し",
+    "question": "ビジネスメールの冒頭で「いつもお世話になっております」に最も近い自然な英語表現はどれか。",
+    "choices": [
+      "I hope this email finds you well.",
+      "Thank you for always helping me.",
+      "I am always in your care.",
+      "Always thank you very much."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I hope this email finds you well.\" が英語のビジネスメールで最も一般的な書き出しです。\"Thank you for always helping me.\" は内容によっては使えますが定型挨拶としては一般的ではありません。\"I am always in your care.\" は日本語の直訳で英語として不自然です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6042,
+    "examType": "junior-high-english",
+    "category": "ビジネスメール",
+    "subcategory": "依頼",
+    "question": "「〜していただけますでしょうか」と丁寧に依頼するとき、最も適切な表現はどれか。",
+    "choices": [
+      "Could you please ~?",
+      "Please do ~ for me.",
+      "I want you to ~ please.",
+      "Would you mind to ~?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Could you please ~?\" が最も丁寧で自然な依頼表現です。\"Please do ~ for me\" はやや命令口調です。\"I want you to ~\" は要求が強い印象を与えます。\"Would you mind\" の後は動名詞（-ing）が必要で \"to ~\" は誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6043,
+    "examType": "junior-high-english",
+    "category": "ビジネスメール",
+    "subcategory": "お礼・返信",
+    "question": "「迅速なご返信ありがとうございます」と伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Thank you for your prompt reply.",
+      "Thank you for your fast answer.",
+      "I am grateful for your quick response back.",
+      "Thanks to reply me quickly."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Thank you for your prompt reply.\" がビジネスメールでは最も一般的で自然な表現です。\"fast\" より \"prompt\" の方がビジネス英語として適切です。\"response back\" は \"back\" が重複しています。\"Thanks to reply\" は文法的に誤りで \"Thanks for replying\" とすべきです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6044,
+    "examType": "junior-high-english",
+    "category": "ビジネスメール",
+    "subcategory": "添付・共有",
+    "question": "「添付ファイルをご確認ください」と伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Please find the attached file.",
+      "Please look the file I attached.",
+      "I attached a file so please see.",
+      "Confirm the attached file please."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Please find the attached file.\" がビジネスメールで最も定型的な表現です。\"look the file\" は \"look at the file\" とすべきです。\"I attached a file so please see\" はカジュアルすぎます。\"Confirm the attached file\" は命令口調で不適切です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6045,
+    "examType": "junior-high-english",
+    "category": "ビジネスメール",
+    "subcategory": "締めくくり",
+    "question": "ビジネスメールの結びで「ご不明な点があればお知らせください」の表現として最も自然なものはどれか。",
+    "choices": [
+      "Please feel free to contact me if you have any questions.",
+      "If you don't understand, please contact.",
+      "Tell me when you have questions.",
+      "Contact me if you have no understanding."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Please feel free to contact me if you have any questions.\" がビジネスメールで最も丁寧で自然な表現です。\"If you don't understand\" は「理解できない場合」という意味でやや失礼です。\"Tell me\" は命令口調です。\"have no understanding\" は誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6046,
+    "examType": "junior-high-english",
+    "category": "会議",
+    "subcategory": "司会進行",
+    "question": "会議で「始めましょう」と言うとき、最も自然な表現はどれか。",
+    "choices": [
+      "Shall we get started?",
+      "Let's start the meeting now immediately.",
+      "We will begin the conference.",
+      "Please everyone start now."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Shall we get started?\" が会議の開始に最もよく使われる自然な表現です。\"now immediately\" は重複表現です。\"conference\" は大規模な会議を指し通常の打ち合わせには \"meeting\" を使います。\"Please everyone start\" は文法的に不完全です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6047,
+    "examType": "junior-high-english",
+    "category": "会議",
+    "subcategory": "提案・意見",
+    "question": "「私の意見では」と自分の意見を述べるとき、最も自然な表現はどれか。",
+    "choices": [
+      "In my opinion, ~",
+      "In my thought, ~",
+      "On my view, ~",
+      "By my idea, ~"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"In my opinion\" が最も一般的な表現です。\"In my thought\" は英語として不自然です。\"On my view\" は誤りで \"In my view\" が正しい前置詞です。\"By my idea\" も誤りで \"In my opinion\" または \"In my view\" を使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6048,
+    "examType": "junior-high-english",
+    "category": "会議",
+    "subcategory": "確認・聞き直し",
+    "question": "「もう少し詳しく説明していただけますか？」と会議で尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Could you elaborate on that?",
+      "Please explain more detail.",
+      "Can you say more detailed?",
+      "Tell me more information about that."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Could you elaborate on that?\" がフォーマルで自然な表現です。\"explain more detail\" は \"in more detail\" とすべきです。\"more detailed\" は副詞ではなく形容詞なので \"Could you be more detailed?\" とします。\"Tell me\" は命令口調でビジネス会議では不適切です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6049,
+    "examType": "junior-high-english",
+    "category": "会議",
+    "subcategory": "同意・反論",
+    "question": "「おっしゃる通りです」と同意するとき、最も自然なビジネス表現はどれか。",
+    "choices": [
+      "I agree with you on that point.",
+      "I think so too very much.",
+      "You are speaking right.",
+      "I consent your opinion completely."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I agree with you on that point.\" が最も自然なビジネス表現です。\"think so too very much\" は副詞の重複で不自然です。\"speaking right\" は \"right\" の使い方が誤りで \"You are right.\" とします。\"consent your opinion\" は \"consent\" の用法が誤りで \"agree with\" を使います。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6050,
+    "examType": "junior-high-english",
+    "category": "会議",
+    "subcategory": "まとめ・締め",
+    "question": "「以上でミーティングを終わります」と締めくくるとき、最も自然な表現はどれか。",
+    "choices": [
+      "That's all for today's meeting.",
+      "The meeting is finished now.",
+      "We end the meeting completely.",
+      "Meeting is over and done."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"That's all for today's meeting.\" が最も自然な締めの表現です。\"is finished now\" は通じますが会議の締めとしてはやや不自然です。\"completely\" は不要で冗長です。\"over and done\" は重複表現でカジュアルすぎます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6051,
+    "examType": "junior-high-english",
+    "category": "観光",
+    "subcategory": "チケット・入場",
+    "question": "観光地で「入場料はいくらですか？」と尋ねるとき、正しい表現はどれか。",
+    "choices": [
+      "How much is the admission fee?",
+      "What is the price for entering?",
+      "How much money to go inside?",
+      "What is the fee of admission entrance?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"How much is the admission fee?\" が最もシンプルで自然な表現です。\"price for entering\" も通じますが \"admission fee\" の方が一般的です。\"How much money to go inside?\" は主語と動詞がなく不完全な文です。\"fee of admission entrance\" は重複した表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6052,
+    "examType": "junior-high-english",
+    "category": "観光",
+    "subcategory": "写真撮影",
+    "question": "「写真を撮っていただけますか？」と観光地でお願いするとき、最も自然な表現はどれか。",
+    "choices": [
+      "Could you take a picture of us?",
+      "Please take a photo to us.",
+      "Can you photograph for we?",
+      "Would you make a picture of us?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Could you take a picture of us?\" が最も自然で丁寧な表現です。\"take a photo to us\" の \"to\" は誤りで \"of us\" とします。\"photograph for we\" は目的格 \"us\" を使うべきで \"for\" ではなく \"of\" です。\"make a picture\" は英語として不自然で \"take a picture\" とします。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6053,
+    "examType": "junior-high-english",
+    "category": "観光",
+    "subcategory": "スポット案内",
+    "question": "「何時に開館しますか？」と観光スポットで尋ねるとき、正しい表現はどれか。",
+    "choices": [
+      "What time does it open?",
+      "What time is it opening?",
+      "When does it start to open?",
+      "From what time opens this place?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"What time does it open?\" が最も自然な表現です。\"is it opening\" は進行形で「今まさに開いている最中」という意味になります。\"start to open\" は開館について使うには不自然です。\"From what time opens this place?\" は語順が誤りです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6054,
+    "examType": "junior-high-english",
+    "category": "観光",
+    "subcategory": "お土産",
+    "question": "「おすすめのお土産はありますか？」と尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "Do you have any recommended souvenirs?",
+      "What is good omiyage here?",
+      "Please tell recommended souvenir.",
+      "Which souvenir is best to buy here for me?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Do you have any recommended souvenirs?\" が自然で正しい表現です。\"omiyage\" は英語ではなく \"souvenir\" または \"gift\" を使います。\"Please tell recommended souvenir\" は目的語の使い方が不完全で \"Please tell me the recommended souvenirs.\" とすべきです。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6055,
+    "examType": "junior-high-english",
+    "category": "観光",
+    "subcategory": "移動・アクセス",
+    "question": "「〜へはどうやって行けばいいですか？」と尋ねるとき、最も自然な表現はどれか。",
+    "choices": [
+      "How do I get to ~?",
+      "How can I go to ~ place?",
+      "What is the way of going to ~?",
+      "By what way should I go to ~?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"How do I get to ~?\" が最もシンプルで自然な道の尋ね方です。\"go to ~ place\" の \"place\" は不要です。\"What is the way of going to ~?\" は英語として不自然で \"How do I get to ~?\" とします。\"By what way\" も不自然な語順です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6056,
+    "examType": "junior-high-english",
+    "category": "政治",
+    "subcategory": "選挙・投票",
+    "question": "「選挙に投票しました」と伝えるとき、最も自然な表現はどれか。",
+    "choices": [
+      "I voted in the election.",
+      "I voted for the election.",
+      "I casted my vote to election.",
+      "I did vote in election."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"I voted in the election.\" が正しい表現です。\"vote in\" は選挙に参加すること、\"vote for\" は特定の候補者に投票することを表します。\"casted\" は誤りで正しくは \"cast\" （不規則動詞）、\"cast my vote\" が正しい表現です。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6057,
+    "examType": "junior-high-english",
+    "category": "政治",
+    "subcategory": "選挙・投票",
+    "question": "「彼女は次の選挙に立候補します」を英語で言うとき、正しい表現はどれか。",
+    "choices": [
+      "She is running for office in the next election.",
+      "She will stand to next election.",
+      "She is going to candidate in next election.",
+      "She will run in election next time."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"She is running for office.\" が政治への立候補を表す自然な表現です。\"stand to\" ではなく \"stand for\" または \"run for\" とします。\"candidate\" は名詞・形容詞であり動詞として使う場合は \"run as a candidate\" とします。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6058,
+    "examType": "junior-high-english",
+    "category": "政治",
+    "subcategory": "政府・議会",
+    "question": "「その法律は議会で可決されました」を英語で言うとき、正しい表現はどれか。",
+    "choices": [
+      "The bill was passed by parliament.",
+      "The law was passed in parliament.",
+      "The bill was approved from parliament.",
+      "The law got accepted by the congress."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"The bill was passed by parliament.\" が最も正確な表現です。法案（可決前は \"bill\"、可決後は \"law\"）を \"pass\" するのは議会です。\"approved from\" は誤りで \"approved by\" とします。日本語の「法律」にあたる英語は文脈により \"bill\"（審議中）か \"law\"（成立後）を使い分けます。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6059,
+    "examType": "junior-high-english",
+    "category": "政治",
+    "subcategory": "外交・国際関係",
+    "question": "「両国は平和条約を締結しました」を英語で言うとき、正しい表現はどれか。",
+    "choices": [
+      "The two countries signed a peace treaty.",
+      "Both countries made a peace treaty together.",
+      "The two nations concluded peace agreement each other.",
+      "Both countries did sign to the peace treaty."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"The two countries signed a peace treaty.\" が最も自然で正確な表現です。条約は \"sign\"（署名する）または \"conclude\"（締結する）を使います。\"made a peace treaty\" は通じますが \"signed\" が一般的です。\"sign to\" の前置詞は不要で \"sign a treaty\" とします。",
+    "difficulty": "basic"
+  },
+  {
+    "id": 6060,
+    "examType": "junior-high-english",
+    "category": "政治",
+    "subcategory": "政策・社会問題",
+    "question": "「その政策は環境問題に取り組んでいます」を英語で言うとき、最も自然な表現はどれか。",
+    "choices": [
+      "The policy addresses environmental issues.",
+      "The policy is tackling to environment problems.",
+      "The policy deals environment issues.",
+      "The policy takes care of environmental problem."
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"The policy addresses environmental issues.\" が最も自然で正確な表現です。\"address\" は問題に取り組む意味でよく使われます。\"tackle\" を使う場合は \"tackle environmental issues\" （前置詞不要）とします。\"deals\" の後には \"with\" が必要で \"deals with environmental issues\" とすべきです。",
+    "difficulty": "basic"
+  }
+]

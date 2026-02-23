@@ -1,9 +1,10 @@
-export type ExamType = 'takken' | 'land-surveyor' | 'real-estate-appraiser' | 'rental-property-manager' | 'condominium-manager' | 'web-design-3';
+export type ExamType = 'web-design-3' | 'junior-high-english';
 
 export interface Question {
   id: number;
   examType: ExamType; // Type of exam
   category: string;
+  subcategory?: string;
   question: string;
   choices: string[];
   correctAnswer: number; // 0-3 index of correct choice
